@@ -5,8 +5,8 @@
 @tailwind utilities;
 
 body{
-    background: linear-gradient(96deg, #0D0A24 0%, #011a13 100%);
-    color: white;
+    /* background: linear-gradient(96deg, #0D0A24 0%, #011a13 100%);
+    color: white; */
 
     font-size: 14px;
     /* ScrollBar------Hiden------  */
@@ -33,9 +33,7 @@ input[type="checkbox"]:checked {
 .logo_gradient{
     @apply font-bold  text-transparent  bg-clip-text bg-gradient-to-tl to-[#0CD599]  from-[#4C37E1] ;
 }
-.nav_gradient{
-    @apply   text-white/80 hover:text-transparent bg-clip-text bg-gradient-to-tl hover:to-teal-300  hover:from-sky-500 ;
-}
+ 
 .hero_input{
     @apply w-full lg:w-2/3 rounded bg-transparent border border-cyan-500 p-3  ;
 }

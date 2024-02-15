@@ -5,11 +5,11 @@
     const handleViewNavOptions = ()=> viewNavOptions = !viewNavOptions
     const handleLogoClick = ()=> viewNavOptions = false
  </script>
-<header class={`p-3 ${viewNavOptions? " h-screen ": "h-auto"}lg:h-auto flex  flex-col lg:flex-row gap-5  lg:items-center lg:justify-between bg-black lg:px-10 `}>
+<header class={`p-3 ${viewNavOptions? " h-screen ": "h-auto"}lg:h-auto flex  flex-col lg:flex-row gap-5  lg:items-center lg:justify-between bg-white lg:px-10 `}>
     <div class="flex justify-between w-full lg:w-auto">
         <a  on:click={handleLogoClick} href="/" class="flex items-center gap-2 ">
             <img class="w-8 md:w-10 " src="/logo.webp" alt="" srcset="">
-            <p class=" font_Inter text-xl md:text-2xl lg:text-3xl">Legiit<span class="text-green-300">pro</span></p>
+            <p class=" font_Inter text-xl md:text-2xl lg:text-3xl">Legiit<span class="text-cyan-500">pro</span></p>
         </a>
         
         <button on:click={handleViewNavOptions} class=" inline-block lg:hidden text-3xl">
@@ -20,11 +20,11 @@
             {/if}
         </button>
     </div>
-    <nav  class={`${viewNavOptions? "flex ": "hidden lg:flex "} lg:flex  flex-col lg:flex-row lg:items-center gap-3 text-sm text-white/50 uppercase font_Poppins`}>
+    <nav  class={`${viewNavOptions? "flex ": "hidden lg:flex "} lg:flex  flex-col lg:flex-row lg:items-center gap-3 text-base  text-black uppercase font_Poppins`}>
         {#each navList as {link,name}}
-        <div class="flex rounded overflow-hidden" >
+        <div class="flex rounded overflow-hidden hover:text-cyan-500" >
             <a on:click={handleViewNavOptions} href={link} class="rounded transition-all ease-in duration-300 w-full lg:w-auto">
-                <p class="p-3 rounded nav_gradient">{name}</p>
+                <p class="p-3 rounded ">{name}</p>
             </a>
         </div>
         {/each}

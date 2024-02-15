@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:wght@100;300;400;500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background: linear-gradient(96deg, #0D0A24 0%, #011a13 100%);
+    color: white;
+
+    font-size: 14px;
+    /* ScrollBar------Hiden------  */
+    overflow-x: hidden;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+input[type="checkbox"] {
+  -webkit-appearance: none; /* Remove default checkbox styling */
+  appearance: none;
+  width: 20px; /* Adjust width as needed */
+  height: 20px; /* Adjust height as needed */
+  border: 1px solid cyan; /* Add a border */
+}
+
+input[type="checkbox"]:checked {
+  background-color: rgb(7, 171, 171); /* Add a background color when checked */
+}
+/* ===========Font - Gradient Styling =========== */
+.logo_gradient{
+    @apply font-bold  text-transparent  bg-clip-text bg-gradient-to-tl to-[#0CD599]  from-[#4C37E1] ;
+}
+.nav_gradient{
+    @apply   text-white/80 hover:text-transparent bg-clip-text bg-gradient-to-tl hover:to-teal-300  hover:from-sky-500 ;
+}
+.hero_input{
+    @apply w-full lg:w-2/3 rounded bg-transparent border border-cyan-500 p-3  ;
+}
+/* ===============Bg-Gradient================= */
+.light_gradient{
+    background-color: #0499f2;
+    background-image: linear-gradient(315deg, #51afe6 0%, #88eabcc0 74%);
+
+}
+.bg-wave-gradient{
+        background-image: url('./wave_gradient.png');
+        background-color: white;
+        background-repeat: no-repeat;
+        object-fit: cover;
+        
+      }
+.topicsPage-digital-bg{
+  background-image: url('https://images.unsplash.com/photo-1521737711867-e3b97375f902?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-color: rgb(0, 0, 0);
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-position: center;
+  }
+  .categoryPage-socialMedia-bg{
+    background-image: url('https://images.unsplash.com/photo-1603145733146-ae562a55031e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-color: rgb(0, 0, 0);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: center;
+    }
+    .homeContent-bg{ 
+      /*  */
+      background-image: url('https://images.unsplash.com/photo-1577415124269-fc1140a69e91?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+      background-color: rgb(0, 0, 0);
+      background-repeat: no-repeat;
+      object-fit: cover;
+      background-position: center;
+      }
+@media (min-width: 768px) {
+.allservices-bg{
+  background-image: url('https://images.unsplash.com/photo-1541746972996-4e0b0f43e02a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-color: rgb(0, 0, 0);
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-position: center;
+  background-attachment: fixed;
+  }
+.topicsPage-digital-bg{
+  background-image: url('https://images.unsplash.com/photo-1557838923-2985c318be48?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-color: rgb(0, 0, 0);
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-position: center;
+  background-attachment: fixed;
+  }
+.categoryPage-socialMedia-bg{
+  /* https://images.unsplash.com/photo-1603145733146-ae562a55031e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D */
+  background-image: url('https://images.unsplash.com/photo-1562577309-4932fdd64cd1?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-color: rgb(0, 0, 0);
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-position: center;
+  background-attachment: fixed;
+  }
+.homeContent-bg{  
+  background-image: url('https://images.unsplash.com/photo-1627634777217-c864268db30c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-color: rgb(0, 0, 0);
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-position: center;
+  background-attachment: fixed;
+  }
+.serviceContent-bg{ 
+  /* https://images.unsplash.com/photo-1577415124269-fc1140a69e91?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D */
+  background-image: url(' https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D ');
+  background-color: rgb(0, 0, 0);
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-position: center;
+  background-attachment: fixed;
+  }
+.social-media-bg{  
+  background-image: url('https://images.unsplash.com/photo-1704440325854-5c7f8bcd4e2f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-color: rgb(0, 0, 0);
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-position: center;
+  background-attachment: fixed;
+  }
+.digital-advertising-bg1{  
+  background-image: url('https://images.unsplash.com/photo-1705725912837-ca5814bcea77?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-color: rgb(0, 0, 0);
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-position: center;
+  background-attachment: fixed;
+  }
+.web-development-page{  
+  background-image: url('https://images.unsplash.com/photo-1457305237443-44c3d5a30b89?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-color: rgb(0, 0, 0);
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-position: center;
+  background-attachment: fixed;
+  }
+}
+/* ===========Persons slider Profile Links style============ */
+.green_styling{
+  @apply text-green-500 border-green-500 hover:bg-green-500 ;
+}
+.blue_styling{
+  @apply text-blue-500 border-blue-500 hover:bg-blue-500 ;
+
+}
+/* ===================Gradient round Circle =============== */
+.gradient-01 {
+    width: 200px;
+    height: 438px;
+    top: 0px;
+    right: 0px;
+    background-image: linear-gradient(
+      270deg,
+      hsl(295deg 76% 51%) 0%,
+      hsl(284deg 70% 73%) 26%,
+      hsl(257deg 70% 86%) 39%,
+      hsl(202deg 92% 90%) 50%,
+      hsl(215deg 77% 81%) 61%,
+      hsl(221deg 73% 70%) 74%,
+      hsl(220deg 76% 51%) 100%
+    );
+    filter: blur(125px);
+    /* z-index: -20; */
+  }
+  
+  .gradient-02 {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background: #7aebfb;
+    filter: blur(140px);
+    border-radius: 100%;
+    z-index: -20;
+  }
+  .gradient-03 {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background: rgb(157, 76, 238);
+    filter: blur(135px);
+    transform: rotate(-114.2deg);
+    z-index: -20;
+  }
+  
+  .gradient-04 {
+    position: absolute;
+    /* width: 400px;
+    height: 400px; */
+    background: rgb(206, 49, 49);
+    filter: blur(120px);
+    z-index: -20;
+  }
+
+
+  .gradient-animation {
+    background: linear-gradient(to right, cyan, purple, pink, red, green, cyan);
+    background-size: 400% 100%;
+    animation: gradient-animation 10s ease-in-out infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+
+
+/* ==============Floating Animation=============== */
+.float_animation {  
+    animation-name: ani-float;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out; 
+  }
+ 
+  @keyframes ani-float {
+    0% { transform: translate(0,  0px); }
+    50% { transform: translate(0, 8px); }
+    100% { transform: translate(0, -0px); }    
+  }
+
+/* ===============Font- Family============== */
+.font_Hedvig{
+    font-family: 'Hedvig Letters Serif', serif;
+}
+.font_Raleway{
+    font-family: 'Raleway', sans-serif;
+}
+.font_Inter{
+    font-family: 'Inter', sans-serif;
+}
+.font_Josefin{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.font_Nunito{
+    font-family: 'Nunito Sans', sans-serif;
+}
+.font_Playfair{
+    font-family: 'Playfair Display', serif;
+}
+.font_Poppins{
+    font-family: 'Poppins', sans-serif;
+}
+.font_Quicksand{
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+@media (min-width: 640px) {
+    body {
+      font-size: 16px;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    body {
+      font-size: 18px; 
+    }
+  }

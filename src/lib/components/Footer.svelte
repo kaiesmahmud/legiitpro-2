@@ -13,7 +13,7 @@
         { platform: "Tiktok", icon:"ic:baseline-tiktok", platformURL: "/"},
     ]
  </script>
- <div class=" relative pt-10 flex flex-col items-center text-center text-sm   text-black/90 font-light overflow-hidden">
+ <div class=" relative pt-10 flex flex-col items-center text-center text-sm   text-black/90 font-light overflow-hidden bg-slate-100">
     <div class="p-1 w-full">
         <p class=" capitalize pb-5">It always easier together</p>
         <p class="  logo_gradient lowercase text-2xl md:text-4xl font-bold">info.legiitpro@gmail.com</p>

@@ -35,7 +35,7 @@
             <a 
             on:click={handleViewNavOptions}  
             href='/schedule-meeting' 
-            class="rounded transition-all ease-in shadow shadow-cyan-300 hover:shadow-md hover:shadow-cyan-400 border border-cyan-500   bg-gradient-to-tr from-cyan-400 to-green-500 font-bold text-white hover:text-black"
+            class="rounded transition-all ease-in shadow  bg-gradient-to-r from-cyan-400 to-blue-500 font-bold text-white hover:text-black"
             >
                 <p class="p-3 rounded ">Schedule Meeting</p>
             </a>

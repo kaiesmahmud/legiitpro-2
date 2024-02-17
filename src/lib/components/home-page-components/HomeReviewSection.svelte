@@ -44,11 +44,11 @@
            >
         {#each reviews as {name,position,quote,journey}}
         <SplideSlide>
-            <div class="p-5 flex flex-col  bg-slate-400 rounded-lg ">
+            <div class="p-5 flex flex-col  bg-gradient-to-r from-cyan-400 to-blue-500   rounded-lg ">
                 <div class="pb-3 flex justify-between">
                     <div>
-                        <p class="text-xl font-bold">{name}</p>
-                        <p class="text-sm font-bold text-white/50">{position}</p>
+                        <p class="text-2xl font-bold">{name}</p>
+                        <p class="text-sm font-bold text-black/50">{position}</p>
                     </div>
                     <div class="flex items-center text-xl text-yellow-300">
                         <Icon icon="material-symbols:star" />

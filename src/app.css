@@ -31,19 +31,19 @@ input[type="checkbox"]:checked {
 }
 /* ===========Font - Gradient Styling =========== */
 .logo_gradient{
-    @apply font-bold  text-transparent  bg-clip-text bg-gradient-to-tl to-[#0CD599]  from-[#4C37E1] ;
+    @apply font-bold  text-transparent  bg-clip-text bg-gradient-to-r to-cyan-500  from-blue-500 ;
 }
  .green_gradient{
-  @apply text-transparent  bg-clip-text bg-gradient-to-tl to-teal-400  from-green-500 ;
+  @apply text-transparent  bg-clip-text bg-gradient-to-r to-teal-400  from-green-500 ;
  }
  .red_gradient{
-  @apply text-transparent  bg-clip-text bg-gradient-to-tr to-pink-400  from-red-500 ;
+  @apply text-transparent  bg-clip-text bg-gradient-to-r to-pink-400  from-red-500 ;
  }
  .yellow_gradient{
-  @apply text-transparent  bg-clip-text bg-gradient-to-tr to-yellow-400  from-orange-400 ;
+  @apply text-transparent  bg-clip-text bg-gradient-to-r to-yellow-400  from-orange-400 ;
  }
  .blue_gradient{
-  @apply text-transparent  bg-clip-text bg-gradient-to-tl to-cyan-400  from-blue-400 ;
+  @apply text-transparent  bg-clip-text bg-gradient-to-r to-cyan-400  from-blue-400 ;
  }
 .hero_input{
     @apply w-full lg:w-2/3 rounded bg-transparent border border-cyan-500 p-3  ;

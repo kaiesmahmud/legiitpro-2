@@ -23,13 +23,20 @@
     <nav  class={`${viewNavOptions? "flex ": "hidden lg:flex "} lg:flex  flex-col lg:flex-row lg:items-center gap-3 text-base  text-black uppercase font_Poppins`}>
         {#each navList as {link,name}}
         <div class="flex rounded overflow-hidden hover:text-cyan-500" >
-            <a on:click={handleViewNavOptions} href={link} class="rounded transition-all ease-in duration-300 w-full lg:w-auto">
+            <a 
+            on:click={handleViewNavOptions} 
+            href={link} 
+            class="rounded transition-all ease-in duration-300 w-full lg:w-auto">
                 <p class="p-3 rounded ">{name}</p>
             </a>
         </div>
         {/each}
         <div class="float_animation flex rounded overflow-hidden   " >
-            <a on:click={handleViewNavOptions}  href='/schedule-meeting' class="rounded transition-all ease-in shadow shadow-cyan-300 hover:shadow-md hover:shadow-cyan-400 border border-cyan-500 text-cyan-500  ">
+            <a 
+            on:click={handleViewNavOptions}  
+            href='/schedule-meeting' 
+            class="rounded transition-all ease-in shadow shadow-cyan-300 hover:shadow-md hover:shadow-cyan-400 border border-cyan-500   bg-gradient-to-tr from-cyan-400 to-green-500 font-bold text-white hover:text-black"
+            >
                 <p class="p-3 rounded ">Schedule Meeting</p>
             </a>
         </div>

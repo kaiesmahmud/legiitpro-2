@@ -24,7 +24,7 @@
     const {   personsDetails} = profileSection
 
 </script>
-<div class="flex flex-col items-center justify-center min-h-screen">
+<div class="flex flex-col items-center justify-center min-h-screen bg-gradient-to-r from-sky-400 to-cyan-300">
     <div class=" rounded-lg p-3   flex flex-col  pt-10">
         <div class="flex flex-col w-full items-center">
             <h3 class=" text-2xl lg:text-4xl logo_gradient px-2 lg:px-5 py-5">{faqTitle}</h3>

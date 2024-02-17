@@ -44,7 +44,7 @@
            >
         {#each reviews as {name,position,quote,journey}}
         <SplideSlide>
-            <div class="p-5 flex flex-col  backdrop-blur-sm  rounded-lg">
+            <div class="p-5 flex flex-col  bg-slate-400 rounded-lg ">
                 <div class="pb-3 flex justify-between">
                     <div>
                         <p class="text-xl font-bold">{name}</p>
@@ -58,7 +58,7 @@
                         <Icon icon="material-symbols:star" />
                     </div>
                 </div>
-                <div class=" bg-white/10 p-5 rounded-lg text-xl text-justify font-light text-white/80">
+                <div class=" bg-white/10 p-5 rounded-lg text-xl text-justify font-light text-black/80">
                     <div class="text-4xl">
                         <Icon icon="fa6-solid:quote-left" />
                     </div>
@@ -67,7 +67,7 @@
                         <Icon icon="fa6-solid:quote-right" />
                     </div>
                 </div>
-                <!-- <p>{journey}</p> -->
+                 
             </div>
         </SplideSlide>
         {/each}

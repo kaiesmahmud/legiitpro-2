@@ -7,7 +7,8 @@
         {title: "Schedule a Meeting", url: "/schedule-meeting", icon:"logos:google-meet"},
     ]
 </script>
-<section class=" relative flex items-start justify-center min-h-[100vh] mt-10 ">
+<section class=" relative flex items-start justify-center min-h-[100vh] pt-10 lg:pt-20
+ bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-gray-700 via-gray-900 to-black text-white">
     
     <div class='absolute w-[100px] h-[100px] md:w-[400px] md:h-[100px] gradient-02 opacity-50 md:opacity-30 top-0 right-0 ' />
 

@@ -1,5 +1,4 @@
-<script>
-    import Icon from '@iconify/svelte';
+<script> 
     import { Splide, SplideSlide } from '@splidejs/svelte-splide';
     // Default theme
     import '@splidejs/svelte-splide/css';

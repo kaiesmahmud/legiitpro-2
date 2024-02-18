@@ -14,15 +14,16 @@
         </div>
         <div class="hidden lg:flex items-center  justify-center p-5">
             <Splide options={ { 
-                type   : 'loop',
+                
                 perPage: 2,
                 perMove: 1,
                 gap   : '1rem', 
                 autoplay:true,  
                 pagination:false,
+                wheel:true,
               } }
                aria-label="Brands We worked together"
-               class="w-full md:w-1/2 cursor-grab md:px-20 md:py-10"
+               class="w-full  md:w-[70%] cursor-grab md:px-20 md:py-10"
                >
                 {#each article as {title,description}}
                      <SplideSlide class="w-1/2 rounded-lg bg-white/20 text-black shadow text-center">

@@ -20,7 +20,7 @@
             <p class="w-2/3 text-sm font-light text-black/80 text-center">{subTitle}</p>
         </div>
     </div>
-    <div class="flex flex-col md:flex-row justify-center w-full lg:w-[80%]">
+    <div class="flex flex-col md:flex-row justify-center gap-2 w-full lg:w-[80%]">
         <div class="w-full md:w-1/2">
             <h3 class=" text-start text-2xl lg:text-4xl logo_gradient px-2 lg:px-5 py-5">Our Clients Review</h3>
             <HomeReviewSection/>

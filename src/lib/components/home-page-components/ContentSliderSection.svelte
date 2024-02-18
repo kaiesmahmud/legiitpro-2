@@ -10,23 +10,31 @@
     <section class="flex flex-col items-center justify-center  backdrop-blur-md text-black  min-h-[50vh] w-full">
         <div class="flex flex-col items-center justify-center py-10">
             <h2 class="p-3 mt-16 text-4xl lg:text-5xl text-center  font-extrabold   capitalize ">{@html title}</h2>
-            <p class="text-black/90 text-sm font-light px-5">{description}</p>
+            <p class="text-black/90 text-center text-sm font-light px-5">{description}</p>
         </div>
-        <div class="hidden lg:flex items-center  justify-center p-5">
-            <Splide options={ { 
-                
+        <div class="w-full flex items-center  justify-center p-5">
+            <Splide options={ 
+                {  
                 perPage: 2,
                 perMove: 1,
                 gap   : '1rem', 
                 autoplay:true,  
                 pagination:false,
                 wheel:true,
-              } }
+                arrows:true,
+                breakpoints: {
+                    640: {
+                        arrows: false,
+                        perPage:1,
+                    },
+                }
+              } 
+            }
                aria-label="Brands We worked together"
-               class="w-full  md:w-[70%] cursor-grab md:px-20 md:py-10"
+               class="w-full  lg:w-[70%] cursor-grab p-10 md:px-20 md:py-10"
                >
                 {#each article as {title,description}}
-                     <SplideSlide class="w-1/2 rounded-lg bg-white/20 text-black shadow text-center">
+                     <SplideSlide class=" lg:w-1/2 rounded-lg bg-white/20 text-black shadow text-center">
                         <div class="flex flex-col items-center gap-5 w-full p-5">
                             <div class="text-5xl text-indigo-500">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="0.75em" height="1em" viewBox="0 0 384 512" {...$$props}>
@@ -34,14 +42,13 @@
                                 </svg>
                             </div>
                             <h3 class="font-bold text-2xl  md:text-3xl py-3 capitalize">{ title}</h3>
-                            <p class=" text-center   text-black/80 ">{description}</p>
-            
+                            <p class=" text-center   text-black/80 ">{description}</p> 
                         </div>
                      </SplideSlide>
                 {/each}
               </Splide>
         </div>
-        <div class="flex lg:hidden items-center  justify-center p-5 w-screen">
+        <!-- <div class="flex lg:hidden items-center  justify-center p-5 w-screen">
             <Splide options={ { 
                 type   : 'loop',
                 perPage: 1,
@@ -65,6 +72,6 @@
                      </SplideSlide>
                 {/each}
               </Splide>
-        </div>
+        </div> -->
     </section>
 </div> 

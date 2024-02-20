@@ -24,11 +24,11 @@
     const {   personsDetails} = profileSection
 
 </script>
-<div class="flex flex-col items-center justify-center min-h-screen bg-gradient-to-r from-sky-400 to-cyan-300">
+<div class="flex flex-col items-center justify-center min-h-screen ">
     <div class=" rounded-lg p-3   flex flex-col  pt-10">
         <div class="flex flex-col w-full items-center">
             <h3 class=" text-2xl lg:text-4xl logo_gradient px-2 lg:px-5 py-5">{faqTitle}</h3>
-            <p class="w-2/3 text-sm font-light text-white/80 text-center">{faqSubTitle}</p>
+            <p class="w-2/3 text-sm font-light text-black/80 text-center">{faqSubTitle}</p>
         </div>
     </div>
     <div class="w-full lg:w-[80%] flex flex-col lg:flex-row items-center justify-center">
@@ -51,13 +51,13 @@
                {#each personsDetails as {name,imgURL,description,links}}
                <SplideSlide>
          
-                   <div class="bg-white/10 rounded-lg p-3  lg:p-5 flex flex-col  pt-10 pb-0">
+                   <div class="bg-indigo-200 rounded-lg p-3  lg:p-5 flex flex-col  pt-10 pb-0">
                        <div class="flex items-center justify-center h-full " >
                            <img class="w-32 lg:w-52 rounded-full" src={`../${imgURL}`} alt={name}>
                        </div>
                        <div class="flex flex-col w-full items-center mt-5">
                            <h3 class=" text-xl lg:text-3xl logo_gradient px-2 lg:px-5">{name}</h3>
-                           <p class="w-[80%] lg:w-2/3 text-sm font-light text-white/80 text-center">{description}</p>
+                           <p class="w-[80%] lg:w-2/3 text-sm font-light text-black/80 text-center">{description}</p>
                            <div class="py-5 lg:pt-5 flex items-center gap-2 lg:gap-5">
                                {#each links as {linkColor,linkIcon,linkName,linkURL}}
                                    <a href={linkURL} class={`flex items-center gap-1 lg:gap-3  py-2 px-2 lg:py-2 lg:px-4 border-b  ${linkColor} hover:text-slate-900 transition-all ease-in`}>
@@ -75,9 +75,9 @@
               </Splide>
         </section>
         <div class="w-full lg:w-1/2 flex flex-col gap-5 items-center justify-center p-5 ">
-            <div class="flex flex-col  gap-5 bg-white/10 p-2 lg:p-5 rounded-lg ">
+            <div class="flex flex-col  gap-5 bg-black/10 p-2 lg:p-5 rounded-lg ">
                 {#each faq as {id,question,answer}}
-                     <div class="border-b border-white/20 pb-3">
+                     <div class="border-b border-black/20 pb-3">
                         <button on:click={()=>{handleChangeShow(id)}} class="  p-2 lg:p-5 text-start flex lg:items-center justify-between gap-3 w-full">
                             <div class="flex lg:items-center gap-3">
                                 <div class="text-xl lg:text-4xl text-green-500">
@@ -85,12 +85,12 @@
                                         <path fill="currentColor" d="M140 180a12 12 0 1 1-12-12a12 12 0 0 1 12 12M128 72c-22.06 0-40 16.15-40 36v4a8 8 0 0 0 16 0v-4c0-11 10.77-20 24-20s24 9 24 20s-10.77 20-24 20a8 8 0 0 0-8 8v8a8 8 0 0 0 16 0v-.72c18.24-3.35 32-17.9 32-35.28c0-19.85-17.94-36-40-36m104 56A104 104 0 1 1 128 24a104.11 104.11 0 0 1 104 104m-16 0a88 88 0 1 0-88 88a88.1 88.1 0 0 0 88-88" />
                                     </svg>
                                 </div>
-                                <p class={`${showFaq === id?"text-white" : "text-white/70 "} lg:text-xl hover:text-white`}>
+                                <p class={`${showFaq === id?"text-black" : "text-black/70 "} lg:text-xl hover:text-black`}>
                                     {question}
                                 </p>
         
                             </div>
-                            <div class={`text-2xl ${showFaq === id?"text-white" : "text-white/70 "}`}>
+                            <div class={`text-2xl ${showFaq === id?"text-black" : "text-black/70 "}`}>
                                 {#if showFaq === id}
                                 <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" {...$$props}>
                                     <g fill="none" fill-rule="evenodd">
@@ -109,7 +109,7 @@
                             </div>
                         </button>
                         <p 
-                        class={`${showFaq === id? " block ":" hidden "}  ml-5 md:ml-10 p-5 bg-black/30 rounded-md text-sm lg:text-base font-light text-white/90`}
+                        class={`${showFaq === id? " block ":" hidden "}  ml-5 md:ml-10 p-5 bg-black/30 rounded-md text-sm lg:text-base font-light text-black/90`}
                         >{answer}</p>
                      </div>
                 {/each}

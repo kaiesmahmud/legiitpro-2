@@ -219,8 +219,11 @@ export const service_page_data = {
     ],
     categories: [
         {
-            name:"Digital Marketing", 
+            name:"Digital Marketing Services", 
             url:"/b2b-digital-agency", 
+            css: " bg-gradient-to-r from-yellow-100 via-yellow-300 to-yellow-500 ", 
+            urlCss: " bg-yellow-400 hover:bg-yellow-300 ",
+            desc:" Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque veritatis amet et consectetur iure, quidem illum eius totam suscipit earum quo? Id quos quo ipsum.",
             icon: "mdi:microsoft-xaml",
             cat:[
                 {
@@ -241,8 +244,12 @@ export const service_page_data = {
             ],
         },
         {
-            name:"Search Engine Optimization(SEO)", 
+            name:"Search Engine Optimizing", 
             url:"/global-seo", 
+            css: " bg-gradient-to-r from-teal-100 via-teal-300 to-teal-500 ", 
+            urlCss: " bg-teal-400 hover:bg-teal-300 ",
+            desc:" Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque veritatis amet et consectetur iure, quidem illum eius totam suscipit earum quo? Id quos quo ipsum.",
+
             icon: "iconoir:page-search",
             cat:[
                 {
@@ -268,8 +275,12 @@ export const service_page_data = {
             ],
         },
         {
-            name:"Web Application Development", 
+            name:"Web Development Service", 
             url:"/web-application-development", 
+            css: " bg-gradient-to-r from-indigo-100 via-indigo-300 to-indigo-500 ", 
+            urlCss: " bg-indigo-400 hover:bg-indigo-300 ",
+            desc:" Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque veritatis amet et consectetur iure, quidem illum eius totam suscipit earum quo? Id quos quo ipsum.",
+
             icon: "teenyicons:code-outline",
             cat:[
                 {

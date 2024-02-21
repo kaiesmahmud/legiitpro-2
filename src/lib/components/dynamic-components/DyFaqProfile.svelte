@@ -51,20 +51,17 @@
                {#each personsDetails as {name,imgURL,description,links}}
                <SplideSlide>
          
-                   <div class="bg-indigo-200 rounded-lg p-3  lg:p-5 flex flex-col  pt-10 pb-0">
+                   <div class=" bg-gradient-to-tr from-sky-300 to-cyan-200 rounded-lg p-3  lg:p-5 flex flex-col  pt-10 pb-0">
                        <div class="flex items-center justify-center h-full " >
                            <img class="w-32 lg:w-52 rounded-full" src={`../${imgURL}`} alt={name}>
                        </div>
                        <div class="flex flex-col w-full items-center mt-5">
-                           <h3 class=" text-xl lg:text-3xl logo_gradient px-2 lg:px-5">{name}</h3>
+                           <h3 class=" text-xl lg:text-3xl  px-2 lg:px-5">{name}</h3>
                            <p class="w-[80%] lg:w-2/3 text-sm font-light text-black/80 text-center">{description}</p>
                            <div class="py-5 lg:pt-5 flex items-center gap-2 lg:gap-5">
                                {#each links as {linkColor,linkIcon,linkName,linkURL}}
-                                   <a href={linkURL} class={`flex items-center gap-1 lg:gap-3  py-2 px-2 lg:py-2 lg:px-4 border-b  ${linkColor} hover:text-slate-900 transition-all ease-in`}>
-                                       <div class="text-xl lg:text-4xl">
-                                           <Icon icon={linkIcon} />
-                                       </div>
-                                       <p class=" text-xs md:text-sm font-semibold">{linkName}</p>
+                                   <a href={linkURL} class={`flex items-center gap-1 lg:gap-3  py-2 px-2 lg:py-2 lg:px-4 text-sm rounded-full hover:bg-slate-900/30 hover:text-black text-white bg-slate-900 transition-all ease-in`}>
+                                       <p class=" text-xs md:text-sm ">{linkName}</p>
                                    </a>
                                {/each}
                            </div>
@@ -75,7 +72,7 @@
               </Splide>
         </section>
         <div class="w-full lg:w-1/2 flex flex-col gap-5 items-center justify-center p-5 ">
-            <div class="flex flex-col  gap-5 bg-black/10 p-2 lg:p-5 rounded-lg ">
+            <div class="flex flex-col  gap-5 bg-sky-500/10 p-2 lg:p-5 rounded-lg ">
                 {#each faq as {id,question,answer}}
                      <div class="border-b border-black/20 pb-3">
                         <button on:click={()=>{handleChangeShow(id)}} class="  p-2 lg:p-5 text-start flex lg:items-center justify-between gap-3 w-full">
@@ -109,7 +106,7 @@
                             </div>
                         </button>
                         <p 
-                        class={`${showFaq === id? " block ":" hidden "}  ml-5 md:ml-10 p-5 bg-black/30 rounded-md text-sm lg:text-base font-light text-black/90`}
+                        class={`${showFaq === id? " block ":" hidden "}  ml-5 md:ml-10 p-5 bg-black/10 rounded-md text-sm lg:text-base font-light text-black/90`}
                         >{answer}</p>
                      </div>
                 {/each}

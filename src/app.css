@@ -89,7 +89,7 @@ input[type="checkbox"]:checked {
   background-repeat: no-repeat;
   object-fit: cover;
   background-position: center;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
 }
 @media (min-width: 768px) {
   .herosection-bg{  

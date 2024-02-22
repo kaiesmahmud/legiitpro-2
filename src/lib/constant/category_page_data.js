@@ -8,15 +8,14 @@ export const category_page_data = [
                 interface: "ThriveHeroSection",
                 bgImgCss: "topicsPage-digital-bg",
                 title:"Social Media Management",
-                subTitle: "Drive Lucrative Results on the Right Channels"
-            },
-            //ThriveParagraphs
+                subTitle: "Drive Lucrative Results on the Right Channels",
+                description: "To maximize your online presence, Thrive Internet Marketing Agency weaves social media management services into your overall marketing strategy. The right Facebook or Instagram management service can attract, nurture and convert followers into loyal customers. The social media management campaigns our team has implemented and overseen for our small business, enterprise or franchise clients are a testament to that."
+            }, 
+            //DySubCatLists
             {
-                interface: "ThriveParagraphs",
-                paragraphs: [
-                    "Are your social media efforts falling short of expectations? Now more than ever, social media is a “pay-to-play” environment requiring all the resources you have: a cohesive game plan, 100 percent commitment and a well-defined budget. On top of organic outreach, getting content in front of your target audience can be challenging without shelling out advertising money, whether for an ongoing campaign or a once-off sponsored post.",
-                    "To maximize your online presence, Thrive Internet Marketing Agency weaves social media management services into your overall marketing strategy. The right Facebook or Instagram management service can attract, nurture and convert followers into loyal customers. The social media management campaigns our team has implemented and overseen for our small business, enterprise or franchise clients are a testament to that."
-                ]
+                interface: "DySubCatLists",
+                title :"Find Your Solution",
+                description: "In this extensive exploration of B2B lead generation, we've covered a multitude of topics, from specific strategies to overarching principles. We hope this guide empowers you to navigate the dynamic landscape of B2B commerce successfully. As you embark on your lead generation journey, remember the importance of adaptability and continuous improvement. ",
             },
             //ThriveBrandReviews
             {
@@ -85,6 +84,17 @@ export const category_page_data = [
                     },
                 ],
             },
+            //ThriveTitleParagraphs
+            {
+                interface: "ThriveTitleParagraphs",
+                title: "Enjoying the Benefits – Minus the Burden",
+                paragraphs: [
+                    "While it’s crucial for business owners and marketers to understand the true effort and cost involved in social media marketing, they should also be aware of the incredible benefits a well-rounded strategy can bring. If you want these benefits at a fraction of the cost, consider how a social media management agency is uniquely positioned to support you.",
+                    "According to Rachel Czeszewski, Thrive’s senior social media manager (paid), when social media management is brought in-house, it rarely gets the attention it deserves and the strategic input it needs to be successful.",
+                    "Why waste your chance to raise brand awareness, generate leads and garner sales by trying to do it alone and falling short?",
+
+                ]
+            },
             //ThriveTopicIntro2
             {
                 interface: "ThriveTopicIntro2",
@@ -101,17 +111,7 @@ export const category_page_data = [
                 imgUrl: "/category-page/smm-2.svg",
 
             },
-            //ThriveTitleParagraphs
-            {
-                interface: "ThriveTitleParagraphs",
-                title: "Enjoying the Benefits – Minus the Burden",
-                paragraphs: [
-                    "While it’s crucial for business owners and marketers to understand the true effort and cost involved in social media marketing, they should also be aware of the incredible benefits a well-rounded strategy can bring. If you want these benefits at a fraction of the cost, consider how a social media management agency is uniquely positioned to support you.",
-                    "According to Rachel Czeszewski, Thrive’s senior social media manager (paid), when social media management is brought in-house, it rarely gets the attention it deserves and the strategic input it needs to be successful.",
-                    "Why waste your chance to raise brand awareness, generate leads and garner sales by trying to do it alone and falling short?",
-
-                ]
-            },
+            
             //ThriveTitleLists
             {
                 interface: "ThriveTitleLists",

@@ -11,7 +11,7 @@
             <h2 class="font-bold text-2xl md:text-4xl py-5 capitalize">{title}</h2>
             <p class=" text-justify md:w-[80%]">{description}</p>
             {#if lists}
-            <div class="py-5 flex flex-col gap-2 text-white/90">
+            <div class="py-5 flex flex-col gap-2 text-black/90">
                 {#each lists as i}
                 <div class="flex items-center gap-2">
                     <div class="text-2xl text-sky-400">

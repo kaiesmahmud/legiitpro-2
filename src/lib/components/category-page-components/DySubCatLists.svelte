@@ -7,77 +7,28 @@
     export let section , subCategories
     const {title,description} = section
 </script>
-    <div class="flex flex-col items-center justify-center py-10 w-screen overflow-hidden pt-20 ">
-        <div class="w-full lg:w-[80%] flex flex-col items-center gap-5">
-            <h2 class="text-xl md:text-2xl lg:text-4xl logo_gradient text-center font-bold ">{title}</h2>
-            <p class="text-center w-2/3 text-xs md:text-sm">{description}</p>
-        </div>
-        <div class="w-screen flex md:hidden items-center justify-center p-5">
-        <Splide options={ {
-            // rewind: true,
-            gap   : '1rem',
-            perPage: 1,
-            autoplay:true,
-            arrows:false,
-            type   : 'loop',
-            perMove: 1,
-            pagination:false,
-            interval:2000
-            } }
-            aria-label="Brands We worked together"
-            class="w-screen  cursor-grab p-5"
-            >
+<section class=" flex flex-col items-center justify-center p-5 ">
+    <div class="w-full lg:w-[80%] flex flex-col items-center justify-center rounded-xl shadow-lg py-10  overflow-hidden pt-20 bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400 ">
+        <div class="w-full lg:w-[80%] flex flex-col items-center gap-5  ">
+            <h2 class="text-xl md:text-2xl lg:text-4xl text-center font-bold ">{title}</h2>
+            <p class="text-center w-2/3  text-black/80">{description}</p>
+        </div> 
+        <div class="w-full lg:w-[80%] flex flex-wrap gap-5  items-center justify-center p-5">
             {#each subCategories as {subCatURL,subCatName}}
-            <SplideSlide class="py-3 h-20 flex items-center justify-center text-center">
-                <a href={subCatURL} class="w-full p-3 border border-cyan-500 rounded hover:bg-cyan-500 hover:text-black capitalize">{subCatName}</a>
-            </SplideSlide>
-            {/each}
-        </Splide>
+                <a href={subCatURL} class=" group py-2 px-3 text-sm font-bold capitalize rounded-full shadow-lg text-black/80 hover:text-black hover:bg-white/50 bg-white/40 flex gap-2 items-center">
+                <p>
+                    {subCatName} 
+                </p>
+                <span class="text-black/80 group-hover:text-black">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" {...$$props}>
+                        <g fill="none">
+                            <path d="M24 0v24H0V0zM12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035c-.01-.004-.019-.001-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427c-.002-.01-.009-.017-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093c.012.004.023 0 .029-.008l.004-.014l-.034-.614c-.003-.012-.01-.02-.02-.022m-.715.002a.023.023 0 0 0-.027.006l-.006.014l-.034.614c0 .012.007.02.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z" />
+                            <path fill="currentColor" d="M15.889 9.525a1.5 1.5 0 0 1 2.007-.103l.114.103l2.122 2.121a6 6 0 0 1-8.303 8.661l-.183-.175l-2.121-2.122a1.5 1.5 0 0 1 2.007-2.224l.114.103l2.122 2.121a3 3 0 0 0 4.377-4.098l-.135-.144l-2.121-2.122a1.5 1.5 0 0 1 0-2.121m-7.071-.707a1.5 1.5 0 0 1 2.007-.103l.114.103l4.243 4.243a1.5 1.5 0 0 1-2.008 2.224l-.114-.103l-4.242-4.243a1.5 1.5 0 0 1 0-2.121m-4.95-4.95a6 6 0 0 1 8.302-.175l.184.175l2.12 2.122a1.5 1.5 0 0 1-2.007 2.224l-.114-.103l-2.12-2.121a3 3 0 0 0-4.378 4.098l.135.144l2.12 2.122a1.5 1.5 0 0 1-2.007 2.224l-.113-.103l-2.122-2.121a6 6 0 0 1 0-8.486" />
+                        </g>
+                    </svg>
+                </span></a>
+            {/each} 
         </div>
-        <div class="hidden md:flex lg:hidden items-center justify-center p-5">
-        <Splide options={ {
-            rewind: true,
-            gap   : '1rem',
-            perPage: 2,
-            autoplay:true,
-            arrows:false,
-            type   : 'loop',
-            perMove: 1,
-            pagination:false,
-            interval:2000
-    
-            } }
-            aria-label="Brands We worked together"
-            class="w-screen   cursor-grab p-5"
-            >
-            {#each subCategories as {subCatURL,subCatName}}
-            <SplideSlide class="py-3 h-20 flex items-center justify-center text-center">
-                <a href={subCatURL} class="w-full p-3 border border-cyan-500 rounded hover:bg-cyan-500 hover:text-black capitalize">{subCatName}</a>
-            </SplideSlide>
-            {/each}
-        </Splide>
-        </div>
-        <div class="hidden lg:flex items-center justify-center p-5">
-        <Splide options={ {
-            // rewind: true,
-            gap   : '1rem',
-            perPage: 4,
-            autoplay:true,
-            arrows:false,
-            type   : 'loop',
-            perMove: 1,
-            pagination:false,
-            interval:2000
-    
-            } }
-            aria-label="Brands We worked together"
-            class="w-full lg:w-1/2 cursor-grab p-5"
-            >
-            {#each subCategories as {subCatURL,subCatName}}
-            <SplideSlide class="py-3 h-20 flex items-center justify-center text-center">
-                <a href={subCatURL} class="w-full p-3 border border-cyan-500 rounded hover:bg-cyan-500 hover:text-black capitalize">{subCatName}</a>
-            </SplideSlide>
-            {/each}
-        </Splide>
-        </div>
+         
     </div>
+</section>

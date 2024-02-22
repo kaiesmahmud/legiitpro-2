@@ -136,7 +136,7 @@ export const topic_pages_data = [
             {
                 catName: "Lead Management" , 
                 catDesc: "We manage every aspect of your social media- from content strategy, branding and images, to community engagement. We research trends and news to create content that keeps your brand current and relevant.",
-                catURL : "/b2b-marketing-agency/lead-management" ,
+                catURL : "/b2b-marketing-agency/b2b-lead-generation" ,
                 subCategories: [
                 {subCatName :  "lead generation management", subCatURL : "#"},
                 {subCatName :  "Email marketing management", subCatURL : "#"},

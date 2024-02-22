@@ -1,5 +1,4 @@
-<script>
-    import Icon from '@iconify/svelte';
+<script> 
     export let categories
 
     import { Splide, SplideSlide } from '@splidejs/svelte-splide';
@@ -7,24 +6,13 @@
     import '@splidejs/svelte-splide/css';
     
     let firstStyle = "  bg-white/20 hover:bg-white/30 transition-all ease-in rounded-xl shadow-xl flex items-center justify-center  px-3 py-2"
-
-    let categoryData = [
-        {
-            
-        }
-    ]
-    let optinons = [
-        {name: "digital Marketing", css: "", url: "/"},
-        {name: "digital Marketing", css: "", url: "/"},
-        {name: "digital Marketing", css: "", url: "/"},
-    ]
-     
+   
 </script>
 <div class="flex items-center justify-center p-5 ">
     <div class="min-h-[5vh] flex items-center justify-center flex-col p-5 lg:p-10 gap-5 shadow-lg rounded-lg w-full lg:w-[80%] 
     bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400">
         <h1 class="text-3xl md:text-4xl lg:text-6xl font-extrabold text-black/90 font_Poppins">Legiitpro Services</h1>
-        <p class="text-center text-black/70 text-sm lg:text-base">A B2B marketing agency is an entity that specialises in crafting and implementing marketing strategies explicitly tailored for business-to-business interactions. These agencies cater to various industries, providing services from digital marketing to market research</p>
+        <p class="text-center text-black/70 text-sm lg:text-base md:w-[80%]">A B2B marketing agency is an entity that specialises in crafting and implementing marketing strategies explicitly tailored for business-to-business interactions. These agencies cater to various industries, providing services from digital marketing to market research</p>
     </div>
 </div>
 <div class="flex flex-col items-center justify-center gap-5 p-5">

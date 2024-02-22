@@ -2,14 +2,18 @@ export const topic_pages_data = [
     {
         url: "/b2b-digital-agency",
         frontend:[ 
+            //DyHeroSection
             {
                 interface: "DyHeroSection",
                 title :"B2B Digital Marketing Strategies",
                 description: " In the ever-changing world of digital marketing, B2B digital marketing agencies play a significant role in helping businesses grow. They use the internet to make other businesses notice and understand them better ",
-                bgImgCss: "topicsPage-digital-bg"
+                bgImgCss: "topicsPage-digital-bg",
+                css: " bg-gradient-to-r from-indigo-100 via-sky-300 to-indigo-500 ",
             },
+            //DoubleTitleRightImgSection
             {
                 interface: "DoubleTitleRightImgSection",
+                bgCss : " bg-[conic-gradient(at_right,_var(--tw-gradient-stops))] from-indigo-200 via-indigo-600 to-sky-200  ",
                 article :[
                     {
                         title:"B2B Digital Marketing Agencies",
@@ -41,6 +45,7 @@ export const topic_pages_data = [
                 interface: "DyMultiplePara",
                 imgURL:"seo-page/b2b-digital.svg",
                 imgAlt:"alter tag",
+                css: " bg-gradient-to-r from-indigo-100 via-sky-300 to-indigo-500 ",
                 article : [
                     {
                         title:"B2B Marketing Agency",
@@ -148,7 +153,8 @@ export const topic_pages_data = [
             interface: "DyHeroSection",
             title :"Mastering Internal Linking & International SEO Strategies",
             description: "In the vast landscape of Search Engine Optimization (SEO), understanding the significance of internal linking and crafting effective international strategies is crucial.  Let's unravel the mysteries behind these essential elements of online visibility ",
-            bgImgCss: "topicsPage-digital-bg"
+            bgImgCss: "topicsPage-digital-bg",
+            css: " bg-gradient-to-r from-teal-100 via-teal-300 to-teal-500 ",
         }, 
         //ThriveTopicIntro
         {
@@ -188,12 +194,12 @@ export const topic_pages_data = [
         },
         //ThriveClientSuccess
         {
-        interface: "ThriveClientSuccess",
-        title: "Providing SEO Solutions to Solve Your Problems",
-        subTitle: "Our Passion is Growing Your Online Business ",
-        firstPara: "For more than 15 years, we've been providing SEO solutions for businesses wanting to expand their online presence, increase leads and grow their revenue. Our tried-and-true SEO techniques and practices have resulted in many success stories for clients. Here's a few recent examples:",
-        lastPara: "Are you on the first page of the search engine results pages (SERPs) for keywords that match your business or brand? If not, you're missing out on valuable leads. Search engine optimization isn't a fad and it's no longer an option to simply not think about it if you want to grow your business. It's an indispensable part of any plan to market products or services and bring in more qualified leads and sales",
-        clientProjects: [
+            interface: "ThriveClientSuccess",
+            title: "Providing SEO Solutions to Solve Your Problems",
+            subTitle: "Our Passion is Growing Your Online Business ",
+            firstPara: "For more than 15 years, we've been providing SEO solutions for businesses wanting to expand their online presence, increase leads and grow their revenue. Our tried-and-true SEO techniques and practices have resulted in many success stories for clients. Here's a few recent examples:",
+            lastPara: "Are you on the first page of the search engine results pages (SERPs) for keywords that match your business or brand? If not, you're missing out on valuable leads. Search engine optimization isn't a fad and it's no longer an option to simply not think about it if you want to grow your business. It's an indispensable part of any plan to market products or services and bring in more qualified leads and sales",
+            clientProjects: [
             {
                 imgUrl: "https://cdn-icggj.nitrocdn.com/AphBmykuaGyxZijWArNhxcCiPzVdYZGT/assets/images/optimized/rev-fadafbc/thriveagency.com/files/construction-company-image-1.png",
                 title:"CONSTRUCTION COMPANY",
@@ -315,7 +321,8 @@ export const topic_pages_data = [
         //ThriveDoubleList
         {
         interface:"ThriveDoubleList",
-        title: "SEO Services You Can Expect From Thrive",
+        title: "SEO Services You Can Expect From LegiitPro",
+        css: " bg-gradient-to-r from-teal-100 via-teal-300 to-teal-500 ",
         description: "As a full-service digital marketing company, Thrive offers a comprehensive array of professional search engine optimization services to get your business more visibility in search using only trustworthy, future-proof, white hat SEO techniques, such as:",
         firstList : [
             "Custom SEO Strategy: We customize our SEO services to fit your needs. We use the tactics that make the most impact for your unique business",
@@ -395,7 +402,6 @@ export const topic_pages_data = [
                 subCategories: [
                     {subCatName :  "Amazon SEO", subCatURL : "#"},
                     {subCatName :  "Ebay SEO", subCatURL : "#"},
-                    {subCatName :  "Ebay SEO", subCatURL : "#"},
                     {subCatName :  "Etsy SEO", subCatURL : "#"},
                     {subCatName :  "walmart SEO", subCatURL : "#"},
                     {subCatName :  "Shopify SEO", subCatURL : "#"},
@@ -424,37 +430,18 @@ export const topic_pages_data = [
     {
         url: "/web-application-development",
         frontend:[ 
+            //DyHeroSection
             {
                 interface: "DyHeroSection",
                 title :"Simplifying the World of Web Apps ",
                 description: "In today's digital world, businesses are discovering the importance of custom web application development services. Whether you're new to the online scene or a seasoned entrepreneur, understanding web application development is critical. This article breaks down the process, introduces essential concepts, and explores the pros and cons of different approaches.",
-                bgImgCss: "web-development-page"
+                bgImgCss: "web-development-page",
+                css: " bg-gradient-to-r from-indigo-100 via-indigo-300 to-indigo-500 ",
             },
-            {
-                interface: "DyMultiplePara",
-                imgURL:"seo-page/future-web.svg",
-                imgAlt:"alter tag",
-                article : [
-                    {
-                        title:"The Future of Web Apps ",
-                        description: "As technology evolves, so do the trends in web application development. Let's explore upcoming technologies that will shape the future of web applications. ",
-                    }, 
-                    {
-                        title:"The Pros and Cons of Web App Development  ",
-                        description: "While web applications offer many benefits, there are also potential drawbacks. Let's explore the advantages and disadvantages of web application development.  ",
-                    }, 
-                    {
-                        title:"Innovating with Cloud App Development",
-                        description: "Cloud computing has transformed how applications are created. Let's explore the basics of cloud application development and its benefits",
-                    }, 
-                    {
-                        title:"Custom Web Apps Development: Tailoring Solutions",
-                        description: "For businesses with unique needs, custom web application development is essential. Let's explore the process and benefits of creating bespoke solutions.",
-                    }, 
-                ]
-            },
+            // DoubleTitleRightImgSection
             {
                 interface: "DoubleTitleRightImgSection",
+                bgCss : " bg-[conic-gradient(at_right,_var(--tw-gradient-stops))] from-indigo-200 via-indigo-500 to-indigo-200  ",
                 article :[
                     {
                         title:"Understanding Web App Developers ",
@@ -486,32 +473,35 @@ export const topic_pages_data = [
                     },    
                 ]
             },
-            
+            //DyMultiplePara
             {
                 interface: "DyMultiplePara",
-                imgURL:"seo-page/journey-legiitpro-website.svg",
+                imgURL:"seo-page/future-web.svg",
                 imgAlt:"alter tag",
+                css: " bg-gradient-to-r from-indigo-100 via-indigo-300 to-indigo-500 ",
                 article : [
                     {
-                        title:"The Journey of a Web App Agency",
-                        description: "Web app agencies play a crucial role in bringing digital ideas to life. Let's explore the journey of a web app agency and the challenges they face. ",
+                        title:"The Future of Web Apps ",
+                        description: "As technology evolves, so do the trends in web application development. Let's explore upcoming technologies that will shape the future of web applications. ",
                     }, 
                     {
-                        title:"Showcasing Web App Examples",
-                        description: " Leading by example is powerful. Let's showcase examples of web apps from industry leaders. ",
+                        title:"The Pros and Cons of Web App Development  ",
+                        description: "While web applications offer many benefits, there are also potential drawbacks. Let's explore the advantages and disadvantages of web application development.  ",
                     }, 
                     {
-                        title:"Unveiling the Process: Web App Development Behind the Scenes ",
-                        description: " Behind every successful web application is a team of dedicated professionals. Let's unveil the web app development process behind the scenes.",
+                        title:"Innovating with Cloud App Development",
+                        description: "Cloud computing has transformed how applications are created. Let's explore the basics of cloud application development and its benefits",
                     }, 
                     {
-                        title:"Understanding the Basics: Sample Web App Showcase",
-                        description: "Understanding the code is crucial for aspiring developers. Let's explore a sample web application showcase to understand coding practices.",
+                        title:"Custom Web Apps Development: Tailoring Solutions",
+                        description: "For businesses with unique needs, custom web application development is essential. Let's explore the process and benefits of creating bespoke solutions.",
                     }, 
                 ]
             },
+            //DoubleTitleRightImgSection
             {
                 interface: "DoubleTitleRightImgSection",
+                bgCss : " bg-[conic-gradient(at_right,_var(--tw-gradient-stops))] from-indigo-200 via-indigo-500 to-indigo-200  ",
                 article :[
                     {
                         title:"The Basics of Web App Design and Development",
@@ -543,6 +533,32 @@ export const topic_pages_data = [
                     },    
                 ]
             },
+            //DyMultiplePara
+            {
+                interface: "DyMultiplePara",
+                imgURL:"seo-page/journey-legiitpro-website.svg",
+                imgAlt:"alter tag",
+                css: " bg-gradient-to-r from-indigo-100 via-indigo-300 to-indigo-500 ",
+                article : [
+                    {
+                        title:"The Journey of a Web App Agency",
+                        description: "Web app agencies play a crucial role in bringing digital ideas to life. Let's explore the journey of a web app agency and the challenges they face. ",
+                    }, 
+                    {
+                        title:"Showcasing Web App Examples",
+                        description: " Leading by example is powerful. Let's showcase examples of web apps from industry leaders. ",
+                    }, 
+                    {
+                        title:"Unveiling the Process: Web App Development Behind the Scenes ",
+                        description: " Behind every successful web application is a team of dedicated professionals. Let's unveil the web app development process behind the scenes.",
+                    }, 
+                    {
+                        title:"Understanding the Basics: Sample Web App Showcase",
+                        description: "Understanding the code is crucial for aspiring developers. Let's explore a sample web application showcase to understand coding practices.",
+                    }, 
+                ]
+            },
+            
             {
                 interface: "DyFaqProfile",
                 faqSection:{
@@ -573,40 +589,6 @@ export const topic_pages_data = [
                             answer: "AngularJS is famous for its versatility and ability to create dynamic applications. "
                             
                         },
-                        {
-                            id: "5",
-                            question: "What are the advantages and disadvantages of web application development?",
-                            answer: " Web application development offers advantages like scalability but may pose challenges in terms of security."
-                            
-                        }, 
-                        {
-                            id: "6",
-                            question: "Can you provide examples of web applications in different industries? ",
-                            answer: "Certainly! Examples of web applications span various industries, from e-commerce to healthcare. "
-                            
-                        }, 
-                        {
-                            id: "7",
-                            question: "What role does cloud-based web application development play in modern businesses?",
-                            answer: " Cloud-based development offers scalability and flexibility, simplifying infrastructure management"
-                            
-                        }, 
-                        {
-                            id: "8",
-                            question: "How does PHP contribute to web application development?",
-                            answer: " PHP is simple and efficient, powering dynamic websites and applications"
-                            
-                        }, 
-                        {
-                            id: "9",
-                            question: "What factors should I consider when choosing web application development solutions?",
-                            answer: "  Consider scalability, security, and technology stack aligned with your business goals." 
-                        }, 
-                        {
-                            id: "10",
-                            question: "Why is custom web application development essential for certain businesses? ",
-                            answer: " Custom development ensures digital solutions align with specific requirements, offering a competitive edge. " 
-                        }, 
                     ],
                 },
             },

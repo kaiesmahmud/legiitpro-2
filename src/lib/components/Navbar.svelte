@@ -5,7 +5,7 @@
     const handleViewNavOptions = ()=> viewNavOptions = !viewNavOptions
     const handleLogoClick = ()=> viewNavOptions = false
  </script>
-<header class={`p-3 ${viewNavOptions? " h-screen ": "h-auto"}lg:h-auto flex  flex-col lg:flex-row gap-5  lg:items-center lg:justify-between bg-white lg:px-10 `}>
+<header class={`p-3 ${viewNavOptions? " h-screen ": "h-auto"}lg:h-auto flex  flex-col lg:flex-row gap-5 shadow-lg lg:items-center lg:justify-between bg-white lg:px-10 `}>
     <div class="flex justify-between w-full lg:w-auto">
         <a  on:click={handleLogoClick} href="/" class="flex items-center gap-2 ">
             <img class="w-8 md:w-10 " src="/logo.webp" alt="" srcset="">

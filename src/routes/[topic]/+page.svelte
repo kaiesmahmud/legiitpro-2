@@ -21,6 +21,7 @@
 	import ThriveTitleParagraphs from '../../lib/components/thrive-components/ThriveTitleParagraphs.svelte';
 	import ThriveTitleLists from '../../lib/components/thrive-components/ThriveTitleLists.svelte';
 	import ThriveWhyChoose from '../../lib/components/thrive-components/ThriveWhyChoose.svelte';
+    import TopicHeroSection from '../../lib/components/dynamic-components/TopicHeroSection.svelte';
 
     
 </script>
@@ -28,7 +29,8 @@
 {#if data.categories}
      {#each data.frontend as section}
          {#if section.interface && (section.interface === "DyHeroSection")}
-              <DyHeroSection {section} categories={data.categories}/>
+               <TopicHeroSection {section} categories={data.categories} />
+              <!-- <DyHeroSection {section} categories={data.categories}/> -->
          {/if}
          {#if section.interface && (section.interface === "DyRightImgSection")}
               <DyRightImgSection {section} />

@@ -6,11 +6,11 @@
 <div class="flex items-center justify-center flex-col min-h-[60vh] ">
     <section class="p-5 lg:w-[70%] ">
         <div class="flex flex-col lg:flex-row  justify-center gap-5 pt-5 lg:pt-10">
-            <div class="order-2 lg:order-1 flex flex-col gap-3  w-full md:w-1/2">
-                <h2 class="text-3xl md:text-4xl font-semibold">{title}</h2>
-                <p class="text-white/70">{description}</p>
-                <p class="text-white/70">{listTitle}</p>
-                <ul class="text-white/70 list-disc px-5">
+            <div class="order-2 lg:order-1 flex flex-col justify-center gap-3  w-full md:w-1/2">
+                <h2 class="text-3xl md:text-4xl font-bold">{title}</h2>
+                <p class="text-black/90">{description}</p>
+                <p class=" text-black/90">{listTitle}</p>
+                <ul class=" text-black/90   list-disc px-5">
                     {#each list as list}
                         <li>{list}</li>
                     {/each}

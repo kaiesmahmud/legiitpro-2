@@ -10,10 +10,12 @@
         <div class="flex flex-col items-center gap-5 text-center  ">
             <h1 class="text-4xl md:text-5xl  font-extrabold md:px-5">{title}</h1>
             <h3>{subTitle}</h3>
+            {#if description}
             <p class="w-full lg:w-[80%] text-black/80 ">{@html description}</p>
+            {/if}
         </div>
         <div>
-            <a href="/" 
+            <a href="/schedule-meeting" 
             class="px-7 py-3 lg:px-10 lg:py-5 text-xl  md:text-2xl rounded-full shadow-lg
              bg-gradient-to-tr from-indigo-400 to-sky-500 text-black/80 font-extrabold   hover:from-sky-500 hover:to-indigo-500  
              transition-all ease-in">Get My Free Proposal</a>

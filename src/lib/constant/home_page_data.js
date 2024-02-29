@@ -5,7 +5,7 @@ export const home_page_data = [
         title :"Mastering Small Business Marketing",
         description: "Effective marketing is the key to success in the fast-paced world of small business. This comprehensive guide is designed to navigate through various aspects of marketing, from the role of consultants to leveraging digital strategies, all aimed at empowering small businesses to thrive",
          
-        imgAlt:"alter tag",
+        imgAlt:"alter tag sohel",
     },
     {
         interface: "LeftSideImgSection",

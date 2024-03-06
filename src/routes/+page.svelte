@@ -6,8 +6,8 @@
 	import BrandsWeWork from "../lib/components/BrandsWeWork.svelte";
 	import HeroSection from "../lib/components/HeroSection.svelte";
 	import ServiceSection from "../lib/components/ServiceSection.svelte";
-	import ProjectsShowCase from '../lib/components/ProjectsShowCase.svelte';
-	import BlogsShowCase from '../lib/components/BlogsShowCase.svelte';
+	// import ProjectsShowCase from '../lib/components/ProjectsShowCase.svelte';
+	// import BlogsShowCase from '../lib/components/BlogsShowCase.svelte';
 	import ContactSection from '../lib/components/ContactSection.svelte';
 	import DyParagraphs from '../lib/components/dynamic-components/DyParagraphs.svelte';
 	import RightSideImgSection from '../lib/components/home-page-components/RightSideImgSection.svelte';

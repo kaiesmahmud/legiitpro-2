@@ -75,38 +75,39 @@ export const home_page_data = [
         description: "Small business marketing consultants are the cornerstone of strategic growth. Learn how a small business marketing consultant can guide you in navigating complex marketing strategies",
         imgAlt:"alter tag",
     },
-    //DoubleTitleRightImgSection
+     
+    //ThriveServices
     {
-        interface: "DoubleTitleRightImgSection",
-        imgURL:"./home/small-business-marketing-consulting.svg",
-        bgImgCss: "categoryPage-socialMedia-bg",
-        imgAlt:"alter tag",
-        article :[
+        interface: "ThriveServices",
+        title:" ",
+        subTitle:"",
+        descriptions : [ ],
+        services: [
             {
-                title:"Digital Marketing Packages for Small Business",
-                description: "Explore the intricacies of digital marketing packages for small businesses, unraveling the elements that contribute to a robust online presence.",
+                service_title:"Digital Marketing Packages for Small Business",
+                service_description: "Explore the intricacies of digital marketing packages for small businesses, unraveling the elements that contribute to a robust online presence.",
             },
             {
-                title:"Influencer Marketing Unleashed<br>Amplify Your Reach",
-                description: "Discover the power of influencers and the significance of choosing the best influencer marketing platform for small businesses. Unleash strategies to amplify your brand's reach through effective partnerships.",
+                service_title:"Influencer Marketing Unleashed<br>Amplify Your Reach",
+                service_description: "Discover the power of influencers and the significance of choosing the best influencer marketing platform for small businesses. Unleash strategies to amplify your brand's reach through effective partnerships.",
             },
             {
-                title:"Social Media Marketing Packages<br> Crafting Engaging Narratives",
-                description: "Unlock the potential of social media with tailored social media marketing packages for small businesses. Dive into strategies to make your brand stand out in the crowded digital landscape.",
+                service_title:"Social Media Marketing Packages<br> Crafting Engaging Narratives",
+                service_description: "Unlock the potential of social media with tailored social media marketing packages for small businesses. Dive into strategies to make your brand stand out in the crowded digital landscape.",
             },
             {
-                title:"Outsourcing Marketing<br>A Strategic Move for Small Businesses",
-                description: "Delve into the advantages of outsourcing marketing services, understanding how this strategic move can streamline operations and enhance overall efficiency.",
+                service_title:"Outsourcing Marketing<br>A Strategic Move for Small Businesses",
+                service_description: "Delve into the advantages of outsourcing marketing services, understanding how this strategic move can streamline operations and enhance overall efficiency.",
             },
             {
-                title:"Navigating the Digital Landscape<br> Apps & Agencies for Success",
-                description: "Explore the digital landscape with insights into the best apps for small business marketing and the role of a digital marketing agency for small businesses in the UK.",
+                service_title:"Navigating the Digital Landscape<br> Apps & Agencies for Success",
+                service_description: "Explore the digital landscape with insights into the best apps for small business marketing and the role of a digital marketing agency for small businesses in the UK.",
             },
             {
-                title:"Diverse Marketing Strategies<br>Tailoring Approaches for Success",
-                description: "From account-based marketing for small businesses to the power of mobile marketing, explore a diverse range of strategies tailored for small businesses.",
+                service_title:"Diverse Marketing Strategies<br>Tailoring Approaches for Success",
+                service_description: "From account-based marketing for small businesses to the power of mobile marketing, explore a diverse range of strategies tailored for small businesses.",
             },
-    
+             
         ]
     },
     //ContentSliderSection
@@ -148,6 +149,7 @@ export const home_page_data = [
         description: "Embark on a journey to reap the benefits of strategic marketing. Discover how a well-crafted marketing plan can significantly impact various aspects of your business, driving growth and success.", 
         imgAlt:"alter tag",
     },
+    //LeftSideImgSection
     {
         interface: "LeftSideImgSection",
         imgURL:"./home/hiring-consultant.svg",
@@ -155,6 +157,7 @@ export const home_page_data = [
         description: "Explore the wisdom of choosing to hire a small business marketing consultant. Uncover the unique insights and expertise they bring to the table, propelling your business toward new heights.",
         imgAlt:"alter tag",
     },
+    //DyParagraphs
     {
         interface: "DyParagraphs",
         title:"Choosing an Internet Marketing Agency",

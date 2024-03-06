@@ -12,7 +12,12 @@
             show = newNum
         }
     }
+    import {generateFaqSchema} from "$lib/functions/schemaGenerator"
 </script>
+
+<svelte:head>
+    {@html generateFaqSchema(faq)}
+</svelte:head>
 <div class="flex flex-col gap-5 items-center justify-center p-5 lg:p-10  ">
     <div class=" rounded-lg p-3  lg:p-5 flex flex-col  pt-10">
         <div class="flex flex-col w-full items-center">

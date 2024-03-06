@@ -16,7 +16,7 @@
         <div class="w-full md:w-3/4 lg:w-1/2">
             <p class=" uppercase font-light text-gray-500">contact us</p>
             <h3  class="capitalize text-2xl md:text-4xl lg:text-5xl font-extrabold logo_gradient py-5">Get Your Free Consultation. It's easier together</h3>
-            <p class="text-xs w-full pr-3 lg:w-3/4 text-justify">Dive into a adventure wherein your picks shape the outcome. This journey is complete of learning and increase opportunities. Set your desires, include the adventure, and let’s deliver this vision to life. Are you in?
+            <p class="text-sm w-full pr-3 lg:w-3/4 text-justify">legiitpro small business Marketing consultant and Internet Marketing Agency is a full-service digital marketing agency. Attract, Impress, and Convert more leads online and get results with legiitpro.
             </p>
             <div class="flex flex-col justify-center items-start gap-3 py-10">
                 {#each contactInfo as {title,url,icon}}

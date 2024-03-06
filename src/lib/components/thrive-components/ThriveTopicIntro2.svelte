@@ -5,11 +5,11 @@
 <div class="flex items-center justify-center flex-col min-h-[60vh] ">
     <section class="p-5 lg:w-[70%] flex flex-col gap-5">
         <div class="flex flex-col gap-3 items-center text-center pt-10">
-            <h1 class="text-3xl lg:text-4xl font-bold logo_gradient">{section.title}</h1>
-            <h6 class="font-light text-cyan-400">{section.subTitle}</h6>
+            <h1 class="text-3xl md:text-4xl lg:text-5xl font-extrabold  ">{section.title}</h1>
+            <h2 class="font-semibold text-teal-600">{@html section.subTitle}</h2>
         </div>
         <p class="text-justify text-black/80">
-            {section.firstPara}
+            {@html section.firstPara}
         </p>
         <div class="flex flex-col md:flex-row gap-5 text-black/80">
             <div class="w-full lg:w-1/2 flex flex-col gap-5 text-justify">

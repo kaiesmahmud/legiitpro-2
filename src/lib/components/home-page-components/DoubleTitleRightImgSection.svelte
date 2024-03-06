@@ -1,11 +1,14 @@
 <script> 
     export let section;
-    let {article,bgCss, imgAlt,imgURL} = section; 
+    let {article,bgCss, imgAlt,imgURL,headline} = section; 
 </script>
 <section class=" relative flex items-center justify-center my-5  p-5">
     <div class={`p-5 w-full lg:w-[80%] 
     ${bgCss? bgCss : " bg-[conic-gradient(at_right,_var(--tw-gradient-stops))] from-cyan-200 via-blue-600 to-cyan-200  "}
-     rounded-lg flex justify-center gap-3 items-center shadow-lg`}>
+     rounded-lg flex flex-col justify-center gap-3 items-center shadow-lg`}>
+        {#if headline}
+             <h2 class="pt-7 font-bold text-2xl md:text-3xl lg:text-5xl">{headline} </h2>
+        {/if}
         <div class="w-full grid grid-cols-1 md:grid-cols-2 gap-10 p-5 md:p-10  ">
             {#each article as {title,description}}
             <div>
@@ -17,7 +20,7 @@
                     </div>
                     <h3 class="font-bold text-2xl text-slate-900  md:text-3xl py-5 capitalize">{@html title}</h3>
                 </div>
-                <p class=" text-justify w-[80%] text-black/70 leading-5  text-sm">{description}</p>
+                <p class=" text-justify w-[80%] text-black/70 leading-5 ">{@html description}</p>
             </div>
             {/each}
         </div>

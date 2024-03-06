@@ -11,9 +11,11 @@
             {#if subTitle}
             <p class="p-3 md:p-5 text-black/70 ">{subTitle}</p>
             {/if}
-            {#each descriptions as desc}
-                 <p class="p-3 md:p-5 text-black/70 md:w-2/3">{@html desc}</p>
-            {/each}
+            {#if descriptions}
+                 {#each descriptions as desc}
+                      <p class="p-3 md:p-5 text-black/70 md:w-2/3">{@html desc}</p>
+                 {/each}
+            {/if}
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 lg:p-5">
             {#each services as {service_description,service_title}}

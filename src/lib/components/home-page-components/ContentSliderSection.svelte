@@ -14,12 +14,14 @@
         <div class="w-full flex items-center  justify-center p-5">
             <Splide options={ 
                 {  
+                type:"loop",
                 perPage: 2,
                 perMove: 1,
                 gap   : '1rem', 
                 autoplay:true,  
+                interval: 1000,
                 pagination:false,
-                wheel:true,
+                // wheel:true,
                 arrows:true,
                 breakpoints: {
                     640: {
@@ -29,7 +31,7 @@
                 }
               } 
             }
-               aria-label="Brands We worked together"
+               aria-label={title}
                class="w-full  lg:w-[70%] cursor-grab p-10 md:px-20 md:py-10"
                >
                 {#each article as {title,description}}

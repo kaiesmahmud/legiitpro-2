@@ -1,4 +1,65 @@
 export const home_page_data = [
+    //ThriveTopicIntro2
+    {
+        interface: "ThriveTopicIntro2",
+        title: "Why Choose legiitpro For Your Small Business , Internet Marketing & Digital Marketing Agency?",
+        // subTitle: "READY TO GROW YOUR BUSINESS? CONTACT LEGIITPRO  TEAM ",
+        subTitle: " LegiitPro is your go-to digital marketing agency, offering SEO, PPC, web design, and more. <br>Contact us today to elevate your small business",
+        firstPara: "<strong class='font-bold'>LegiitPro</strong> is a comprehensive digital marketing agency. Since our inception in 2023, we have been dedicated to offering various industries a broad spectrum of services. Our digital marketing solutions encompass consulting and management for different online marketing strategies, including search engine optimization (SEO), pay-per-click (PPC) advertising, Amazon store enhancement, copywriting, conversion rate optimization (CRO), and more. Additionally, we specialize in delivering professional web design and development services tailored for both eCommerce and B2B enterprises. Choose any digital marketing agency and a partner you can rely on.",
+        sidePara: [
+            "<strong class='font-bold'>Introducing Our Team of Digital Marketing Specialists</strong> Possessing a website is only the beginning. If search engines overlook it, it does little to drive your business forward. At LegiitPro, we elevate your online presence to the next level — encompassing web design, content creation, keyword strategy, social media engagement, and beyond. Collaborate with us to maximize your marketing investment returns.",
+            "<span class='font-bold'>Why Choose Us? </span><br>The LegiitPro Edge We Deliver Proven Results Engaging with a digital marketing service that doesn't yield the desired outcomes is futile. Avoid wasting resources on ineffective strategies. LegiitPro invests time in understanding your business objectives and crafts a bespoke plan to meet these targets effectively.",
+            "Our Integrity and Ethics At LegiitPro, we uphold the principles of honesty, integrity, and respect towards our clients. We avoid selling unnecessary services or adopting a generic approach for all clients. We focus on achieving superior rankings, driving traffic and conversions, and enhancing your return on investment (ROI).",
+            "Digital Marketing Mastery Partnering with a digital marketing firm that truly understands the domain is crucial. Unfortunately, many fail to deliver impactful results. Our methodologies are tried and tested, ensuring that many of our clients recoup the cost of their website in the first month through leads generated from our digital marketing and SEO initiatives.",
+            "Client-First Approach While many marketing firms claim to prioritize customers, few genuinely implement this ethos. LegiitPro stands apart. We commit to our clients by being punctual, keeping promises, and conducting ourselves with politeness, honesty, and respect. We consistently go the extra mile for our clients.",
+        ],
+        imgUrl: "/category-page/smm-1.svg",
+
+    },
+    //DoubleTitleRightImgSection
+    {
+        interface: "DoubleTitleRightImgSection",
+        headline:"Our Expertise in Digital Marketing",
+        article :[
+            {
+                title:" SEARCH ENGINE OPTIMIZATION",
+                description: "SEO We employ meticulous keyword research and white hat SEO practices to secure high rankings in major search engines.",
+            },
+            {
+                title:"WEB DESIGN & DEVELOPMENT",
+                description: "In a world with millions of websites, we ensure yours stands out, reflects your brand positively, and aids in your organization's growth.",
+            },
+            {
+                title:"SOCIAL MEDIA MARKETING ",
+                description: "Maintaining a connection with your audience via social media marketing is essential. Whether working independently or alongside you, we keep your social community engaged.",
+            },
+            {
+                title:"PAY PER CLICK (PPC) ",
+                description: "PPC For immediate visibility, LegiitPro's PPC campaigns ensure your investment yields the best results.",
+            },
+            {
+                title:"VIDEO PRODUCTION ",
+                description: "Video is a compelling way to convey your message. Engage your audience by narrating your story and sharing your mission through video",
+            },
+            {
+                title:"CONTENT WRITING ",
+                description: "Our SEO-savvy content writers produce marketing copy that is both engaging and designed to drive your business goals",
+            },
+            {
+                title:"REPUTATION MANAGEMENT ",
+                description: "Your online reputation is crucial. Our specialists work to protect and improve your online image for lasting benefits.",
+            },
+            {
+                title:"CONVERSION OPTIMIZATION",
+                description: "Boost your website's conversion rate. Our experts apply the latest techniques to increase the conversion of passive visitors to active users.",
+            },
+            {
+                title:"AMAZON MARKETING",
+                description: "Standing out on Amazon is challenging due to intense competition. We help your products get noticed in this vast marketplace.",
+            },
+    
+        ]
+    },
     {
         interface: "RightSideImgSection",
         imgURL:"./home/small-business-marketing-consulting.svg",
@@ -94,40 +155,73 @@ export const home_page_data = [
     },
     {
         interface: "DyParagraphs",
-        title:"Crafting an Effective Marketing Campaign <br> Step-by-Step Guide",
-        description: "Understanding the pivotal role played by marketing consultants for small businesses, highlighting their expertise in crafting tailored strategies.",
+        title:"Choosing an Internet Marketing Agency",
+        description: "Before you embark on your internet marketing journey, finding the right partner is crucial. Consider factors like the agency's track record, expertise, and understanding of your business goals. An adept internet marketing agency can be a catalyst for growth, steering your digital strategy towards measurable success.",
          
     },
+    //ThriveServices
     {
-        interface: "DoubleTitleRightImgSection",
-        article :[
+        interface: "ThriveServices",
+        title:"The Comprehensive Guide to Internet Marketing in 2024",
+        subTitle:"",
+        descriptions : ["Welcome to the digital age, where internet marketing is a cornerstone for any successful business strategy. In this comprehensive guide, we'll dive deep into the essentials of internet marketing in 2024, ensuring you're equipped with the knowledge to thrive in the modern digital landscape. From choosing the right agency to mastering SEO and embracing the latest social media trends, we've got you covered. Let's embark on this digital journey together! "],
+        services: [
             {
-                title:"Digital Marketing Packages for Small Business",
-                description: "Explore the intricacies of digital marketing packages for small businesses, unraveling the elements that contribute to a robust online presence.",
+                service_title: "Benefits of Hiring an Internet Marketing Agency",
+                service_description: "Leveraging the expertise of a specialized agency brings a host of advantages. From crafting bespoke strategies to optimizing your marketing spend for the best ROI, the right agency can elevate your brand to new heights, ensuring you stay ahead in the competitive digital arena.",
+
             },
             {
-                title:"Influencer Marketing Unleashed<br>Amplify Your Reach",
-                description: "Discover the power of influencers and the significance of choosing the best influencer marketing platform for small businesses. Unleash strategies to amplify your brand's reach through effective partnerships.",
+                 
+                service_title: "Internet Marketing Strategies for Small Businesses", 
+                service_description: "Small businesses require tailored marketing strategies that align with their unique needs and constraints. By examining successful case studies, we can uncover the power of personalized marketing approaches in driving significant growth for small enterprises.",
+
+            },
+            { 
+                service_title: "SEO Tips for Online Businesses", 
+                service_description: "SEO remains a critical pillar of Internet marketing. From the basics to more advanced techniques, understanding how to leverage SEO can give your business a competitive edge and ensure you stand out in the crowded online marketplace.",
+
             },
             {
-                title:"Social Media Marketing Packages<br> Crafting Engaging Narratives",
-                description: "Unlock the potential of social media with tailored social media marketing packages for small businesses. Dive into strategies to make your brand stand out in the crowded digital landscape.",
+                
+                service_title: "Content Marketing Strategies for Growth", 
+                service_description: "Content is king in the digital world. Developing a robust content marketing plan and exploring various content types can boost audience engagement and foster long-term relationships with your target market.",
+
             },
-            {
-                title:"Outsourcing Marketing<br>A Strategic Move for Small Businesses",
-                description: "Delve into the advantages of outsourcing marketing services, understanding how this strategic move can streamline operations and enhance overall efficiency.",
+            { 
+                service_title: "Social Media Marketing Tips for 2024", 
+                service_description: "As social media continues to evolve, staying abreast of the latest trends and platform-specific strategies is critical to effectively engaging with your audience. In 2024, personalization and authentic engagement will reign supreme.",
+
             },
-            {
-                title:"Navigating the Digital Landscape<br> Apps & Agencies for Success",
-                description: "Explore the digital landscape with insights into the best apps for small business marketing and the role of a digital marketing agency for small businesses in the UK.",
+            { 
+                service_title: "PPC Advertising Guide for Beginners", 
+                service_description: "PPC advertising offers a direct route to increasing visibility and driving targeted traffic. Mastering the basics and crafting effective campaigns can yield substantial returns, even for those new to the space.",
+
             },
-            {
-                title:"Diverse Marketing Strategies<br>Tailoring Approaches for Success",
-                description: "From account-based marketing for small businesses to the power of mobile marketing, explore a diverse range of strategies tailored for small businesses.",
-            },
-    
+            { 
+                service_title: "Email Marketing Best Practices for Startups", 
+                service_description: "Email marketing offers a direct line to your audience. Designing impactful campaigns and continuously optimizing for engagement can significantly enhance your startup's marketing efforts. ",
+
+            }, 
+            { 
+                service_title: "Digital Marketing Trends in 2024", 
+                service_description: "The digital marketing landscape is constantly changing. Staying ahead of emerging trends and adapting to shifts in consumer behavior are crucial for maintaining relevance and achieving sustained growth.",
+
+            }, 
+            { 
+                service_title: "Affordable Internet Marketing Services for SMEs", 
+                service_description: "Small and medium-sized enterprises (SMEs) often operate on tight marketing budgets. Fortunately, numerous budget-friendly tools and platforms can help maximize your marketing ROI without breaking the bank.",
+
+            }, 
+            { 
+                service_title: "Local SEO Strategies for Local Businesses", 
+                service_description: "For local businesses, visibility in local search results is paramount. Implementing targeted local SEO strategies can improve your visibility, drawing in more customers from your community. ",
+
+            }, 
+             
         ]
     },
+    //HomeFaq
     {
         interface: "HomeFaq",
         title :"Want to Learn More ?",
@@ -141,30 +235,38 @@ export const home_page_data = [
                 
             }, 
             {
+                id: "200",
+                question: "What is the best digital marketing company in USA? ",
+                answer: "Some top digital marketing companies in the USA include Straight North, Neil Patel Digital, and Legiitpro among others. It's essential to research and evaluate companies based on factors such as expertise, client reviews, portfolio, industry recognition, and alignment with your business goals and budget. Each company has its strengths and specialties, so it's crucial to find the one that best suits your requirements."
+                
+            }, 
+            {
+                id: "300",
+                question: "What is an Internet marketing agency? ",
+                answer: "An Internet marketing agency is a company that provides services to help businesses market their products or services online. This can include various strategies such as search engine optimization (SEO), social media marketing, pay-per-click advertising, email marketing, and more."
+                
+            }, 
+            {
+                id: "320",
+                question: "Is digital advertising cheap? ",
+                answer: "Digital advertising costs vary depending on the platform, audience targeting, and ad format. It can be cost-effective compared to traditional advertising but requires strategic planning to optimize spending."
+                
+            }, 
+            {
                 id: "4",
                 question: "How can I improve my small business?",
                 answer: "Improving your small business involves strategic marketing, enhancing customer experience, and adapting to market trends. A marketing consultant can offer valuable insights."
-                
             },
             {
                 id: "5",
                 question: "Who needs a marketing consultant?",
                 answer: "Any small business looking to enhance its marketing strategies, improve brand visibility, and boost overall growth can benefit from the expertise of a marketing consultant."
-                
             },
             {
                 id: "6",
                 question: "How do I start my own marketing consultancy?",
                 answer: "Starting your marketing consultancy involves gaining expertise, building a solid network, and establishing a unique value proposition. It's crucial to stay updated on industry trends."
-                
             },
-            {
-                id: "7",
-                question: "What is the definition of a small business?",
-                answer: "A small business is typically characterized by its size, with factors like revenue, number of employees, and market share considered. Definitions may vary by region and industry."
-                
-            },
-               
         ]
     },
 

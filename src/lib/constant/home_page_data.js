@@ -75,6 +75,7 @@ export const home_page_data = [
         description: "Small business marketing consultants are the cornerstone of strategic growth. Learn how a small business marketing consultant can guide you in navigating complex marketing strategies",
         imgAlt:"alter tag",
     },
+    //DoubleTitleRightImgSection
     {
         interface: "DoubleTitleRightImgSection",
         imgURL:"./home/small-business-marketing-consulting.svg",
@@ -108,6 +109,7 @@ export const home_page_data = [
     
         ]
     },
+    //ContentSliderSection
     {
         interface: "ContentSliderSection",
         title:"The Role of Small Business Marketing Consultants",

@@ -232,89 +232,63 @@ export const topic_pages_data = [
         title:"Our SEO Services",
         subTitle:"Increase Your Search Rankings and Get Discovered More Online",
         services: [
-            {
-                icon : "",
-                service_title: "Keyword Research & Strategy",
-                service_url:"/",
+            { 
+                service_title: "Keyword Research & Strategy", 
                 service_description: "Thrive is an SEO agency that understands your niche and can boost your ranking for specific search terms. Your dedicated SEO specialist will review the keywords your website is currently ranking for, take your keyword wishlist and conduct additional keyword research to build a list that makes the most sense for your website and the competitive landscape.",
 
             },
             {
-                icon : "",
-                service_title: "Link Building",
-                service_url:"/",
+                service_title: "Link Building", 
                 service_description: "Backlinks are a huge component of ranking higher in search results, but not just any link! That's why you should partner with a search engine optimization company like Thrive that has a dedicated link building team and has connections with many high-quality and relevant websites.",
-
             },
-            {
-                icon : "",
-                service_title: "Technical SEO",
-                service_url:"/",
+            { 
+                service_title: "Technical SEO", 
                 service_description: "Rankings can improve with optimizations on your website's back-end, such as improving page speed. By fixing these errors, it makes it easier on search engines when they crawl your website. And when you make search engines happy, your rankings can make you even happier!",
 
             },
-            {
-                icon : "",
+            { 
                 service_title: "Local SEO",
-                service_url:"/",
                 service_description: "Statistics show that 64 percent of customers search for local businesses online. Improve your company's local SEO rankings with Google Business Profile or Google My Business (GMB) optimization and attract high-intent customers. We optimize your GMB profile and manage your online reputation to grow your local following",
 
             },
             {
-                icon : "",
                 service_title: "On-Page SEO",
-                service_url:"/",
                 service_description: "Enhance your online visibility and earn high-quality traffic. At Thrive, we ensure our SEO services are aligned with search engines best practices to boost your website's trustworthiness. Our SEO experts publish unique, value-rich content, optimize your headlines and HTML tags and utilize high-resolution images",
 
             },
-            {
-                icon : "",
+            { 
                 service_title: "Off-Page SEO",
-                service_url:"/",
                 service_description: "Off-page optimization is crucial in establishing brand credibility and increasing online exposure. Partner with our SEO company and let us help you demonstrate your industry expertise. We leverage social media marketing, link building and influencer marketing to generate qualified links and positive ratings.",
 
             },
-            {
-                icon : "",
-                service_title: "Franchise SEO",
-                service_url:"/",
+            { 
+                service_title: "Franchise SEO", 
                 service_description: "Supercharge your franchise marketing efforts with Thrive's SEO services for multiple-location businesses. We publish geo-specific content, leverage Nextdoor advertising and develop custom web designs. Thrive is the SEO firm that'll maximize your brand impact and increase your leads and sales",
 
             },
-            {
-                icon : "",
-                service_title: "Shopify SEO",
-                service_url:"/",
+            { 
+                service_title: "Shopify SEO", 
                 service_description: "Strengthen your online store's digital presence and expand your market reach. Our SEO experts offer 24/7 customer support for your urgent needs and concerns. We provide a Shopify SEO audit, Shopify web design, paid advertising and review response publishing services to optimize your customer's Shopify experience",
 
             },
-            {
-                icon : "",
-                service_title: "Amazon SEO",
-                service_url:"/",
+            { 
+                service_title: "Amazon SEO", 
                 service_description: "Differentiate your brand on Amazon and get found by millions of customers who are ready to convert. We optimize your Amazon product listings, maximize ad placements and implement goal-oriented Amazon marketing services (AMS) SEO solutions to promote your products to the right customers.",
 
             },
-            {
-                icon : "",
-                service_title: "eCommerce SEO",
-                service_url:"/",
+            { 
+                service_title: "eCommerce SEO", 
                 service_description: "Provide your customers with a 24/7 convenient shopping experience and increase your client retention rate. We launch targeted email marketing campaigns and optimize your site for mobile and voice search to create personalized brand experiences. We also offer Walmart Marketplace integrations to increase your sales volume",
 
             },
-            {
-                icon : "",
-                service_title: "Content Writing",
-                service_url:"/",
+            { 
+                service_title: "Content Writing", 
                 service_description: "We have a team of writers that produce SEO-friendly content for your website, whether that’s creating share-worthy blog posts or optimizing pre-existing service and product pages with more content. Search engines love a website that adds new content on a regular basis. Choose our SEO firm to support your content needs and bolster your search marketing.",
 
             },
-            {
-                icon : "",
-                service_title: "Conversion Rate Optimization (CRO)",
-                service_url:"/",
+            { 
+                service_title: "Conversion Rate Optimization (CRO)", 
                 service_description: "Increase your customer's lifetime value and grow your online revenue with Thrive's CRO services. Our SEO marketing company integrates pay-per-click marketing with our SEO services to maximize your conversion opportunities. We perform website analyses, landing page optimization and A/B split testing.",
-
             } 
         ]
         },

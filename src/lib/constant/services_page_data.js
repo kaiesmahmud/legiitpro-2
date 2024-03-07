@@ -1,12 +1,14 @@
 export const service_page_data = {
     url: "/b2b-marketing-agency",
     frontend:[
+        //DyServiceHeroSection
         {
             interface: "DyServiceHeroSection",
             title :"Explore Digital Marketing ",
             description: "We don't just show you keyword rankings, we help you get new ones! Even better, if your business experiences a rankings drop on Google, we'll let you know what page on your website was affected and what changed so you can fix it.",
             bgImgCss: "topicsPage-digital-bg"
         },
+        //TypesOfAgencies
         {
             interface: "TypesOfAgencies",
             firstPart:{
@@ -91,7 +93,114 @@ export const service_page_data = {
                 ],
             }
         },
-         
+         //ThriveTopicIntro2
+        {
+            interface: "ThriveTopicIntro2",
+            title: "How to Choose a B2B Marketing Agency: An in-depth Overview", 
+            subTitle: " LegiitPro is your go-to digital marketing agency, offering SEO, PPC, web design, and more. <br>Contact us today to elevate your small business marketing consultant & internet advertising",
+            firstPara: "B2B marketing has ascended to unprecedented importance in today's rapidly evolving digital landscape. This guide aims to demystify selecting the perfect B2B marketing agency for your business, an ally capable of navigating the complexities of the digital age with aplomb.",
+            sidePara: [
+                "<h2 class='font-bold text-xl md:text-2xl'>Understanding B2B Marketing</h2>",
+                "<h3 class='font-bold'>The Evolution of B2B Marketing Strategies</h3><br>Once upon a time, B2B marketing was straightforward. Fast-forward to today, and the scene has transformed dramatically, embracing digital innovation. This evolution is a tale of technological advancement and a beacon for small businesses striving to carve out their niche. ",
+                "<h3 class='font-bold'>B2B Marketing Strategies for Small Businesses</h3><br>In David versus Goliath, cost-effective strategies are the slingshot for small businesses. Digital platforms offer a fertile ground for growth, leveling the playing field in a way previously unimaginable.",
+                "<h3 class='font-bold'>Top B2B Marketing Trends in 2024</h3><br>As we peer into 2024, two trends dominate the horizon: the seamless integration of digital and social media and the rise of personalization and AI-driven campaigns. These trends are not merely passing fancies but the pillars of modern B2B marketing.",
+                 
+            ],
+            imgUrl: "/category-page/smm-1.svg",
+
+        },
+        //ThriveServices
+        {
+            interface: "ThriveServices",
+            title:" The Benefits of Hiring a B2B Marketing Firm",
+            subTitle:"",
+            descriptions : [ ],
+            services: [
+                {
+                    service_title:"Expertise and Specialization",
+                    service_description: "Imagine having a sherpa to guide you through the treacherous terrain of digital marketing. A B2B marketing firm brings expertise, specialized tools, and technologies to chart a path to success.",
+                },
+                {
+                    service_title:"Effective B2B Content Marketing Strategies",
+                    service_description: "Content is not king; it's the emperor. Crafting valuable content for your target audience lays the groundwork for successful lead generation, making it an indispensable tool in your arsenal.",
+                },
+                {
+                    service_title:"B2B SEO Techniques for Higher Visibility",
+                    service_description: "In the vast expanse of the digital universe, visibility is the North Star. Keyword optimization and a robust online presence ensure that your business is seen and heard.",
+                },
+                
+            ]
+        },
+         //ThriveTopicIntro2
+         {
+            interface: "ThriveTopicIntro2",
+            title: "Selecting the Right B2B Marketing Agency", 
+            subTitle: " ",
+            firstPara: " ",
+            sidePara: [ 
+                "<h3 class='font-bold'>Services and Specialties</h3><br>The right agency is not a jack-of-all-trades but a master of the game, offering services like digital marketing, SEO, and content creation tailored to your needs.",
+                "<h3 class='font-bold'>B2B Marketing Tools and Software</h3><br>In the age of efficiency, advanced tools and software are not just excellent; they're essential. They streamline campaign management and offer insights that are gold dust for analytics.",
+                "<h3 class='font-bold'>B2B Marketing Case Studies</h3><br>Success stories are the proof in the pudding. Learning from an agency's past campaigns offers a glimpse into what your future could look like.",
+                 
+            ],
+            imgUrl: "/category-page/smm-1.svg",
+
+        },
+        //ThriveServices
+        {
+            interface: "ThriveServices",
+            title:" Implementing B2B Marketing Strategies",
+            subTitle:"",
+            descriptions : [ ],
+            services: [
+                {
+                    service_title:"B2B Digital Marketing Best Practices",
+                    service_description: "Online marketing tactics and B2B social media strategies are the bread and butter of digital marketing, offering a blueprint for success in the digital realm.",
+                },
+                {
+                    service_title:"Lead Generation for B2B",
+                    service_description: "The art of lead generation lies in nurturing. A digital agency is pivotal in turning leads into gold and exploring every opportunity.",
+                },
+                {
+                    service_title:"B2B PPC Campaigns",
+                    service_description: "Pay-per-click strategies are the sharpshooters of the marketing world, offering a precise way to measure ROI and effectiveness.",
+                },
+                
+            ]
+        },
+        //RightSideImgSection
+        {
+            interface: "RightSideImgSection",
+            imgURL:"./home/small-business-marketing-consulting.svg",
+            title :"B2B Marketing Planning Guide",
+            description: "Crafting a comprehensive B2B marketing plan is akin to drawing a world map. It requires understanding trends, best practices, and the terrain of your specific industry.",
+             
+            imgAlt:"alter tag sohel",
+        },
+        //DoubleTitleRightImgSection
+    {
+        interface: "DoubleTitleRightImgSection",
+        headline:"Measuring Success and ROI",
+        article :[
+            {
+                title:"How to Measure B2B Campaign Success",
+                description: "Ultimately, success is reaching the destination and understanding the journey. Key performance indicators and data analysis offer a compass to navigate this journey.",
+            },
+            {
+                title:"Crafting B2B Marketing Funnels",
+                description: "The customer journey is a less traveled road, requiring funnels that attract and convert. Designing these funnels is both an art and a science.",
+            },
+            {
+                title:"B2B Marketing for Tech Startups",
+                description: "Tech startups operate in a unique ecosystem. Tailoring strategies to this market offer not just challenges but unparalleled growth opportunities.",
+            },
+            {
+                title:"B2B Inbound Marketing Techniques",
+                description: "Attract, engage, and delight – the mantra of inbound marketing. Content and SEO are the twin engines driving this approach, ensuring that your target audience finds any port in a storm and your welcoming harbor.",
+            }, 
+        ]
+    },
+        //DyFaqProfile
         {
             interface: "DyFaqProfile",
             faqSection:{
@@ -126,6 +235,18 @@ export const service_page_data = {
                         id: "5",
                         question: "Why is market research essential for B2B businesses?",
                         answer: "Market research provides valuable insights into industry trends, customer behaviour, and competitive landscapes, aiding strategic decision-making "
+                        
+                    }, 
+                    {
+                        id: "6",
+                        question: "What do B2B agencies do? ",
+                        answer: "In order to help businesses connect and engage with other businesses with the aim to drive growth and accomplish their goals, B2B (business-to-business) agencies create and implement marketing strategies tailored for these types of interactions."
+                        
+                    }, 
+                    {
+                        id: "7",
+                        question: "What is B2B strategy?",
+                        answer: 'The term "business-to-business" (B2B) strategy describes the strategy of action that companies take to promote their goods and services to other companies instead of to individual customers.'
                         
                     }, 
                 ],

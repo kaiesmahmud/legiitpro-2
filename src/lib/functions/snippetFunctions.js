@@ -20,7 +20,7 @@ export function generateSnippetStructuredData({ title, description, url, image }
             "name": "Legiitpro",
             "logo": {
                 "@type": "ImageObject",
-                "url": "https://www.legiitpro.com/logo.webp"
+                "url": "https://legiitpro-2.vercel.app/logo.webp"
             }
         }
     };

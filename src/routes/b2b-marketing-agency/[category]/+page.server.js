@@ -9,14 +9,16 @@ export const load= async(events)=>{
     let backendData = category_page_data.filter(i=> i.url === url.pathname)[0]
     // console.log(backendData)
     if(backendData){
-        let {pageName , url, frontend,subCategories} = backendData
+        let {pageName , url, frontend,subCategories,metaTags,snippet} = backendData
         // console.log(frontend)
         // console.log(categories)
         return{
             pageName:pageName , 
             url:url,
             frontend:frontend,
-            subCategories:subCategories
+            subCategories:subCategories,
+            metaTags:metaTags,
+            snippet:snippet,
             }
     }else{
         console.log("Not Found Data")

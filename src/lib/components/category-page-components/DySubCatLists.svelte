@@ -15,7 +15,7 @@
         </div> 
         <div class="w-full lg:w-[80%] flex flex-wrap gap-5  items-center justify-center p-5">
             {#each subCategories as {subCatURL,subCatName}}
-                <a href={subCatURL} class=" group py-2 px-3 text-sm font-bold capitalize rounded-full shadow-lg text-black/80 hover:text-black hover:bg-white/50 bg-white/40 flex gap-2 items-center">
+                <a href={subCatURL} class=" group py-2 px-3 text-lg font-bold capitalize rounded-full shadow-lg text-black/80 hover:text-black hover:bg-white/50 bg-white/40 flex gap-2 items-center">
                 <p>
                     {subCatName} 
                 </p>

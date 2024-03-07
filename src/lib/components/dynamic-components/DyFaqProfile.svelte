@@ -114,7 +114,7 @@
                         </button>
                         <p 
                         class={`${showFaq === id? " block ":" hidden "}  ml-5 md:ml-10 p-5 bg-black/10 rounded-md text-sm lg:text-base font-light text-black/90`}
-                        >{answer}</p>
+                        >{@html answer}</p>
                      </div>
                 {/each}
             </div>

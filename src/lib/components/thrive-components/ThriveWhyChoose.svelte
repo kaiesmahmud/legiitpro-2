@@ -1,7 +1,7 @@
 <script>
     //ThriveWhyChoose
     export let section 
-    const {title , subTitle ,descriptions, services} = section 
+    const {title , subTitle ,descriptions, services , bottomDescriptions} = section 
     
     </script>
     <div class="flex flex-col items-center justify-center bg-gradient-to-tr from-indigo-900 to-sky-900  p-5 my-5">
@@ -34,6 +34,16 @@
                         </div>
                      </div>
                 {/each}
+            </div>
+            <div class="flex items-center justify-center ">
+                {#if bottomDescriptions}
+                     <div class="text-white w-full md:w-[80%]   text-center">
+                        {#each bottomDescriptions as paragraph }
+                            <p class="py-3">{@html paragraph}</p>
+                        {/each}
+                     </div>
+                {/if}
+
             </div>
         </section>
     </div>

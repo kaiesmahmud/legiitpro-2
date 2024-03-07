@@ -68,6 +68,7 @@ export const home_page_data = [
          
         imgAlt:"alter tag sohel",
     },
+    //LeftSideImgSection
     {
         interface: "LeftSideImgSection",
         imgURL:"./home/guiding-lights-success.svg",

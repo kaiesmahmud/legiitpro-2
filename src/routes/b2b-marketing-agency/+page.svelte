@@ -27,7 +27,7 @@
     const pageTitle = 'LegiitPro: Expert B2B Marketing Agency | Elevate Your Business Today';
     const pageDescription = 'Elevate your business with LegiitPro, a leading B2B marketing agency offering SEO, PPC, web design, and more. Contact us to boost your small business marketing efforts!';
     const pageUrl = 'https://www.legiitpro.com/b2b-marketing-agency';
-    const pageImage = 'https://www.legiitpro.com/logo.webp';
+    const pageImage = 'https://legiitpro-2.vercel.app/logo.webp';
     
     // Generate meta tags
     const metaTags = generateMetaTags({ title: pageTitle, description: pageDescription, url: pageUrl, image: pageImage });

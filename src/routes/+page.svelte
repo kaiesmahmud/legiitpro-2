@@ -24,7 +24,7 @@
     const pageTitle = 'LegiitPro: Trusted Digital Marketing Agency for Small Businesses';
     const pageDescription = 'Elevate your small business with LegiitPro, a trusted digital marketing agency since 2023. We specialize in SEO, PPC, web design, and more. Contact us to boost your online presence today!';
     const pageUrl = 'https://www.legiitpro.com/';
-    const pageImage = 'https://www.legiitpro.com/logo.webp';
+    const pageImage = 'https://legiitpro-2.vercel.app/logo.webp';
 
     // Generate meta tags
     const metaTags = generateMetaTags({ title: pageTitle, description: pageDescription, url: pageUrl, image: pageImage });

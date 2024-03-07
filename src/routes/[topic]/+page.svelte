@@ -1,13 +1,15 @@
 <script>
-	import DoubleTitleRightImgSection from './../../lib/components/home-page-components/DoubleTitleRightImgSection.svelte';
-    export let data ;
-    
+	import { generateSnippetStructuredData } from '$lib/functions/snippetFunctions';
+	import { generateMetaTags } from '$lib/functions/metaTags';
+     export let data ;
+     
 	import DyHeroSection from "../../lib/components/dynamic-components/DyHeroSection.svelte";
 	import DyLeftImgSection from "../../lib/components/dynamic-components/DyLeftImgSection.svelte";
 	import DyParagraphs from "../../lib/components/dynamic-components/DyParagraphs.svelte";
 	import DyRightImgSection from "../../lib/components/dynamic-components/DyRightImgSection.svelte";
 	import DyMultiplePara from '../../lib/components/dynamic-components/DyMultiplePara.svelte';
 	import DyFaqProfile from '../../lib/components/dynamic-components/DyFaqProfile.svelte';
+	import DoubleTitleRightImgSection from './../../lib/components/home-page-components/DoubleTitleRightImgSection.svelte';
 	
      import ThriveHeroSection from '../../lib/components/thrive-components/ThriveHeroSection.svelte';
 	import ThriveTopicIntro from '../../lib/components/thrive-components/ThriveTopicIntro.svelte';
@@ -21,11 +23,25 @@
 	import ThriveTitleParagraphs from '../../lib/components/thrive-components/ThriveTitleParagraphs.svelte';
 	import ThriveTitleLists from '../../lib/components/thrive-components/ThriveTitleLists.svelte';
 	import ThriveWhyChoose from '../../lib/components/thrive-components/ThriveWhyChoose.svelte';
-    import TopicHeroSection from '../../lib/components/dynamic-components/TopicHeroSection.svelte';
-
+     import TopicHeroSection from '../../lib/components/dynamic-components/TopicHeroSection.svelte';
+     import LeftSideImgSection from '../../lib/components/home-page-components/LeftSideImgSection.svelte';
+     const {metaTags,snippet,url} = data ;
+      
     
 </script>
-
+<svelte:head>
+     {#if metaTags}
+	{@html generateMetaTags({title: metaTags?.title, description:metaTags.description, url:url, image:metaTags.image})}
+     {/if}
+     {#if snippet}
+          {@html generateSnippetStructuredData({
+               title: snippet?.title,
+               description: snippet?.description,
+               url: 'https://www.legiitpro.com'+url,
+               image: snippet?.pageImgUrl
+     })}
+     {/if}
+</svelte:head>
 {#if data.categories}
      {#each data.frontend as section}
          {#if section.interface && (section.interface === "DyHeroSection")}
@@ -87,6 +103,9 @@
           {/if}
           {#if section.interface === "ThriveWhyChoose"}
                <ThriveWhyChoose {section}/>
+          {/if}
+          {#if section.interface === "LeftSideImgSection"}
+               <LeftSideImgSection {section}/>
           {/if}
      {/each}
 {/if}

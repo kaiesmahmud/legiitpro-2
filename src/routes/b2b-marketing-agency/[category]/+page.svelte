@@ -1,4 +1,6 @@
 <script>
+	import { generateSnippetStructuredData } from '$lib/functions/snippetFunctions';
+	import { generateMetaTags } from '$lib/functions/metaTags';
 	import DyFaqProfile from './../../../lib/components/dynamic-components/DyFaqProfile.svelte';
 	import DyFAQ from './../../../lib/components/dynamic-components/DyFAQ.svelte';
 	import DyCategoryHeroSection from '../../../lib/components/category-page-components/DyCategoryHeroSection.svelte';
@@ -22,8 +24,21 @@
 	import ThriveWhyChoose from '../../../lib/components/thrive-components/ThriveWhyChoose.svelte';
 
     export let data 
-    const {frontend, subCategories } = data
+    const {frontend, subCategories,metaTags,snippet,url } = data
 </script>
+<svelte:head>
+     {#if metaTags}
+	{@html generateMetaTags({title: metaTags?.title, description:metaTags.description, url:url, image:metaTags.image})}
+     {/if}
+     {#if snippet}
+          {@html generateSnippetStructuredData({
+               title: snippet?.title,
+               description: snippet?.description,
+               url: 'https://www.legiitpro.com'+url,
+               image: snippet?.pageImgUrl
+     })}
+     {/if}
+</svelte:head>
 <main class="w-screen overflow-hidden lg:w-full">
     {#each frontend as section}
         {#if section.interface === "DyCategoryHeroSection"}

@@ -9,12 +9,15 @@ export const load= async(events)=>{
     let backendData = topic_pages_data.filter(i=> i.url === url.pathname)[0]
     // console.log(backendData)
     if(backendData){
-        let {frontend , categories} = backendData
+        let {frontend , categories,metaTags,snippet,url} = backendData
         // console.log(frontend)
         // console.log(categories)
         return{
              frontend:frontend , 
-             categories:categories
+             categories:categories,
+             metaTags:metaTags,
+             snippet:snippet,
+             url:url,
             }
     }else{
         console.log("Not Found Data")

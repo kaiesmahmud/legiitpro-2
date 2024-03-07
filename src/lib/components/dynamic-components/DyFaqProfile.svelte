@@ -23,7 +23,14 @@
 
     const {   personsDetails} = profileSection
 
+
+    import {generateFaqSchema} from "$lib/functions/schemaGenerator"
+
+
 </script>
+<svelte:head>
+    {@html generateFaqSchema(faq)}
+</svelte:head>
 <div class="flex flex-col items-center justify-center min-h-screen ">
     <div class=" rounded-lg p-3   flex flex-col  pt-10">
         <div class="flex flex-col w-full items-center">

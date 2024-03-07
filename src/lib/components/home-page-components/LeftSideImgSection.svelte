@@ -9,7 +9,9 @@
     <div class="p-5 w-full lg:w-[80%]  grid grid-cols-1 md:grid-cols-2 gap-3 items-center">
         <div class="order-2 flex flex-col  justify-center p-5 w-full">
             <h2 class="font-bold text-2xl md:text-4xl py-5 capitalize">{ @html title}</h2>
-            <p class=" text-justify md:w-[80%]">{ @html description}</p>
+            {#if description}
+            <p class=" text-justify md:w-[80%]">{@html description}</p>
+            {/if}
             {#if lists}
             <div class="py-5 flex flex-col gap-2 text-white/90">
                 {#each lists as i}

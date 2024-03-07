@@ -16,7 +16,7 @@
                 {/each}
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 lg:p-5">
-                {#each services as {icon,service_description,service_title,service_url}}
+                {#each services as {service_description,service_title}}
                      <div class="flex flex-col lg:flex-row gap-3 p-5 bg-black/30  rounded-xl shadow-lg">
                         <div class="text-3xl lg:text-5xl text-cyan-400">
                             <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 32 32" {...$$props}>
@@ -30,7 +30,7 @@
                         </div>
                         <div>
                             <h5 class="text-2xl font-bold text-cyan-500">{service_title}</h5>
-                            <p class="text-white/80 py-3 text-sm text-justify">{@html service_description}</p>
+                            <p class="text-white/80 py-3 text-justify">{@html service_description}</p>
                         </div>
                      </div>
                 {/each}

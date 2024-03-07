@@ -15,7 +15,7 @@
  </script>
  <div class=" relative pt-10 flex flex-col items-center text-center text-sm   text-black/90 font-light overflow-hidden bg-slate-100">
     <div class="p-1 w-full">
-        <p class=" capitalize pb-5">It always easier together</p>
+        <p class=" capitalize pb-5">legiitpro small business Marketing consultant and Internet Marketing Agency is a full-service digital marketing agency. Attract, Impress, and Convert more leads online and get results with legiitpro.</p>
         <p class="  logo_gradient lowercase text-2xl md:text-4xl font-bold">info.legiitpro@gmail.com</p>
         <div class="flex gap-2 md:gap-5 flex-wrap items-center justify-center my-5 p-1">
             {#each navList as {link,name}}

@@ -152,7 +152,7 @@ export const topic_pages_data = [
         {
             interface: "DyHeroSection",
             title :"Mastering Internal Linking & International SEO Strategies",
-            description: "In the vast landscape of Search Engine Optimization (SEO), understanding the significance of internal linking and crafting effective international strategies is crucial.  Let's unravel the mysteries behind these essential elements of online visibility ",
+            description: "Hey there! If you want to expand your business internationally, mastering global SEO in 2024 is crucial. This guide is packed with strategies, especially for small businesses, on implementing international SEO without breaking the bank. Let's dive into the dynamic landscape of global SEO this year and set your business up for worldwide success.",
             bgImgCss: "topicsPage-digital-bg",
             css: " bg-gradient-to-r from-teal-100 via-teal-300 to-teal-500 ",
         }, 
@@ -160,15 +160,15 @@ export const topic_pages_data = [
         {
             interface: "ThriveTopicIntro",
             title:"An SEO Marketing Company That Gets It",
-            description: "Let's face it. You know what you need but you just don't know how to get it. Our SEO specialists hear that over and over from SEO clients who contact Thrive Internet Marketing Agency.",
-            listTitle: "You're likely here because of one or more of the following reasons:",
+            description: "Let's be honest. Though you're aware of what you need, you're not sure how to obtain it. When SEO clients get in touch with Legiitpro Internet Marketing Agency, our SEO specialists frequently hear that from them. ",
+            listTitle: "One or more of the following factors are probably the reason you're here:",
             list: [
                 "Your website isn't being found online.",
                 "Your website traffic has diminished recently and you don't know why",
                 "Suddenly, your volume of incoming calls and leads has declined",
-                "You're starting a new website and want to ramp up new business quickly"
+                "You're launching a new website and wish to attract more customers right away."
             ],
-            lastDescription: "If any of these four pain points ring a bell, rest assured, you've come to the right SEO company. There's a reason why Thrive is currently serving hundreds of SEO clients and providing optimization solutions to answer Google's ever-changing algorithm",
+            lastDescription: "You've come to the right SEO firm if any of these four problems resonate with you. There's a reason why Legiitpro currently offers optimization services to hundreds of SEO clients in response to Google's constantly evolving algorithm.",
             imgUrl:"/seo-page/seo3.svg",
         },
         //ThriveBrandReviews
@@ -193,39 +193,39 @@ export const topic_pages_data = [
         ]
         },
         //ThriveClientSuccess
-        {
-            interface: "ThriveClientSuccess",
-            title: "Providing SEO Solutions to Solve Your Problems",
-            subTitle: "Our Passion is Growing Your Online Business ",
-            firstPara: "For more than 15 years, we've been providing SEO solutions for businesses wanting to expand their online presence, increase leads and grow their revenue. Our tried-and-true SEO techniques and practices have resulted in many success stories for clients. Here's a few recent examples:",
-            lastPara: "Are you on the first page of the search engine results pages (SERPs) for keywords that match your business or brand? If not, you're missing out on valuable leads. Search engine optimization isn't a fad and it's no longer an option to simply not think about it if you want to grow your business. It's an indispensable part of any plan to market products or services and bring in more qualified leads and sales",
-            clientProjects: [
-            {
-                imgUrl: "https://cdn-icggj.nitrocdn.com/AphBmykuaGyxZijWArNhxcCiPzVdYZGT/assets/images/optimized/rev-fadafbc/thriveagency.com/files/construction-company-image-1.png",
-                title:"CONSTRUCTION COMPANY",
-                url:"#",
-                leads:"+800%",
-                organic: "+126.5%",
-                quote:"Thrive has gone above and beyond and it's allowed me to focus on other aspects of business development. Thrive understands the intricate needs of what we want to accomplish."
-            },
-            {
-                imgUrl: "https://cdn-icggj.nitrocdn.com/AphBmykuaGyxZijWArNhxcCiPzVdYZGT/assets/images/optimized/rev-fadafbc/thriveagency.com/files/ecommerce-business-2.png",
-                title:"CONSTRUCTION COMPANY",
-                url:"#",
-                leads:"+130%",
-                organic: "+70%",
-                quote:"Thrive has gone above and beyond and it's allowed me to focus on other aspects of business development. Thrive understands the intricate needs of what we want to accomplish."
-            },
-            {
-                imgUrl: "https://cdn-icggj.nitrocdn.com/AphBmykuaGyxZijWArNhxcCiPzVdYZGT/assets/images/optimized/rev-fadafbc/thriveagency.com/files/hvac-service-company-2.png",
-                title:"CONSTRUCTION COMPANY",
-                url:"#",
-                leads:"+763%",
-                organic: "+349%",
-                quote:"Thrive has gone above and beyond and it's allowed me to focus on other aspects of business development. Thrive understands the intricate needs of what we want to accomplish."
-            },
-        ]
-        },
+        // {
+        //     interface: "ThriveClientSuccess",
+        //     title: "Providing SEO Solutions to Solve Your Problems",
+        //     subTitle: "Our Passion is Growing Your Online Business ",
+        //     firstPara: "For more than 15 years, we've been providing SEO solutions for businesses wanting to expand their online presence, increase leads and grow their revenue. Our tried-and-true SEO techniques and practices have resulted in many success stories for clients. Here's a few recent examples:",
+        //     lastPara: "Are you on the first page of the search engine results pages (SERPs) for keywords that match your business or brand? If not, you're missing out on valuable leads. Search engine optimization isn't a fad and it's no longer an option to simply not think about it if you want to grow your business. It's an indispensable part of any plan to market products or services and bring in more qualified leads and sales",
+        //     clientProjects: [
+        //     {
+        //         imgUrl: "https://cdn-icggj.nitrocdn.com/AphBmykuaGyxZijWArNhxcCiPzVdYZGT/assets/images/optimized/rev-fadafbc/thriveagency.com/files/construction-company-image-1.png",
+        //         title:"CONSTRUCTION COMPANY",
+        //         url:"#",
+        //         leads:"+800%",
+        //         organic: "+126.5%",
+        //         quote:"Thrive has gone above and beyond and it's allowed me to focus on other aspects of business development. Thrive understands the intricate needs of what we want to accomplish."
+        //     },
+        //     {
+        //         imgUrl: "https://cdn-icggj.nitrocdn.com/AphBmykuaGyxZijWArNhxcCiPzVdYZGT/assets/images/optimized/rev-fadafbc/thriveagency.com/files/ecommerce-business-2.png",
+        //         title:"CONSTRUCTION COMPANY",
+        //         url:"#",
+        //         leads:"+130%",
+        //         organic: "+70%",
+        //         quote:"Thrive has gone above and beyond and it's allowed me to focus on other aspects of business development. Thrive understands the intricate needs of what we want to accomplish."
+        //     },
+        //     {
+        //         imgUrl: "https://cdn-icggj.nitrocdn.com/AphBmykuaGyxZijWArNhxcCiPzVdYZGT/assets/images/optimized/rev-fadafbc/thriveagency.com/files/hvac-service-company-2.png",
+        //         title:"CONSTRUCTION COMPANY",
+        //         url:"#",
+        //         leads:"+763%",
+        //         organic: "+349%",
+        //         quote:"Thrive has gone above and beyond and it's allowed me to focus on other aspects of business development. Thrive understands the intricate needs of what we want to accomplish."
+        //     },
+        // ]
+        // },
         //ThriveServices
         {
         interface: "ThriveServices",
@@ -234,61 +234,61 @@ export const topic_pages_data = [
         services: [
             { 
                 service_title: "Keyword Research & Strategy", 
-                service_description: "Thrive is an SEO agency that understands your niche and can boost your ranking for specific search terms. Your dedicated SEO specialist will review the keywords your website is currently ranking for, take your keyword wishlist and conduct additional keyword research to build a list that makes the most sense for your website and the competitive landscape.",
+                service_description: "Legiitpro is an SEO company that can raise your ranking for particular search terms and has knowledge of your niche. In order to create a list of keywords that make the most sense for both your website and the competitive landscape, your dedicated SEO specialist will analyze the keywords your website is currently ranking for, take your keyword wishlist, and perform additional keyword research.",
 
             },
             {
                 service_title: "Link Building", 
-                service_description: "Backlinks are a huge component of ranking higher in search results, but not just any link! That's why you should partner with a search engine optimization company like Thrive that has a dedicated link building team and has connections with many high-quality and relevant websites.",
+                service_description: "To rank higher in search results, you need backlinks, but not just any links! For this reason, you ought to collaborate with a search engine optimization business such as Legiitpro, which has a devoted link-building team and connections to a large number of relevant and high-quality websites.",
             },
             { 
                 service_title: "Technical SEO", 
-                service_description: "Rankings can improve with optimizations on your website's back-end, such as improving page speed. By fixing these errors, it makes it easier on search engines when they crawl your website. And when you make search engines happy, your rankings can make you even happier!",
+                service_description: "Back-end optimizations for your website, like faster pages, can raise rankings. It is easier for search engines to crawl your website if these errors are fixed. And when you please search engines, you may receive even more satisfaction from your rankings!",
 
             },
             { 
                 service_title: "Local SEO",
-                service_description: "Statistics show that 64 percent of customers search for local businesses online. Improve your company's local SEO rankings with Google Business Profile or Google My Business (GMB) optimization and attract high-intent customers. We optimize your GMB profile and manage your online reputation to grow your local following",
+                service_description: "64 percent of consumers look for local businesses online, according to statistics. With Google Business Profile (GBP) or Google My Business (GMB) optimization, you can raise your company's local SEO ranks and draw in more highly qualified clients. To increase your local following, we manage your online reputation and enhance your GMB profile.",
 
             },
             {
                 service_title: "On-Page SEO",
-                service_description: "Enhance your online visibility and earn high-quality traffic. At Thrive, we ensure our SEO services are aligned with search engines best practices to boost your website's trustworthiness. Our SEO experts publish unique, value-rich content, optimize your headlines and HTML tags and utilize high-resolution images",
+                service_description: "Boost your web presence to attract and get excellent traffic. Legiitpro makes sure that, in order to increase the reputation of your website, our SEO services are in line with search engine best practices. Our SEO specialists use high-resolution photos, create original, valuable material, and optimize your headlines and HTML tags.",
 
             },
             { 
                 service_title: "Off-Page SEO",
-                service_description: "Off-page optimization is crucial in establishing brand credibility and increasing online exposure. Partner with our SEO company and let us help you demonstrate your industry expertise. We leverage social media marketing, link building and influencer marketing to generate qualified links and positive ratings.",
+                service_description: "Increasing online visibility and building brand credibility require off-page optimization. Collaborate with our SEO agency and allow us to assist you in showcasing your sector knowledge. To produce quality links and high ratings, we make use of influencer marketing, social media marketing, and link building.",
 
             },
             { 
                 service_title: "Franchise SEO", 
-                service_description: "Supercharge your franchise marketing efforts with Thrive's SEO services for multiple-location businesses. We publish geo-specific content, leverage Nextdoor advertising and develop custom web designs. Thrive is the SEO firm that'll maximize your brand impact and increase your leads and sales",
+                service_description: "Take advantage of Legiitpro's SEO services for multiple-location firms to boost your franchise marketing efforts. We create unique website designs, use Nextdoor advertising, and publish geo-specific content. Legiitpro is the SEO company that will boost the visibility of your business and generate more leads and revenues.",
 
             },
             { 
                 service_title: "Shopify SEO", 
-                service_description: "Strengthen your online store's digital presence and expand your market reach. Our SEO experts offer 24/7 customer support for your urgent needs and concerns. We provide a Shopify SEO audit, Shopify web design, paid advertising and review response publishing services to optimize your customer's Shopify experience",
+                service_description: "Boost the internet presence of your online store and reach a wider audience. Our SEO specialists provide round-the-clock customer service for any pressing issues. To maximize your customers' Shopify experience, we offer Shopify SEO audits, Shopify web design, paid advertising, and review response publishing services.",
 
             },
             { 
                 service_title: "Amazon SEO", 
-                service_description: "Differentiate your brand on Amazon and get found by millions of customers who are ready to convert. We optimize your Amazon product listings, maximize ad placements and implement goal-oriented Amazon marketing services (AMS) SEO solutions to promote your products to the right customers.",
+                service_description: "Make your brand stand out on Amazon to attract millions of ready-to-buy customers. To sell your products to the correct customers, we optimize your Amazon product listings, make the most of ad positions, and put goal-oriented Amazon marketing services (AMS) SEO solutions into action.",
 
             },
             { 
                 service_title: "eCommerce SEO", 
-                service_description: "Provide your customers with a 24/7 convenient shopping experience and increase your client retention rate. We launch targeted email marketing campaigns and optimize your site for mobile and voice search to create personalized brand experiences. We also offer Walmart Marketplace integrations to increase your sales volume",
+                service_description: "Boost customer retention by offering your clients a convenient, round-the-clock purchasing experience. In order to generate individualized brand experiences, we run focused email marketing campaigns and optimize your website for voice search and mobile devices. Integrations with Walmart Marketplace are another service we provide to boost your revenue.",
 
             },
             { 
                 service_title: "Content Writing", 
-                service_description: "We have a team of writers that produce SEO-friendly content for your website, whether that’s creating share-worthy blog posts or optimizing pre-existing service and product pages with more content. Search engines love a website that adds new content on a regular basis. Choose our SEO firm to support your content needs and bolster your search marketing.",
+                service_description: "Our writing staff may create blog posts that are worth sharing or add more information to already-existing service and product pages to make them more search engine friendly. Regularly updated websites are highly favored by search engines. Select our SEO company to help with your content demands and to improve your search engine optimization.",
 
             },
             { 
                 service_title: "Conversion Rate Optimization (CRO)", 
-                service_description: "Increase your customer's lifetime value and grow your online revenue with Thrive's CRO services. Our SEO marketing company integrates pay-per-click marketing with our SEO services to maximize your conversion opportunities. We perform website analyses, landing page optimization and A/B split testing.",
+                service_description: "With Legiitpro's CRO services, you may raise your online revenue and improve your client lifetime value. To increase your chances of conversion, our SEO marketing firm combines pay-per-click marketing with our SEO services. We carry out A/B split testing, landing page optimization, and website analysis.",
             } 
         ]
         },
@@ -297,9 +297,9 @@ export const topic_pages_data = [
         interface:"ThriveDoubleList",
         title: "SEO Services You Can Expect From LegiitPro",
         css: " bg-gradient-to-r from-teal-100 via-teal-300 to-teal-500 ",
-        description: "As a full-service digital marketing company, Thrive offers a comprehensive array of professional search engine optimization services to get your business more visibility in search using only trustworthy, future-proof, white hat SEO techniques, such as:",
+        description: "Legiitpro, a full-service digital marketing firm, provides an extensive range of expert SEO services to increase your company's online presence utilizing only reliable, long-lasting white hat SEO strategies, like:",
         firstList : [
-            "Custom SEO Strategy: We customize our SEO services to fit your needs. We use the tactics that make the most impact for your unique business",
+            "Tailored SEO Approach: We tailor our SEO offerings to meet your specific requirements. We employ strategies that are most effective for your particular industry.",
             "Comprehensive Onsite SEO: Title tags, meta descriptions, alt tags, internal linking, etc",
             "Thorough keyword research and market analysis",
             "High-quality copywriting to keep your site content fresh and encourage return traffic",
@@ -307,20 +307,223 @@ export const topic_pages_data = [
         secondList: [
             "In-depth evaluation of the competition",
             "Careful Link Building: By hand, on diverse domains with high domain authority",
-            "Organic SEO tactics for long-term results coupled with paid ads for quick boosts (if PPC is something you're interested in pursuing)",
+            "Paid advertisements for immediate gains in addition to organic SEO strategies for long-term outcomes (if PPC is something you're interested in pursuing)",
             "Syndication of articles on social media, curated sites and news outlets",
             "Google Analytics and other data tracking software to learn from trends, traffic and more.",
         ]
         }, 
+        //ThriveParagraphLists
+        {
+            interface: "ThriveParagraphLists",
+            title: "Understanding Global SEO",
+            paragraphs: [
+                 
+            ],
+            lists : [
+                {
+                    listTitle: "What's Global SEO Anyway?",
+                    listDescription: [
+                        "Global SEO is all about optimizing your online presence for a worldwide audience. You turn to it when you want your business to get noticed across different countries and languages.",
+                         
+                    ],
+                },
+                {
+                    listTitle: "Global vs. Local SEO: What's the Difference?",
+                    listDescription: [
+                        "While local SEO focuses on ranking in specific locales, global SEO broadens your horizon to the entire world. Think global, act local!", 
+                    ],
+                },
+                {
+                    listTitle: "The Magic of Long Tail and LSI Keywords in Global SEO",
+                    listDescription: [
+                        "Long Tail and LSI (Latent Semantic Indexing) Keywords are your secret weapons. They help you capture the nuanced search intents of a global audience, ensuring your content resonates worldwide",
+                         
+                    ],
+                },
+            ]
+        },
+        //ThriveWhyChoose
+        {
+            interface: "ThriveWhyChoose",
+            title:"Strategies for Small Businesses",
+            subTitle:"Invest in Flexible Social Packages Customized To Meet Your Growth Goals",
+            descriptions : [
+                 
+            ],
+            services: [
+                { 
+                    service_title: "Going Global on a Shoestring", 
+                    service_description: "You don't need a fortune to go global. Small businesses can deploy cost-effective strategies to make a significant impact internationally.",
+
+                },
+                { 
+                    service_title: "Localize to Globalize", 
+                    service_description: "Adapting your content for different cultures is critical. It's about more than just translation; it's about connection.",
+
+                },
+                { 
+                    service_title: "Culture is King", 
+                    service_description: "Understanding and integrating cultural nuances into your content strategy can set you apart in the global marketplace.",
+
+                },
+                
+            ]
+        },
+        //ThriveParagraphLists
+        {
+            interface: "ThriveParagraphLists",
+            title: "Implementing Global SEO on a Budget",
+            paragraphs: [
+                 
+            ],
+            lists : [
+                {
+                    listTitle: "Budget-Friendly Global SEO",
+                    listDescription: [
+                        "Smart keyword choices and DIY SEO tools can help you save costs while maximizing your global reach.",
+                         
+                    ],
+                },
+                {
+                    listTitle: "The Power of Low Competition Keywords",
+                    listDescription: [
+                        "Finding those low-hanging fruits in terms of keywords can give you an edge in less competitive markets.", 
+                    ],
+                },
+                {
+                    listTitle: "DIY Your Way to SEO Success",
+                    listDescription: [
+                        "There's a plethora of tools and resources out there that can help startups optimize their sites without needing a big budget.",
+                         
+                    ],
+                },
+                {
+                    listTitle: "Staying Ahead of the Curve",
+                    listDescription: [
+                        "Two thousand twenty-four calls for up-to-date SEO practices focusing on mobile optimization, user experience, and the innovative use of AI and machine learning.",
+                         
+                    ],
+                },
+                {
+                    listTitle: "Mobile First, Always",
+                    listDescription: [
+                        "With mobile usage soaring globally, ensuring your site is mobile-friendly is non-negotiable.",
+                         
+                    ],
+                },
+                {
+                    listTitle: "AI: The New SEO Frontier",
+                    listDescription: [
+                        "Leveraging AI and machine learning can provide unprecedented insights and automation, making global SEO smarter and more effective.",
+                         
+                    ],
+                },
+            ]
+        },
+        //ThriveWhyChoose
+        {
+            interface: "ThriveWhyChoose",
+            title:"Overcoming Challenges in Global SEO",
+            subTitle:"Invest in Flexible Social Packages Customized To Meet Your Growth Goals",
+            descriptions : [
+                 
+            ],
+            services: [
+                { 
+                    service_title: "Navigating Global SEO Waters", 
+                    service_description: "Entering global markets comes with challenges, from cultural missteps to regulatory hurdles.",
+
+                },
+                { 
+                    service_title: "Finding Solutions", 
+                    service_description: "Understanding these challenges is the first step. The next? Implementing creative solutions and workarounds.",
+
+                },
+                { 
+                    service_title: "Compliance is Key", 
+                    service_description: "Maintaining SEO compliance and regulations, such as GDPR, is vital for a hassle-free global presence.",
+
+                },
+                { 
+                    service_title: "E-commerce Goes Global", 
+                    service_description: "For e-commerce sites, global SEO involves unique considerations like international link building and optimizing for cross-border transactions.",
+
+                },
+                { 
+                    service_title: "Link Building Across Borders", 
+                    service_description: "Building a robust and international backlink profile can significantly boost your global visibility.",
+
+                },
+                { 
+                    service_title: "Smooth Transactions Worldwide", 
+                    service_description: "Ensuring your site supports international payment and shipping options can make or break your global e-commerce strategy.",
+
+                },
+                
+            ]
+        },
+        //ThriveTopicIntro2
+        {
+            interface: "ThriveTopicIntro2",
+            title: "Localizing Content and Cultural Adaptation", 
+            subTitle: "",
+            firstPara: "",
+            sidePara: [
+                "<h3 class='font-bold'>Beyond Translation</h3><br>Effective content localization involves deep cultural adaptation to resonate with a global audience.",
+                "<h3 class='font-bold'>Success Stories</h3>",
+                "Looking at case studies of successful global SEO campaigns can provide valuable insights and inspiration.",
+                "<h3 class='font-bold'>Tools of the Trade</h3>",
+                " Leveraging the right tools for cultural and linguistic adaptation can streamline your global SEO efforts.",
+                 
+            ],
+            imgUrl: "/category-page/smm-1.svg",
+
+        },
+        //ThriveTopicIntro2
+        {
+            interface: "ThriveTopicIntro2",
+            title: "Keeping Up with Global SEO Compliance and Regulations", 
+            subTitle: "",
+            firstPara: "",
+            sidePara: [
+                "<h3 class='font-bold'>The World of SEO Compliance</h3><br>Navigating the complex landscape of global SEO compliance is crucial for avoiding penalties and ensuring your site's global welcome.",
+                "<h3 class='font-bold'>Global Regulations, Global Strategies</h3>",
+                "Understanding and adhering to global regulations keeps you compliant and informs you of more brilliant SEO strategies.",
+                "<h3 class='font-bold'>Regulations Impacting SEO</h3>",
+                " Staying informed about how regulations like GDPR impact SEO can help you adapt and thrive in the global market.",
+                 
+            ],
+            imgUrl: "/category-page/smm-1.svg",
+
+        },
+         
         //DyFaqProfile
         {
             interface: "DyFaqProfile",
             faqSection:{
-                faqTitle :"Want to Learn More ?",
-                faqSubTitle: "This comprehensive guide has expanded to cover additional aspects of small business marketing, ensuring a holistic understanding of the strategies and tools required for success. Empower your small business with these actionable insight",
+                faqTitle :"Frequently Asked Questions",
+                faqSubTitle: " ",
                 faq:[
                     {
                         id: "1",
+                        question: "What is the difference between global SEO and local SEO?",
+                        answer: "Optimizing your online presence for a global audience with the goal of reaching visitors in many languages and nations is the emphasis of global SEO. Local SEO, on the other hand, focuses on particular locations with the goal of ranking higher in local search results and drawing in nearby clients."
+                        
+                    },
+                    {
+                        id: "112",
+                        question: "How can small businesses implement global SEO strategies without breaking the bank?",
+                        answer: "Small businesses can implement affordable tactics including using DIY SEO tools, localizing material for various cultures, and utilizing long-tail and LSI keywords. Small firms can have a big influence abroad without spending a lot of money if they concentrate on making wise keyword selections, adapting to different cultures, and making use of the tools that are readily available."
+                        
+                    },
+                    {
+                        id: "1231",
+                        question: "What are some key considerations for e-commerce sites looking to expand globally through SEO? ",
+                        answer: "International SEO requires careful preparation that takes into account target geography, linguistic quirks, and cultural norms. Crucial elements include utilizing hreflang tags, producing localized material, and comprehending global search engine algorithms. "
+                        
+                    },
+                    {
+                        id: "11",
                         question: "How to do international SEO? ",
                         answer: "International SEO involves meticulous planning, considering language, cultural nuances, and geographic targeting. Implementing hreflang tags, creating localised content, and understanding international search engine algorithms are vital components. "
                         

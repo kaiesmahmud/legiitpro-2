@@ -8,7 +8,7 @@
             {#each section.lists as i,index}
                 <div class=" flex gap-4 items-center">
                     <div class="py-3 px-5 aspect-square text-center  bg-white/10 rounded-full">{index+1}</div>
-                    <p>{i}</p>
+                    <p>{ @html i}</p>
                 </div>
             {/each}
         </div>

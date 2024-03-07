@@ -1,4 +1,7 @@
 <script>
+	import DoubleTitleRightImgSection from './../../lib/components/home-page-components/DoubleTitleRightImgSection.svelte';
+	import RightSideImgSection from './../../lib/components/home-page-components/RightSideImgSection.svelte';
+	import ThriveTopicIntro2 from './../../lib/components/thrive-components/ThriveTopicIntro2.svelte';
 	import TypesOfAgencies from './../../lib/components/services-page-components/TypesOfAgencies.svelte';
 	import DyLeftImgSection from './../../lib/components/dynamic-components/DyLeftImgSection.svelte';
 	import DyRightImgSection from './../../lib/components/dynamic-components/DyRightImgSection.svelte';
@@ -16,11 +19,37 @@
 	import ThriveBrandReviews from '../../lib/components/thrive-components/ThriveBrandReviews.svelte';
 	import ThriveWhyChoose from '../../lib/components/thrive-components/ThriveWhyChoose.svelte';
     
+    const {frontend,categories} = service_page_data
+
+    import { generateMetaTags } from '$lib/functions/metaTags';
+    
+    // Define your page metadata
+    const pageTitle = 'LegiitPro: Expert B2B Marketing Agency | Elevate Your Business Today';
+    const pageDescription = 'Elevate your business with LegiitPro, a leading B2B marketing agency offering SEO, PPC, web design, and more. Contact us to boost your small business marketing efforts!';
+    const pageUrl = 'https://www.legiitpro.com/b2b-marketing-agency';
+    const pageImage = 'https://www.legiitpro.com/logo.webp';
+    
+    // Generate meta tags
+    const metaTags = generateMetaTags({ title: pageTitle, description: pageDescription, url: pageUrl, image: pageImage });
+    
+    
+    import { generateSnippetStructuredData } from '$lib/functions/snippetFunctions';
+
+
+
     // <div class="absolute shade-1 bg-teal-400/50 left-1 opacity-40 " />
     // <div class='absolute gradient-01 opacity-50 left-1 ' />
     // <div class='absolute gradient-02 opacity-50 bottom-4 left-1' />
-    const {frontend,categories} = service_page_data
 </script>
+<svelte:head>
+	{@html metaTags}
+    {@html generateSnippetStructuredData({
+        title: 'How to Choose a B2B Marketing Agency: An in-depth Overview',
+        description: ' LegiitPro offers comprehensive B2B marketing solutions, including SEO, PPC, and web design. Elevate your business with our expert services. Contact us now for a personalized consultation!',
+        url: 'https://www.legiitpro.com/b2b-marketing-agency',
+        image: 'https://www.example.com/article-image.jpg'
+    })}
+</svelte:head>
 
 <main class="w-screen md:w-full overflow-hidden min-h-[100vh]">
     
@@ -70,6 +99,15 @@
         {/if}
         {#if section.interface === "ThriveWhyChoose"}
             <ThriveWhyChoose {section}/>
+        {/if}
+        {#if section.interface === "ThriveTopicIntro2"}
+            <ThriveTopicIntro2 {section}/>
+        {/if}
+        {#if section.interface === "RightSideImgSection"}
+            <RightSideImgSection {section}/>
+        {/if}
+        {#if section.interface === "DoubleTitleRightImgSection"}
+            <DoubleTitleRightImgSection {section}/>
         {/if}
     {/each}
 </main>

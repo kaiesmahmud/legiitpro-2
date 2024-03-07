@@ -1,6 +1,16 @@
 export const topic_pages_data = [
     {
         url: "/b2b-digital-agency",
+        metaTags:{
+            title:" meta title",
+            description:"meta descriptoin",
+            image: "meta/url",
+        },
+        snippet:{
+            title: "snippet title",
+            description: "snippet descriptino",
+            image: "snippet/url", 
+        },
         frontend:[ 
             //DyHeroSection
             {
@@ -41,6 +51,7 @@ export const topic_pages_data = [
                     },
                 ]
             },
+            //DyMultiplePara
             {
                 interface: "DyMultiplePara",
                 imgURL:"seo-page/b2b-digital.svg",
@@ -65,6 +76,122 @@ export const topic_pages_data = [
                     }, 
                 ]
             },
+            //LeftSideImgSection
+            {
+                interface: "LeftSideImgSection",
+                imgURL:"./home/guiding-lights-success.svg",
+                title :"The Ultimate Guide to Selecting a B2B Digital Agency for 2024",
+                description: "In today's rapidly evolving digital landscape, the role of B2B digital agencies has never been more crucial. As we venture into 2024, selecting the right partner for your digital marketing efforts can make all the difference. This guide is designed to walk you through the essentials, ensuring your business keeps pace and thrives in the digital domain.",
+                imgAlt:"alter tag",
+            },
+             //ThriveTopicIntro2
+            {
+                interface: "ThriveTopicIntro2",
+                title: "Understanding the Role of Digital Marketing in B2B Sectors",
+                subTitle: "Online Solutions That Make Your Brand Stand Out",
+                firstPara: "The digital revolution has transformed how B2B companies operate, market, and sell. But what exactly makes digital marketing pivotal in this sector?",
+                sidePara: [
+                    "<h3 class='font-bold'>Benefits of Digital Marketing in B2B Sectors</h3><br> Digital marketing offers unprecedented advantages, from expanding market reach to generating more qualified leads. It's about leveraging online platforms to build client relationships and trust.",
+                    "<h3 class='font-bold'>Digital Transformation for B2B Companies</h3><br>Adopting digital technologies isn't just an upgrade; it's a complete transformation. It reshapes operations, customer experiences, and, most importantly, marketing strategies.",
+                    "<h3 class='font-bold'>B2B Digital Marketing Trends for 2024</h3><br>Personalization, AI-driven marketing, and video content stand out as game-changers as we look ahead. Staying ahead of these trends is crucial for any B2B marketing strategy.",
+                     
+                ],
+                imgUrl: "/category-page/smm-1.svg",
+
+            },
+            //ThriveServices
+            {
+                interface: "ThriveServices",
+                title:"Critical Services for Elevating Your B2B Digital Presence",
+                subTitle:"A comprehensive digital strategy encompasses various services, each vital to your overall success.",
+                services: [
+                    { 
+                        service_title: "Comprehensive B2B Online Marketing Solutions", 
+                        service_description: "Choosing a digital agency that offers a broad spectrum of services ensures a unified approach to your online presence.", 
+                    },
+                    {
+                        service_title: "B2B Web Development Services", 
+                        service_description: "Your website is your digital storefront. It needs to be visually appealing and optimized for conversions and user experience.",
+                    },
+                    { 
+                        service_title: "Digital Advertising for B2B", 
+                        service_description: "Targeted digital ads can help you reach your ideal business clients more efficiently.",
+        
+                    },
+                    { 
+                        service_title: "B2B SEO Services",
+                        service_description: "SEO is the backbone of digital visibility. It ensures your services are found by those who need them the most.",
+        
+                    },
+                    {
+                        service_title: "Enhancing Brand Visibility and Engagement",
+                        service_description: "In the crowded digital space, standing out is critical. Here's how you can boost your brand's online presence",
+        
+                    },
+                    {
+                        service_title: "B2B Branding Strategies Online",
+                        service_description: "A strong brand identity is essential in the B2B sector. It differentiates you in a competitive market.",
+        
+                    },
+                    {
+                        service_title: "B2B Email Marketing Campaigns",
+                        service_description: "Email marketing remains one of the most effective tools for reaching and nurturing potential clients.",
+        
+                    },
+                    {
+                        service_title: "Social Media Management for B2B",
+                        service_description: "Social platforms offer unique opportunities for B2B brands to engage with their audience and build community.",
+        
+                    },
+                    {
+                        service_title: "Content Marketing for B2B Businesses",
+                        service_description: "Quality content drives engagement, establishes authority, and boosts SEO efforts. It's a cornerstone of any digital strategy.",
+        
+                    },
+                    
+                ]
+            },
+            //ThriveTopicIntro2
+            {
+                interface: "ThriveTopicIntro2",
+                title: "Maximizing Impact with B2B Digital Marketing Strategies",
+                subTitle: "Your digital marketing efforts can lead to substantial growth with the right strategies.",
+                firstPara: " ",
+                sidePara: [
+                    "<h3 class='font-bold'>Navigating B2B Digital Marketing on a Budget</h3><br>Effective marketing sometimes means big spending. It's about intelligent allocation and maximizing the impact of every dollar.",
+                    "<h3 class='font-bold'>Leveraging ROI in B2B Digital Marketing Strategies</h3><br>Return on investment is the ultimate measure of success. Focus on strategies that offer measurable outcomes.",
+                    "<h3 class='font-bold'>B2B Digital Marketing for Growth</h3><br>Every tactic should aim for growth, whether through lead generation, sales, or brand awareness. Your strategies need to drive progress.",
+                    "<h3 class='font-bold'>Practical B2B Digital Marketing Case Studies</h3><br>Learning from others can be incredibly valuable. Look for case studies that demonstrate successful strategies and measurable results.",
+                     
+                ],
+                imgUrl: "/category-page/smm-1.svg",
+
+            },
+             
+             //ThriveWhyChoose
+            {
+                interface: "ThriveWhyChoose",
+                title:"Advanced Tools and Techniques for B2B Digital Success",
+                subTitle:"Invest in Flexible Social Packages Customized To Meet Your Growth Goals",
+                descriptions : [
+                    'Embracing cutting-edge tools and techniques can give you a competitive edge.'
+                ],
+                services: [
+                    { 
+                        service_title: "B2B Marketing Automation Tools", 
+                        service_description: "Automation can streamline your marketing efforts, making them more efficient and effective. ", 
+                    },
+                    { 
+                        service_title: "B2B Lead Generation Through Digital Channels", 
+                        service_description: "Digital channels offer numerous avenues for lead generation, from LinkedIn to specialized forums and beyond.", 
+                    },
+                    { 
+                        service_title: "How B2B Businesses Can Leverage Digital Marketing", 
+                        service_description: "Ultimately, the goal is to use digital marketing as a set of tactics and a strategic tool for long-term success.", 
+                    },
+                ]
+            },
+            //DyFaqProfile
             {
                 interface: "DyFaqProfile",
                 faqSection:{
@@ -104,8 +231,7 @@ export const topic_pages_data = [
                     ],
                 },
             },
-            ],
-        
+            ], 
         categories:[
             {
                 catName: "Social Media Management" ,
@@ -147,6 +273,16 @@ export const topic_pages_data = [
     },
     {
         url: "/global-seo",
+        metaTags:{
+            title:" meta title",
+            description:"meta descriptoin",
+            image: "meta/url",
+        },
+        snippet:{
+            title: "snippet title",
+            description: "snippet descriptino",
+            image: "snippet/url", 
+        },
         frontend:[ 
         //DyHeroSection
         {
@@ -191,41 +327,7 @@ export const topic_pages_data = [
                 reviews : "30+ Reviews"
             },
         ]
-        },
-        //ThriveClientSuccess
-        // {
-        //     interface: "ThriveClientSuccess",
-        //     title: "Providing SEO Solutions to Solve Your Problems",
-        //     subTitle: "Our Passion is Growing Your Online Business ",
-        //     firstPara: "For more than 15 years, we've been providing SEO solutions for businesses wanting to expand their online presence, increase leads and grow their revenue. Our tried-and-true SEO techniques and practices have resulted in many success stories for clients. Here's a few recent examples:",
-        //     lastPara: "Are you on the first page of the search engine results pages (SERPs) for keywords that match your business or brand? If not, you're missing out on valuable leads. Search engine optimization isn't a fad and it's no longer an option to simply not think about it if you want to grow your business. It's an indispensable part of any plan to market products or services and bring in more qualified leads and sales",
-        //     clientProjects: [
-        //     {
-        //         imgUrl: "https://cdn-icggj.nitrocdn.com/AphBmykuaGyxZijWArNhxcCiPzVdYZGT/assets/images/optimized/rev-fadafbc/thriveagency.com/files/construction-company-image-1.png",
-        //         title:"CONSTRUCTION COMPANY",
-        //         url:"#",
-        //         leads:"+800%",
-        //         organic: "+126.5%",
-        //         quote:"Thrive has gone above and beyond and it's allowed me to focus on other aspects of business development. Thrive understands the intricate needs of what we want to accomplish."
-        //     },
-        //     {
-        //         imgUrl: "https://cdn-icggj.nitrocdn.com/AphBmykuaGyxZijWArNhxcCiPzVdYZGT/assets/images/optimized/rev-fadafbc/thriveagency.com/files/ecommerce-business-2.png",
-        //         title:"CONSTRUCTION COMPANY",
-        //         url:"#",
-        //         leads:"+130%",
-        //         organic: "+70%",
-        //         quote:"Thrive has gone above and beyond and it's allowed me to focus on other aspects of business development. Thrive understands the intricate needs of what we want to accomplish."
-        //     },
-        //     {
-        //         imgUrl: "https://cdn-icggj.nitrocdn.com/AphBmykuaGyxZijWArNhxcCiPzVdYZGT/assets/images/optimized/rev-fadafbc/thriveagency.com/files/hvac-service-company-2.png",
-        //         title:"CONSTRUCTION COMPANY",
-        //         url:"#",
-        //         leads:"+763%",
-        //         organic: "+349%",
-        //         quote:"Thrive has gone above and beyond and it's allowed me to focus on other aspects of business development. Thrive understands the intricate needs of what we want to accomplish."
-        //     },
-        // ]
-        // },
+        }, 
         //ThriveServices
         {
         interface: "ThriveServices",
@@ -606,6 +708,16 @@ export const topic_pages_data = [
     },
     {
         url: "/web-application-development",
+        metaTags:{
+            title:" meta title",
+            description:"meta descriptoin",
+            image: "meta/url",
+        },
+        snippet:{
+            title: "snippet title",
+            description: "snippet descriptino",
+            image: "snippet/url", 
+        },
         frontend:[ 
             //DyHeroSection
             {
@@ -640,14 +752,78 @@ export const topic_pages_data = [
                         title:"Tips for Successful Web App Development ",
                         description: "Creating a successful web application is more than just coding. It's about making an easy and enjoyable user experience ",
                     },
-                    {
-                        title:"AngularJS Web App Development: A Closer Look",
-                        description: "AngularJS is a robust framework for web application development. Let's explore the basics of AngularJS and how it helps create dynamic applications.",
-                    },
+                    
                     {
                         title:"The Web App Development Process Explained",
                         description: "The process of web application development follows a step-by-step approach. From defining the scope to launching it, each stage is essential ",
                     },    
+                ]
+            },
+            //ThriveServices
+            {
+                interface: "ThriveServices",
+                title:"Website Design & Development Services",
+                subTitle:"Fully Functional Digital Asset For The Modern Business",
+                services: [
+                    { 
+                        service_title: "Dynamic Development JavaScript (Svelte, Next.js):", 
+                        service_description: "Svelte and Next.js are two innovative JavaScript frameworks that may be used to create dynamic and interactive web apps. Take advantage of quicker load times, an enhanced user interface, and the smooth integration of intricate features.", 
+                    },
+                    {
+                        service_title: "Local Business Website:", 
+                        service_description: "A well-designed and optimized website will help your local business have a strong online presence. Gain new clients, build your reputation, and successfully present your goods and services to your intended market.",
+                    },
+                    { 
+                        service_title: "Domain-Hosting Issue Fix:", 
+                        service_description: "Resolve domain and hosting issues quickly and efficiently to ensure uninterrupted access to your website. Benefit from improved site reliability, enhanced security, and optimized performance for your online presence.",
+        
+                    },
+                    { 
+                        service_title: "Headless CMS Integration:",
+                        service_description: "Leverage the flexibility and scalability of headless CMS solutions to manage content across multiple channels and devices. Enjoy greater control, improved agility, and enhanced customization options for your digital content.",
+        
+                    },
+                    {
+                        service_title: "Payment Method Integration:",
+                        service_description: "Expand your e-commerce capabilities and provide customers with convenient payment options by integrating secure payment methods into your website. Increase conversions, build trust, and drive revenue growth for your online business.",
+        
+                    },
+                    {
+                        service_title: "Sveltekit Development:",
+                        service_description: "Harness the power of Sveltekit to build fast, efficient, and scalable web applications with minimal overhead. Enjoy improved performance, simplified development workflows, and enhanced developer productivity.",
+        
+                    },
+                    {
+                        service_title: "API Integration:",
+                        service_description: "Integrate third-party APIs seamlessly into your website or application to access external data and services. Unlock new functionalities, streamline processes, and enhance the capabilities of your digital platform.",
+        
+                    },
+                    {
+                        service_title: "Website Update:",
+                        service_description: "Keep your website fresh, relevant, and engaging with regular updates and improvements. Enhance user experience, boost search engine rankings, and stay ahead of competitors by incorporating new features, content, and design elements.",
+        
+                    },
+                    {
+                        service_title: "E-commerce Development:",
+                        service_description: "Build a powerful online store tailored to your business needs with professional e-commerce development services. Increase sales, expand your customer base, and drive growth with a feature-rich, secure, and user-friendly e-commerce platform.",
+        
+                    },
+                    {
+                        service_title: "Affiliate / Dropshipping Development:",
+                        service_description: "Launch and grow your affiliate or dropshipping business with expert development services. Maximize revenue potential, automate processes, and scale your operations efficiently with a custom-built platform optimized for success in the affiliate and dropshipping markets.",
+        
+                    },
+                    {
+                        service_title: "WordPress Migration:",
+                        service_description: "Seamlessly transfer your website to the WordPress platform with expert migration services. Preserve your existing content, improve site management, and take advantage of WordPress's robust features, flexibility, and scalability.",
+        
+                    },
+                    {
+                        service_title: "Figma UI To Web Development:",
+                        service_description: "Bring your Figma designs to life with professional web development services. Translate your UI/UX designs into fully functional, responsive websites that captivate users, enhance usability, and deliver an exceptional online experience.",
+        
+                    },
+                    
                 ]
             },
             //DyMultiplePara
@@ -674,68 +850,35 @@ export const topic_pages_data = [
                         description: "For businesses with unique needs, custom web application development is essential. Let's explore the process and benefits of creating bespoke solutions.",
                     }, 
                 ]
-            },
-            //DoubleTitleRightImgSection
+            }, 
+            //ThriveTitleLists
             {
-                interface: "DoubleTitleRightImgSection",
-                bgCss : " bg-[conic-gradient(at_right,_var(--tw-gradient-stops))] from-indigo-200 via-indigo-500 to-indigo-200  ",
-                article :[
-                    {
-                        title:"The Basics of Web App Design and Development",
-                        description: "Design plays a crucial role in the success of a web application. Let's explore web application design and development basics for a seamless user experience.",
-                    },    
-                    {
-                        title:"Understanding Cloud-Based Web App Development ",
-                        description: "The cloud has changed how applications are created and used. Let's look at the basics of cloud-based web application development.",
-                    },    
-                    {
-                        title:"PHP Web App Development: Simplified ",
-                        description: "PHP is a popular choice for web application development. Let's explore the basics of PHP web application development and its advantages. ",
-                    },    
-                    {
-                        title:"Exploring Web App Development Solutions ",
-                        description: "Web application development solutions come in various forms. Let's explore the different solutions available for your business needs.",
-                    },    
-                    {
-                        title:"The Role of Web Apps Development Services",
-                        description: "The world of web application development services is vast. Let's explore the different services offered to help businesses make informed decisions.",
-                    },    
-                    {
-                        title:"The Relationship Between Web Design and Implementation ",
-                        description: "Web design and implementation go hand in hand. Let's examine how these two aspects work together for a cohesive approach. ",
-                    },    
-                    {
-                        title:"Tips for Developing a Web App ",
-                        description: "Developing a web application involves collaboration and planning. Let's explore tips for creating a successful web application.",
-                    },    
+                interface: "ThriveTitleLists",
+                title: "Our Web Application Design & Development Process:",
+                lists : [
+                    "<strong class='font-bold' >Discovery and Strategy:</strong> We start by understanding your business, goals, and target audience. This phase helps us create a strategic web design plan aligned with your objectives.",
+                    "<strong class='font-bold' >Design and Development:</strong> Our designers and developers bring the plan to life, creating a visually appealing, functional website. We keep you involved throughout the process, ensuring the final product meets your expectations.",
+                    "<strong class='font-bold' >Testing and Launch:</strong> Before launch, we conduct thorough testing on various devices and browsers to ensure optimal performance. After final approvals, your site goes live.",
+                    "<strong class='font-bold' >Maintenance and Support:</strong> Our relationship continues after launch. We offer ongoing support and maintenance to keep your site updated and secure.",
                 ]
             },
-            //DyMultiplePara
+            //ThriveTopicIntro
             {
-                interface: "DyMultiplePara",
-                imgURL:"seo-page/journey-legiitpro-website.svg",
-                imgAlt:"alter tag",
-                css: " bg-gradient-to-r from-indigo-100 via-indigo-300 to-indigo-500 ",
-                article : [
-                    {
-                        title:"The Journey of a Web App Agency",
-                        description: "Web app agencies play a crucial role in bringing digital ideas to life. Let's explore the journey of a web app agency and the challenges they face. ",
-                    }, 
-                    {
-                        title:"Showcasing Web App Examples",
-                        description: " Leading by example is powerful. Let's showcase examples of web apps from industry leaders. ",
-                    }, 
-                    {
-                        title:"Unveiling the Process: Web App Development Behind the Scenes ",
-                        description: " Behind every successful web application is a team of dedicated professionals. Let's unveil the web app development process behind the scenes.",
-                    }, 
-                    {
-                        title:"Understanding the Basics: Sample Web App Showcase",
-                        description: "Understanding the code is crucial for aspiring developers. Let's explore a sample web application showcase to understand coding practices.",
-                    }, 
-                ]
+                interface: "ThriveTopicIntro",
+                title:"Innovative Web Design Services for Your Business Growth",
+                description: "In today's digital landscape, a website is more than just an online presence; it's the heart of your business's digital strategy. At Legiitpro, we offer cutting-edge web design services tailored to elevate your brand, engage your audience, and drive conversions. Our team leverages the latest trends and technologies to create custom, user-friendly websites that look great and perform excellently on search engines.",
+                listTitle: "<h4 class='font-bold' >Why Choose Our Web Design Services?</h4>",
+                list: [
+                    "<strong class='font-bold' >Customized Design:</strong>  Every business is unique, and your website should be too. We specialize in creating bespoke websites that reflect your brand identity and meet your business needs.",
+                    "<strong class='font-bold' >Responsive Design:</strong>  A mobile-friendly website is crucial with the increasing use of smartphones and tablets. Our designs ensure your site looks and functions flawlessly on all devices, providing a seamless experience for your visitors.",
+                    "<strong class='font-bold' >SEO-Optimized:</strong>  A beautiful website isn't enough if it can't be found. Our web design process includes SEO best practices to help your site rank higher in search engine results, increasing visibility and traffic.",
+                    "<strong class='font-bold' >User Experience (UX) Focused:</strong>  We design with your audience in mind. From navigation to content layout, we ensure your site offers an intuitive and engaging user experience, encouraging more extended visits and higher conversion rates.",
+                    "<strong class='font-bold' >Speed and Performance:</strong> Website speed affects both user satisfaction and SEO rankings. We optimize your site for speed, ensuring quick loading times even on high-resolution images and videos."
+                ],
+                lastDescription: "If any of these four pain points ring a bell, rest assured, you've come to the right SEO company. There's a reason why Thrive is currently serving hundreds of SEO clients and providing optimization solutions to answer Google's ever-changing algorithm",
+                imgUrl:"/seo-page/seo3.svg",
             },
-            
+            //DyFaqProfile
             {
                 interface: "DyFaqProfile",
                 faqSection:{

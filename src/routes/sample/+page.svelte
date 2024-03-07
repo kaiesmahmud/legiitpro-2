@@ -250,11 +250,7 @@
 
                 },
             ]
-        },
-
-
-
-
+        }, 
         //ThriveTopicIntro
         {
             interface: "ThriveTopicIntro",
@@ -269,8 +265,7 @@
             ],
             lastDescription: "If any of these four pain points ring a bell, rest assured, you've come to the right SEO company. There's a reason why Thrive is currently serving hundreds of SEO clients and providing optimization solutions to answer Google's ever-changing algorithm",
             imgUrl:"https://cdn-icggj.nitrocdn.com/AphBmykuaGyxZijWArNhxcCiPzVdYZGT/assets/images/optimized/rev-fadafbc/thriveagency.com/files/SEO_2.jpg",
-        },
-        
+        }, 
         //ThriveClientSuccess
         {
         interface: "ThriveClientSuccess",
@@ -304,8 +299,7 @@
                 quote:"Thrive has gone above and beyond and it's allowed me to focus on other aspects of business development. Thrive understands the intricate needs of what we want to accomplish."
             },
         ]
-        },
-        
+        }, 
         //ThriveDoubleList
         {
             interface:"ThriveDoubleList",
@@ -324,9 +318,7 @@
                 "Syndication of articles on social media, curated sites and news outlets",
                 "Google Analytics and other data tracking software to learn from trends, traffic and more.",
             ]
-        },
-         
-        
+        },  
     ]
 </script>
 {#each frontend as section}

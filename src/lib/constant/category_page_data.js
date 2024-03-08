@@ -579,15 +579,234 @@ export const category_page_data = [
             {
                 interface: "ThriveHeroSection",
                 bgImgCss: "topicsPage-digital-bg",
-                title:"Social Media Advertising",
-                subTitle: "Boost Your Goal Completions With Targeted Campaigns "
+                title:"Social Media Advertising: A Journey into the Heart of Digital Success",
+                subTitle: "Welcome aboard, fellow digital adventurers! Today, we're diving headfirst into the vibrant world of Social Media Advertising. Picture this as your treasure map to navigate the vast, choppy waters of the internet, where X marks the spot of your brand's success. So, let's not dawdle – every pirate out there is after this treasure!"
             },
-            //ThriveParagraphs
+            //ThriveTitleParagraphs
             {
-                interface: "ThriveParagraphs",
+                interface: "ThriveTitleParagraphs",
+                title: "Results-Driven Social Media Advertising Company",
                 paragraphs: [
-                    "Experiencing a dip in organic reach, audience engagement or conversions? Tackle your social media marketing hurdles head-on and stay ahead of the curve with Thrive Internet Marketing Agency’s growth-driven social media advertising services.",
-                    "As your trusted social media advertising company, we leverage social media data to dissect your audience demographics, identify customer preferences and pain points and craft a social media advertising strategy that delivers unmatched results!"
+                    "Imagine having a compass that always points to treasure. That's us but in the digital realm. We're not just any social media advertising company; we're the crew you call when you're ready to find digital gold. Our compass? A results-driven strategy that's better than any pirate's map.",
+                    
+                ]
+            },
+            //ThriveTopicIntro2
+            {
+                interface: "ThriveTopicIntro2",
+                title: "Advertising on Social Media: How Does It Differ From Social Media Marketing?",
+                subTitle: "Generate High-Converting Leads and Increase Sales Exponentially",
+                firstPara: "Ah, a common mix-up on the high seas! Think of Social Media Marketing as the entire ship and crew, navigating through content creation, community engagement, and brand presence. Social Media Advertising? It's the cannon on that ship, giving you the firepower to blast your message further and more precisely than ever before.",
+                sidePara: [
+                    `<h3 class='font-bold text-xl'>What Is Social Media Advertising?</h3>
+
+                    For the uninitiated, Social Media Advertising is like setting sail on the vast ocean with a purpose. It's the act of deploying your ships (ads) across the seas (platforms) to discover new lands (audiences). Unlike simply letting the wind guide you (organic posting), this is about using a powerful engine (paid ads) to reach your destination faster and more efficiently.`,
+                    `<h3 class='font-bold text-xl'>Drive Greater Results With Paid Social Media</h3><br>Here's the thing: relying on the wind (organic reach) to propel your ship forward is a romantic notion, but let's be real - we're not in a pirate novel. Paid Social Media is your steam engine, cutting through the waves and fog, getting you to Treasure Island faster than you can say "Shiver me timbers!"`,
+                ],
+                imgUrl: "/category-page/smm3.svg",
+
+            },
+            //ThriveServices
+            {
+                interface: "ThriveServices",
+                title:"Why Your Business Needs To Use Social Media Advertising",
+                subTitle:"Increase Your Exposure and Save Money, Time, and Effort ",
+                descriptions : [
+                    "  The world of social media is ever-changing. Each year, there is a significant shift in the expectations and purchasing behavior of customers due to the emergence of new social media advertising channels. It won't be enough to rely solely on organic social media efforts.<br> One of the greatest ways to monetize the top social media platforms for a range of business genres and increase your rates of customer acquisition, conversion, and retention is through paid social media advertising. Paid social media advertising can assist you in increasing your conversion rates by up to 300 percent by implementing the proper targeting strategy, as per a study conducted by Marketing Experiments.", 
+                    "Here are some additional justifications for giving your sponsored social media initiatives some thought:"
+                ],
+                services: [
+                    {
+                        icon : `<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 2048 2048" {...$$props}>
+                        <path fill="currentColor" d="M1280 896q-80 0-149 30t-122 82t-83 123t-30 149q0 92-41 173t-115 136q65 33 117 81t90 108t57 128t20 142H896q0-79-30-149t-82-122t-123-83t-149-30q-80 0-149 30t-122 82t-83 123t-30 149H0q0-73 20-141t57-128t89-108t118-82q-74-55-115-136t-41-173q0-79 30-149t82-122t122-83t150-30q92 0 173 41t136 115q38-75 97-134t134-97q-74-55-115-136t-41-173q0-79 30-149t82-122t122-83t150-30q79 0 149 30t122 82t83 123t30 149q0 92-41 173t-115 136q65 33 117 81t90 108t57 128t20 142h-128q0-79-30-149t-82-122t-123-83t-149-30m-256-384q0 53 20 99t55 82t81 55t100 20q53 0 99-20t82-55t55-81t20-100q0-53-20-99t-55-82t-81-55t-100-20q-53 0-99 20t-82 55t-55 81t-20 100M512 1536q53 0 99-20t82-55t55-81t20-100q0-53-20-99t-55-82t-81-55t-100-20q-53 0-99 20t-82 55t-55 81t-20 100q0 53 20 99t55 82t81 55t100 20m1536 256h-256v256h-128v-256h-256v-128h256v-256h128v256h256z" />
+                    </svg>`,
+                        service_title: "Increase Follower Growth Rate", 
+                        service_description: "With paid social media advertising, you may quickly expand your market reach and target niches. In just four months, Legiitpro's social media advertising helped a gaming firm gain 1,600 new Facebook followers, 1,000 new Instagram followers, and 155 new Twitter followers, reaching a total of 290,137 people!",
+
+                    },
+                    {
+                        icon : `<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 48 48" {...$$props}>
+                        <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M37.42 14.7a4.1 4.1 0 0 0-4.08-4.11h0a4.11 4.11 0 1 0 0 8.21a4.09 4.09 0 0 0 2.88-1.18a4 4 0 0 0 1.19-2.92ZM16.1 29.44l-2-2l-6.2 1.98h-.2a.69.69 0 0 1-.53-.2l-1.45-1.43a.7.7 0 0 1-.11-.88L7.3 24a13 13 0 0 1 10.07-6.39l2.49-.22q2.17-2.58 4-4.42A26.4 26.4 0 0 1 32 7.12a25.63 25.63 0 0 1 9.77-1.61a.79.79 0 0 1 .54.22a.68.68 0 0 1 .22.5A25.27 25.27 0 0 1 40.78 16A25.79 25.79 0 0 1 35 24.16c-1.23 1.24-2.71 2.57-4.42 4l-.22 2.48A13 13 0 0 1 24 40.72l-2.89 1.69a.78.78 0 0 1-.37.09a.82.82 0 0 1-.52-.2l-1.45-1.46a.69.69 0 0 1-.18-.71l1.93-6.27l-1.94-1.94m12.04-3.76l-10.1 5.7m-.66-16.47l-5.71 10.1" />
+                        <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M13 35c4-.74 11.1-7.4 11.93-11.93C20.37 23.94 13.71 31 13 35" />
+                    </svg>`,
+                        service_title: "Boost Organic Posts", 
+                        service_description: " Doing business on a tight budget? Start promoting on social media to increase the internet reach of your natural content. You can use a variety of social media advertising platforms to target individuals who are really interested in what you have to offer by transforming your best-performing content into social media advertisements.",
+
+                    },
+                    {
+                        icon : `<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" {...$$props}>
+                        <path fill="currentColor" d="M19 20.5q-.898 0-1.587-.562q-.688-.563-.853-1.438H11q-1.458 0-2.479-1.021T7.5 15q0-1.458 1.021-2.479T11 11.5h2q1.031 0 1.766-.735t.734-1.769q0-1.033-.734-1.764Q14.03 6.5 13 6.5H7.44q-.17.875-.856 1.438T5 8.5q-1.042 0-1.77-.728q-.73-.729-.73-1.77q0-1.04.73-1.771Q3.957 3.5 5 3.5q.898 0 1.584.563q.685.562.856 1.437H13q1.458 0 2.479 1.021T16.5 9q0 1.458-1.021 2.479T13 12.5h-2q-1.031 0-1.766.735T8.5 15.004q0 1.033.734 1.764q.735.732 1.766.732h5.56q.17-.875.856-1.437T19 15.5q1.042 0 1.77.729q.73.728.73 1.769q0 1.04-.73 1.771q-.728.731-1.77.731M5 7.5q.617 0 1.059-.441Q6.5 6.617 6.5 6t-.441-1.059Q5.617 4.5 5 4.5t-1.059.441Q3.5 5.383 3.5 6t.441 1.059Q4.383 7.5 5 7.5" />
+                    </svg>`,
+                        service_title: "Increase Conversions on Websites", 
+                        service_description: "By using social media for advertising, you can reduce marketing expenses by 33% and increase conversion rates by 100%. We produced $143012 website purchases conversion value within six months of initiating a sponsored social media advertising campaign for a fitness center, at an average cost per click (CPC) of only $8.03.",
+
+                    },
+                    {
+                        icon : `<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 36 36" {...$$props}>
+                        <path fill="currentColor" d="M30.4 17.6c-1.8-1.9-4.2-3.2-6.7-3.7c-1.1-.3-2.2-.5-3.3-.6c2.8-3.3 2.3-8.3-1-11.1s-8.3-2.3-11.1 1s-2.3 8.3 1 11.1c.6.5 1.2.9 1.8 1.1v2.2l-1.6-1.5c-1.4-1.4-3.7-1.4-5.2 0c-1.4 1.4-1.5 3.6-.1 5l4.6 5.4c.2 1.4.7 2.7 1.4 3.9c.5.9 1.2 1.8 1.9 2.5v1.9c0 .6.4 1 1 1h13.6c.5 0 1-.5 1-1v-2.6c1.9-2.3 2.9-5.2 2.9-8.1v-5.8c.1-.4 0-.6-.2-.7m-22-9.4c0-3.3 2.7-5.9 6-5.8c3.3 0 5.9 2.7 5.8 6c0 1.8-.8 3.4-2.2 4.5v-5a3.4 3.4 0 0 0-3.4-3.2c-1.8-.1-3.4 1.4-3.4 3.2v5.2c-1.7-1-2.7-2.9-2.8-4.9M28.7 24c.1 2.6-.8 5.1-2.5 7.1c-.2.2-.4.4-.4.7v2.1H14.2v-1.4c0-.3-.2-.6-.4-.8c-.7-.6-1.3-1.3-1.8-2.2c-.6-1-1-2.2-1.2-3.4c0-.2-.1-.4-.2-.6l-4.8-5.7c-.3-.3-.5-.7-.5-1.2c0-.4.2-.9.5-1.2c.7-.6 1.7-.6 2.4 0l2.9 2.9v3l1.9-1V7.9c.1-.7.7-1.3 1.5-1.2c.7 0 1.4.5 1.4 1.2v11.5l2 .4v-4.6c.1-.1.2-.1.3-.2c.7 0 1.4.1 2.1.2v5.1l1.6.3v-5.2l1.2.3c.5.1 1 .3 1.5.5v5l1.6.3v-4.6c.9.4 1.7 1 2.4 1.7z" class="clr-i-outline clr-i-outline-path-1" />
+                        <path fill="none" d="M0 0h36v36H0z" />
+                    </svg>`,
+                        service_title: "Encourage More Views and Clicks ", 
+                        service_description: "Because social media advertising channels provide a simple and enjoyable means of interacting with their favorite firms, online users are more engaged on these platforms. In fact, in just 10 months of operation, a prominent consultancy firm's Twitter advertising campaign generated 625,932 impressions, while its Facebook advertising helped create 41,074 clicks.",
+
+                    },
+                    {
+                        icon : `<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" {...$$props}>
+                        <path fill="currentColor" d="m17 21l1.8 1.77c.5.5 1.2.1 1.2-.49V18l2.8-3.4A1 1 0 0 0 22 13h-7c-.8 0-1.3 1-.8 1.6L17 18zm-2-1H2v-3c0-2.7 5.3-4 8-4c.6 0 1.3.1 2.1.2c-.2.6-.1 1.3.1 1.9c-.7-.1-1.5-.2-2.2-.2c-3 0-6.1 1.5-6.1 2.1v1.1h10.6l.5.6zM10 4C7.8 4 6 5.8 6 8s1.8 4 4 4s4-1.8 4-4s-1.8-4-4-4m0 6c-1.1 0-2-.9-2-2s.9-2 2-2s2 .9 2 2s-.9 2-2 2" />
+                    </svg>`,
+                        service_title: "Draw in Eligible Leads", 
+                        service_description: "Landing pages for social media ads can be tailored to generate targeted leads and remarket to users who did not convert on the spot, based on your marketing objectives. You may tailor your offer and divide campaigns based on age, gender, or occupation with a well-thought-out social networking ads strategy, which will help you attract qualified leads and get them through your sales funnel.",
+
+                    },
+                    {
+                        icon : `<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 32 32" {...$$props}>
+                        <path fill="currentColor" d="M27 25h-6a3 3 0 0 0-3 3v2h2v-2a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v2h2v-2a3 3 0 0 0-3-3m-7-5a4 4 0 1 0 4-4a4 4 0 0 0-4 4m6 0a2 2 0 1 1-2-2a2 2 0 0 1 2 2M6 21v-1H4v1a7 7 0 0 0 7 7h3v-2h-3a5 5 0 0 1-5-5m13-11h7v2h-7zm0-4h10v2H19zm0-4h10v2H19zm-8 9H5a3 3 0 0 0-3 3v2h2v-2a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v2h2v-2a3 3 0 0 0-3-3m-3-1a4 4 0 1 0-4-4a4 4 0 0 0 4 4m0-6a2 2 0 1 1-2 2a2 2 0 0 1 2-2" />
+                    </svg>`,
+                        service_title: "Acquire Practical Knowledge", 
+                        service_description: "Which social media advertisements received the most impressions? Was the landing page for your social media ads effective? You can analyze the efficacy of your social media advertising and inform future campaigns by using market data and metrics, such as clicks, visits, and comments, that come with social media advertising.",
+
+                    },
+                    {
+                        icon : `<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 2048 2048" {...$$props}>
+                        <path fill="currentColor" d="M960 384q119 0 224 45t183 124t123 183t46 224q0 63-8 118t-25 105t-44 99t-64 100q-29 40-51 72t-36 64t-21 70t-7 89v179q0 40-15 75t-41 61t-61 41t-75 15H832q-40 0-75-15t-61-41t-41-61t-15-75v-180q0-51-7-88t-21-69t-36-65t-51-72q-37-51-63-99t-44-99t-26-106t-8-118q0-119 45-224t124-183t183-123t224-46m192 1472v-64H768v64q0 26 19 45t45 19h256q26 0 45-19t19-45m256-896q0-93-35-174t-96-143t-142-96t-175-35q-93 0-174 35t-143 96t-96 142t-35 175q0 89 18 153t47 114t61 94t61 92t48 108t21 143h384q1-83 20-142t48-108t61-92t61-94t47-115t19-153M960 256q-26 0-45-19t-19-45V64q0-26 19-45t45-19q26 0 45 19t19 45v128q0 26-19 45t-45 19M192 928H64q-26 0-45-19T0 864q0-26 19-45t45-19h128q26 0 45 19t19 45q0 26-19 45t-45 19m53 261q26 0 45 19t19 46q0 20-11 35t-30 24q-11 5-30 13t-41 17t-40 15t-32 7q-26 0-45-19t-19-46q0-20 11-35t30-24q11-4 30-13t41-17t40-15t32-7m152-645q0 26-19 45t-45 19q-18 0-33-9l-109-67q-14-9-22-23t-9-32q0-26 19-45t45-19q16 0 33 10l110 66q14 8 22 23t8 32m83-368q0-26 19-45t45-19q17 0 32 9t24 24l62 112q8 14 8 30q0 27-19 46t-45 19q-17 0-32-9t-24-24l-62-112q-8-14-8-31m1376 624q26 0 45 19t19 45q0 26-19 45t-45 19h-128q-26 0-45-19t-19-45q0-26 19-45t45-19zm2 501q0 26-19 45t-45 19q-11 0-30-6t-41-16t-40-17t-31-14q-18-8-29-24t-12-36q0-27 19-45t46-19q12 0 31 7t40 16t40 18t31 13q18 8 29 23t11 36m-271-693q-26 0-45-19t-19-45q0-17 8-32t22-23l110-66q17-10 33-10q26 0 45 19t19 45q0 17-8 31t-23 24l-109 67q-15 9-33 9m-337-321q0-16 8-30l62-112q8-15 23-24t33-9q26 0 45 19t19 45q0 17-8 31l-62 112q-8 15-23 24t-33 9q-26 0-45-19t-19-46" />
+                    </svg>`,
+                        service_title: "Provide a concise value proposition.", 
+                        service_description: "How can your company resolve a particular issue for a client? With the use of engaging calls-to-action (CTAs), laser-focused social media advertising for businesses enables you to highlight the USPs of your top products or services and inspire them to take the necessary action.",
+
+                    }, 
+                    {
+                        icon : `<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" {...$$props}>
+                        <path fill="currentColor" d="M10 16q2.5 0 4.25-1.75T16 10q0-2.5-1.75-4.25T10 4Q7.5 4 5.75 5.75T4 10q0 2.5 1.75 4.25T10 16m-1-3V6h2v7zm-3.5 0V8h2v5zm7 0V9h2v4zm8.1 9l-5.675-5.675q-1.025.8-2.275 1.238T10 18q-3.35 0-5.675-2.325T2 10q0-3.35 2.325-5.675T10 2q3.35 0 5.675 2.325T18 10q0 1.4-.437 2.65t-1.238 2.275L22 20.6z" />
+                    </svg>`,
+                        service_title: "Produce Direct Sales", 
+                        service_description: "Social media advertising makes it simpler and more profitable to introduce time-sensitive offers, whether you're presenting new collections to previous customers or using seasonal specials to entice targeted consumers to buy. Paid social media marketing are an easy, affordable way to sway customers' decisions and increase revenue.",
+
+                    }, 
+                    {
+                        icon : `<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 48 48" {...$$props}>
+                        <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M5.504 41.251H42.5V28.153M7.434 37.688L22.424 22.7l5.108 5.108L42.5 12.84v11.056M31.359 12.839H42.5" />
+                        <rect width="13.13" height="11.358" x="5.5" y="12.402" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" rx="2.181" />
+                        <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M8.562 16.188h10.067M5.5 19.974h10.067" />
+                        <circle cx="12.056" cy="8.589" r="1.84" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>`,
+                        service_title: "Spend Your Money Sensibly", 
+                        service_description: "Setting a reasonable budget for your social networking marketing campaign and tracking data in real-time are two of the main benefits of social media advertising. After an eCommerce shop contacted Legiitpro to manage its Facebook advertisements, we generated $70,000 in revenue in a 28-day attribution window with ad spend of roughly $6,000.",
+
+                    }, 
+                ]
+            }, 
+             //ThriveWhyChoose
+            {
+                interface: "ThriveWhyChoose",
+                title:"Leveraging Social Media Platforms for Advertising",
+                subTitle:"Each social media platform offers unique features, ad formats, and targeting options that businesses can leverage to achieve their advertising goals. Here's a closer look at some of the most popular social media platforms for advertising and their respective benefits:",
+                descriptions : [
+                     
+                ],
+                services: [
+                    {
+                        icon : "",
+                        service_title: "Facebook Advertising", 
+                        service_description: "With its extensive user base and sophisticated targeting capabilities, Facebook advertising is ideal for businesses looking to reach diverse audience segments and drive specific actions such as website visits, lead generation, and product sales.",
+
+                    },
+                    {
+                        icon : "",
+                        service_title: "Instagram Advertising", 
+                        service_description: "As a visual-centric platform, Instagram advertising offers businesses creative opportunities to showcase their products and services through captivating images and videos. With its highly engaged user base and seamless integration with Facebook Ads Manager, Instagram advertising is perfect for brands looking to increase brand awareness and engagement.",
+
+                    },
+                    {
+                        icon : "",
+                        service_title: "Twitter Advertising", 
+                        service_description: "Twitter advertising enables businesses to reach a broad audience in real-time and drive immediate engagement through promoted tweets, accounts, and trends. With its conversational nature and trending topics, Twitter advertising is well-suited for businesses seeking to participate in timely conversations and capitalize on current events.",
+
+                    },
+                    {
+                        icon : "",
+                        service_title: "LinkedIn Advertising", 
+                        service_description: "LinkedIn advertising caters primarily to B2B marketers looking to target professionals and decision-makers within specific industries and organizations. With its precise targeting options, sponsored content formats, and robust analytics, LinkedIn advertising is ideal for businesses seeking to generate leads, drive website traffic, and build thought leadership within their niche.",
+
+                    },
+                    {
+                        icon : "",
+                        service_title: "TikTok Advertising", 
+                        service_description: "TikTok advertising offers businesses a unique opportunity to connect with younger, digitally savvy audiences through immersive, short-form video content. With its viral trends, challenges, and creative ad formats, TikTok advertising is perfect for brands looking to inject creativity and authenticity into their marketing campaigns.",
+
+                    },
+                    {
+                        icon : "",
+                        service_title: "Pinterest Advertising", 
+                        service_description: "Pinterest advertising allows businesses to showcase their products and services in a visually appealing and highly discoverable manner. With its focus on inspiration and discovery, Pinterest advertising is ideal for brands in lifestyle, fashion, home decor, and DIY niches looking to drive website traffic, increase sales, and inspire purchase decisions.",
+
+                    },
+                    {
+                        icon : "",
+                        service_title: "Reddit Advertising", 
+                        service_description: "Reddit advertising enables businesses to target niche communities and interest groups based on specific topics, subreddits, and user behaviors. With its diverse ad formats and highly engaged user base, Reddit advertising is perfect for brands seeking to participate in relevant conversations, conduct market research, and amplify their messaging within niche communities.",
+
+                    },
+                ]
+            }, 
+             //ThriveServices
+             {
+                interface: "ThriveServices",
+                title:"How Much Does Social Media Advertising Cost?",
+                subTitle:"The golden question! Like any good adventure, the investment depends on the size of your ship and the length of your journey. Each platform has its currency and economy, influenced by your campaign's scope, duration, and objectives.",
+                descriptions : [
+                    " "
+                ],
+                services: [
+                    {
+                        icon : `<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 2048 2048" {...$$props}>
+                        <path fill="currentColor" d="M1280 896q-80 0-149 30t-122 82t-83 123t-30 149q0 92-41 173t-115 136q65 33 117 81t90 108t57 128t20 142H896q0-79-30-149t-82-122t-123-83t-149-30q-80 0-149 30t-122 82t-83 123t-30 149H0q0-73 20-141t57-128t89-108t118-82q-74-55-115-136t-41-173q0-79 30-149t82-122t122-83t150-30q92 0 173 41t136 115q38-75 97-134t134-97q-74-55-115-136t-41-173q0-79 30-149t82-122t122-83t150-30q79 0 149 30t122 82t83 123t30 149q0 92-41 173t-115 136q65 33 117 81t90 108t57 128t20 142h-128q0-79-30-149t-82-122t-123-83t-149-30m-256-384q0 53 20 99t55 82t81 55t100 20q53 0 99-20t82-55t55-81t20-100q0-53-20-99t-55-82t-81-55t-100-20q-53 0-99 20t-82 55t-55 81t-20 100M512 1536q53 0 99-20t82-55t55-81t20-100q0-53-20-99t-55-82t-81-55t-100-20q-53 0-99 20t-82 55t-55 81t-20 100q0 53 20 99t55 82t81 55t100 20m1536 256h-256v256h-128v-256h-256v-128h256v-256h128v256h256z" />
+                    </svg>`,
+                        service_title: "Facebook & Instagram:", 
+                        service_description: "Expect to invest anywhere from a few pieces of eight to a chest of gold. The cost can vary widely, but a healthy budget can start from $5 a day to thousands for more ambitious campaigns.",
+
+                    },
+                    {
+                        icon : `<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 48 48" {...$$props}>
+                        <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M37.42 14.7a4.1 4.1 0 0 0-4.08-4.11h0a4.11 4.11 0 1 0 0 8.21a4.09 4.09 0 0 0 2.88-1.18a4 4 0 0 0 1.19-2.92ZM16.1 29.44l-2-2l-6.2 1.98h-.2a.69.69 0 0 1-.53-.2l-1.45-1.43a.7.7 0 0 1-.11-.88L7.3 24a13 13 0 0 1 10.07-6.39l2.49-.22q2.17-2.58 4-4.42A26.4 26.4 0 0 1 32 7.12a25.63 25.63 0 0 1 9.77-1.61a.79.79 0 0 1 .54.22a.68.68 0 0 1 .22.5A25.27 25.27 0 0 1 40.78 16A25.79 25.79 0 0 1 35 24.16c-1.23 1.24-2.71 2.57-4.42 4l-.22 2.48A13 13 0 0 1 24 40.72l-2.89 1.69a.78.78 0 0 1-.37.09a.82.82 0 0 1-.52-.2l-1.45-1.46a.69.69 0 0 1-.18-.71l1.93-6.27l-1.94-1.94m12.04-3.76l-10.1 5.7m-.66-16.47l-5.71 10.1" />
+                        <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M13 35c4-.74 11.1-7.4 11.93-11.93C20.37 23.94 13.71 31 13 35" />
+                    </svg>`,
+                        service_title: "LinkedIn", 
+                        service_description: " The island demands a higher toll, with costs often starting at $10 a day. But for those seeking the most professional crew, it's worth every coin.",
+
+                    },
+                    {
+                        icon : `<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" {...$$props}>
+                        <path fill="currentColor" d="M19 20.5q-.898 0-1.587-.562q-.688-.563-.853-1.438H11q-1.458 0-2.479-1.021T7.5 15q0-1.458 1.021-2.479T11 11.5h2q1.031 0 1.766-.735t.734-1.769q0-1.033-.734-1.764Q14.03 6.5 13 6.5H7.44q-.17.875-.856 1.438T5 8.5q-1.042 0-1.77-.728q-.73-.729-.73-1.77q0-1.04.73-1.771Q3.957 3.5 5 3.5q.898 0 1.584.563q.685.562.856 1.437H13q1.458 0 2.479 1.021T16.5 9q0 1.458-1.021 2.479T13 12.5h-2q-1.031 0-1.766.735T8.5 15.004q0 1.033.734 1.764q.735.732 1.766.732h5.56q.17-.875.856-1.437T19 15.5q1.042 0 1.77.729q.73.728.73 1.769q0 1.04-.73 1.771q-.728.731-1.77.731M5 7.5q.617 0 1.059-.441Q6.5 6.617 6.5 6t-.441-1.059Q5.617 4.5 5 4.5t-1.059.441Q3.5 5.383 3.5 6t.441 1.059Q4.383 7.5 5 7.5" />
+                    </svg>`,
+                        service_title: "Twitter", 
+                        service_description: "With a wide range of advertising options, you might spend from $0.50 to over $2.00 per engagement.",
+
+                    },
+                    {
+                        icon : `<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 36 36" {...$$props}>
+                        <path fill="currentColor" d="M30.4 17.6c-1.8-1.9-4.2-3.2-6.7-3.7c-1.1-.3-2.2-.5-3.3-.6c2.8-3.3 2.3-8.3-1-11.1s-8.3-2.3-11.1 1s-2.3 8.3 1 11.1c.6.5 1.2.9 1.8 1.1v2.2l-1.6-1.5c-1.4-1.4-3.7-1.4-5.2 0c-1.4 1.4-1.5 3.6-.1 5l4.6 5.4c.2 1.4.7 2.7 1.4 3.9c.5.9 1.2 1.8 1.9 2.5v1.9c0 .6.4 1 1 1h13.6c.5 0 1-.5 1-1v-2.6c1.9-2.3 2.9-5.2 2.9-8.1v-5.8c.1-.4 0-.6-.2-.7m-22-9.4c0-3.3 2.7-5.9 6-5.8c3.3 0 5.9 2.7 5.8 6c0 1.8-.8 3.4-2.2 4.5v-5a3.4 3.4 0 0 0-3.4-3.2c-1.8-.1-3.4 1.4-3.4 3.2v5.2c-1.7-1-2.7-2.9-2.8-4.9M28.7 24c.1 2.6-.8 5.1-2.5 7.1c-.2.2-.4.4-.4.7v2.1H14.2v-1.4c0-.3-.2-.6-.4-.8c-.7-.6-1.3-1.3-1.8-2.2c-.6-1-1-2.2-1.2-3.4c0-.2-.1-.4-.2-.6l-4.8-5.7c-.3-.3-.5-.7-.5-1.2c0-.4.2-.9.5-1.2c.7-.6 1.7-.6 2.4 0l2.9 2.9v3l1.9-1V7.9c.1-.7.7-1.3 1.5-1.2c.7 0 1.4.5 1.4 1.2v11.5l2 .4v-4.6c.1-.1.2-.1.3-.2c.7 0 1.4.1 2.1.2v5.1l1.6.3v-5.2l1.2.3c.5.1 1 .3 1.5.5v5l1.6.3v-4.6c.9.4 1.7 1 2.4 1.7z" class="clr-i-outline clr-i-outline-path-1" />
+                        <path fill="none" d="M0 0h36v36H0z" />
+                    </svg>`,
+                        service_title: "TikTok", 
+                        service_description: "Still a wild card, but with its growing popularity, starting budgets can be similar to Facebook and Instagram, adjusted for their unique engagement rates and audience behavior.",
+
+                    },
+                    {
+                        icon : `<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" {...$$props}>
+                        <path fill="currentColor" d="m17 21l1.8 1.77c.5.5 1.2.1 1.2-.49V18l2.8-3.4A1 1 0 0 0 22 13h-7c-.8 0-1.3 1-.8 1.6L17 18zm-2-1H2v-3c0-2.7 5.3-4 8-4c.6 0 1.3.1 2.1.2c-.2.6-.1 1.3.1 1.9c-.7-.1-1.5-.2-2.2-.2c-3 0-6.1 1.5-6.1 2.1v1.1h10.6l.5.6zM10 4C7.8 4 6 5.8 6 8s1.8 4 4 4s4-1.8 4-4s-1.8-4-4-4m0 6c-1.1 0-2-.9-2-2s.9-2 2-2s2 .9 2 2s-.9 2-2 2" />
+                    </svg>`,
+                        service_title: "Pinterest", 
+                        service_description: "The average Pinterest advertising cost for building brand awareness is $2.00 - $5.00 per 1,000 impressions. Meanwhile, boosting engagement and driving website traffic ranges between $0.10 - $1.50 per engagement.",
+
+                    },
+                    {
+                        icon : `<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 32 32" {...$$props}>
+                        <path fill="currentColor" d="M27 25h-6a3 3 0 0 0-3 3v2h2v-2a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v2h2v-2a3 3 0 0 0-3-3m-7-5a4 4 0 1 0 4-4a4 4 0 0 0-4 4m6 0a2 2 0 1 1-2-2a2 2 0 0 1 2 2M6 21v-1H4v1a7 7 0 0 0 7 7h3v-2h-3a5 5 0 0 1-5-5m13-11h7v2h-7zm0-4h10v2H19zm0-4h10v2H19zm-8 9H5a3 3 0 0 0-3 3v2h2v-2a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v2h2v-2a3 3 0 0 0-3-3m-3-1a4 4 0 1 0-4-4a4 4 0 0 0 4 4m0-6a2 2 0 1 1-2 2a2 2 0 0 1 2-2" />
+                    </svg>`,
+                        service_title: "Reddit", 
+                        service_description: "Like TikTok advertising, Reddit advertising works on a cost-per-mile basis. Advertising on Reddit begins at $5 per day. It also has an auction style where you can bid for ads for as low as $0.20 per bid",
+
+                    }, 
                 ]
             },
             //ThriveBrandReviews
@@ -610,201 +829,113 @@ export const category_page_data = [
                     reviews : "30+ Reviews"
                 },
             ]
-            },
-            //ThriveTitleParagraphs
-            {
-                interface: "ThriveTitleParagraphs",
-                title: "Results-Driven Social Media Advertising Company",
-                paragraphs: [
-                    "Social media advertising can be a daunting task, especially if you do not have the expertise, knowledge and skills required to support the development, implementation, monitoring and optimization of paid social media advertising campaigns.",
-                    "Looking for a reputable social media advertising agency to manage your social ads?",
-                    "Thrive Internet Marketing Agency is your partner in navigating this complicated, ever-changing social media landscape. Since 2005, we have been assisting local businesses, multi-location companies, enterprises and franchises with their social media advertising needs",
-                    "Discover how our social advertising strategies accelerated the online growth of these clients:",
-
-                ]
-            },
+            },  
             //ThriveTopicIntro2
             {
                 interface: "ThriveTopicIntro2",
-                title: "What Is Social Media Advertising?",
-                subTitle: "Generate High-Converting Leads and Increase Sales Exponentially",
-                firstPara: "Social media marketing is an unpaid marketing initiative. This means you don’t have to pay to promote your brand to your followers. Social media marketing encompasses optimization efforts centered on creating brand recognition, developing meaningful connections and driving engagement. Paid social advertising, on the other hand, focuses on fine-tuning social media advertisement for better reach and higher ROI. Advertising on social media channels puts your brand in front of people who are looking for what you offer right now. ",
+                title: "LegiitPro's Social Media Advertising Services Secure Expert Assistance to Fulfill Your Business Growth Aspirations",
+                subTitle: " ",
+                firstPara: "Social Media Marketing Deploying advertisements on social platforms is an effective strategy to attract new clients and foster repeat business. However, our approach at LegiitPro extends beyond mere advertising; it encompasses comprehensive social media marketing services designed to enhance your conversion rate optimization (CRO) strategies. Our team of experts conducts thorough social media audits to refine your marketing strategy and initiate enduring campaigns.",
                 sidePara: [
-                    "In today’s digital age, conventional marketing methods are not enough to build a loyal and highly engaged customer base. You need to meet people where they are active and tailor your brand message to specific audience segments to reach more consumers at a low cost and generate a better return on investment (ROI).",
-                    "More than any other marketing strategy, social media advertising helps maximize your brand’s visibility and provides lucrative opportunities to attract and nurture leads and transform them into paying customers.",
+                    `<span class='font-bold' >Social Media Management</span>  Legiitpro stands out not only as a provider of social and Facebook advertising solutions but also as your dedicated social media management partner. From crafting impactful social and Instagram advertising campaigns to tracking advertisement outcomes and managing various social media accounts, our team can manage all aspects on your behalf. We assist in selecting the most suitable social media channels and marketing strategies for your business, ensuring maximum outcomes and facilitating your online growth.`,
+                    `<span class='font-bold' >Social Media Brand Management</span> Our agency integrates social media management with diverse advertising methods – including Instagram, TikTok, LinkedIn, and Facebook advertising services – to highlight your distinct brand identity and ensure consistency across all customer interactions. Our objective is to enhance your brand's inclusivity and uniformity across platforms. Additionally, we can connect you with our web design specialists to ensure your website is ADA compliant and that all elements are in harmony with your social media branding.`,
+                    `<span class='font-bold' >Social Media Follower Growth</span> Strengthen your social media presence and attract high-converting followers! At LegiitPro, we leverage data-driven marketing and advertising strategies, including Twitter, Pinterest, and Facebook ad management services, to bolster your customer base and expand your social media following. We fine-tune your social profiles, post compelling content, devise strategic posting schedules, and initiate targeted advertisements to meet your growth targets.`,
+                    `<span class='font-bold' >Social Media SEO</span> The advantages of utilizing social media and Facebook advertising services extend beyond mere visibility enhancement. A well-crafted advertising and marketing strategy can significantly boost your brand's exposure, driving qualified leads and traffic to your website. `,
                 ],
                 imgUrl: "/category-page/smm3.svg",
 
             },
-            //ThriveTitleParagraphs
+            //ThriveTopicIntro2
             {
-                interface: "ThriveTitleParagraphs",
-                title: "Drive Greater Results With Paid Social Media ",
-                paragraphs: [
-                    "As more people use social media to connect with businesses, the amount of competition also increases. Let our social advertising agency refine your social media ad strategy and serve social media advertising that hooks the attention of your target leads throughout your marketing funnel.",
-                    "Thrive Internet Marketing Agency is one of the most established social media advertising companies, providing conversion-centric social media ad services. We help you gain complete control over your social media ad budget and audience targeting approach to maximize the impact of your paid social media campaigns.",
-                    "Get in touch with our social media advertising company and discover the best social media platforms for business niches with unmet needs!"
-                ]
-            },
-            //ThriveServices
-            {
-                interface: "ThriveServices",
-                title:"Average Advertising Cost for Each Social Media Platform:",
-                subTitle:" ",
-                descriptions : [" "],
-                services: [
-                    {
-                        icon : `<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" {...$$props}>
-                        <path fill="currentColor" d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c5.05-.5 9-4.76 9-9.95" />
-                    </svg>`,
-                        service_title: "Facebook Management",
-                        service_url:"/",
-                        service_description: "Boasting over 1 billion daily active users, Facebook has sufficient reach to support social media management for everything from small business clients to large corporations. Its main appeal lies in its low-cost marketing, exact targeting and organic follower engagement. Maximize these benefits when you sign up for our Facebook management services. Our social media management company offers strategy recommendations, content development, comment monitoring for social content and paid advertising, among others.",
+                interface: "ThriveTopicIntro2",
+                title: "Social Media Advertising Services by Legiitpro Unlock Your Company's Growth Potential with Expert Assistance",
+                subTitle: " ",
+                firstPara: "Social Media Marketing Utilizing social media advertising is a proven method to attract new customers and encourage repeat business. However, at Thrive, our expertise doesn't end there. Beyond managing social media and Facebook ads, we offer comprehensive social media marketing services designed to enhance your conversion rate optimization (CRO) efforts. Our specialists perform thorough social media evaluations to tailor your marketing strategies and initiate sustainable campaigns.",
+                sidePara: [
+                    `<span class='font-bold' >Social Media Management</span> Legiitpro extends beyond being a mere social and Facebook advertising firm. We act as your comprehensive social media managers, covering all bases from crafting impactful social and Instagram ad campaigns, monitoring ad performance, to managing your multiple social media profiles. We guide you in choosing the most effective social media platforms and strategies for your business, ensuring optimal online growth.`,
+                    `<span class='font-bold' >Social Media Brand Management</span> Our approach integrates social media management with various advertising methods, including Instagram, TikTok, LinkedIn, and Facebook advertising, to highlight your unique brand identity and ensure consistency across all customer interactions. Our objective is to make your brand more inclusive and unified across platforms, with options to collaborate with our web design experts for ADA-compliant website enhancements aligned with your social branding.`,
+                    `<span class='font-bold' >Social Media Follower Growth</span>Elevate your social media presence and attract a following that converts. We leverage data-driven marketing and advertising strategies across platforms like Twitter, Pinterest, and Facebook to boost customer engagement and grow your social media followers. Strategies include profile optimization, posting compelling content, scheduling strategic posts, and launching targeted ads to meet your growth targets.`,
+                    `<span class='font-bold' >Social Media SEO</span> The advantages of leveraging social media and Facebook advertising extend to enhancing your brand visibility and driving targeted leads and traffic to your website. Our team works closely with you to identify high-performing website content, amplify its presence on social media, and increase its reach through precise social media promotions and Facebook advertising strategies.`,
+                    `<span class='font-bold' >Website Design and Development</span> Earn your potential clients' trust with consistent branding across your social media pages. Our team collaborates with web design professionals to ensure social sharing buttons are seamlessly integrated into your site, along with features like Facebook reviews, social login options, and YouTube video embeds. For standout designs for your social pages and ads, our agency is ready to assist.`,
+                    `<span class='font-bold' >Video Production</span>Incorporate video ads into your social and Facebook advertising efforts for remarkable engagement. If creating captivating video ads for various social platforms challenges your team, our experts are here to support you. We specialize in designing mobile-friendly, brief video ads that prompt viewer action within the initial seconds.`, 
+                ],
+                imgUrl: "/category-page/smm3.svg",
 
-                    },
-                    {
-                        icon : `<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" {...$$props}>
-                        <path fill="currentColor" d="M22.46 6c-.77.35-1.6.58-2.46.69c.88-.53 1.56-1.37 1.88-2.38c-.83.5-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35 0-4.27 1.92-4.27 4.29c0 .34.04.67.11.98C8.28 9.09 5.11 7.38 3 4.79c-.37.63-.58 1.37-.58 2.15c0 1.49.75 2.81 1.91 3.56c-.71 0-1.37-.2-1.95-.5v.03c0 2.08 1.48 3.82 3.44 4.21a4.22 4.22 0 0 1-1.93.07a4.28 4.28 0 0 0 4 2.98a8.521 8.521 0 0 1-5.33 1.84c-.34 0-.68-.02-1.02-.06C3.44 20.29 5.7 21 8.12 21C16 21 20.33 14.46 20.33 8.79c0-.19 0-.37-.01-.56c.84-.6 1.56-1.36 2.14-2.23" />
-                    </svg>`,
-                        service_title: "Twitter Management",
-                        service_url:"/",
-                        service_description: "Hop into the conversations that matter to your target audience, advocate causes your company believes in and cultivate an online community on Twitter. This chatty app is conducive to expanding your outreach and establishing your brand personality. Whether it's large enterprise or small business social media management you require, our Twitter management experts aid you in devising a cohesive, channel-specific strategy.",
-
-                    },
-                    {
-                        icon : `<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" {...$$props}>
-                        <path fill="currentColor" d="M13.028 2c1.125.003 1.696.009 2.189.023l.194.007c.224.008.445.018.712.03c1.064.05 1.79.218 2.427.465c.66.254 1.216.598 1.772 1.153a4.908 4.908 0 0 1 1.153 1.772c.247.637.415 1.363.465 2.428c.012.266.022.487.03.712l.006.194c.015.492.021 1.063.023 2.188l.001.746v1.31a78.831 78.831 0 0 1-.023 2.188l-.006.194c-.008.225-.018.446-.03.712c-.05 1.065-.22 1.79-.466 2.428a4.883 4.883 0 0 1-1.153 1.772a4.915 4.915 0 0 1-1.772 1.153c-.637.247-1.363.415-2.427.465a72.11 72.11 0 0 1-.712.03l-.194.006c-.493.014-1.064.021-2.189.023l-.746.001h-1.309a78.43 78.43 0 0 1-2.189-.023l-.194-.006a63.036 63.036 0 0 1-.712-.031c-1.064-.05-1.79-.218-2.428-.465a4.889 4.889 0 0 1-1.771-1.153a4.904 4.904 0 0 1-1.154-1.772c-.247-.637-.415-1.363-.465-2.428a74.1 74.1 0 0 1-.03-.712l-.005-.194A79.047 79.047 0 0 1 2 13.028v-2.056a78.82 78.82 0 0 1 .022-2.188l.007-.194c.008-.225.018-.446.03-.712c.05-1.065.218-1.79.465-2.428A4.88 4.88 0 0 1 3.68 3.678a4.897 4.897 0 0 1 1.77-1.153c.638-.247 1.363-.415 2.428-.465c.266-.012.488-.022.712-.03l.194-.006a79 79 0 0 1 2.188-.023zM12 7a5 5 0 1 0 0 10a5 5 0 0 0 0-10m0 2a3 3 0 1 1 .001 6a3 3 0 0 1 0-6m5.25-3.5a1.25 1.25 0 0 0 0 2.5a1.25 1.25 0 0 0 0-2.5" />
-                    </svg>`,
-                        service_title: "Instagram Management",
-                        service_url:"/",
-                        service_description: "About one third of the 1 billion Instagram monthly active users have purchased a product on the visual storytelling app. Adapt social media marketing management on this platform to achieve your sales goals. You can leave the legwork to Thrive, an Instagram management agency with extensive experience in optimizing vanishing and user-generated content. We handle it all, from gallery posts and Instagram stories to interstitial ads.",
-
-                    },
-                    {
-                        icon : `<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" {...$$props}>
-                        <path fill="currentColor" d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2zm-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93zM6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37z" />
-                    </svg>`,
-                        service_title: "LinkedIn Management",
-                        service_url:"/",
-                        service_description: "Our experts have found LinkedIn an optimal place for business-to-business (B2B) companies to compel executives and decision-makers to partner with them. At Thrive, we take advantage of its native social media management software solutions to employ lead-generating enterprise social media management. Our array of LinkedIn management services are designed to bolster your brand credibility, demonstrate your thought-leadership, edge out your rivals and gain market trust.",
-
-                    },
-                    {
-                        icon : `<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" {...$$props}>
-                        <g fill="none" fill-rule="evenodd">
-                            <path d="M24 0v24H0V0zM12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035c-.01-.004-.019-.001-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427c-.002-.01-.009-.017-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093c.012.004.023 0 .029-.008l.004-.014l-.034-.614c-.003-.012-.01-.02-.02-.022m-.715.002a.023.023 0 0 0-.027.006l-.006.014l-.034.614c0 .012.007.02.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z" />
-                            <path fill="currentColor" d="M12 4c.855 0 1.732.022 2.582.058l1.004.048l.961.057l.9.061l.822.064a3.802 3.802 0 0 1 3.494 3.423l.04.425l.075.91c.07.943.122 1.971.122 2.954c0 .983-.052 2.011-.122 2.954l-.075.91c-.013.146-.026.287-.04.425a3.802 3.802 0 0 1-3.495 3.423l-.82.063l-.9.062l-.962.057l-1.004.048A61.59 61.59 0 0 1 12 20a61.59 61.59 0 0 1-2.582-.058l-1.004-.048l-.961-.057l-.9-.062l-.822-.063a3.802 3.802 0 0 1-3.494-3.423l-.04-.425l-.075-.91A40.662 40.662 0 0 1 2 12c0-.983.052-2.011.122-2.954l.075-.91c.013-.146.026-.287.04-.425A3.802 3.802 0 0 1 5.73 4.288l.821-.064l.9-.061l.962-.057l1.004-.048A61.676 61.676 0 0 1 12 4m-2 5.575v4.85c0 .462.5.75.9.52l4.2-2.425a.6.6 0 0 0 0-1.04l-4.2-2.424a.6.6 0 0 0-.9.52Z" />
-                        </g>
-                    </svg>`,
-                        service_title: "YouTube Management",
-                        service_url:"/",
-                        service_description: "YouTube’s commercial success is well-documented, but its emergence is tied to how it yields relevant videos to user searches. Your brand can take part in this cultural moment by embedding technical search engine optimization (SEO) best practices into your channel. Our YouTube management approach simplifies the steps for you, researching the most appropriate title tags and descriptions to go with your video uploads.",
-
-                    },
-                    {
-                        icon : `<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" {...$$props}>
-                        <path fill="currentColor" d="M9.04 21.54c.96.29 1.93.46 2.96.46a10 10 0 0 0 10-10A10 10 0 0 0 12 2A10 10 0 0 0 2 12c0 4.25 2.67 7.9 6.44 9.34c-.09-.78-.18-2.07 0-2.96l1.15-4.94s-.29-.58-.29-1.5c0-1.38.86-2.41 1.84-2.41c.86 0 1.26.63 1.26 1.44c0 .86-.57 2.09-.86 3.27c-.17.98.52 1.84 1.52 1.84c1.78 0 3.16-1.9 3.16-4.58c0-2.4-1.72-4.04-4.19-4.04c-2.82 0-4.48 2.1-4.48 4.31c0 .86.28 1.73.74 2.3c.09.06.09.14.06.29l-.29 1.09c0 .17-.11.23-.28.11c-1.28-.56-2.02-2.38-2.02-3.85c0-3.16 2.24-6.03 6.56-6.03c3.44 0 6.12 2.47 6.12 5.75c0 3.44-2.13 6.2-5.18 6.2c-.97 0-1.92-.52-2.26-1.13l-.67 2.37c-.23.86-.86 2.01-1.29 2.7z" />
-                    </svg>`,
-                        service_title: "Pinterest Advertising",
-                        service_url:"/",
-                        service_description: "Improve your add-to-cart and checkout rates when you share your eCommerce catalog on Pinterest. No other social media management agencies are as committed as Thrive in strategically posting, optimizing and positioning your pins. Responding to inbound engagement like comments, questions and feedback is also a part of our social media management business strategists' day.",
-
-                    },
-                    {
-                        icon : `<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" {...$$props}>
-                        <path fill="currentColor" d="M16.6 5.82s.51.5 0 0A4.278 4.278 0 0 1 15.54 3h-3.09v12.4a2.592 2.592 0 0 1-2.59 2.5c-1.42 0-2.6-1.16-2.6-2.6c0-1.72 1.66-3.01 3.37-2.48V9.66c-3.45-.46-6.47 2.22-6.47 5.64c0 3.33 2.76 5.7 5.69 5.7c3.14 0 5.69-2.55 5.69-5.7V9.01a7.35 7.35 0 0 0 4.3 1.38V7.3s-1.88.09-3.24-1.48" />
-                    </svg>`,
-                        service_title: "TikTok Management",
-                        service_url:"/",
-                        service_description: "Transitioning quickly as a rising star to a global platform, TikTok has taken social media by storm and helped level social media management for small businesses. Step up with TikTok for Business solutions that are well-designed for targeting, forging an authentic connection with and empowering the next generation. Entrust your social media content management to our specialists who understand how this massive platform works",
-
-                    }, 
-                ]
             },
             //ThriveWhyChoose
             {
                 interface: "ThriveWhyChoose",
-                title:"Why Choose Thrive for Your Social Media Advertising",
-                subTitle:"Increase Your Leads, Signups and Sales",
+                title:"Why Choose LegiitPro for Your Social Media Advertising Needs?",
+                subTitle:" ",
                 descriptions : [
-                    "Thrive Internet Marketing Agency is one of the leading social media marketing and Facebook advertising companies in the United States. Throughout the years, we’ve helped hundreds of industry leaders bring outstanding business results through targeted ads on social media.",
-                    "Put the power of social media advertising to work for your business by teaming up with Thrive! Here’s what you can expect when you choose our social and Facebook ads agency:",
+                     
                 ],
                 services: [
                     {
                         icon : "",
-                        service_title: "Profitable Advertising Goals", 
-                        service_description: "Our social and Facebook ad agency representatives schedule an initial consultation with your team to discuss your current social advertising goals, strategies and expectations. Based on our discussion, we formulate smart, realistic advertising objectives aligned with your financial capacity and marketing requirements.",
+                        service_title: "Expertise:", 
+                        service_description: "Our team is composed of seasoned social media marketers, content creators, and analytics experts who are committed to achieving your goals. We bring a wealth of knowledge and experience to every campaign, ensuring that your social media efforts are both efficient and effective.",
 
                     },
                     {
                         icon : "",
-                        service_title: "Campaign Tracking and Reporting", 
-                        service_description: "The biggest challenge of social media advertising is tracking performance and ensuring a high return on advertising spend (ROAS). We work diligently to accommodate all necessary tracking systems that can be implemented and optimize your social media accounts regularly to achieve the best possible results.",
+                        service_title: "Customization:", 
+                        service_description: "At LegiitPro, we understand that each business has its own unique challenges and objectives. That's why we focus on creating bespoke strategies that are specifically designed to align with your specific needs. Our approach is not one-size-fits-all; it's meticulously tailored to ensure the best possible outcomes for your brand.",
 
                     },
                     {
                         icon : "",
-                        service_title: "Transparent Data Analysis ", 
-                        service_description: "From your initial campaign audit to your monthly campaign performance, we provide you with detailed reports to ensure you know where your investment goes. We give you access to our client portal so you can gauge your social media advertising effectiveness and track your performance anytime you need.",
+                        service_title: "Innovative Strategies:", 
+                        service_description: "We stay at the forefront of social media trends and technological advancements, allowing us to employ cutting-edge tactics in your campaigns. This innovation leads to creative and impactful advertising that sets you apart from the competition.",
 
                     },
                     {
                         icon : "",
-                        service_title: "Expert Consultations ", 
-                        service_description: "Do you have an in-house social media team to manage your paid social media advertising campaigns but they still need expert training? Our social media managers are here to point your social media team in the right direction. We provide consulting and training to set your team on the right track.",
+                        service_title: "Comprehensive Support:", 
+                        service_description: "Beyond just crafting and executing strategies, LegiitPro offers ongoing support and consultation. We're here to guide you through the evolving landscape of social media, helping you to adapt and thrive amidst changes.",
 
                     },
                     {
                         icon : "",
-                        service_title: "Diverse Advertising Strategy", 
-                        service_description: "We keep track of the latest industry trends and social media algorithm updates to ensure your paid social media advertising strategy delivers profitable results. More importantly, we continuously explore new advertising opportunities for your business to keep your leads and conversions flowing.",
+                        service_title: "Results-Driven:", 
+                        service_description: "Ultimately, the success of our partnership is measured by the tangible results we achieve. From increasing your followers and engagement to driving sales and improving your ROI, LegiitPro is dedicated to delivering measurable success that contributes to your bottom line.",
 
                     },
                     {
                         icon : "",
-                        service_title: "Dedicated Social Media Advertising Strategist", 
-                        service_description: "Thrive comprises a team of social media advertising experts knowledgeable in running social ad campaigns on various platforms. We assign a dedicated account representative to manage your campaign and whom you can directly contact to address immediate questions or concerns you may have.",
+                        service_title: "Transparent Reporting:", 
+                        service_description: "With LegiitPro, you'll always know how your campaigns are performing. Our transparent, in-depth reporting and analytics provide you with insights into what's working, what's not, and how we can optimize for even greater success.",
 
                     },
+                    
                 ]
             }, 
+            //DyFaqProfile
             {
                 interface: "DyFaqProfile",
                 faqSection:{
-                    faqTitle :"Want to Learn More ?",
-                    faqSubTitle: "This comprehensive guide has expanded to cover additional aspects of small business marketing, ensuring a holistic understanding of the strategies and tools required for success. Empower your small business with these actionable insight",
+                    faqTitle :"Frequently Asked Questions?",
+                    faqSubTitle: "Choosing LegiitPro means partnering with a team that is as invested in your success as you are. We're ready to help you navigate the complexities of social media advertising, turning challenges into opportunities and goals into achievements.",
                     faq:[
                         {
                             id: "1",
-                            question: "What Should a Social Media Package Include?",
-                            answer: "A comprehensive guide on the essential components of a social media package "
+                            question: "What are the key benefits of social media advertising?",
+                            answer: "Social media advertising offers targeted audience reach, cost-effective marketing, enhanced brand visibility, actionable insights, and seamless integration with marketing campaigns."
                             
                         },
                         {
                             id: "2",
-                            question: "What Should Be Included in a Social Media Management Plan?",
-                            answer: "Breakdown of the key elements to consider in a well-structured social media management plan."
+                            question: "Which social media platforms are best for advertising?",
+                            answer: "The best social media platforms for advertising depend on your business goals and target audience. Popular options include Facebook, Instagram, Twitter, LinkedIn, TikTok, Pinterest, and Reddit."
                             
                         },
                         {
                             id: "3",
-                            question: "How Much Should I Charge for Social Media Management?",
-                            answer: "Insights into pricing strategies for social media management services."
+                            question: "How can businesses measure the success of their social media advertising campaigns?",
+                            answer: "Businesses can measure the success of their social media advertising campaigns by tracking key performance indicators (KPIs) such as reach, engagement, conversions, click-through rates (CTR), return on ad spend (ROAS), and cost per acquisition (CPA)"
                             
                         },
-                        {
-                            id: "4",
-                            question: "What is Social Media Packaging?",
-                            answer: "Understanding the concept of social media packaging and its significance in digital marketing. "
-                            
-                        },
-                        {
-                            id: "5",
-                            question: "What Are Media Packages?",
-                            answer: "Exploring the various types of media packages and their relevance in today's digital age. "
-                            
-                        }, 
+                         
                     ],
                 },
             }

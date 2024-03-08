@@ -562,7 +562,7 @@ export const category_page_data = [
         ],
     },
     {
-        url: "/b2b-marketing-agency/digital-advertising",
+        url: "/b2b-marketing-agency/social-media-advertising",
         pageName: "Digital Advertising" , 
         metaTags:{
             title:" meta title",

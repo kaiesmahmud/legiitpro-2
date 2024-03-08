@@ -12,7 +12,7 @@ export const serviceSectionData = [
             {
                 catName: "Digital Advertising" , 
                 catDesc: "The process of social media advertising can be intimidating, particularly if you lack the experience, know-how, and abilities necessary to assist with the planning, execution, evaluation, and optimization of sponsored social media advertising campaigns. Searching for a trustworthy company to handle your social media advertising?",
-                catURL : "/b2b-marketing-agency/digital-advertising" ,
+                catURL : "/b2b-marketing-agency/social-media-advertising" ,
             },
             {
                 catName: "Lead Management" , 

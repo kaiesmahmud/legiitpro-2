@@ -251,7 +251,7 @@ export const topic_pages_data = [
             {
                 catName: "Digital Advertising" , 
                 catDesc: "We manage every aspect of your social media- from content strategy, branding and images, to community engagement. We research trends and news to create content that keeps your brand current and relevant.",
-                catURL : "/b2b-marketing-agency/digital-advertising" ,
+                catURL : "/b2b-marketing-agency/social-media-advertising" ,
                 subCategories: [
                     {subCatName :  "google ads management", subCatURL : "#"},
                     {subCatName :  "meta ads management", subCatURL : "#"},

@@ -38,7 +38,7 @@
             <p class="w-2/3 text-sm font-light text-black/80 text-center">{faqSubTitle}</p>
         </div>
     </div>
-    <div class="w-full lg:w-[80%] flex flex-col lg:flex-row items-center justify-center">
+    <div class="w-full lg:w-[80%] flex flex-col lg:flex-row items-center lg:items-start justify-center">
         <section class="lg:w-1/2 flex flex-col items-center justify-center w-full overflow-hidden">
             <Splide options={ {
                 rewind: true,

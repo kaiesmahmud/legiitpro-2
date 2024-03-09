@@ -3,7 +3,7 @@
     let {title,description,lists,imgAlt,imgURL,customURL} = section;
      
 </script>
-<section class=" relative flex items-center justify-center my-5 min-h-[60vh] lg:min-h-screen">
+<section class=" relative flex items-center justify-center my-5 min-h-[60vh] lg:min-h-[60vh]">
     <div class="p-5 w-full lg:w-[80%]  grid grid-cols-1 md:grid-cols-2 gap-3 items-center">
         <div class=" rounded overflow-hidden">
             <img class=" hover:scale-105 transition-all ease-in" src={imgURL} alt={imgAlt}>

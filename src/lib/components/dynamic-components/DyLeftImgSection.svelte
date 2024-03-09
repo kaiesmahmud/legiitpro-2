@@ -3,14 +3,14 @@
     let {title,description,lists,imgAlt,imgURL,customURL} = section;
      
 </script>
-<section class=" relative flex items-center justify-center my-5 min-h-[70vh] lg:min-h-screen">
+<section class=" relative flex items-center justify-center my-5 min-h-[60vh] lg:min-h-screen">
     <div class="p-5 w-full lg:w-[80%]  grid grid-cols-1 md:grid-cols-2 gap-3 items-center">
         <div class=" rounded overflow-hidden">
             <img class=" hover:scale-105 transition-all ease-in" src={imgURL} alt={imgAlt}>
         </div>
         <div class=" flex flex-col  justify-center p-5 w-full">
             <h2 class="font-bold text-2xl md:text-4xl py-5 capitalize">{title}</h2>
-            <p class=" text-justify md:w-[80%]">{description}</p>
+            <p class=" text-justify md:w-[80%]">{@html description}</p>
             <div class="py-5 flex flex-col gap-2 text-black/90">
                 {#each lists as i}
                 <div class="flex items-center gap-2">

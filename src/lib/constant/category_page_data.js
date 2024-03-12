@@ -1223,7 +1223,7 @@ export const category_page_data = [
         ],
     },
     {
-        url: "/b2b-marketing-agency/cms-seo",
+        url: "/b2b-marketing-agency/best-cms-for-seo",
         pageName: "CMS SEO" , 
         metaTags:{
             title:" meta title",

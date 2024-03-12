@@ -29,7 +29,7 @@ export const serviceSectionData = [
             {
                 catName: "CMS SEO" , 
                 catDesc: "CMS lets you create and manage website content, while SEO helps that content rank higher in search results. Imagine CMS as the engine room and SEO as the fuel that drives website traffic.",
-                catURL : "/b2b-marketing-agency/cms-seo" 
+                catURL : "/b2b-marketing-agency/best-cms-for-seo" 
             },
             {
                 catName: "ISW SEO" , 

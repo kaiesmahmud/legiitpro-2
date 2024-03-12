@@ -662,7 +662,7 @@ export const topic_pages_data = [
             {
                 catName: "CMS SEO" , 
                 catDesc: "We manage every aspect of your social media- from content strategy, branding and images, to community engagement. We research trends and news to create content that keeps your brand current and relevant.",
-                catURL : "/b2b-marketing-agency/cms-seo",
+                catURL : "/b2b-marketing-agency/best-cms-for-seo",
                 subCategories: [
                     {subCatName :  "Wordpress SEO", subCatURL : "#"},
                     {subCatName :  "WIX SEO", subCatURL : "#"},

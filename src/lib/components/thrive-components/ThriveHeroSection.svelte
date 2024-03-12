@@ -8,7 +8,7 @@
     <section class={`min-h-[50vh] w-full lg:w-[80%] rounded-xl ${css? css : " bg-gradient-to-tr from-sky-200 to-indigo-500 "} 
     shadow-xl flex flex-col items-center justify-center gap-10   py-10`}>
         <div class="flex flex-col items-center gap-5 text-center p-5 ">
-            <h1 class="text-4xl md:text-5xl  font-extrabold md:px-5">{title}</h1>
+            <h1 class="text-4xl md:text-5xl  font-extrabold md:px-5">{@html title}</h1>
             <h3>{subTitle}</h3>
             {#if description}
             <p class="w-full lg:w-[80%] text-black/80 ">{@html description}</p>

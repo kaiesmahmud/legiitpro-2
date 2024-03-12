@@ -1,4 +1,6 @@
 <script>
+	import LeftSideImgSection from './../../../lib/components/home-page-components/LeftSideImgSection.svelte';
+	import RightSideImgSection from './../../../lib/components/home-page-components/RightSideImgSection.svelte';
 	import { generateSnippetStructuredData } from '$lib/functions/snippetFunctions';
 	import { generateMetaTags } from '$lib/functions/metaTags';
 	import DyFaqProfile from './../../../lib/components/dynamic-components/DyFaqProfile.svelte';
@@ -102,6 +104,13 @@
         {/if}
         {#if section.interface === "ThriveWhyChoose"}
             <ThriveWhyChoose {section}/>
+        {/if}
+
+        {#if section.interface === "RightSideImgSection"}
+            <RightSideImgSection {section}/>
+        {/if}
+        {#if section.interface === "LeftSideImgSection"}
+            <LeftSideImgSection {section}/>
         {/if}
     {/each}
 

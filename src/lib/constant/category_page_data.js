@@ -1240,15 +1240,214 @@ export const category_page_data = [
             {
                 interface: "ThriveHeroSection",
                 bgImgCss: "topicsPage-digital-bg",
-                title:"CMS SEO: Unlocking the Power of Content Management Systems for Superior SEO Performance",
-                subTitle: "In today's digital age, the heart of any successful online presence is not just the content but how well that content is managed and optimized for search engines. Enter the realm of CMS SEO, where the art of search engine optimization meets the science of content management systems. Let's dive deep into why a robust CMS is your secret weapon in the SEO battleground and which platforms stand out as the champions of SEO efficiency."
+                title:"The Best CMS for SEO in 2024: A Guide for Teens",
+                subTitle: "Alright, so you've got an excellent idea for a website. It could be a blog about your epic skateboarding tricks, a portfolio to showcase your art, or even a small online store to sell your handmade jewelry. Awesome! But here's the thing: you want people to find and visit your website. That's where SEO (Search Engine Optimization) comes into play. It's like the secret sauce that helps your website show up on Google when people search for stuff."
             },
+            // {
+            //     interface: "ThriveHeroSection",
+            //     bgImgCss: "topicsPage-digital-bg",
+            //     title:"CMS SEO: Unlocking the Power of Content Management Systems for Superior SEO Performance",
+            //     subTitle: "In today's digital age, the heart of any successful online presence is not just the content but how well that content is managed and optimized for search engines. Enter the realm of CMS SEO, where the art of search engine optimization meets the science of content management systems. Let's dive deep into why a robust CMS is your secret weapon in the SEO battleground and which platforms stand out as the champions of SEO efficiency."
+            // },
             // DySubCatLists
             {
                 interface: "DySubCatLists",
                 title :"Content Management System Features",
-                description: "At its core, a content management system (CMS) serves as the backbone of your website, allowing for the creation, management, and modification of digital content without the need for specialized technical knowledge. However, not all CMS platforms are created equal, especially regarding SEO. The best SEO-friendly CMS will offer a suite of features that make content management a breeze and turbocharge your website's search engine rankings.",
+                description: "To make your life easier and your website awesome, you'll need a CMS (Content Management System). Think of a CMS as a giant LEGO set for building sites. You can add pieces and parts without needing to know how to code. However, not all CMS platforms are created equal, especially regarding SEO. So, let's break down the best CMS for SEO in 2024, designed for you, the future internet superstar.",
             }, 
+            //ThriveServices
+            {
+                interface: "ThriveServices",
+                title:"",
+                subTitle:" ",
+                descriptions : [
+                    ""
+                ],
+                services: [
+                    {
+                        icon : ` `,
+                        service_title: "WordPress", 
+                        service_description: "WordPress is like the Swiss Army knife of website building. It's super popular, and for good reasons. You can add all sorts of plugins, like Yoast SEO, to make sure your website is as Google-friendly as possible. Plus, there are so many themes that you can make your website look exactly how you want.",
+
+                    },
+                    {
+                        icon : ` `,
+                        service_title: "Shopify", 
+                        service_description: "Have something to sell? Shopify is your go-to. It's perfect for setting up an online store quickly and without fuss. It's SEO-ready so that your store gets noticed by people searching for what you're selling. It's easy to use, and you don't need to be a tech genius to get started.",
+
+                    },
+                    {
+                        icon : ` `,
+                        service_title: "Wix", 
+                        service_description: "Wix is like the excellent, artsy friend who makes everything look easy. It's great for building websites that look professional without learning all the tech stuff. Wix has an SEO Wiz tool that acts like your personal SEO guide, helping your site get seen on Google.",
+
+                    },
+                    {
+                        icon : ` `,
+                        service_title: "Squarespace", 
+                        service_description: "If you care about making your website look stunning and work perfectly on phones and computers, Squarespace is for you. It has beautiful designs and built-in SEO tools to help people find your site. It's like having a designer and SEO expert rolled into one.",
+
+                    },
+                    {
+                        icon : ` `,
+                        service_title: "Webflow", 
+                        service_description: "Webflow is for the creators who want more control. It's a bit more complex, but don't worry; you can still handle it. With Webflow, you can get details on your SEO settings, ensuring your website shines on search engines.",
+
+                    },
+                    {
+                        icon : ` `,
+                        service_title: "Joomla", 
+                        service_description: "Think of Joomla! as the Swiss Army knife that's a bit more complex than WordPress but still super useful. It's excellent for building a variety of websites.",
+
+                    },
+                    {
+                        icon : ` `,
+                        service_title: "Drupal", 
+                        service_description: "Drupal is like the brainy kid who knows a lot about a lot. It's powerful and flexible but best suited for those with some web development knowledge.",
+
+                    }, 
+                    {
+                        icon : ` `,
+                        service_title: "Magento", 
+                        service_description: "Do you have big dreams for your online store? Magento is like a shopping mall of CMSs designed for more significant e-commerce sites.",
+
+                    }, 
+                    {
+                        icon : ` `,
+                        service_title: "BigCommerce", 
+                        service_description: "Another excellent option for online stores is BigCommerce, which is like having a storefront in a prime location. It's all about getting your products noticed.",
+
+                    }, 
+                    {
+                        icon : ` `,
+                        service_title: "Ghost", 
+                        service_description: "For writers and bloggers, Ghost is like a quiet, cozy corner where they can write, publish, and share their thoughts with the world.",
+
+                    }, 
+                    {
+                        icon : ` `,
+                        service_title: "Typo3", 
+                        service_description: "Great for enterprise-level sites, Typo3 offers flexibility and scalability. It's like the multitasking whiz who can handle big projects with ease.",
+
+                    }, 
+                    {
+                        icon : ` `,
+                        service_title: "Craft CMS", 
+                        service_description: "Craft CMS is for those who want a tailored fit. It's like having a custom-made suit; it perfectly fits your specific website needs, especially if you're into design and user experience.",
+
+                    }, 
+                    {
+                        icon : ` `,
+                        service_title: "Blogger", 
+                        service_description: "One of the oldest blogging platforms, Blogger is super easy to use, making it great for beginners. Think of it as the friendly neighbor who's always there to help.", 
+                    }, 
+                    {
+                        icon : ` `,
+                        service_title: "Contao", 
+                        service_description: "Known for its high-security standards, Contao is like the security guard of CMSs. It's great for businesses that prioritize safety online.", 
+                    }, 
+                    {
+                        icon : ` `,
+                        service_title: "SilverStripe", 
+                        service_description: "SilverStripe is the CMS for those who want a balance between ease of use and customization. It's like having a flexible schedule that lets you do your thing your way.", 
+                    }, 
+                    {
+                        icon : ` `,
+                        service_title: "Umbraco", 
+                        service_description: "Ideal for those with a bit of coding knowledge, Umbraco offers flexibility and power. It's like a versatile athlete who can play any position on the team.", 
+                    }, 
+                    {
+                        icon : ` `,
+                        service_title: "Dotclear", 
+                        service_description: "With a focus on simplicity and publication, Dotclear is like the straightforward, no-nonsense friend who always tells it like it is.", 
+                    }, 
+                    {
+                        icon : ` `,
+                        service_title: "Textpattern", 
+                        service_description: "Textpattern is known for its simplicity and flexibility in web design and publishing. Think of it as the minimalist artist who creates excellent work with just a few strokes.", 
+                    }, 
+                    {
+                        icon : ` `,
+                        service_title: "Grav", 
+                        service_description: "Grav is a modern, file-based CMS that requires no database. It's like an innovative startup that does things differently and values speed and simplicity.", 
+                    }, 
+                    {
+                        icon : ` `,
+                        service_title: "Kirby", 
+                        service_description: "Kirby stands out for not needing a database and being incredibly flexible. It's like the crafty inventor who builds cool stuff with whatever's on hand.", 
+                    }, 
+                    {
+                        icon : ` `,
+                        service_title: "Serendipity", 
+                        service_description: "Focused on blog-heavy sites, Serendipity is all about ease and stability. It's like a reliable old car that never lets you down.", 
+                    }, 
+                    {
+                        icon : ` `,
+                        service_title: "ModX", 
+                        service_description: "ModX gives you creative freedom and helps ensure your site is user-friendly and SEO-strong. It's the creative genius who also has a business head.", 
+                    }, 
+                    {
+                        icon : ` `,
+                        service_title: "Concrete5", 
+                        service_description: "Concrete5 makes web management effortless with its intuitive editing features. It's like the helpful assistant who takes care of the little things so you can focus on the big picture.", 
+                    }, 
+                    {
+                        icon : ` `,
+                        service_title: "ExpressionEngine", 
+                        service_description: "This CMS offers flexibility without compromising control, making it great for more complex sites. Think of it as the orchestra conductor, ensuring every part is harmonious.", 
+                    }, 
+                    {
+                        icon : ` `,
+                        service_title: "OctoberCMS", 
+                        service_description: "Based on the Laravel framework, OctoberCMS is for those who love clean, modern design and coding. It's like a trendy cafe that also serves the best coffee.", 
+                    }, 
+                    {
+                        icon : ` `,
+                        service_title: "Pulse CMS", 
+                        service_description: "Pulse CMS is all about simplicity and is aimed at small websites. It's the small-town diner where everyone knows your name and your order.", 
+                    }, 
+                    {
+                        icon : ``,
+                        service_title: "Pagekit", 
+                        service_description: "Pagekit is a modern CMS that focuses on simplicity and flexibility, offering a new approach to website building. It's like the new kid on the block who instantly gets along with everyone.", 
+                    }, 
+                    {
+                        icon : ``,
+                        service_title: "Bolt", 
+                        service_description: "Bolt is straightforward and easy to use, with a strong focus on making website setup as simple as possible. It's like the friendly dog that everyone in the neighborhood loves.", 
+                    }, 
+                ]
+            },
+            //ThriveTopicIntro2
+            {
+                interface: "ThriveTopicIntro2",
+                title: "Choosing What's Best for You",
+                subTitle: "",
+                firstPara: " Picking the suitable CMS is like choosing your outfit for the first day of school. You want something that looks good (design), feels comfortable (ease of use), and makes you popular (SEO). Here's a quick guide:",
+                sidePara: [
+                    `<h3 class='font-bold text-xl'>Look for something easy to use:</h3>
+                    You want to save time figuring out how to add a blog post.`,
+                    `<h3 class='font-bold text-xl'>Make sure it's good for SEO:</h3>
+                    This means people can find your website when they search for stuff online.`,
+                    `<h3 class='font-bold text-xl'>Find a design you love:</h3>
+                    First impressions matter, so choose a CMS that lets you create a website you're proud of.`,
+                    `<h3 class='font-bold text-xl'>Check for support:</h3>
+                    Sometimes, we all need a little help. Make sure there's good customer service or a helpful community.`,
+                    `There you have it! Your guide to choosing the best CMS for your SEO needs in 2024. Remember, the internet is constantly changing, so keep learning and experimenting. Your website may be the next big thing!`
+                     
+                ],
+                imgUrl: "/category-page/smm3.svg",
+
+            }, 
+            //ThriveTitleParagraphs
+            {
+                interface: "ThriveTitleParagraphs",
+                title: "CMS SEO: Unlocking the Power of Content Management Systems for Superior SEO Performance",
+                paragraphs: [
+                    "In the digital age, you were being successful online means managing and optimizing content for search engines, not just creating it. You must ensure your content is easily found and ranks highly in search results. Simply creating content isn't enough; you must customize it to meet search engine requirements for online success.",
+                    "Explore CMS SEO, where SEO and content management systems combine for effective online marketing strategies. Explore why a robust CMS is crucial for SEO success and discover which platforms excel in SEO performance." 
+                ]
+            },
             //ThriveTopicIntro2
             {
                 interface: "ThriveTopicIntro2",
@@ -1257,15 +1456,15 @@ export const category_page_data = [
                 firstPara: " ",
                 sidePara: [
                     `<h3 class='font-bold text-xl'>User-friendly URL management:</h3>
-                    The ability to customize URLs to be descriptive and keyword-rich enhances search engines and users' readability.`,
+                    Customizing URLs to be descriptive and keyword-rich enhances search engines and users' readability.`,
                     `<h3 class='font-bold text-xl'>Title tag and meta description editing:</h3>
-                    Facilitating the easy input and modification of these critical SEO elements can significantly impact your site's visibility and click-through rates.`,
+                    It is essential to easily input and change SEO elements on your site. This can significantly impact your site's visibility and the number of people who click on it.`,
                     `<h3 class='font-bold text-xl'>Automatic sitemap creation:</h3>
                     Sitemaps help search engines crawl and index your website more effectively, making this feature a must-have.`,
                     `<h3 class='font-bold text-xl'>Responsive design support:</h3>
                     With mobile-friendliness being a ranking factor, a CMS that automatically adapts your content for different devices is invaluable.`,
                     `<h3 class='font-bold text-xl'>Fast loading speeds:</h3>
-                    Since site speed is a crucial SEO factor, the best CMS platforms are optimized for performance, reducing load times.`,
+                    The best CMS platforms optimize for performance to reduce load times, as site speed is a crucial SEO factor.`,
                      
                 ],
                 imgUrl: "/category-page/smm3.svg",
@@ -1284,7 +1483,7 @@ export const category_page_data = [
             {
                 interface: "ThriveTopicIntro2",
                 title: "Crafting SEO Content",
-                subTitle: " Creating content that ranks well and meets the needs of your audience involves a blend of art and science. Here's how to get it right:",
+                subTitle: "Creating content that ranks well and meets the needs of your audience involves a blend of art and science. Here's how to get it right:",
                 firstPara: " ",
                 sidePara: [
                     `<h3 class='font-bold text-xl'>Understand what SEO content is:</h3>
@@ -1322,18 +1521,19 @@ export const category_page_data = [
                 interface: "ThriveTopicIntro2",
                 title: "CMS SEO: Navigating the World of Content Management Systems for SEO Success",
                 subTitle: " ",
-                firstPara: "In the ever-evolving landscape of digital marketing, the fusion of CMS (Content Management System) and SEO (Search Engine Optimization) practices stands out as a critical strategy for anyone looking to bolster their online presence. But before we dive into the nitty-gritty of how CMS can supercharge your SEO efforts, let's get conversational and unpack the basics of what CMS software is and why it's the unsung hero of the internet.",
+                firstPara: "Combining CMS and SEO is essential for improving your online presence in digital marketing. Let's first understand what CMS software is and why it's critical to the internet. Then, we can discuss how CMS can help with SEO.",
                 sidePara: [
                     `<h3 class='font-bold text-xl'>What Is CMS Software?</h3>
                     Picture this: you're embarking on the journey of creating a website. There's content to manage, pages to design, and the need to ensure that your site ranks well on search engines. This is where a CMS, or content management system, becomes your best friend.`,
                     `<h3 class='font-bold text-xl'>The ABCs of CMS</h3>
-                    At its core, a CMS is a software application that allows you to create, manage, and modify website content without coding it from scratch. It's like having a magical notebook where you can jot down your thoughts (in this case, your web content), organize them into chapters (web pages), and edit them whenever you wish, all without needing to be a wizard in coding.`,
+                    A CMS is a tool that helps you create, manage, and change website content without coding everything yourself. It's like having a special notebook for writing your thoughts, particularly your website content. You can group your thoughts into sections, which are like web pages. You can make changes whenever you want without knowing how to code.`,
                     `<h3 class='font-bold text-xl'>Content Management System Examples</h3>
                     The CMS universe is vast, from WordPress to Drupal and Joomla to Squarespace. Each platform has unique tools and interfaces designed to make your website management as smooth as possible. These are just a few examples of content management systems that have revolutionized how we create and manage digital content.`,
                     `<h3 class='font-bold text-xl'>What Is a CMS Platform?</h3>
-                    Think of a CMS platform as the stage upon which your website performs. It's not just a backstage tool; it's the infrastructure that supports your site's design, content, and, importantly, its ability to rank in search engine results. A CMS platform can be as straightforward or complex as you need it to be, offering various levels of customization and control.`,
+                    Think of a CMS platform as the stage upon which your website performs. Your website's foundation is more than just a tool behind the scenes. It is crucial in shaping your website's design, content, and search engine ranking. A CMS platform can be simple or complex, with different options for customization and control based on your needs.`,
                     `<h3 class='font-bold text-xl'>The Significance of CMS in SEO</h3>
-                    You might be wondering, "What's CMS got to do with SEO?" The answer is quite a lot! A good CMS doesn't just hold your website together; it comes packed with SEO-friendly features that can significantly impact your site's visibility and ranking on search engines. From optimizing your content with the right keywords to improving your site's loading speed, a robust CMS can be a game-changer for your SEO strategy.`,
+                    You might wonder, "What does CMS have to do with SEO?" The answer is quite a lot! A good CMS helps keep your website organized.<br>
+                    It also includes SEO-friendly features. These features can improve your site's visibility and ranking on search engines. A robust CMS can significantly improve your SEO strategy by using the right keywords and speeding up your website's loading time.`,
                      
                 ],
                 imgUrl: "/category-page/smm3.svg",
@@ -1344,11 +1544,11 @@ export const category_page_data = [
                 interface: "ThriveTitleParagraphs",
                 title: "Wrapping It Up: The Heart of Web Management",
                 paragraphs: [
-                    "In the digital realm, content is king, but management is the kingdom's backbone. A content management system simplifies the complex task of web management, making it accessible for everyone, from bloggers to business owners. Whether through streamlined content creation, effortless management, or SEO optimization, a CMS empowers you to focus on what truly matters—creating engaging content that resonates with your audience.",
-                    `So, when you hear the term "CMS," think of it as your digital Swiss Army knife, an essential tool in your online journey. Whether you're crafting the next viral blog post or optimizing your business website for search engines, remember that the right CMS can make all the difference in achieving your digital goals. Let's continue to explore the vast world of CMS SEO, where every page you create and every piece of content you manage can be a step toward SEO success.`,
-                    `Selecting the right Content Management System (CMS) is pivotal for the success of your SEO strategy. Below, I address common inquiries regarding the impact of CMS on SEO, guiding you through how to leverage a CMS for enhanced search engine visibility.`,
-                    
-                    
+                    "In the digital realm, content is king, but management is the kingdom's backbone. A content management system makes web management easier for bloggers and business owners by simplifying the complex tasks involved. A CMS makes it easy to create, manage, and optimize content. It allows you to focus on creating engaging content that connects with your audience.",
+                    `So, when you hear the term "CMS," think of it as your digital Swiss Army knife, an essential tool in your online journey. Choose the suitable CMS when creating content or improving your website.`,
+                    `This will help you reach your digital goals. Your goals may include creating a popular blog post or improving search engine optimization. Let's keep learning about CMS SEO. Each page and content you work on can help you succeed in SEO.`,
+                    `Selecting the right Content Management System (CMS) is pivotal for the success of your SEO strategy. I answer questions about how CMS affects SEO and show you how to use CMS to improve search engine visibility.`,
+
                 ]
             }, 
             //ThriveTopicIntro2
@@ -1356,12 +1556,12 @@ export const category_page_data = [
                 interface: "ThriveTopicIntro2",
                 title: "Driving Organic Growth: The Intersection of CMS and SEO",
                 subTitle: " ",
-                firstPara: "In the evolving digital landscape of 2024, the significance of optimizing your online presence cannot be overstated. Central to these optimization efforts is the effective use of Content Management Systems (CMS) tailored for SEO. Understanding how a CMS can enhance your SEO strategy, improve user experience, and drive organic traffic to your site is vital to thriving in competitive search engine results pages (SERP).",
+                firstPara: "In the evolving digital landscape 2024, you must optimize your online presence to stay relevant. Central to these optimization efforts is the effective use of Content Management Systems (CMS) tailored for SEO.<br>Understanding how a CMS can benefit your SEO is essential. It can also improve the user experience on your site and increase organic traffic. This knowledge is crucial for achieving success in search engine rankings.",
                 sidePara: [
                     `<h3 class='font-bold text-xl'>Search Engine Crawlers and the Role of CMS</h3>
-                    Search engine crawlers constantly scan the web to index content for SERPs. A CMS optimized for SEO helps ensure these crawlers find and understand your content, making it more likely to rank higher. Features that make a CMS SEO-friendly include clean, structured code, fast loading times, and the ability to customize title tags and meta descriptions.`,
+                    Search engine crawlers constantly scan the web to index content for SERPs. An SEO-friendly CMS helps search engines find and understand your content, increasing the chances of it ranking higher. A CMS is SEO-friendly when it has clean code, loads quickly, and allows for customizing title tags and meta descriptions.`,
                     `<h3 class='font-bold text-xl'>Enhancing User Experience for SEO</h3>
-                    User experience has become a critical component of SEO strategy. A CMS offering mobile optimization ensures your site is accessible and user-friendly across all mobile devices. This improves user engagement and contributes to better rankings as search engines increasingly prioritize mobile-friendly sites.`, 
+                    User experience has become a critical component of SEO strategy. A CMS offering mobile optimization ensures your site is accessible and user-friendly across all mobile devices. This improves user engagement and rankings as search engines increasingly prioritize mobile-friendly sites.`, 
                      
                 ],
                 imgUrl: "/category-page/smm3.svg",

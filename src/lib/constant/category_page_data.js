@@ -1626,7 +1626,7 @@ export const category_page_data = [
             {
                 interface: "DyLeftImgSection", 
                 title :"Looking Ahead: CMS for SEO in 2024",
-                description: "As we move further into 2024, the landscape of SEO continues to evolve. Choosing a CMS with robust SEO features, a focus on mobile optimization, and tools for effective content management is more crucial than ever. Whether you're building a new site or considering migrating to a new CMS, prioritizing SEO in your decision-making process will pay dividends in your site's performance on the SERPs and your ability to attract and retain organic traffic.",
+                description: "As we move further into 2024, the landscape of SEO continues to evolve. Selecting a CMS with robust SEO, mobile optimization, and excellent content management tools is crucial now. If you are creating a new website or considering changing to a new CMS, it is essential to focus on SEO. This will improve your site's search engine performance and increase organic traffic.",
                 imgURL: "/category-page/Localseo1.svg",
                 lists : [ 
                 ]
@@ -1641,7 +1641,7 @@ export const category_page_data = [
                         {
                             id: "1",
                             question: "Which CMS Is Best for SEO?",
-                            answer: "The best CMS for SEO offers extensive customization, allows for easy content management, supports SEO best practices (like customizable meta tags, SEO-friendly URL structures, etc.), and is optimized for speed and mobile devices. WordPress is often lauded as the best CMS for SEO due to its comprehensive SEO plugins (e.g., Yoast SEO), ease of use, and flexibility."
+                            answer: "The best CMS for SEO offers extensive customization, allows for easy content management, supports SEO best practices (like customizable meta tags, SEO-friendly URL structures, etc.), and is optimized for speed and mobile devices. WordPress is considered the best CMS for SEO because it has useful SEO plugins such as Yoast SEO. It also has a user-friendly interface and is adaptable."
                             
                         },
                         {
@@ -1665,13 +1665,13 @@ export const category_page_data = [
                         {
                             id: "5",
                             question: "Does CMS Matter for SEO?",
-                            answer: "The choice of CMS matters for SEO. A good CMS will support SEO-friendly practices and make it easier to implement changes and updates that can improve your site's ranking."
+                            answer: "The choice of CMS matters for SEO. A good CMS helps with SEO and makes it easier to make changes that can boost your site's ranking."
                             
                         },
                         {
                             id: "6",
                             question: "Does Using a CMS Hurt SEO?",
-                            answer: "Using a CMS does not inherently hurt SEO. However, the wrong CMS or poor management of the CMS can lead to SEO issues, such as bloated code, slow site speed, and difficulty making necessary SEO adjustments"
+                            answer: "Using a CMS does not inherently hurt SEO. Picking the wrong CMS or not managing it properly can lead to SEO issues. These issues may include slow site speed and difficulty in making SEO changes"
                             
                         },
                         {
@@ -2116,7 +2116,7 @@ export const category_page_data = [
         subCategories: [],  
     },
     {
-        url: "/b2b-marketing-agency/ecommerce-seo",
+        url: "/b2b-marketing-agency/ecommerce-seo-services",
         pageName: "eCommerce SEO" , 
         metaTags:{
             title:" meta title",

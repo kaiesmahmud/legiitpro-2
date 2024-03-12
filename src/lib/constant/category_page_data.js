@@ -1588,16 +1588,26 @@ export const category_page_data = [
             {
                 interface: "ThriveHeroSection",
                 bgImgCss: "topicsPage-digital-bg",
-                title:"International Sub-websites SEO",
-                subTitle: "Ensure Brand Consistency and Success Across Multiple Locations "
-            },
-
-            //ThriveParagraphs
+                title:"International Subwebsite SEO (ISW SEO)<br> A Guide to Going Global",
+                subTitle: "In the ever-expanding digital landscape, mastering International Subwebsite SEO (ISW SEO) is akin to finding the secret ingredient that spices up your global online presence. You've stumbled upon the right spot if you're trying to make your website a worldwide sensation. Let's embark on this journey with a dash of personality and some invaluable insights."
+            }, 
+            //ThriveTopicIntro2
             {
-                interface: "ThriveParagraphs",
-                paragraphs: [
-                    "Taking over the world of online commerce? The secret is international sub-website SEO! By adapting your website to several languages and geographical areas, this tactic increases search engine visibility in each target market. To communicate language and location to search engines, consider using unambiguous URL structures (subfolders or subdomains), localized content, targeted keywords, and hreflang tags. Recall that a flawless user experience is essential, with local currencies, pertinent information, and quick loading times. Your international sub-website will be prepared to enchant viewers everywhere once these components are in place!"
-                ]
+                interface: "ThriveTopicIntro2",
+                title: "A Global SEO Compass: Navigating the Basics",
+                subTitle: "International SEO is about more than just translating content and calling it a day. It's a meticulous art to make your website appealing to diverse audiences across the globe. Think of it as hosting a worldwide party and ensuring everyone feels right at home.",
+                firstPara: "<h3 class='font-bold' >How to Implement Hreflang Tags</h3> <br> First off, hreflang tags are your new best friends. These little snippets of code tell search engines which language you're using on a specific page, ensuring that visitors land on the most relevant version. Imagine hreflang tags as polite greeters, guiding your guests to the fitting room. ",
+                sidePara: [
+                    `<h3 class='font-bold'>Best Practices for Multilingual Websites</h3>
+                    Consistency is critical for multilingual maestros. Ensure your website's structure is coherent across all versions. Keep URLs user-friendly and avoid automated translations—they tend to turn poetic prose into something resembling cryptic code.`,
+                    `<h3 class='font-bold'>ccTLD vs. Subdomain vs Subdirectory for SEO</h3>
+                    Choosing between ccTLD (country code top-level domain), subdomain, and subdirectory can feel like being stuck in a love triangle. Each has its charm, but your choice depends on your goals. ccTLDs scream local expertise, subdomains are flexible, and subdirectories are easy to manage. Pick your partner wisely.`,
+                    `<h3 class='font-bold'>Localizing Website Content for International Audiences</h3>
+                    Localizing content isn't just about swapping words; it's about resonating with cultures. It's the difference between offering a handshake or a bow. Dive deep into local preferences, customs, and holidays. Show your audience you're not just visiting; you're part of the community.`,
+                     
+                ],
+                imgUrl: "/category-page/isw1.svg",
+
             },
             //ThriveBrandReviews
             {
@@ -1623,141 +1633,246 @@ export const category_page_data = [
             //ThriveTopicIntro2
             {
                 interface: "ThriveTopicIntro2",
-                title: "Navigating the Maze: ISW Enterprise SEO",
-                subTitle: "A Large-Scale, Strategic Approach to Digital Marketing",
+                title: "Advanced Techniques for World Domination (SEO-Wise, Of Course)",
+                subTitle: "With the basics out of the way, let's up the ante.",
+                firstPara: "<h3 class='font-bold' >SEO Strategies for Global Markets</h3> <br> Understanding local market nuances is crucial. Tailor your SEO strategy to fit regional trends and search behaviors. Sometimes, it's about being a chameleon, blending in to stand out.",
+                sidePara: [
+                    `<h3 class='font-bold'>Building Links for International Sites</h3>
+                    Global link-building is akin to making friends in a new city. Focus on gaining quality backlinks from reputable sites within each region. It's about creating relationships, not just exchanging business cards.`,
+                    `<h3 class='font-bold'>Cultural Considerations in Website Localization</h3>
+                    Never underestimate the power of cultural nuances. Colors, images, and symbols can have varying interpretations. A thorough cultural check can save you from unintentional blunders that might not translate well.`,
+                    `<h3 class='font-bold'>Mobile Optimization for International SEO</h3>
+                    With mobile usage soaring worldwide, ensuring your international sites are mobile-friendly is non-negotiable. Think of it as making your home comfy for guests; only in this case, your guests are glued to their smartphones.`,
+                     
+                ],
+                imgUrl: "/category-page/isw1.svg",
+
+            }, 
+            //ThriveTopicIntro2
+            {
+                interface: "ThriveTopicIntro2",
+                title: "The Tech-Savvy Side of ISW SEO",
+                subTitle: "Diving deeper, the technical aspect of ISW SEO must be addressed.",
+                firstPara: "<h3 class='font-bold' >Optimizing for Different Search Engines Worldwide</h3> <br> Google might be the Goliath, but remember the Davids. Baidu, Yandex, and Naver rule their respective regions. Understanding the quirks of each search engine can give you an edge in local markets.",
+                sidePara: [
+                    `<h3 class='font-bold'>Keyword Research for Global SEO</h3>
+                    Keyword research for ISW SEO is like being an archaeologist; you dig for terms that resonate locally. What's trending in one country might be yesterday's news in another. Tailor your research accordingly.`,
+                    `<h3 class='font-bold'>Managing Duplicate Content in Multilingual SEO</h3>
+                    Duplicate content in multilingual SEO can be tricky. To avoid confusing search engines with identical pages in different languages, clear signals with hreflang tags and canonical URLs can help maintain peace.`,
+                    `<h3 class='font-bold'>International SEO Tools and Software</h3>
+                    Arm yourself with the right tools. From SEMrush to Ahrefs and Google's very own Search Console, these digital Swiss Army knives can offer invaluable insights into your international SEO performance.`,
+                    `<h3 class='font-bold'>Measuring Success in International SEO</h3>
+                    Success in ISW SEO isn't just about traffic; it's about engagement, conversions, and ultimately, revenue. Set clear, measurable goals for each market. Remember, what gets measured gets managed.`,
+                     
+                ],
+                imgUrl: "/category-page/isw1.svg",
+
+            }, 
+            //ThriveTitleParagraphs
+            {
+                interface: "ThriveTitleParagraphs",
+                title: "Special Considerations: E-commerce and Regulations",
+                paragraphs: [
+                    `<h3 class='font-bold'>SEO for International E-commerce Sites</h3>
+                    For international e-commerce, think locally and act globally. Customize user experiences, from currencies to shipping options. Make your global customers feel at home, shopping in their local digital storefront.`,
+                    `<h3 class='font-bold'>Impact of GDPR on International SEO</h3>
+                    The GDPR has transformed data privacy, making it a critical consideration for international websites. Ensuring compliance is not just about avoiding fines but building trust with your global audience.`,  
+                ]
+            }, 
+            //ThriveTopicIntro2
+            {
+                interface: "ThriveTopicIntro2",
+                title: "Wrapping It Up: Your Passport to International SEO Success",
+                subTitle: " ",
+                firstPara: " Embarking on the ISW SEO journey might seem daunting, but it's also exhilarating. Your website can become a global sensation with the right strategy, tools, and a sprinkle of cultural sensitivity. Remember, international SEO is a marathon, not a sprint. Patience, persistence, and continuous learning are your best allies.",
+                sidePara: [
+                    `So, here's to breaking language barriers, bridging cultural gaps, and catapulting your website to international fame. The world is vast, and the opportunities are endless. Ready to go global?
+                    Using Google Analytics for International Sites`,
+                    `<h3 class='font-bold'>Managing Duplicate Content in Multilingual SEO</h3>
+                    Duplicate content in multilingual SEO can be tricky. To avoid confusing search engines with identical pages in different languages, clear signals with hreflang tags and canonical URLs can help maintain peace.`,
+                    `Understanding your global audience begins with data. Google Analytics offers a treasure trove of insights. Segment your traffic by country, analyze user behavior, and tailor your strategies to match the preferences of each region.`,
+                     
+                ],
+                imgUrl: "/category-page/isw1.svg",
+
+            }, 
+            //ThriveServices
+            {
+                interface: "ThriveServices",
+                title:"Optimizing Site Speed for Global Audiences",
+                subTitle:" ",
+                descriptions : [
+                    "Site speed isn't just a convenience; it's a necessity. A fast-loading site can significantly improve user experience, especially in regions with slower internet connections. Utilize content delivery networks (CDNs) and optimize images to ensure your website is as swift as the wind."
+                ],
+                services: [
+                    {
+                        icon : ` `,
+                        service_title: "International SEO Checklist", 
+                        service_description: "Keep your efforts on track with a comprehensive checklist. From hreflang tags to local keyword optimization and cultural customization, this list is your roadmap to ISW SEO success.", 
+                    },
+                    {
+                        icon : ` `,
+                        service_title: "Understanding Cultural Differences in Web Design", 
+                        service_description: "Web design isn't one-size-fits-all. Colors, layouts, and imagery that appeal to one culture may not resonate with another. Research and empathy are vital to creating a universally welcoming design.",
+
+                    },
+                    {
+                        icon : ` `,
+                        service_title: "How to Choose the Right Languages for Your Website", 
+                        service_description: "Selecting languages for your website is a strategic decision. Consider market size, online spending power, and language overlap. Prioritizing languages based on business potential can maximize your ROI.",
+
+                    },
+                    {
+                        icon : ` `,
+                        service_title: "International SEO Case Studies", 
+                        service_description: "Learning from those who've navigated the ISW SEO landscape successfully can offer valuable insights. Case studies highlight strategies, challenges, and solutions, serving as a guide for your journey.",
+
+                    },
+                    {
+                        icon : ` `,
+                        service_title: "Avoiding Common Mistakes in Multilingual SEO", 
+                        service_description: "Common pitfalls, like neglecting hreflang tags or poor translations, can derail your international SEO efforts. Awareness and proactive management are your best defenses against these mistakes.",
+
+                    },
+                    {
+                        icon : ` `,
+                        service_title: " Conduct International Market Research Online", 
+                        service_description: "Online market research is your window into the needs and preferences of global audiences. Utilize tools like Google Trends, social media insights, and online forums to gather data and inform your strategies.",
+
+                    },
+                    {
+                        icon : ` `,
+                        service_title: "SEO Strategies for Specific Countries", 
+                        service_description: "Each country has its unique digital ecosystem. Tailoring your SEO strategy to accommodate local search engines, social media platforms, and user behaviors can significantly enhance your visibility.",
+
+                    }, 
+                    {
+                        icon : ` `,
+                        service_title: "Content Marketing for International Audiences", 
+                        service_description: "Content that resonates on a local level can dramatically improve engagement. Develop an adaptable content strategy with universal themes and local-specific topics.",
+
+                    }, 
+                    {
+                        icon : ` `,
+                        service_title: "Domain Strategy for Global Businesses", 
+                        service_description: "Whether you choose ccTLDs, subdomains, or subdirectories, your domain strategy should align with your business goals and SEO objectives. Consider factors like brand consistency, legal requirements, and technical constraints.",
+
+                    }, 
+                    {
+                        icon : ` `,
+                        service_title: "The Role of AI in International SEO", 
+                        service_description: "Artificial Intelligence (AI) revolutionizes keyword research, content creation, and user experience. Leveraging AI can help you scale your SEO efforts and personalize content for different markets.",
+
+                    }, 
+                    {
+                        icon : ` `,
+                        service_title: "Multilingual Keyword Optimization", 
+                        service_description: "Keywords are not just translated; they are localized. Understand local search habits and use tools designed for multilingual SEO to ensure your keywords resonate with each audience.",
+
+                    }, 
+                    {
+                        icon : ` `,
+                        service_title: "International E-commerce SEO Strategies", 
+                        service_description: "E-commerce SEO goes beyond traditional tactics, incorporating local payment methods, shipping options, and product availability. Tailor your approach to meet the expectations of each market.", 
+                    }, 
+                    {
+                        icon : ` `,
+                        service_title: "Legal Considerations in International Web Content", 
+                        service_description: "Navigating the legal landscape is critical. Ensure your website complies with local laws and regulations regarding privacy, copyright, and content. It's not just good practice; it's a necessity.", 
+                    }, 
+                    {
+                        icon : ` `,
+                        service_title: "Enhancing User Experience on International Sites", 
+                        service_description: "A positive user experience transcends language. Focus on intuitive navigation, cultural relevance, and local customer support to make your website universally user-friendly.", 
+                    }, 
+                    {
+                        icon : ` `,
+                        service_title: "How to Manage Global SEO Teams", 
+                        service_description: "Coordinating SEO efforts across different regions requires clear communication, shared goals, and understanding local nuances. Foster a collaborative environment where local expertise is valued.", 
+                    }, 
+                    {
+                        icon : ` `,
+                        service_title: "Integrating Social Media with International SEO", 
+                        service_description: "Social media can amplify your SEO efforts, providing valuable backlinks and driving traffic. Tailor your social media strategy to engage with each region's preferred platforms and content types.", 
+                    }, 
+                    {
+                        icon : ` `,
+                        service_title: "Addressing Language Variations and Dialects in SEO", 
+                        service_description: "Language nuances can impact your SEO. Consider dialects, slang, and regional variations in your content and keyword strategy to ensure relevance and engagement.", 
+                    }, 
+                ]
+            }, 
+            //ThriveTitleParagraphs
+            {
+                interface: "ThriveTitleParagraphs",
+                title: "Future Trends in International SEO",
+                paragraphs: [
+                    `Staying ahead in ISW SEO means keeping an eye on the horizon. Voice search, visual search, and machine learning are among the trends shaping the future of SEO. Adaptability and continuous learning are your best strategies for future-proofing your global presence.`,
+                    `By weaving these advanced strategies and considerations into your ISW SEO fabric, you're not just reaching out to the world but inviting the world in, offering a spot at the table for everyone, no matter where they're from. The journey to international SEO mastery is ongoing, full of learning and adaptation, but the rewards—global reach, engagement, and success—are well worth the effort.`,  
+                ]
+            },  
+            //ThriveWhyChoose
+            {
+                interface: "ThriveWhyChoose",
+                title:"Unraveling the Mysteries of International Subwebsite SEO (ISW SEO)",
+                subTitle:" Hey there, fellow digital explorers! Today, we're diving deep into International Subwebsite SEO (ISW SEO)—a topic that sounds as complicated as trying to order coffee in a language you don't speak. But fear not; I'm here to guide you through this labyrinth with the grace of a cat on a skateboard. Let's get rolling! ",
+                descriptions : ["  "],
+                services: [
+                    {
+                        icon : "",
+                        service_title: "Search Results: The Starting Line", 
+                        service_description: "Imagine you're in a race, but instead of running on a track, you're sprinting through the vast expanse of Google's search results. Your goal? To be the first to reach users from different corners of the globe. It's a wild ride, and your trusty steed in this adventure is none other than ISW SEO.",
+
+                    },
+                    {
+                        icon : "",
+                        service_title: "URL Structure: The Map", 
+                        service_description: `Your map in this quest is the URL structure. A clean, well-organized URL is like a treasure map for Google's bots. It tells them, "Hey, this content is here and ready for international eyes!" Whether it specifies a country code or indicates a language, a clear URL structure is your first step to global domination (in the most peaceful, SEO-friendly way, of course).`,
+
+                    },
+                    {
+                        icon : "",
+                        service_title: "International Sites: Building Your Empire", 
+                        service_description: "Creating international sites is about more than just translating content and calling it a day. It's about crafting specific pages that resonate with a particular audience. Think of it as opening a series of local coffee shops worldwide. Each one must feel like it belongs in its neighborhood, from the language on the menu to the music playing in the background.",
+
+                    },
+                    {
+                        icon : "",
+                        service_title: "Speaking Their Language: The Power of Localization", 
+                        service_description: "To truly connect with your global audience, you need to speak their language—literally. But it's not just about translating your content; it's about localizing it. That means understanding cultural nuances, expressions, and even humor (which, let's face it, can be a minefield). Localizing content ensures it feels like it was created just for them, enhancing the user experience.",
+                    },
+                    {
+                        icon : "",
+                        service_title: "User Experience: Rolling Out the Red Carpet", 
+                        service_description: "Speaking of user experience, it's the heart and soul of ISW SEO. Imagine you're throwing a party. You would only greet your guests with a simple maze to get to the snack table, right? Similarly, your international site should welcome visitors with open arms, guiding them smoothly to the content they want based on their IP address and language preferences.",
+                    },
+                    {
+                        icon : "",
+                        service_title: "Pros and Cons: The Balancing Act", 
+                        service_description: "Now, let's talk pros and cons. Additionally, targeting specific languages and countries can dramatically increase your reach and relevance. On the downside, it can feel like juggling flaming torches while riding that skateboard I mentioned earlier. Managing multiple sites requires effort, resources, and a constant eye on search engine updates. No one said the path to SEO enlightenment was easy.",
+                    },
+                    {
+                        icon : "",
+                        service_title: "ccTLDs: Planting Your Flag", 
+                        service_description: "Country Code Top-Level Domains (ccTLDs) are like planting your flag in a country's digital soil. They signal to search engines and users alike that your site is specifically tailored for them. This strong signal of local relevance comes with the challenge of managing multiple domains. Think of it as having several houses—each needs its own care and maintenance.",
+                    }, 
+                ]
+            }, 
+            //ThriveTopicIntro2
+            {
+                interface: "ThriveTopicIntro2",
+                title: "International SEO Best Practices: The Holy Grail",
+                subTitle: " ",
                 firstPara: " ",
                 sidePara: [
-                    "For large organizations, conquering the search engine landscape requires a different approach. Enter the realm of ISW Enterprise SEO, a strategic powerhouse designed to propel massive websites with thousands or even millions of pages to the top of search results.",
-                    "Scaling the Peaks: Unlike traditional SEO tactics, ISW focuses on scalability and automation. Imagine managing content creation, technical optimization, and link building for a website the size of Amazon. That's where automation tools and streamlined processes come in, ensuring each page is SEO-friendly and efficiently maintained.",
-                    " ISW acknowledges the complex ecosystems within large organizations. It's not just about SEO specialists; content teams, developers, and even social media departments need to be on board. Cross-functional collaboration optimizes content creation, website structure, and user experience, all working together to climb the search engine rankings."
+                    `The holy grail of ISW SEO—best practices. This is where strategy comes into play. You've got to think about who your target users are, whether you're focusing on language, country, or both. Then, link building with a local flavor ensures your content resonates within the target country. It's like putting together a puzzle, where each piece represents a different aspect of your international SEO strategy.`,
+                    `So there you have it, a whirlwind tour of International Subwebsite SEO. It's a journey full of challenges, adventures, and the occasional facepalm moment. But with the right strategy, a dash of humor, and maybe a skateboard, you'll navigate the twists and turns of ISW SEO like a pro. Remember, the goal is not just to reach the finish line but to enjoy the ride and learn a few words in another language. Happy optimizing!`,
+                     
                 ],
                 imgUrl: "/category-page/isw1.svg",
 
             },
-            //ThriveTitleParagraphs
-            {
-                interface: "ThriveTitleParagraphs",
-                title: "Take Advantage of Millions of Marketing Opportunities in the Digital Realm",
-                paragraphs: [
-                    "But success isn't a guessing game. ISW emphasizes data-driven decision making. Advanced analytics and tracking tools reveal what's working, what's not, and what needs fine-tuning. This constant monitoring ensures resources are used effectively and efforts deliver the desired results – improved organic traffic, brand awareness, and ultimately, revenue growth.",
-                    "So, while navigating the intricate world of enterprise SEO might seem daunting, remember: ISW provides a framework for collaboration, scalability, and data-driven insights, propelling your large website towards achieving true online visibility and dominance.",
-                    "Fragmented enterprise marketing strategies result in brand inconsistency, inaccurate audience and location targeting, misaligned priorities and unfocused lead generation. Don’t let this be the case for your multiple-location business.",
-
-                ]
-            },
-            //ThriveTopicIntro2
-            {
-                interface: "ThriveTopicIntro2",
-                title: "Harness the Power of SEO and Increase Your Brand Equity",
-                subTitle: " ",
-                firstPara: " ",
-                sidePara: [
-                    "Search optimization allows you to increase your brand awareness and customer attribution points simultaneously. The more times your intended customers see your brand online, the more likely they are to make a purchase. Increase your customer touchpoints with the help of our enterprise SEO agency.",
-                    "Thrive Internet Marketing Agency is a trusted enterprise SEO company in the United States. We have more than 140 digital marketing specialists from around the globe who can handle your multiple-location business.",
-                    "Schedule a consultation with our franchise SEO experts today and get up to speed with our processes and execution strategies in no time. Also, please check out our six-part franchise marketing guide that will answer all of your questions."
-                ],
-                imgUrl: "/category-page/isw2.svg",
-
-            },
-            //ThriveWhyChoose
-            {
-                interface: "ThriveWhyChoose",
-                title:"Enterprise SEO for Franchise-Level Clients",
-                subTitle:" ",
-                descriptions : [" Throughout the years, we’ve helped numerous franchise owners gain positive online reviews, new website users, increased monthly leads and more organic traffic. Here’s how we can help you convert page visitors into customers:"],
-                services: [
-                    {
-                        icon : "",
-                        service_title: "Diverse Clientele", 
-                        service_description: "At Thrive, we work with both corporate and individual franchise owners from diverse niche markets. No matter the type or size of your business, we help you build flexible and innovative franchise SEO strategies tailored to your franchise marketing needs and requirements.",
-
-                    },
-                    {
-                        icon : "",
-                        service_title: "Data Management System ", 
-                        service_description: "Our enterprise SEO agency collaborates with company stakeholders via shared drives and project management systems. In this way, we provide an ideal setting for teamwork between our agency and your company.",
-
-                    },
-                    {
-                        icon : "",
-                        service_title: "Tailored Franchise SEO Strategies", 
-                        service_description: "We believe that there is no one-size-fits-all strategy in SEO. That is why our enterprise marketing agency tailors each campaign to your needs and demands. Trust our franchise marketing experts to maintain effective communication with your project managers and to provide a personalized experience at all times.",
-
-                    },
-                    {
-                        icon : "",
-                        service_title: "Deep Knowledge Base", 
-                        service_description: "Thrive is composed of industry experts with more than 10 years of experience in digital marketing. We understand the challenges of dealing with a variety of businesses. As such, our enterprise marketing professionals adapt our enterprise SEO services to your specific style and individual needs.",
-                    },
-                    {
-                        icon : "",
-                        service_title: "Transparency", 
-                        service_description: "As your digital marketing partner, we keep you informed of all campaign developments and online activities. We send announcements prior to making adjustments to your SEO strategy. In this way, you are aware of the campaign changes and why they are beneficial.",
-                    },
-                    {
-                        icon : "",
-                        service_title: "101 Percent Client Commitment ", 
-                        service_description: "At Thrive, we believe that your success is our success. That is why we pursue excellence in all our campaigns. Our team stays abreast of the latest industry trends and executes data-driven SEO processes to ensure your campaign is on the right track",
-                    },
-                    {
-                        icon : "",
-                        service_title: "Branding Guidelines", 
-                        service_description: "Our team establishes branding guidelines and strict company policies, which extend to your logo, page content and images. We highlight your distinct brand identity and ensure consistency across online platforms. In this way, we develop brand recognition and customer loyalty.",
-                    },
-                    {
-                        icon : "",
-                        service_title: "Analytics & Reporting", 
-                        service_description: "We perform comprehensive campaign analyses to deliver measurable results. Our SEO experts send weekly or bi-weekly updates, depending on the agreed terms. These reports include your search rankings, paid and organic traffic, page visits and overall site performance.",
-                    },
-                ]
-            }, 
-            //ThriveWhyChoose
-            {
-                interface: "ThriveWhyChoose",
-                title:"Build a Community of Brand Advocates with Franchise SEO",
-                subTitle:"Studies show that 78 percent of location-based mobile searches result in offline purchases. Take advantage of our local SEO services for franchises and connect with your target customers. Here’s how our enterprise marketing experts utilize local SEO to attract nearby consumers:",
-                descriptions : [
-                    " ",
-                ],
-                services: [
-                    {
-                        icon : "",
-                        service_title: "Mobile SEO", 
-                        service_description: "Capture mobile users with responsive site design and user-friendly navigation. We optimize your page content for local search, use mobile-friendly popups, optimize for voice search and capitalize on “near me” search terms. In this way, we help you convert abandoning visitors into clients.",
-
-                    },
-                    {
-                        icon : "",
-                        service_title: "eCommerce Marketing", 
-                        service_description: "Dominate your niche market by tapping into a huge pool of high-intent customers. We provide eCommerce SEO, Amazon marketing, Shopify SEO, eCommerce advertising and Walmart Marketplace integration. These services are designed to help you generate more sales and offer unmatched convenience to your customers.",
-
-                    },
-                    {
-                        icon : "",
-                        service_title: "Review Management", 
-                        service_description: "Customers are increasingly reliant on online reviews when looking for local businesses. Statistics show that 88 percent of consumers trust online reviews as much as personal recommendations. Leverage our reputation management software to keep track of your brand conversations across online channels.",
-
-                    },
-                    {
-                        icon : "",
-                        service_title: "Content Optimization", 
-                        service_description: "Studies reveal that optimizing your page content and blog posts increases your chances of ranking high on search engines by up to 434 percent. Let your prospects discover your local business through content marketing. We utilize geo-specific language in your content and highlight landmarks and events to increase your search relevance. ",
-
-                    },
-                    {
-                        icon : "",
-                        service_title: "Full-Service Digital Marketing", 
-                        service_description: "From hyperlocal, single-location businesses to multi-location companies, we help entrepreneurs achieve real growth. We provide franchise social media management, web design, PPC marketing and a variety of online marketing solutions. Tell us your goals, and we will help you achieve them.",
-
-                    },
-                    {
-                        icon : "",
-                        service_title: "Landing Page Conversion", 
-                        service_description: "Our landing page designs are SEO-optimized and conversion-focused. We emphasize your unique selling propositions (USPs) and address the specific needs of your target market. Doing so allows us to drive qualified traffic to your site and generate higher conversions.",
-
-                    },
-                ]
-            }, 
+            // DyFaqProfile
             {
                 interface: "DyFaqProfile",
                 faqSection:{
@@ -1798,8 +1913,7 @@ export const category_page_data = [
                 },
             },
         ],
-        subCategories: [], 
-        
+        subCategories: [],  
     },
     {
         url: "/b2b-marketing-agency/ecommerce-seo",
@@ -1815,146 +1929,429 @@ export const category_page_data = [
             image: "snippet/url", 
         },
         frontend:[
-             //ThriveHeroSection
+            //ThriveHeroSection
              {
                 interface: "ThriveHeroSection",
                 bgImgCss: "topicsPage-digital-bg",
-                title:"eCommerce SEO",
-                subTitle: "We Ensure Your Customers Always Find Your Products or Services"
+                title:"E-commerce SEO Services: How to Skyrocket Your Online Store's Visibility",
+                subTitle: "In the ever-evolving digital marketplace, standing out can feel like trying to be heard at a rock concert—almost impossible without the right equipment. That's where e-commerce SEO services come into play, turning your whisper into a roar. As an SEO enthusiast with a knack for e-commerce, I'll guide you through this jungle with a blend of expertise and that dry humor you've been warned about."
             },
+            // DySubCatLists
             {
                 interface: "DySubCatLists",
                 title :"Find Your Solution",
                 description: "We don't just show you keyword rankings, we help you get new ones! Even better, if your business experiences a rankings drop on Google, we'll let you know what page on your website was affected and what changed so you can fix it.",
-            }, 
-            //ThriveParagraphs
+            },   
+            //ThriveTopicIntro2
             {
-                interface: "ThriveParagraphs",
+                interface: "ThriveTopicIntro2",
+                title: "The Ultimate SEO Symphony",
+                subTitle: " ",
+                firstPara: '',
+                sidePara: [
+                    "Think of e-commerce SEO as the world's best SEO orchestra, playing a symphony that mesmerizes Google's search algorithms. From the best SEO in the world to your local SEO consulting agency and firm, the maestros, aka SEO consultants, fine-tune your website's performance, ensuring it hits the high notes on search engine results pages (SERPs).",
+                    `<h3 class='font-bold'>The Maestros Behind the Music</h3>
+                    Whether you're looking for a solo performance or a full-blown orchestra, the key players in the SEO world range from SEO consulting firms to individual SEO professionals. Each SEO optimization consultant brings their unique style to the table, but only the best SEO consultants know how to harmonize the complex elements of e-commerce SEO.`, 
+                ],
+                imgUrl: "/category-page/isw1.svg",
+
+            }, 
+            //ThriveServices
+            {
+                interface: "ThriveServices",
+                title:"Choosing Your SEO Instrument",
+                subTitle: "",
+                descriptions : [
+                    "Selecting the right e-commerce SEO services can feel like choosing your first instrument. It's a commitment, and you want to make sure it resonates with your brand's identity. From SEO services for e-commerce to specialized e-commerce SEO packages, the options are as varied as music genres"
+                ],
+                services: [
+                    {
+                        icon : ` `,
+                        service_title: "The Solo Artists", 
+                        service_description: "In the world of e-commerce, SEO specialists and experts take the spotlight. These e-commerce SEO consultants and experts know the ins and outs of e-commerce SEO, ensuring your online store attracts more visitors and converts them into loyal fans.", 
+                    },
+                    {
+                        icon : ` `,
+                        service_title: "The Ensembles", 
+                        service_description: "Regarding SEO agencies for e-commerce, think of them as bands that bring together the best in the industry. Offering comprehensive SEO services for e-commerce websites, these agencies harmonize strategy, content, and technical SEO to elevate your online presence.",
+
+                    },
+                    {
+                        icon : ` `,
+                        service_title: "The Music Festival", 
+                        service_description: "Imagine a place where the best in e-commerce SEO gather. You'll find the top performers from e-commerce search engine optimization services to SEO companies for e-commerce, including the best e-commerce SEO company and agency. Each offers a unique set of e-commerce website SEO packages tailored to help your business stand out.",
+
+                    },
+                    {
+                        icon : ` `,
+                        service_title: "The Headliners", 
+                        service_description: "At the top of the bill, you'll find the best e-commerce SEO agencies and experts. Known for their e-commerce SEO marketing services and retail SEO services, these acts know how to put on a show and draw crowds (aka traffic) to your online store.",
+
+                    }, 
+                ]
+            },  
+            //ThriveTitleParagraphs
+            {
+                interface: "ThriveTitleParagraphs",
+                title: "Encore!",
                 paragraphs: [
-                    "Let your target customers enjoy around-the-clock convenience of purchasing what they need when they need it. Start selling online now! Reach the global market and improve your overall revenue with our eCommerce SEO solutions. Partner with Thrive and let us take your online store to the next level."
+                    `As the lights dim and the crowd cheers for more, remember that e-commerce SEO isn't a one-hit-wonder. It's an ongoing concert series, with each e-commerce SEO agency and e-commerce SEO expert playing a crucial role in your success story.`,
+                    `Whether you're just stepping onto the stage or ready to headline your SEO festival, remember: in the world of e-commerce, visibility is everything. So, let your personality shine through, and don't be afraid to play your music loud. After all, in the great concert of the internet, the best performances resonate with authenticity and passion.`,  
+                ]
+            }, 
+            //ThriveTopicIntro2
+            {
+                interface: "ThriveTopicIntro2",
+                title: "Local SEO Services Near Me",
+                subTitle: "",
+                firstPara: `In the digital age, finding the perfect SEO services near you can feel like searching for a needle in a haystack. But fear not! Whether it's a local SEO agency or a local SEO company near you, the quest for the holy grail of local search optimization ends here. Let's take a conversational stroll through the neighborhood of SEO, where I'll share insights and perhaps a chuckle or two about finding the best local SEO solutions.`,
+                sidePara: [ 
+                    `<h3 class='font-bold'>The Convenience of "Near Me"</h3>
+                    The term "SEO near me" isn't just a keyword; it's a lifeline for businesses seeking to boost their online visibility within their local community. Local SEO services optimize your online presence to attract more business from relevant local searches. These services know the lay of the land, understand your local competition, and customize strategies to put your business on the local map—literally.`, 
+                    `<h3 class='font-bold'>The Ensemble of Local SEO Experts</h3>
+                    Imagine a band where each member plays a crucial role, from the SEO agency near me drumming up the backbeat to the SEO company near me strumming the chords of technical optimization. SEO experts near me and local SEO specialists harmonize to create a melody that resonates with local search engines and your target audience.`, 
+                    `<h3 class='font-bold'>The Solo Acts: Specialists and Solutions</h3>
+                    Not all heroes wear capes; some wield metadata and local citations. The SEO specialist near me and SEO consultant near me are the solo artists of the SEO world, offering personalized SEO help and affordable SEO services. These individuals perfectly tune your website's performance, ensuring it sings the right notes for local search algorithms.`, 
+                    `<h3 class='font-bold'>The Venues: From Agencies to Firms</h3>
+                    The stage is set, and the audience awaits. Whether it's an affordable SEO agency near me or the best SEO firm near me, each venue offers unique services tailored to elevating your local online presence. SEO service providers and SEO consulting near me play pivotal roles in this concert, offering everything from web design and SEO services to e-commerce SEO services.`, 
+                    `<h3 class='font-bold'>The Local SEO USA Tour</h3>
+                    Embarking on a tour of local SEO in the USA reveals a diverse landscape of SEO marketing companies and SEO businesses near me. Each state, city, and town has its local heroes, ready to provide website and SEO services that cater specifically to the local demographic, culture, and search behavior.`, 
+                    `<h3 class='font-bold'>Encore: Finding the Right Fit</h3>
+                    As our tour concludes, remember that finding the proper SEO professional near me is akin to discovering the perfect concert venue. It's about the ambiance, the acoustics, and, most importantly, the connection with the audience—your local customers.
+                    <br>
+                    Feel free to audition a few before settling on the one that understands your business's unique rhythm. After all, in the grand performance of local SEO, it's not just about being seen; it's about being remembered and chosen.`, 
+                     
+                ],
+                imgUrl: "/category-page/isw1.svg",
+
+            }, 
+            //ThriveServices
+            {
+                interface: "ThriveServices",
+                title:"Find the local SEO services near you",
+                subTitle: "",
+                descriptions : [
+                    "So there you have it—a front-row ticket to understanding how to find the local SEO services near you. Remember, in the world of SEO, sometimes the best talent is just around the corner, ready to help your business hit the high notes on the search engine stage."
+                ],
+                services: [
+                    {
+                        icon : ` `,
+                        service_title: "Product SEO", 
+                        service_description: "Optimizing your e-commerce platform starts with product SEO, a critical element that ensures your items shine brighter than the competition on search engines. Whether it's detailed SEO for e-commerce product pages or crafting the perfect SEO product description, every tweak and enhancement plays a pivotal role in discovering and ranking your products.", 
+                    },
+                    {
+                        icon : ` `,
+                        service_title: "SEO for Products", 
+                        service_description: "Creating a strategy for product page SEO involves more than just inserting keywords. It's about understanding the intent behind customer searches and aligning your content to meet those needs. Product page SEO and SEO for product descriptions are about making every word count, ensuring that your products not only catch the eye but also the click of potential customers.",
+
+                    },
+                    {
+                        icon : ` `,
+                        service_title: "SEO for Retail Websites", 
+                        service_description: "Transitioning from product-focused SEO, let's zoom out to the broader spectrum of **SEO for retail websites**. This involves a comprehensive approach encompassing every corner of your e-commerce site, ensuring that your platform is optimized for search engines and users alike from homepage to checkout.",
+
+                    },
+                    
                 ]
             },
-            //ThriveBrandReviews
-            {
-                interface: "ThriveBrandReviews",
-                brands: [
-                {
-                    company:"Google",
-                    imgUrl: "https://cdn-icggj.nitrocdn.com/AphBmykuaGyxZijWArNhxcCiPzVdYZGT/assets/images/optimized/rev-fadafbc/thriveagency-fab2023.flywheelsites.com/files/services-google-01.png",
-                    reviews : "130+ Reviews"
-                },
-                {
-                    company:"Clutch",
-                    imgUrl: "https://cdn-icggj.nitrocdn.com/AphBmykuaGyxZijWArNhxcCiPzVdYZGT/assets/images/optimized/rev-fadafbc/thriveagency-fab2023.flywheelsites.com/files/services-clutch-01.png",
-                    reviews : "10+ Reviews"
-                },
-                {
-                    company:"UpCity",
-                    imgUrl: "https://cdn-icggj.nitrocdn.com/AphBmykuaGyxZijWArNhxcCiPzVdYZGT/assets/images/optimized/rev-fadafbc/thriveagency-fab2023.flywheelsites.com/files/services-upcity-01.png",
-                    reviews : "30+ Reviews"
-                },
-            ]
+             //ThriveTopicIntro
+             {
+                interface: "ThriveTopicIntro",
+                title:"Product Page SEO Best Practices",
+                description: "",
+                listTitle: " ",
+                list: [
+                    `<h3 class='font-bold text-xl'>E-commerce product page optimization:</h3>
+                    Enhance load times, ensure mobile responsiveness, and use high-quality images.`,
+                    `<h3 class='font-bold text-xl'>E-commerce product SEO:</h3>
+                    Include targeted keywords in titles, descriptions, and alt tags.`,
+                    `<h3 class='font-bold text-xl'>SEO best practices for product pages:</h3>
+                    Utilize structured data to help search engines better understand and index your content.`,
+                ],
+                lastDescription: " ",
+                imgUrl:"/seo-page/seo3.svg",
+            },
+             //ThriveTopicIntro
+             {
+                interface: "ThriveTopicIntro",
+                title:"E-commerce SEO",
+                description: "The backbone of a successful online store is e-commerce SEO. It's a multifaceted strategy that covers SEO for e-commerce, SEO for e-commerce websites, and SEO for e-commerce products. This holistic approach ensures that your site is not just a collection of products but a well-oiled machine geared for maximum visibility and conversion.",
+                listTitle: " Ecommerce SEO Best Practices",
+                list: [
+                    `<h3 class='font-bold text-xl'>E-commerce SEO strategy:</h3>
+                    Focus on a comprehensive keyword strategy, including long-tail keywords for product pages.`,
+                    `<h3 class='font-bold text-xl'>E-commerce SEO tips:</h3>
+                    Enhance site architecture for easy navigation and improved user experience.`,
+                     
+                ],
+                lastDescription: "E-commerce search engine optimization: Regularly audit your site for SEO improvements and keep up with algorithm updates. <br> SEO for an e-commerce site: Integrate social proof, such as customer reviews, to boost credibility and attract organic traffic.",
+                imgUrl:"/seo-page/seo3.svg",
             },
             //ThriveTitleParagraphs
             {
                 interface: "ThriveTitleParagraphs",
-                title: "Sustainable eCommerce SEO Goes Mainstream",
+                title: "Retail SEO & Ecomm SEO",
                 paragraphs: [
-                    "The line between traditional and digital commerce is blurring. Statistics show that 63 percent of shopping occasions begin online. This means that no matter where customers are making their final purchase -- online or in a brick-and-mortar store -- their online experience serves as the deciding factor in whether or not they will go with your brand.",
-                    "Over the years, online shopping has significantly changed the global marketplace. This resulted in numerous physical store closures for traditional retailers. In July 2019 alone, Coresight Research recorded over 7,062 store closures across U.S. retail chains. If the pace continues, you can expect the inevitable fall of suburban malls as prime shopping destinations.",
-                    "With more people and institutions relying on digital platforms to satisfy their essential needs and requirements, where does your business fit in?",
+                    `<span class='font-bold'>Retail SEO</span> and <span class='font-bold'>eComm SEO</span> extends beyond just your website. It encompasses the entirety of your online presence, including social media, marketplaces, and beyond. <span class='font-bold'>SEO para e-commerce</span> and <span class='font-bold'>webshop SEO</span> are about creating a cohesive and consistent experience that propels your brand to the forefront of your industry.`,  
+                ]
+            }, 
+            //ThriveTopicIntro2
+            {
+                interface: "ThriveTopicIntro2",
+                title: "The Concerto of E-commerce SEO",
+                subTitle: "",
+                firstPara: `In essence, the symphony of <span class='font-bold'>SEO in e-commerce</span> is played on a grand stage, where each note represents a different aspect of your online store, from the <span class='font-bold'>product page SEO</span> to the overarching <span class='font-bold'>eCommerce SEO optimization</span>. The goal is not just to perform but to captivate and convert your audience into loyal customers.`,
+                sidePara: [ 
+                    `Whether you're fine-tuning your product SEO or orchestrating a full-scale SEO strategy for e-commerce websites, remember that it's about harmonizing the technical with the tactical. In this grand concert of e-commerce, those who play with passion and precision find themselves taking the encore.`, 
+                    `<h3 class='font-bold'>E-commerce SEO Services: Enhancing Your Online Presence</h3>
+                    In the ever-evolving world of e-commerce, standing out amongst a sea of competitors can be challenging. This is where the magic of E-commerce SEO Services comes into play, a critical tool in your digital arsenal to ensure your products reach and resonate with your intended audience. Let's dive into the world of SEO marketing solutions and packages tailored for e-commerce businesses, highlighting how they can catapult your online store to the top of search engine rankings.`,  
+                     
+                ],
+                imgUrl: "/category-page/isw1.svg",
 
+            },
+            //ThriveWhyChoose
+            {
+                interface: "ThriveWhyChoose",
+                title:"SEO Marketing Solutions",
+                subTitle:"",
+                descriptions : ["  "],
+                services: [
+                    {
+                        icon : "",
+                        service_title: "Full-Service SEO", 
+                        service_description: "Navigating the vast landscape of SEO requires a comprehensive approach. Full-service SEO encompasses a holistic strategy, including keyword research, on-page optimization, link building, and technical SEO. This ensures every facet of your online presence is optimized for search engines and your target audience.",
+
+                    },
+                    {
+                        icon : "",
+                        service_title: "SEO Service Live", 
+                        service_description: `With the incredibly dynamic digital marketplace, SEO Service Live refers to the ongoing optimization efforts that respond to real-time changes in search engine algorithms, consumer behavior, and market trends. Staying adaptive and proactive is vital to maintaining and improving your e-commerce site's visibility.`,
+
+                    },
+                    {
+                        icon : "",
+                        service_title: "SEO and Digital Marketing Services", 
+                        service_description: "Integrating SEO with a broader digital marketing strategy amplifies your online presence. This synergy between SEO and digital marketing services like content marketing, social media, and PPC advertising creates a cohesive online strategy that drives traffic, engagement, and conversions.",
+
+                    },
+                    {
+                        icon : "",
+                        service_title: "Custom SEO Services", 
+                        service_description: "Every e-commerce business is unique; a one-size-fits-all approach doesn't cut it. Custom SEO services tailor strategies to fit your business needs, goals, and target audience, ensuring a personalized approach to boost your online visibility and sales.",
+                    }, 
                 ]
             },
             //ThriveTopicIntro2
             {
                 interface: "ThriveTopicIntro2",
-                title: "Attract New Customers Through eCommerce SEO",
-                subTitle: " ",
-                firstPara: " ",
-                sidePara: [
-                    "With the introduction of the internet and technological advancements, consumer needs are fast-changing. Customers now prefer the quickest and easiest ways to purchase what they need while maintaining a busy lifestyle. In fact, research shows that an estimated 1.8 billion people worldwide purchase goods through eCommerce services.",
-                    "Online shopping provides the convenience that traditional stores can only hope to match. This means eCommerce SEO services are quickly becoming a necessity for many retailers and business-to-business (B2B) companies.",
-                    "The global market is a busy and competitive industry. To compete, you need to take a 360-degree approach to business marketing. eCommerce marketing is a profitable way for stores and organizations to tap into their target customers and generate a higher return on investment (ROI). It is one of the fastest methods of building and raising brand awareness. Experts predict that by 2040, around 95 percent of all purchases will be via eCommerce platforms.",
-                    "Promote your products and services with the help of a trusted eCommerce SEO company. eCommerce SEO is a holistic approach to improving customer experience and growing your business."
+                title: "SEO Services Packages",
+                subTitle: "",
+                firstPara: `Selecting the right SEO services package is crucial for your e-commerce success. Packages range from basic to advanced, catering to businesses of all sizes and stages. They typically include keyword research, on-page optimization, and reporting.`,
+                sidePara: [  
+                    `<h3 class='font-bold'>Monthly SEO Packages</h3>
+                    Consistency is key in SEO. Monthly SEO packages offer ongoing optimization efforts, including content updates, backlink strategies, and technical improvements, ensuring your site stays relevant and competitive.`,  
+                    `<h3 class='font-bold'>Search Engine Optimization Packages</h3>
+                    Comprehensive search engine optimization packages offer a detailed suite of services to enhance every aspect of your e-commerce site's SEO. From technical audits to content creation, these packages aim to improve your site's ranking and visibility.`,  
+                    `<h3 class='font-bold'>Best SEO Packages</h3>
+                    The best SEO packages offer a balanced mix of services tailored to your e-commerce business's needs. They prioritize ROI, focusing on strategies that drive traffic, improve user experience, and increase conversions.`,  
+                    `<h3 class='font-bold'>SEO Marketing Packages</h3>
+                    SEO marketing packages merge SEO tactics with marketing strategies, ensuring that your e-commerce site ranks well and effectively communicates your brand message and value proposition to potential customers.`,    
+                    `<h3 class='font-bold'>Custom SEO Packages</h3>
+                    For businesses with specific needs or challenges, custom SEO packages offer the flexibility to focus on areas of improvement, whether it's enhancing local SEO, targeting exact keywords, or improving site speed and usability.Web Design and SEO Services: A Symphony of Site Success`,    
+                     
                 ],
-                imgUrl: "https://images.unsplash.com/photo-1706759755964-b0aa57a58c5a?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                imgUrl: "/category-page/isw1.svg",
 
-            },   
-            //ThriveWhyChoose
+            },
+            //ThriveTopicIntro2
             {
-                interface: "ThriveWhyChoose",
-                title:"eCommerce SEO Services",
-                subTitle:" Build Trust and Increase Your eCommerce Conversions ",
-                descriptions : ["  "],
+                interface: "ThriveTopicIntro2",
+                title: "The Art and Science of SEO Web Design Companies",
+                subTitle: "",
+                firstPara: `SEO web design companies understand that a website must be more than just aesthetically pleasing. It needs to be built from the ground up with SEO in mind. This means creating a site that looks great and ranks well on search engines. It's about ensuring your site is accessible, fast, and mobile-friendly, which are crucial SEO factors.`,
+                sidePara: [  
+                    `<h3 class='font-bold'>The Duo of Website Design and SEO Services</h3>
+                    Combining website design and SEO services means your site will attract visitors with its stunning design and guide them smoothly toward conversion. SEO isn't just about getting people to your site; it's about delivering a user experience that keeps them there and encourages them to take action.`,  
+                    `<h3 class='font-bold'>Harmony Between Web Design and SEO Company Strategies</h3>
+                    A web design and SEO company aligns your site's visual elements with SEO best practices. This includes optimizing images, utilizing proper tag hierarchy, and ensuring your site's structure facilitates easy navigation for users and search engine crawlers.`,  
+                    `<h3 class='font-bold'>SEO Website Design Company: The Visual SEO Maestros</h3>
+                    An SEO website design company focuses on creating designs that are not only beautiful but also SEO-friendly. This means considering how design elements affect load times, how layout impacts user engagement, and how the overall user experience influences SEO rankings.`,  
+                    `<h3 class='font-bold'>The Composition of Web Development and SEO Services</h3>
+                    Web development and SEO services focus on front-end and back-end development to enhance SEO. This includes technical SEO aspects like site speed optimization, responsive design, and structured data implementation. A site built with SEO in mind is like a well-tuned instrument, ready to play the symphony of your brand's message across the web.`,    
+                    `<h3 class='font-bold'>The Ensemble of Web Design and SEO Agency</h3>
+                    Choosing a web design and SEO agency means opting for a comprehensive approach to your online presence. These agencies understand the importance of integrating SEO into the design process, ensuring that every element of your site, from the layout to the content, works towards your overall SEO goals.`,    
+                     
+                ],
+                imgUrl: "/category-page/isw1.svg",
+
+            },
+            //ThriveTitleParagraphs
+            {
+                interface: "ThriveTitleParagraphs",
+                title: "Webdesign and SEO Company",
+                paragraphs: [
+                    `Selecting a web design and SEO company is about finding a partner who understands the intricate dance between design and optimization. It's about ensuring that your website captures the essence of your brand and effectively speaks the language of search engines.`,
+                       
+                ]
+            }, 
+            //ThriveServices
+            {
+                interface: "ThriveServices",
+                title:"The Best Search Engine Optimization Company: Unveiling the Maestros of SEO",
+                subTitle: "",
+                descriptions : [
+                    "In the vast world of digital marketing, finding the best search engine optimization company can feel like searching for a needle in a haystack. Yet, the impact of partnering with the right SEO agency can transform your online visibility and business success. Let's explore what makes a company stand out in the SEO orchestra."
+                ],
                 services: [
                     {
-                        icon : "",
-                        service_title: "Keyword Research & Optimization ", 
-                        service_description: "Our eCommerce SEO experts build keyword strategies aimed at improving your online visibility and attracting more qualified leads. We perform customer and competition analyses to determine the most relevant keyword searches. Our eCommerce optimization team also utilizes the latest tools and analytics to analyze keyword search volume and ranking difficulty.",
+                        icon : ` `,
+                        service_title: "The Conductor: SEO Agency", 
+                        service_description: "An SEO agency orchestrates your digital strategy, ensuring each part of your online presence works harmoniously. The right agency fine-tunes your website, content, and marketing strategies to perform a symphony that attracts search engines and audiences alike.", 
+                    },
+                    {
+                        icon : ` `,
+                        service_title: "The Soloists: SEO Services", 
+                        service_description: "SEO services are the soloists, each playing a vital role in the SEO symphony. From keyword research to on-page optimization and link building, these services work solo and ensemble to elevate your site's rankings.",
 
                     },
                     {
-                        icon : "",
-                        service_title: "Local SEO", 
-                        service_description: "Position your products in front of your target market with our local eCommerce SEO services. We handle everything from on-page and off-page optimization, Google My Business (GMB) listings, online reputation management and local citation building. Drive increased traffic to your online store with the help of Thrive!",
+                        icon : ` `,
+                        service_title: "The Ensemble: SEO Company", 
+                        service_description: "An SEO company brings together a diverse ensemble of SEO professionals. Their collective expertise in different areas of SEO ensures a comprehensive approach to boosting your site's visibility and performance.",
 
                     },
                     {
-                        icon : "",
-                        service_title: "Technical SEO ", 
-                        service_description: "Optimize your site’s usability with eCommerce SEO. We follow Google’s best practices in building and optimizing your overall site structure. Our SEO specialists implement schema markup, fix technical issues, boost your site speed and mobile responsiveness and optimize your product detail pages.",
+                        icon : ` `,
+                        service_title: "The Virtuosos: Best SEO Company", 
+                        service_description: "The title of best SEO company is reserved for those who perform with unparalleled skill and consistency. These companies have a proven track record of achieving and maintaining top search engine rankings for their clients.",
 
                     },
                     {
-                        icon : "",
-                        service_title: "eCommerce PPC", 
-                        service_description: "Reach your target audience and generate immediate, qualified leads for your growing business. Our eCommerce SEO advertising solutions are designed to drive top-of-funnel traffic to your online store and convert leads into sales. We perform extensive keyword research and optimization, design custom landing pages and create ads that highlight your value proposition.",
+                        icon : ` `,
+                        service_title: "The Orchestra: Search Engine Optimization Services", 
+                        service_description: "Search engine optimization services encompass the entire orchestra of SEO tactics and strategies. From technical SEO to content marketing and social media integration, these services ensure your website is fully optimized for search engines.An SEO company brings together a diverse ensemble of SEO professionals. Their collective expertise in different areas of SEO ensures a comprehensive approach to boosting your site's visibility and performance.",
+
                     },
                     {
-                        icon : "",
-                        service_title: "Content Writing", 
-                        service_description: "Attract and convert customers with the right SEO web content. At Thrive, our writers are skilled in creating content for online stores in a variety of industries. Our team is knowledgeable in writing product pages and descriptions, review responses and guest posts, among other types of content for SEO and social media marketing.",
+                        icon : ` `,
+                        service_title: "The Maestros: Best SEO Agency", 
+                        service_description: "A best SEO agency not only masters SEO strategies but also understands your unique business needs. They tailor their approach to fit your goals, acting as maestros who conduct your online success.",
+
                     },
                     {
-                        icon : "",
-                        service_title: "eCommerce Web Design", 
-                        service_description: "Thrive is a certified Shopify partner. This means we have access to exclusive deals on the tools necessary to accelerate your online store. More importantly, we stay abreast of the latest industry developments to boost your site design. We simplify your site navigation and search filters, remove visual clutter, utilize high-quality images and highlight your trust seals.",
+                        icon : ` `,
+                        service_title: "The Composer: SEO Firm", 
+                        service_description: "An SEO firm composes the strategy behind your online presence. They craft a bespoke SEO strategy that harmonizes your business objectives with SEO best practices.",
+
                     },
                     {
-                        icon : "",
-                        service_title: "Walmart Marketplace Integration", 
-                        service_description: "Position your products in front of a larger audience at Walmart Marketplace. Our Walmart Marketplace optimization services include account setup and optimization, online review management, content optimization and analytics reporting. Partner with us and get help from eCommerce SEO experts.",
+                        icon : ` `,
+                        service_title: "The Chorus: SEO Marketing Agency", 
+                        service_description: "An SEO marketing agency amplifies your brand's voice, ensuring it's heard across the digital landscape. They integrate SEO with overall digital marketing efforts to increase your online visibility and engagement.",
+
                     },
-                    {
-                        icon : "",
-                        service_title: "Amazon Marketing Services ", 
-                        service_description: "Drive more traffic and more sales to your eCommerce business through Amazon marketing. At Thrive, we optimize your Amazon product pages, launch pay-per-click management campaigns and implement data-driven marketing strategies. In this way, we help you establish and solidify your brand presence on Amazon.",
-                    },
-                    {
-                        icon : "",
-                        service_title: "Conversion Rate Optimization", 
-                        service_description: "We analyze your campaign’s key performance indicators (KPIs) to track your marketing success. Our team performs search analyses, in-depth site audits and A/B split testing. These methods allow us to make data-driven recommendations to boost your conversion rate.",
-                    },
+                    
                 ]
-            },  
+            },
+            //ThriveTopicIntro2
+            {
+                interface: "ThriveTopicIntro2",
+                title: "The Critics' Choice: Best SEO Services",
+                subTitle: "",
+                firstPara: `The Best SEO services are recognized not just by rankings but also by their impact on your business. These services drive traffic, generate leads, and increase conversions, proving their value beyond the search engine results pages (SERPs).`,
+                sidePara: [  
+                    `<h3 class='font-bold'>The Innovators: SEO Optimization Companies</h3>
+                    SEO optimization companies are the innovators, constantly adapting to the ever-changing algorithms of search engines. They stay ahead of trends, ensuring your SEO strategy remains adequate and efficient.`,  
+                    `<h3 class='font-bold'>Finding Your SEO Maestro</h3>
+                    Choosing the best search engine optimization company is about more than just rankings; it's about finding a partner that understands your business and helps it perform its best in the digital concert hall. Whether a solo act or a full orchestra, the right SEO company can lead you to standing ovations in the SERPs.`,     
+                ],
+                imgUrl: "/category-page/isw1.svg",
+
+            },
+
              //ThriveDoubleList
             {
                 interface:"ThriveDoubleList",
-                title: "Your One-Stop eCommerce SEO Company",
-                description: "Provide your customers with the convenience of a 24/7 online shopping experience from anywhere across the globe. Our custom eCommerce SEO services are designed to help your brand punch above its weight and dominate the competition. Partner with us and gain the following advantages and more:",
+                title: "E-commerce SEO: A Comprehensive Guide to Boost Your Online Store",
+                description: "Navigating the world of e-commerce SEO can feel like exploring a vast, ever-changing landscape. Yet mastering it is crucial for any online store looking to increase visibility, drive traffic, and boost sales. Let's explore a collection of best practices, strategies, and insights to elevate your e-commerce SEO game.",
                 firstList : [
-                    "eCommerce optimization experts",
-                    "100% campaign focus",
-                    "Integrated digital marketing solutions",
-                    "Data-driven processes",
+                    `<h4 class='font-bold text-xl text-black'>E-commerce SEO Best Practices</h4>
+                        <p><span class='font-semibold'>Optimize Your Site Structure:</span> A clear, logical site structure enhances user experience and helps search engines crawl your website more effectively.</p>
+                        <p><span class='font-semibold'>Secure Your Website:</span> Implement HTTPS to ensure a secure shopping experience for your customers.</p>
+                    `,
+                    `<h4 class='font-bold text-xl text-black'>On-page SEO for E-commerce</h4>
+                        <p><span class='font-semibold'>Optimize Product Descriptions:</span> Use unique, keyword-rich descriptions for each product.</p>
+                        <p><span class='font-semibold'>Enhance Images:</span>Utilize alt tags and compress images to improve page load speed and accessibility.</p>
+                    `,
+                    `<h4 class='font-bold text-xl text-black'>Off-page SEO for E-commerce</h4>
+                        <p><span class='font-semibold'>Build Quality Backlinks:</span> Gain backlinks from reputable sites in your industry to boost your site's authority.</p>
+                        <p><span class='font-semibold'>Engage on Social Media:</span>Amplify your content and product pages through social media platforms to drive traffic.</p>
+                    `,
+                    `<h4 class='font-bold text-xl text-black'>E-commerce SEO Case Studies</h4>
+                        <p>Analyzing successful e-commerce SEO campaigns can provide valuable insights and strategies that can be adapted to your efforts.</p>
+                    `,
+                    `<h4 class='font-bold text-xl text-black'>SEO Audits for E-commerce Sites</h4>
+                        <p>Regular SEO audits can help identify and rectify your site's performance issues.</p>
+                    `,
+                    `<h4 class='font-bold text-xl text-black'>E-commerce SEO Trends</h4>
+                        <p>Staying abreast of the latest SEO trends, like voice search optimization and AI, can keep your strategy ahead of the curve.</p>
+                    `,
+                    `<h4 class='font-bold text-xl text-black'>E-commerce SEO Optimization Tips</h4>
+                        <p><span class='font-semibold'>Focus on Load Speed:</span> A fast-loading site is crucial for keeping potential customers from bouncing.</p>
+                        <p><span class='font-semibold'>Implement Schema Markup:</span>This helps search engines better understand and display your content.</p>
+                    `,
+                    `<h4 class='font-bold text-xl text-black'>E-commerce SEO vs. Traditional SEO</h4>
+                        <p>While there are many similarities, e-commerce SEO often requires more focus on product and category page optimization.</p>
+                    `,
+                    `<h4 class='font-bold text-xl text-black'>SEO-friendly E-commerce Platforms</h4>
+                        <p>Choosing a platform with built-in SEO features can make optimizing your site easier.</p>
+                    `,
+                    `<h4 class='font-bold text-xl text-black'>International SEO for E-commerce</h4>
+                        <p>For stores targeting multiple countries, it's important to consider language and regional differences in your SEO strategy.</p>
+                    `,
+                   
+                     
                 ],
                 secondList: [
-                    "Regular Google Analytics reports",
-                    "Monthly video summary",
-                    "Device-responsive site design", 
+                    `<h4 class='font-bold text-xl text-black'>E-commerce SEO Strategies</h4>
+                        <p><span class='font-semibold'>Leverage Long-Tail Keywords:</span>These are less competitive and more specific, often leading to higher conversion rates.</p>
+                        <p><span class='font-semibold'>Focus on User Experience (UX):</span> Ensuring your site is fast, mobile-friendly, and easy to navigate can significantly impact your SEO performance.</p>
+                    `,
+                    `<h4 class='font-bold text-xl text-black'>Keyword Research for E-commerce</h4>
+                        <p><span class='font-semibold'>Use SEO Tools:</span>Tools like SEMrush or Ahrefs can help you identify valuable keywords related to your products and industry.</p>
+                        <p><span class='font-semibold'>Analyze Competitors:</span> Look at what keywords your competitors target and rank for.</p>
+                    `,
+                    `<h4 class='font-bold text-xl text-black'>Product Page Optimization</h4>
+                        <p><span class='font-semibold'>Use High-Quality Images and Videos:</span>Show off your products from multiple angles and in use.</p>
+                        <p><span class='font-semibold'>Incorporate Social Proof:</span> Customer reviews and ratings can significantly influence buying decisions.</p>
+                    `,
+                    `<h4 class='font-bold text-xl text-black'>Category Page Optimization</h4>
+                        <p><span class='font-semibold'>Optimize Category Descriptions:</span>Treat category pages as individual landing pages with unique content.</p>
+                        <p><span class='font-semibold'>Improve Navigation:</span> Ensure it's easy for users to filter and sort products according to their preferences.</p>
+                    `,
+                    `<h4 class='font-bold text-xl text-black'>E-commerce SEO Tools</h4>
+                        <p><span class='font-semibold'>Google Analytics and Search Console:</span> Essential for tracking performance and identifying issues.</p>
+                        <p><span class='font-semibold'>Yoast SEO for WordPress:</span> Offers comprehensive features to optimize your site's SEO.</p>
+                    `,
+                    `<h4 class='font-bold text-xl text-black'>E-commerce SEO Plugins and Tools</h4>
+                        <p>Plugins like WooCommerce SEO for WordPress can significantly simplify the SEO process for e-commerce sites.</p>
+                    `,
+                    `<h4 class='font-bold text-xl text-black'>E-commerce SEO Checklist</h4>
+                        <p>A comprehensive checklist ensures that all aspects of your site are optimized for search engines.</p>
+                    `,
+                    `<h4 class='font-bold text-xl text-black'>Mobile SEO for E-commerce</h4>
+                        <p>Optimizing for mobile shopping is non-negotiable with the increasing prevalence of mobile shopping.</p>
+                    `,
+                    `<h4 class='font-bold text-xl text-black'>Local SEO for E-commerce</h4>
+                        <p>Local SEO can drive significant in-store traffic for businesses with physical locations.</p>
+                    `,
+                    `<h4 class='font-bold text-xl text-black'>Voice Search Optimization for E-commerce</h4>
+                        <p>Optimizing for conversational keywords and phrases is becoming increasingly important as voice search becomes more prevalent.</p>
+                    `,
                 ]
             },
+            //DyFaqProfile
             {
                 interface: "DyFaqProfile",
                 faqSection:{
@@ -2200,78 +2597,258 @@ export const category_page_data = [
             image: "snippet/url", 
         },
         frontend:[
-            {
-                interface: "DyCategoryHeroSection",
-                imgURL:"https://diib.com/ebf3e133b1c21250af79.svg",
-                title :"Social Media Management ",
-                description: "We don't just show you keyword rankings, we help you get new ones! Even better, if your business experiences a rankings drop on Google, we'll let you know what page on your website was affected and what changed so you can fix it.",
-                bgImgCss: "categoryPage-socialMedia-bg"
+            //ThriveHeroSection
+             {
+                interface: "ThriveHeroSection",
+                bgImgCss: "topicsPage-digital-bg",
+                title:"ISW Development: Navigating the Landscape in 2024",
+                subTitle: "Welcome to the roller coaster world of ISW development in 2024. If you're looking to get your feet wet without getting swept away by the tides of change, you've come to the right place. Let's dive in, and yes, I promise to keep the tech jargon to a minimum. After all, we're all about keeping it real and, occasionally, light-hearted."
             },
+            // DySubCatLists
             {
                 interface: "DySubCatLists",
                 title :"Find Your Solution",
                 description: "We don't just show you keyword rankings, we help you get new ones! Even better, if your business experiences a rankings drop on Google, we'll let you know what page on your website was affected and what changed so you can fix it.",
-            }, {
-                interface: "DyLeftImgSection",
-                customURL: "/b2b-marketing-agency/social-media-management",
-                title :"Dynamic Left Img Marketing ",
-                description: "We don't just show you keyword rankings, we help you get new ones! Even better, if your business experiences a rankings drop on Google, we'll let you know what page on your website was affected and what changed so you can fix it.",
-                imgURL: "https://images.unsplash.com/photo-1551135049-8a33b5883817?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                imgAlt: "project Image explaining",
-                lists : [
-                    "Make sure your audience is engaging with your posts",
-                    "Be active when your followers are online",
-                    "Maintain a regular social media calendar",
-                    "Track your important SEO keywords and backlinks",
-                ]
-            },
+            },   
+            //ThriveTopicIntro2
             {
-                interface: "DyRightImgSection",
-                customURL: "/b2b-marketing-agency/social-media-management",
-                title :"Dynamic Right Img Marketing ",
-                description: "We don't just show you keyword rankings, we help you get new ones! Even better, if your business experiences a rankings drop on  Google, we'll let you know what page on your website was affected and what changed so you can fix it.",
-                imgURL: "https://images.unsplash.com/photo-1551135049-8a33b5883817?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                imgAlt: "project Image explaining",
-                lists : [
-                    "Make sure your audience is engaging with your posts",
-                    "Be active when your followers are online",
-                    "Maintain a regular social media calendar",
-                    "Track your important SEO keywords and backlinks",
-                ]
-            },
+                interface: "ThriveTopicIntro2",
+                title: "ISW Development Techniques 2024",
+                subTitle: " ",
+                firstPara: `This year, we see a blend of old-school wisdom and cutting-edge innovation. Think of it as the tech world's version of a mullet: business in the front, party in the back. Techniques that focus on efficiency and adaptability are leading the pack.`,
+                sidePara: [ 
+                    `<h3 class='font-bold'>ISW Development Cost Reduction   </h3>
+                    The mantra here is simple: Do more with less. Easier said than done, right? However, by embracing agile methodologies and lean development practices, squeezing pennies while pumping out stellar software is becoming less of a pipe dream.`, 
+                    `<h3 class='font-bold'>Efficient ISW Development Workflows</h3>
+                    Efficiency is the game's name, and the game is changing fast. Automation tools are like the sous-chefs of the software world, prepping everything you need so you can focus on the actual cooking—or, in this case, coding.`, 
+                    `<h3 class='font-bold'>ISW Development for Non-Profits</h3>
+                    Non-profits, listen up. Custom ISW solutions don't have to drain your coffers. With open-source tools and community support, you can get the tech you need to make a more significant impact without breaking the bank.`, 
+                    `<h3 class='font-bold'>Automating ISW Development Processes</h3>
+                    Automation is like having a personal assistant for the mundane tasks. From code generation to testing, it's all about making life easier. And who doesn't want that?`, 
+                    `<h3 class='font-bold'>Secure ISW Development Practices</h3>
+                    In the age of data breaches, security isn't just a nice-to-have; it's a must-have. Adopting secure coding practices is like locking your doors at night. Just do it.`, 
+                    `<h3 class='font-bold'>ISW Development Project Examples</h3>
+                    Show, don't tell. Real-world examples, from e-commerce platforms to mobile apps, provide the blueprint for what works and what doesn't.`, 
+                    `<h3 class='font-bold'>Custom ISW Solutions Guide</h3>
+                    One size doesn't fit all, especially in software. Custom solutions are the bespoke tailoring of the tech world: a little more investment upfront for a perfect fit down the line.`, 
+                    `<h3 class='font-bold'>ISW Development Certification Programs</h3>
+                    Want to prove you're at the top of your game? Certification programs are your ticket. They're a great way to ensure your skills are as current as your Netflix queue.`, 
+                    `<h3 class='font-bold'>ISW Development Challenges and Solutions</h3>
+                    Every rose has its thorn; in ISW development, those thorns can be pretty prickly. From scope creep to integration headaches, we'll tackle how to come out on top.`, 
+                    `<h3 class='font-bold'>ISW Integration Best Practices</h3>
+                    Integration is like a high-stakes puzzle. Do it right, and everything clicks into place. Mess it up, and well, you get the picture. Best practices ensure you're able to hold the right piece.`, 
+                ],
+                imgUrl: "/category-page/isw1.svg",
+
+            }, 
+            //ThriveServices
             {
-                interface: "DyParagraphs",
-                title :"Dynamic Right Img Marketing ",
-                description: 
-                    "We don't just show you keyword rankings, we help you get new ones! Even better, if your business experiences a rankings drop on Google, we'll let you know what page on your website was affected and what changed so you can fix it.<br> We don't just show you keyword rankings, we help you get new ones! Even better, if your business experiences a rankings drop on Google, we'll let you know what page on your website was affected and what changed so you can fix it.<br> We don't just show you keyword rankings, we help you get new ones! Even better, if your business experiences a rankings drop on Google, we'll let you know what page on your website was affected and what changed so you can fix it.<br> We don't just show you keyword rankings, we help you get new ones! Even better, if your business experiences a rankings drop on Google, we'll let you know what page on your website was affected and what changed so you can fix it.<br> We don't just show you keyword rankings, we help you get new ones! Even better, if your business experiences a rankings drop on Google, we'll let you know what page on your website was affected and what changed so you can fix it.<br> We don't just show you keyword rankings, we help you get new ones! Even better, if your business experiences a rankings drop on Google, we'll let you know what page on your website was affected and what changed so you can fix it.",
-                 
-                
-            },
-            {
-                interface: "DyFAQ",
-                title :"Dynamic Right Img Marketing ?",
-                subTitle: "We don't just show you keyword rankings, we help you get new ones! Even better, if your business experiences a rankings drop on Google, ",
-                faq:[
+                interface: "ThriveServices",
+                title:"",
+                subTitle: "",
+                descriptions : [
+                    ""
+                ],
+                services: [
                     {
-                        id: "1",
-                        question: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numqu ?.",
-                        answer: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam explicabo fugiat assumenda, autem illo sapiente voluptatibus. Non, obcaecati ullam corrupti amet, reprehenderit officia labore ratione est dignissimos dicta repudiandae. Impedit."
-                        
+                        icon : ` `,
+                        service_title: "ISW Development Scalability Strategies", 
+                        service_description: "Starting small doesn't mean thinking small. Scalability strategies are about planning for success and ensuring your software can grow as fast as your ambition.", 
                     },
                     {
-                        id: "2",
-                        question: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numqu ?.",
-                        answer: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam explicabo fugiat assumenda, autem illo sapiente voluptatibus. Non, obcaecati ullam corrupti amet, reprehenderit officia labore ratione est dignissimos dicta repudiandae. Impedit."
-                        
+                        icon : ` `,
+                        service_title: "Low-Cost ISW Development Tools", 
+                        service_description: "Who says you need to spend big to achieve greatness? With many low-cost (and free) tools available, bootstrapping has never been so appealing.",
+
                     },
                     {
-                        id: "3",
-                        question: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numqu ?.",
-                        answer: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam explicabo fugiat assumenda, autem illo sapiente voluptatibus. Non, obcaecati ullam corrupti amet, reprehenderit officia labore ratione est dignissimos dicta repudiandae. Impedit."
-                        
+                        icon : ` `,
+                        service_title: "ISW Development for Startups", 
+                        service_description: "Startups, this one's for you. Agile, lean, and ready to pivot—your ISW development strategy needs to match the speed of your innovation.",
+
                     },
+                    {
+                        icon : ` `,
+                        service_title: "Cross-Platform ISW Development", 
+                        service_description: "Why pick a side when you can have it all? Cross-platform development tools mean your software can play nicely with iOS and Android. Talk about a win-win.", 
+                    }, 
+                    {
+                        icon : ` `,
+                        service_title: "ISW Development Trends 2024", 
+                        service_description: "Keeping up with trends is like keeping up with the Kardashians—exhausting but necessary. We'll cover what's hot (and what's not) from AI to blockchain.", 
+                    }, 
+                    {
+                        icon : ` `,
+                        service_title: "Remote ISW Development Teams", 
+                        service_description: "Remote teams are the new normal. With the right tools and communication strategies, distance can be a non-issue.", 
+                    }, 
+                    {
+                        icon : ` `,
+                        service_title: "ISW Testing and QA Best Practices", 
+                        service_description: "Testing might not be glamorous, but it's critical. QA best practices ensure your software doesn't just work; it wows.", 
+                    }, 
+                    {
+                        icon : ` `,
+                        service_title: "Open-Source ISW Development", 
+                        service_description: "Open source is all about sharing and caring. With a community of developers behind you, you can tackle projects bigger than your budget might suggest.", 
+                    }, 
+                    {
+                        icon : ` `,
+                        service_title: "ISW Development Outsourcing Tips", 
+                        service_description: "Sometimes, you've got to call in the cavalry. Outsourcing can be a game-changer, provided you do it right. Tips and tricks ahead to ensure you don't end up with a dud.", 
+                    }, 
+                    
+                ]
+            }, 
+            //ThriveWhyChoose
+            {
+                interface: "ThriveWhyChoose",
+                title:"ISW Development: Crafting Future-Ready Solutions in 2024",
+                subTitle:"",
+                descriptions : [" In the digital tapestry of today's world, ISW (Information Software) development stands out as a vibrant thread, intertwining technology and creativity. As we navigate through 2024, staying ahead in the game becomes crucial, blending innovation with practicality. Let's dissect the realms of ISW development, ensuring every piece of advice is as legiitpro as possible. "],
+                services: [
+                    {
+                        icon : "",
+                        service_title: "Software Integration Solutions", 
+                        service_description: "The era of isolated systems is long gone. Today, software integration solutions are the backbone of a seamless digital experience, ensuring different applications speak the same language. Think of it as the ultimate tech mixer where every app brings its unique dish to the party.",
+
+                    },
+                    {
+                        icon : "",
+                        service_title: "Application Development Frameworks", 
+                        service_description: `Frameworks aren't just scaffolds; they're the architects of application development. Whether it's React for the front end or Django for the back end, choosing the proper framework is like picking your dance partner—compatibility is vital.`,
+
+                    },
+                    {
+                        icon : "",
+                        service_title: "System Software Updates", 
+                        service_description: "Staying updated is not just about keeping up with trends; it's about security and efficiency. System software updates are the digital equivalent of a health check-up—often overlooked but essential.",
+
+                    },
+                    {
+                        icon : "",
+                        service_title: "Custom Software Design", 
+                        service_description: "In ISW development, custom software design stands as a testament to innovation. Tailored to fit like a glove, custom solutions address specific needs, making 'one size fits all' a thing of the past.",
+                    }, 
+                    {
+                        icon : "",
+                        service_title: "Technology Stack for Web Development", 
+                        service_description: "Choosing a technology stack is like crafting your signature dish—you need the right ingredients. This means a harmonious blend of languages, frameworks, and web development tools that bring your digital vision to life.",
+                    }, 
+                    {
+                        icon : "",
+                        service_title: "Agile Methodology in Software Projects", 
+                        service_description: "Agile methodology is the legiitpro way to adapt and succeed in the fast-paced software arena. It's about being as flexible as a gymnast, with sprints and scrums that keep the project moving forward, one iteration at a time.",
+                    }, 
+                    {
+                        icon : "",
+                        service_title: "Enterprise Application Development", 
+                        service_description: "Developing applications for enterprises is like playing chess on several boards at once—strategy is critical. Scalability, security, and integration take center stage, ensuring the software can shoulder the company's digital aspirations.",
+                    }, 
+                    {
+                        icon : "",
+                        service_title: "Software Project Management Tools", 
+                        service_description: "Project management tools are the navigators in the odyssey of ISW development. From Trello's boards to Jira's sprints, they keep the project on track, ensuring everyone's rowing in the same direction.",
+                    }, 
+                    {
+                        icon : "",
+                        service_title: "DevOps for ISW Projects", 
+                        service_description: "DevOps isn't just a buzzword; it's a culture shift. By bridging the gap between development and operations, DevOps streamlines the process, making software deployment faster and more efficient.",
+                    }, 
+                    {
+                        icon : "",
+                        service_title: "Cross-Functional Software Teams", 
+                        service_description: "Cross-functional teams are the Avengers of the software world—each member brings a unique power to the table. Collaboration and diversity fuel innovation, breaking silos and pushing boundaries.",
+                    }, 
+                    {
+                        icon : "",
+                        service_title: "User Experience Design in Software", 
+                        service_description: "In ISW development, user experience (UX) design is king. It's about empathizing with the user and ensuring the journey through the software is as intuitive as enjoyable.",
+                    }, 
+                    {
+                        icon : "",
+                        service_title: "Data Security in Software Development", 
+                        service_description: "Data security is the guardian angel of software development, protecting sensitive information from digital threats. Encryption, secure coding practices, and regular audits are the shields in this ongoing battle.",
+                    }, 
+                    {
+                        icon : "",
+                        service_title: "Mobile App Development Essentials", 
+                        service_description: "Mobile app development is a realm of its own, with essentials ranging from responsive design to seamless performance. It's about putting the world in your users' pockets, one tap at a time.",
+                    }, 
+                    {
+                        icon : "",
+                        service_title: "Backend Development Best Practices", 
+                        service_description: "Backend development is the backbone of any software and demands diligence. A sturdy backend requires efficient database management, secure API calls, and scalable architecture.",
+                    }, 
+                    {
+                        icon : "",
+                        service_title: "Frontend Development Technologies", 
+                        service_description: "Frontend technologies are the painters of the web, bringing interfaces to life. HTML, CSS, and JavaScript are the primary colors, with frameworks like Angular and Vue adding shades of sophistication.",
+                    }, 
+                    {
+                        icon : "",
+                        service_title: "API Development and Integration", 
+                        service_description: "APIs are the secret handshakes of software applications, enabling them to communicate effortlessly. Developing and integrating APIs is about creating a web of connectivity, making the digital world smaller.",
+                    }, 
+                    {
+                        icon : "",
+                        service_title: "Open Source Software Contributions", 
+                        service_description: "Contributing to open-source software is like planting trees in a community garden—everyone benefits. It's a legiitpro way to give back, learn, and be part of a larger developer ecosystem.",
+                    }, 
+                    {
+                        icon : "",
+                        service_title: "Software Testing and Quality Assurance", 
+                        service_description: "Quality assurance in software testing is the final frontier before launch. It ensures the product is bug-free and ready for the spotlight. It's about being the software's biggest critic before it meets the world.",
+                    }, 
+                    {
+                        icon : "",
+                        service_title: "Deployment Strategies for Web Applications", 
+                        service_description: "Choosing the right deployment strategy for web applications is like planning a trip—you need a reliable map and the flexibility to take detours. Continuous integration and deployment (CI/CD) pipelines streamline the journey from code to customer.",
+                    }, 
                 ]
             },
+             
+            //DyFaqProfile
+            {
+                interface: "DyFaqProfile",
+                faqSection:{
+                    faqTitle :"Want to Learn More ?",
+                    faqSubTitle: "This comprehensive guide has expanded to cover additional aspects of small business marketing, ensuring a holistic understanding of the strategies and tools required for success. Empower your small business with these actionable insight",
+                    faq:[
+                        {
+                            id: "1",
+                            question: "What Should a Social Media Package Include?",
+                            answer: "A comprehensive guide on the essential components of a social media package "
+                            
+                        },
+                        {
+                            id: "2",
+                            question: "What Should Be Included in a Social Media Management Plan?",
+                            answer: "Breakdown of the key elements to consider in a well-structured social media management plan."
+                            
+                        },
+                        {
+                            id: "3",
+                            question: "How Much Should I Charge for Social Media Management?",
+                            answer: "Insights into pricing strategies for social media management services."
+                            
+                        },
+                        {
+                            id: "4",
+                            question: "What is Social Media Packaging?",
+                            answer: "Understanding the concept of social media packaging and its significance in digital marketing. "
+                            
+                        },
+                        {
+                            id: "5",
+                            question: "What Are Media Packages?",
+                            answer: "Exploring the various types of media packages and their relevance in today's digital age. "
+                            
+                        }, 
+                    ],
+                },
+            },
+
         ],
         subCategories: [
             {subCatName :  "Dynamic Development Javascript( Svelte, Nextjs)", subCatURL : "/web-application-development/dynamic-development"},
@@ -2294,78 +2871,230 @@ export const category_page_data = [
             image: "snippet/url", 
         },
         frontend:[
-            {
-                interface: "DyCategoryHeroSection",
-                imgURL:"https://diib.com/ebf3e133b1c21250af79.svg",
-                title :"Social Media Management ",
-                description: "We don't just show you keyword rankings, we help you get new ones! Even better, if your business experiences a rankings drop on Google, we'll let you know what page on your website was affected and what changed so you can fix it.",
-                bgImgCss: "categoryPage-socialMedia-bg"
+            //ThriveHeroSection
+             {
+                interface: "ThriveHeroSection",
+                bgImgCss: "topicsPage-digital-bg",
+                title:"Unraveling the Magic of Website Integration: A No-Fuss Guide",
+                subTitle: "In the sprawling digital ecosystem, making your website a central hub that seamlessly connects with various online tools and platforms can transform how you do business, interact with customers, and manage your online presence. Whether you're a budding entrepreneur, a digital marketer with a dry sense of humor, or a tech enthusiast intrigued by the endless possibilities of website integrations, this guide is crafted for you. Let's dive into the world of website integration, where the only dumb question is the one not asked—mainly because it leaves me talking to myself."
             },
+            // DySubCatLists
             {
                 interface: "DySubCatLists",
                 title :"Find Your Solution",
                 description: "We don't just show you keyword rankings, we help you get new ones! Even better, if your business experiences a rankings drop on Google, we'll let you know what page on your website was affected and what changed so you can fix it.",
-            }, {
-                interface: "DyLeftImgSection",
-                customURL: "/b2b-marketing-agency/social-media-management",
-                title :"Dynamic Left Img Marketing ",
-                description: "We don't just show you keyword rankings, we help you get new ones! Even better, if your business experiences a rankings drop on Google, we'll let you know what page on your website was affected and what changed so you can fix it.",
-                imgURL: "https://images.unsplash.com/photo-1551135049-8a33b5883817?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                imgAlt: "project Image explaining",
-                lists : [
-                    "Make sure your audience is engaging with your posts",
-                    "Be active when your followers are online",
-                    "Maintain a regular social media calendar",
-                    "Track your important SEO keywords and backlinks",
-                ]
-            },
+            },   
+             // RightSideImgSection
             {
-                interface: "DyRightImgSection",
-                customURL: "/b2b-marketing-agency/social-media-management",
-                title :"Dynamic Right Img Marketing ",
-                description: "We don't just show you keyword rankings, we help you get new ones! Even better, if your business experiences a rankings drop on  Google, we'll let you know what page on your website was affected and what changed so you can fix it.",
-                imgURL: "https://images.unsplash.com/photo-1551135049-8a33b5883817?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                imgAlt: "project Image explaining",
-                lists : [
-                    "Make sure your audience is engaging with your posts",
-                    "Be active when your followers are online",
-                    "Maintain a regular social media calendar",
-                    "Track your important SEO keywords and backlinks",
-                ]
-            },
-            {
-                interface: "DyParagraphs",
-                title :"Dynamic Right Img Marketing ",
-                description: 
-                    "We don't just show you keyword rankings, we help you get new ones! Even better, if your business experiences a rankings drop on Google, we'll let you know what page on your website was affected and what changed so you can fix it.<br> We don't just show you keyword rankings, we help you get new ones! Even better, if your business experiences a rankings drop on Google, we'll let you know what page on your website was affected and what changed so you can fix it.<br> We don't just show you keyword rankings, we help you get new ones! Even better, if your business experiences a rankings drop on Google, we'll let you know what page on your website was affected and what changed so you can fix it.<br> We don't just show you keyword rankings, we help you get new ones! Even better, if your business experiences a rankings drop on Google, we'll let you know what page on your website was affected and what changed so you can fix it.<br> We don't just show you keyword rankings, we help you get new ones! Even better, if your business experiences a rankings drop on Google, we'll let you know what page on your website was affected and what changed so you can fix it.<br> We don't just show you keyword rankings, we help you get new ones! Even better, if your business experiences a rankings drop on Google, we'll let you know what page on your website was affected and what changed so you can fix it.",
-                 
+                interface: "RightSideImgSection",
+                imgURL:"../home/small-business-marketing-consulting.svg",
+                title :"The Charm of Mailchimp Website Integration",
+                description: "Starting with the basics, integrating Mailchimp with your website is like inviting a friendly robot over that takes care of your email lists while you focus on the more creative aspects of your marketing campaigns. It's straightforward, efficient, and a relief for those who'd rather not spend their evenings manually managing email lists.",
                 
+                imgAlt:"alter tag sohel",
             },
+            //LeftSideImgSection
             {
-                interface: "DyFAQ",
-                title :"Dynamic Right Img Marketing ?",
-                subTitle: "We don't just show you keyword rankings, we help you get new ones! Even better, if your business experiences a rankings drop on Google, ",
-                faq:[
-                    {
-                        id: "1",
-                        question: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numqu ?.",
-                        answer: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam explicabo fugiat assumenda, autem illo sapiente voluptatibus. Non, obcaecati ullam corrupti amet, reprehenderit officia labore ratione est dignissimos dicta repudiandae. Impedit."
-                        
-                    },
-                    {
-                        id: "2",
-                        question: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numqu ?.",
-                        answer: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam explicabo fugiat assumenda, autem illo sapiente voluptatibus. Non, obcaecati ullam corrupti amet, reprehenderit officia labore ratione est dignissimos dicta repudiandae. Impedit."
-                        
-                    },
-                    {
-                        id: "3",
-                        question: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numqu ?.",
-                        answer: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam explicabo fugiat assumenda, autem illo sapiente voluptatibus. Non, obcaecati ullam corrupti amet, reprehenderit officia labore ratione est dignissimos dicta repudiandae. Impedit."
-                        
-                    },
-                ]
+                interface: "LeftSideImgSection",
+                imgURL:"../home/guiding-lights-success.svg",
+                title :"Dropbox: Your Website's New Best Friend",
+                description: "Have you ever thought about integrating Dropbox into your website? Imagine a world where your files and documents flow as smoothly as a well-rehearsed ballet between your site and your Dropbox account. This isn't just a pipe dream—it's a practical step to streamline content management and ensure you never lose a file in the abyss of your desktop folders again.",
+                imgAlt:"alter tag",
+            }, 
+             // RightSideImgSection
+             {
+                interface: "RightSideImgSection",
+                imgURL:"../home/small-business-marketing-consulting.svg",
+                title :"The Heartbeat of Your Site: Clover and PayPal Integration",
+                description: "For e-commerce enthusiasts, integrating payment solutions like Clover and PayPal into your website is akin to installing a high-powered engine in a car. Offering secure and versatile payment options powers up your transaction capabilities and builds trust with your customers. Plus, it's an essential way to keep the money flowing.",
+                
+                imgAlt:"alter tag sohel",
             },
+            //LeftSideImgSection
+            {
+                interface: "LeftSideImgSection",
+                imgURL:"../home/guiding-lights-success.svg",
+                title :"The Future Is Now: Chatbots and ChatGPT Integration",
+                description: "Jumping onto the AI bandwagon and integrating chatbots, specifically ChatGPT, into your website can revolutionize customer service. It's like having a tireless, always-polite intern who can handle customer inquiries, guide users through your site, and even crack a joke or two (though maybe more dry than mine).",
+                imgAlt:"alter tag",
+            }, 
+             // RightSideImgSection
+             {
+                interface: "RightSideImgSection",
+                imgURL:"../home/small-business-marketing-consulting.svg",
+                title :"Salesforce, HubSpot, and CRM: Keeping Relationships at the Core",
+                description: "For those who live and breathe customer relationships, integrating Salesforce, HubSpot, or any CRM platform into your website isn't just a nice-to-have—it's essential. It streamlines your processes, helps personalize customer interactions, and ensures your sales team doesn't mix up clients. Trust me, calling your client by the wrong name is only funny in sitcoms.",
+                
+                imgAlt:"alter tag sohel",
+            },
+            //LeftSideImgSection
+            {
+                interface: "LeftSideImgSection",
+                imgURL:"../home/guiding-lights-success.svg",
+                title :"Social Media, WhatsApp, and WeChat: Bringing the Conversation to Your Website",
+                description: "In an era where social media reigns supreme, integrating platforms like WhatsApp, WeChat, or your social media channels into your website can bridge the gap between you and your audience. It allows real-time interaction and brings a human touch to the digital realm. Plus, it's a great way to boost your social media presence without leaving your site.",
+                imgAlt:"alter tag",
+            }, 
+             // RightSideImgSection
+             {
+                interface: "RightSideImgSection",
+                imgURL:"../home/small-business-marketing-consulting.svg",
+                title :"Payment Gateways: The Gatekeepers of E-commerce",
+                description: "Incorporating a payment gateway into your website is non-negotiable for e-commerce sites. It's like the drawbridge to your castle—essential for letting the right people in (customers) and keeping the trouble out (security risks). Choosing the right gateway can enhance the customer experience and ensure their data is as secure as a dragon guarding its treasure.",
+                
+                imgAlt:"alter tag sohel",
+            },
+            //LeftSideImgSection
+            {
+                interface: "LeftSideImgSection",
+                imgURL:"../home/guiding-lights-success.svg",
+                title :"The Grand Finale: Integrating AI, POS, E-commerce, and More",
+                description: "As we wrap up this magical tour of website integration, remember that the possibilities are as vast as the internet itself. Whether integrating AI to personalize experiences, POS systems to streamline sales, or expanding your e-commerce capabilities, the key is to start simple, focus on what adds value to your users, and not be afraid to experiment.",
+                imgAlt:"alter tag",
+            }, 
+            //ThriveTitleParagraphs
+            {
+                interface: "ThriveTitleParagraphs",
+                title: "How to Add Sparkle to Your Website with Payment Integration",
+                paragraphs: [
+                    `In today's digital age, adding a payment system to your website isn't just a fancy feature—it's essential for turning browsers into buyers. Whether selling hand-knitted sweaters or offering online courses on underwater basket weaving, setting up a smooth payment process is vital. And while we're at it, let's sprinkle some insights from LegiitPro to make this guide helpful and legendary.`,  
+                ]
+            }, 
+            //ThriveServices
+            {
+                interface: "ThriveServices",
+                title:"Elevating Your Business with LegiitPro: The Ultimate Guide to Integration",
+                subTitle: "",
+                descriptions : [
+                    "In the digital age, running a business without leveraging technology is like trying to row a boat without oars. You might eventually get somewhere, but you'll be overtaken by those who've harnessed the power of efficiency. That's where LegiitPro steps in, your trusted partner in seamlessly integrating your website and digital tools to propel your business forward."
+                ],
+                services: [
+                    {
+                        icon : ` `,
+                        service_title: "Email Marketing: The LegiitPro Advantage", 
+                        service_description: "When done right, email marketing can be a game changer for your business. LegiitPro helps streamline your email campaigns by integrating with leading platforms, ensuring your messages reach potential customers without falling into the abyss of human error. This saves time and boosts your return on investment (ROI).", 
+                    },
+                    {
+                        icon : ` `,
+                        service_title: "Customer Service: Redefined", 
+                        service_description: "Customer service is the backbone of any successful business. With LegiitPro's custom integration solutions, your customer relationship management (CRM) tools can work harmoniously, providing your team with real-time data from one system to the next. This seamless data transfer minimizes manual data entry errors and elevates the customer experience.", 
+                    },
+                    {
+                        icon : ` `,
+                        service_title: "Building a Robust Sales Pipeline", 
+                        service_description: "Your sales pipeline is the roadmap for your business's future success. By integrating your CRM with LegiitPro, you're not just managing potential customers but nurturing relationships. Custom integration allows smoother transitions from one stage of the pipeline to the next, ensuring no lead is left behind due to party integration issues or overlooked data.", 
+                    },
+                    {
+                        icon : ` `,
+                        service_title: "Marketing Campaigns and Lead Generation", 
+                        service_description: "Effective marketing campaigns are the lifeblood of lead generation. LegiitPro enhances your campaigns by integrating tools that share information across platforms, including Google Analytics and third-party applications. This ensures your campaigns are driven by data, not guesswork, maximizing your lead generation efforts.", 
+                    },
+                    {
+                        icon : ` `,
+                        service_title: "Return on Investment: A Data-Driven Approach", 
+                        service_description: "The ultimate goal of any business activity is to see a positive return on investment. With LegiitPro, integrating your web development, email marketing, and customer service tools can provide a holistic view of your marketing efforts. You can track your campaigns' effectiveness in real-time by leveraging Google Analytics integration, allowing for quick adjustments and smarter spending.", 
+                    },
+                    {
+                        icon : ` `,
+                        service_title: "Web Development and the User Experience", 
+                        service_description: "In today's fast-paced digital world, the user experience on your website can make or break your business. LegiitPro's expertise in web development and integration ensures your site is visually appealing and functional. By reducing manual data entry and automating data transfer, LegiitPro helps keep your site running smoothly, enhancing the overall customer experience.", 
+                    }, 
+                ]
+            }, 
+            //ThriveTopicIntro2
+            {
+                interface: "ThriveTopicIntro2",
+                title: "The Future of Business Integration",
+                subTitle: "",
+                firstPara: `As businesses continue to evolve, integrating systems and applications becomes increasingly critical. LegiitPro is at the forefront of this evolution, offering solutions that reduce human error, improve data transfer, and streamline processes. By embracing custom integration and third-party applications, businesses can share information more efficiently, leading to better decision-making and improved customer relations.`,
+                sidePara: [ 
+                    `<h3 class='font-bold'>Introduction to Payment Integration: The What and Why</h3>
+                    Payment integration essentially means embedding a payment gateway into your website, allowing you to process transactions securely and efficiently. It's like having a virtual cashier who handles all the money while you focus on running your empire.`, 
+                    `<h3 class='font-bold'>Choosing Your Champion: Stripe, PayPal, and Beyond</h3>
+                    Regarding payment gateways, Stripe and PayPal are like Batman and Superman in the online payment world. They're robust, reliable, and have their own superpowers (features).`, 
+                    `<h3 class='font-bold'>How to Set Up Stripe Payments on Your Website</h3>
+                    Setting up Stripe is straightforward. Sign up for an account, grab your API keys (don't worry, it's less techy than it sounds), and integrate them into your website. Stripe's documentation is like a treasure map, guiding you through the setup process. Before you know it, you'll accept payments faster than you can say "LegiitPro magic."`, 
+                    `<h3 class='font-bold'>Integrating PayPal: Your Website's New Best Friend</h3>
+                    PayPal integration is equally user-friendly. With options like PayPal Buttons or the PayPal API, adding PayPal as a payment option can be as easy as copying and pasting a few lines of code. Plus, your customers will appreciate the familiarity and security of paying through PayPal.`, 
+                     
+                     
+                ],
+                imgUrl: "/category-page/isw1.svg",
+
+            },  
+             //ThriveTopicIntro
+             {
+                interface: "ThriveTopicIntro",
+                title:"Adding Online Payment to Your Website: The Basics",
+                description: "",
+                listTitle: "Regardless of the gateway you choose, the fundamentals of adding a payment to your website involve the following:",
+                list: [
+                    `Selecting your payment processor.`,
+                    `Integrating it following their guidelines.`,
+                    `Testing to ensure everything works smoothly.`,
+                     
+                ],
+                lastDescription: "Remember, user experience is king. A smooth payment process can turn a one-time buyer into a loyal customer.",
+                imgUrl:"/seo-page/seo3.svg",
+            }, 
+            //ThriveTopicIntro2
+            {
+                interface: "ThriveTopicIntro2",
+                title: "Exploring the World of Payment Gateway Integration",
+                subTitle: "",
+                firstPara: `Payment gateway integration might sound like you're about to perform a complicated magic spell, but it's essentially about connecting your website with a payment service. This can be done through plugins, APIs, or e-commerce platforms that support your chosen gateway.`,
+                sidePara: [ 
+                    `<h3 class='font-bold'>The LegiitPro Touch: Enhancing Your Payment Setup</h3>
+                    Now, let's sprinkle some LegiitPro wisdom into the mix. Maintaining your website's seamless payment process boosts sales and builds trust. With tools and insights from LegiitPro, you can optimize your website for sales, ensure your payment integration is functional, and contribute to a superior user experience.`, 
+                    `<h3 class='font-bold'>Miscellaneous Magic: From Spotify on Discord to IFTTT</h3>
+                    While diving into integrations, let's touch on some non-payment-related wonders, like changing your connected Spotify account on Discord or harnessing the power of IFTTT (If This Then That) to automate tasks. These little tweaks and automation can significantly enhance your digital experience, personally and professionally.`, 
+                    `<h3 class='font-bold'>Wrapping Up with a Bow</h3>
+                    Integrating a payment system into your website might initially seem daunting, but it can be a straightforward and rewarding process with the right tools and a dash of LegiitPro insight. Remember, the goal is to make transactions as easy and secure as possible for your customers, encouraging them to return time and time.`,  
+                ],
+                imgUrl: "/category-page/isw1.svg",
+
+            }, 
+            //DyFaqProfile
+            {
+                interface: "DyFaqProfile",
+                faqSection:{
+                    faqTitle :"Want to Learn More ?",
+                    faqSubTitle: "This comprehensive guide has expanded to cover additional aspects of small business marketing, ensuring a holistic understanding of the strategies and tools required for success. Empower your small business with these actionable insight",
+                    faq:[
+                        {
+                            id: "1",
+                            question: "What Should a Social Media Package Include?",
+                            answer: "A comprehensive guide on the essential components of a social media package "
+                            
+                        },
+                        {
+                            id: "2",
+                            question: "What Should Be Included in a Social Media Management Plan?",
+                            answer: "Breakdown of the key elements to consider in a well-structured social media management plan."
+                            
+                        },
+                        {
+                            id: "3",
+                            question: "How Much Should I Charge for Social Media Management?",
+                            answer: "Insights into pricing strategies for social media management services."
+                            
+                        },
+                        {
+                            id: "4",
+                            question: "What is Social Media Packaging?",
+                            answer: "Understanding the concept of social media packaging and its significance in digital marketing. "
+                            
+                        },
+                        {
+                            id: "5",
+                            question: "What Are Media Packages?",
+                            answer: "Exploring the various types of media packages and their relevance in today's digital age. "
+                            
+                        }, 
+                    ],
+                },
+            },
+
         ],
         subCategories: [
             {subCatName :  "Domain-Hosting Issue fix", subCatURL : "/web-application-development/domain-hosting-issue-fix"},
@@ -2393,78 +3122,234 @@ export const category_page_data = [
             image: "snippet/url", 
         },
         frontend:[
-            {
-                interface: "DyCategoryHeroSection",
-                imgURL:"https://diib.com/ebf3e133b1c21250af79.svg",
-                title :"Social Media Management ",
-                description: "We don't just show you keyword rankings, we help you get new ones! Even better, if your business experiences a rankings drop on Google, we'll let you know what page on your website was affected and what changed so you can fix it.",
-                bgImgCss: "categoryPage-socialMedia-bg"
+            //ThriveHeroSection
+             {
+                interface: "ThriveHeroSection",
+                bgImgCss: "topicsPage-digital-bg",
+                title:"Custom E-Commerce Website Development for 2024",
+                subTitle: "In the ever-evolving world of online sales, having a custom e-commerce website is like owning the best piece of real estate online. But how do you build this digital storefront to stand out in 2024? Let's break it down, and yes, we'll chat about how LegiitPro fits into this picture cozily and effectively."
             },
+            // DySubCatLists
             {
                 interface: "DySubCatLists",
-                title :"Find Your Solution",
-                description: "We don't just show you keyword rankings, we help you get new ones! Even better, if your business experiences a rankings drop on Google, we'll let you know what page on your website was affected and what changed so you can fix it.",
-            }, {
-                interface: "DyLeftImgSection",
-                customURL: "/b2b-marketing-agency/social-media-management",
-                title :"Dynamic Left Img Marketing ",
-                description: "We don't just show you keyword rankings, we help you get new ones! Even better, if your business experiences a rankings drop on Google, we'll let you know what page on your website was affected and what changed so you can fix it.",
-                imgURL: "https://images.unsplash.com/photo-1551135049-8a33b5883817?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                imgAlt: "project Image explaining",
-                lists : [
-                    "Make sure your audience is engaging with your posts",
-                    "Be active when your followers are online",
-                    "Maintain a regular social media calendar",
-                    "Track your important SEO keywords and backlinks",
-                ]
-            },
+                title :"How Do I Create a Custom eCommerce Website?",
+                description: "Creating a custom eCommerce website starts with a vision. What are you selling? Who are you selling to? Once you have that, it's about choosing the right tools and team to bring your vision to life. You could go solo or bring in the experts.",
+            },   
+            //ThriveTopicIntro2
             {
-                interface: "DyRightImgSection",
-                customURL: "/b2b-marketing-agency/social-media-management",
-                title :"Dynamic Right Img Marketing ",
-                description: "We don't just show you keyword rankings, we help you get new ones! Even better, if your business experiences a rankings drop on  Google, we'll let you know what page on your website was affected and what changed so you can fix it.",
-                imgURL: "https://images.unsplash.com/photo-1551135049-8a33b5883817?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                imgAlt: "project Image explaining",
-                lists : [
-                    "Make sure your audience is engaging with your posts",
-                    "Be active when your followers are online",
-                    "Maintain a regular social media calendar",
-                    "Track your important SEO keywords and backlinks",
-                ]
-            },
+                interface: "ThriveTopicIntro2",
+                title: "What is Custom eCommerce Development?",
+                subTitle: "",
+                firstPara: `Custom eCommerce development involves tailoring your online store to perfectly fit your unique needs. It's like making a bespoke suit; it just works better. You're not confined to the standard sizes (or features) offered by off-the-shelf solutions.`,
+                sidePara: [ 
+                    `<h3 class='font-bold'>Can I Code My eCommerce Website?</h3>
+                    If you have the skills, coding your own eCommerce site is a great way to ensure it's custom-fitted to your needs. But remember, it's a hefty task that requires a good grasp of programming and, frankly, a lot of time.`, 
+                    `<h3 class='font-bold'>What is a Custom eCommerce Solution?</h3>
+                    A custom eCommerce solution is an online store built for your business needs. It's not one-size-fits-all. It's tailored, considering your product, audience, and how you want your brand to interact with your customers.`, 
+                    `<h3 class='font-bold'>Can I Create an eCommerce Website for Free?</h3>
+                    You can start with free platforms, but remember, "free" often has limitations. Customization, scalability, and having your own domain name might suffer. It's like moving into an unfurnished apartment; you can live in it, but it might not feel like home.`, 
+                    `<h3 class='font-bold'>How Much Does it Cost to Develop an eCommerce Website?</h3>
+                    Costs can vary wildly, from a few hundred to thousands of dollars, depending on how custom you want to go. Think of it as choosing between a Kia and a Ferrari; both will get you places, but the experience (and price) will differ.`, 
+                    `<h3 class='font-bold'>Online Sales Platform and Selling Online Platforms</h3>
+                    In 2024, your choice of platform can make or break your online store. From giants like Shopify to bespoke solutions like LegiitPro, picking the right platform is crucial. It's the foundation upon which your digital empire will be built.`,  
+                     
+                ],
+                imgUrl: "/category-page/isw1.svg",
+
+            }, 
+            //ThriveTopicIntro2
             {
-                interface: "DyParagraphs",
-                title :"Dynamic Right Img Marketing ",
-                description: 
-                    "We don't just show you keyword rankings, we help you get new ones! Even better, if your business experiences a rankings drop on Google, we'll let you know what page on your website was affected and what changed so you can fix it.<br> We don't just show you keyword rankings, we help you get new ones! Even better, if your business experiences a rankings drop on Google, we'll let you know what page on your website was affected and what changed so you can fix it.<br> We don't just show you keyword rankings, we help you get new ones! Even better, if your business experiences a rankings drop on Google, we'll let you know what page on your website was affected and what changed so you can fix it.<br> We don't just show you keyword rankings, we help you get new ones! Even better, if your business experiences a rankings drop on Google, we'll let you know what page on your website was affected and what changed so you can fix it.<br> We don't just show you keyword rankings, we help you get new ones! Even better, if your business experiences a rankings drop on Google, we'll let you know what page on your website was affected and what changed so you can fix it.<br> We don't just show you keyword rankings, we help you get new ones! Even better, if your business experiences a rankings drop on Google, we'll let you know what page on your website was affected and what changed so you can fix it.",
-                 
-                
-            },
+                interface: "ThriveTopicIntro2",
+                title: "Best Website for Products",
+                subTitle: "",
+                firstPara: `The best website for your products is one that can showcase them in all their glory. High-quality images, detailed descriptions, and an easy checkout process are essential. With LegiitPro, you get a platform that understands the importance of highlighting your products effectively.`,
+                sidePara: [ 
+                    `<h3 class='font-bold'>Best Website Builder for Retail Store</h3>
+                    Website builders can be a lifesaver for those who need to get into coding their site from scratch. Platforms like LegiitPro offer user-friendly interfaces with drag-and-drop features, making it easy for anyone to build a stunning online store.`, 
+                    `<h3 class='font-bold'>Visit a Website for a Company That Sells Products Online</h3>
+                    Take inspiration from the best. Visit successful online stores to see how they're laid out, how they describe their products, and how they guide you through the buying process. Learn from the best, and then apply those lessons to your site.`, 
+                    `<h3 class='font-bold'>Best Site to Start Online Store</h3>
+                    Starting an online store is a big step. Platforms like LegiitPro offer the tools you need to get started, from customizable templates to integrated payment systems. It's about finding the right mix of features, support, and scalability for your business.`, 
+                    `<h3 class='font-bold'>Best Website for Online Sales</h3>
+                    The best website for online sales is one that understands and adapts to your customers' needs. It's not just about selling but creating an experience that brings customers back. LegiitPro focuses on making that seamless journey for both you and your customers.`, 
+                    `<h3 class='font-bold'>Best Website to Start an Online Store</h3>
+                    To wrap it up, the best website to start an online store in 2024 offers flexibility, scalability, and support. With the evolving landscape of online sales, having a partner like LegiitPro can help ensure your digital storefront stays ahead of the curve, offering the tools and guidance needed to thrive in the competitive e-commerce space.`,  
+                     
+                ],
+                imgUrl: "/category-page/isw1.svg",
+
+            }, 
+            //ThriveTopicIntro2
             {
-                interface: "DyFAQ",
-                title :"Dynamic Right Img Marketing ?",
-                subTitle: "We don't just show you keyword rankings, we help you get new ones! Even better, if your business experiences a rankings drop on Google, ",
-                faq:[
-                    {
-                        id: "1",
-                        question: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numqu ?.",
-                        answer: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam explicabo fugiat assumenda, autem illo sapiente voluptatibus. Non, obcaecati ullam corrupti amet, reprehenderit officia labore ratione est dignissimos dicta repudiandae. Impedit."
-                        
-                    },
-                    {
-                        id: "2",
-                        question: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numqu ?.",
-                        answer: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam explicabo fugiat assumenda, autem illo sapiente voluptatibus. Non, obcaecati ullam corrupti amet, reprehenderit officia labore ratione est dignissimos dicta repudiandae. Impedit."
-                        
-                    },
-                    {
-                        id: "3",
-                        question: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numqu ?.",
-                        answer: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam explicabo fugiat assumenda, autem illo sapiente voluptatibus. Non, obcaecati ullam corrupti amet, reprehenderit officia labore ratione est dignissimos dicta repudiandae. Impedit."
-                        
-                    },
-                ]
+                interface: "ThriveTopicIntro2",
+                title: "Build an E-Commerce Website From Scratch",
+                subTitle: "",
+                firstPara: `Embarking on the journey to build an e-commerce website from scratch is akin to setting off on a grand adventure. It requires preparation, decision-making, creativity, and technical prowess. Let's break down this expedition into manageable segments, ensuring you're well-equipped for each phase of your online store creation.`,
+                sidePara: [ 
+                    `<h3 class='font-bold'>Things to Consider When Building an E-commerce Website</h3>
+                    Before diving into the coding or choosing a template, take a step back to consider the bigger picture. Building an e-commerce site from scratch involves more than just a pretty interface. Think about user experience, security, payment processing, inventory management, and how you'll drive traffic to your site. Each decision influences the tools and approaches you'll need.`, 
+                    `<h3 class='font-bold'>Code to Build a Website</h3>
+                    You'll need to get comfortable with web development languages and frameworks to craft your online store. HTML and CSS will be your bread and butter for structuring and styling your site. JavaScript adds interactivity, making your site more engaging for users. For backend operations, languages like Python (with Django or Flask), Ruby on Rails, or PHP are popular.`, 
+                    `<h3 class='font-bold'>Best Site to Start Online Store</h3>
+                    Starting an online store is a big step. Platforms like LegiitPro offer the tools you need to get started, from customizable templates to integrated payment systems. It's about finding the right mix of features, support, and scalability for your business.`, 
+                    `<h3 class='font-bold'>Best Website for Online Sales</h3>
+                    The best website for online sales is one that understands and adapts to your customers' needs. It's not just about selling but creating an experience that brings customers back. LegiitPro focuses on making that seamless journey for both you and your customers.`, 
+                    `<h3 class='font-bold'>Best Website to Start an Online Store</h3>
+                    To wrap it up, the best website to start an online store in 2024 offers flexibility, scalability, and support. With the evolving landscape of online sales, having a partner like LegiitPro can help ensure your digital storefront stays ahead of the curve, offering the tools and guidance needed to thrive in the competitive e-commerce space.`,  
+                     
+                ],
+                imgUrl: "/category-page/isw1.svg",
+
+            }, 
+            //ThriveTopicIntro
+            {
+                interface: "ThriveTopicIntro",
+                title:"Website Building Templates",
+                description: "If coding from scratch is overwhelming, website-building templates offer a middle ground. They provide a foundation for building and customizing your e-commerce site.",
+                listTitle: "",
+                list: [
+                    `<span class='font-bold'>Web Template Generator:</span> Tools like Squarespace and Wix offer sophisticated template generators that let you start with a basic design and customize it to fit your brand.`,
+                    `<span class='font-bold'>Create Your Website Template:</span> If you have specific design skills, you can create your design in Photoshop or Sketch and convert it into a web template using HTML, CSS, and JavaScript.`,
+                    `<span class='font-bold'>Template Site Builder:</span> Platforms such as WordPress with WooCommerce provide a robust framework for e-commerce websites.`, 
+                ],
+                lastDescription: "Building your e-commerce website from scratch with code or by leveraging templates is an iterative and evolving process. You'll learn and adapt as you go, improving the site and your skills.",
+                imgUrl:"/seo-page/seo3.svg",
             },
+            //ThriveTopicIntro
+            {
+                interface: "ThriveTopicIntro",
+                title:"Creating an E-commerce Website From Scratch",
+                description: "Creating your e-commerce site is about more than building it. It's about creating an experience that turns visitors into customers and loyal fans. This involves:",
+                listTitle: "",
+                list: [
+                    `<span class='font-bold'>Optimizing for User Experience:</span> Ensure your site is easy to navigate, with intuitive product categories and a seamless checkout process.`,
+                    `<span class='font-bold'>Mobile Responsiveness:</span> With more people shopping on their phones, your site must perform flawlessly on any device.`,
+                    `<span class='font-bold'>SEO Best Practices:</span> Incorporate SEO best practices from the start to ensure your site is visible to your target audience.`, 
+                    `<span class='font-bold'>Security Measures:</span>Implement SSL certificates, secure payment gateways, and data protection protocols to build customer trust.`, 
+                ],
+                lastDescription: "",
+                imgUrl:"/seo-page/seo3.svg",
+            },
+            //ThriveTitleParagraphs
+            {
+                interface: "ThriveTitleParagraphs",
+                title: "Custom E-Commerce Website Development: Tailoring Your Online Store",
+                paragraphs: [
+                    `In the vast ocean of online retail, setting yourself apart means more than just having great products. It requires a unique platform tailored to your brand's and customers' needs. Custom e-commerce website development is the keystone for businesses aiming to provide a distinctive shopping experience, enhance functionality, and seamlessly integrate with their operational workflows. Let's explore what custom e-commerce development entails and why it might just be the game-changer your business needs.`,  
+                ]
+            },  
+            //ThriveTopicIntro2
+            {
+                interface: "ThriveTopicIntro2",
+                title: "Custom E-Commerce Development: Crafting Unique Experiences",
+                subTitle: "",
+                firstPara: `Custom e-commerce development is all about creating a shopping platform that's meticulously designed to fit your business's and its customers' unique demands. Unlike off-the-shelf e-commerce solutions, custom development ensures that every aspect of your online store, from the user interface to the checkout process, is built to support your specific business model and goals.`,
+                sidePara: [ 
+                    `<h3 class='font-bold'>Custom E-Commerce Solutions</h3>
+                    A custom e-commerce solution starts with understanding your business's unique needs. This might involve crafting bespoke product recommendation engines, integrating complex shipping rules, or developing unique payment options. Custom solutions ensure your e-commerce site operates perfectly with your business processes, offering flexibility and scalability that off-the-shelf solutions often can't match.`, 
+                    `<h3 class='font-bold'>Custom E-Commerce Software Development</h3>
+                    Developing custom e-commerce software might involve creating an entirely new platform or extensively customizing existing e-commerce frameworks to suit your needs. This approach allows for implementing unique features, such as AR-powered try-on features for fashion retailers or custom configurators for build-your-own products, providing a competitive edge and enhancing user engagement.`, 
+                    `<h3 class='font-bold'>Custom E-Commerce Development Company</h3>
+                    Choosing the right custom e-commerce development company is crucial. It would help if you had a partner who not only has the technical chops to build your platform but also understands your business landscape and can contribute strategically. The best companies combine design thinking, development expertise, and e-commerce consulting to ensure your project's success.`, 
+                    `<h3 class='font-bold'>Custom E-Commerce Development Services</h3>
+                    Custom e-commerce development services encompass a wide range of offerings, from initial consultancy and market analysis to design, development, testing, and post-launch support. These services ensure that each stage of your e-commerce project is executed precisely, aligning closely with your business objectives and market demands.`, 
+                    `<h3 class='font-bold'>Custom E-Commerce Platform</h3>
+                    Building a custom e-commerce platform means creating a software ecosystem tailored to your business's requirements. This could include a bespoke content management system (CMS), integrated inventory management, personalized customer relationship management (CRM) tools, and analytics designed to provide deep insights into customers' behavior.`, 
+                    `<h3 class='font-bold'>Custom E-Commerce Solution</h3>
+                    A custom e-commerce solution represents the culmination of understanding your market, leveraging advanced technologies, and creating a seamless, engaging online shopping experience. It's about building a website and a robust platform that grows with your business, adapts to market changes, and stands out in the crowded e-commerce space.`, 
+                     
+                     
+                ],
+                imgUrl: "/category-page/isw1.svg",
+
+            },  
+            //ThriveTopicIntro2
+            {
+                interface: "ThriveTopicIntro2",
+                title: "Choosing the Right Custom Web Development Company: A Guide for 2024",
+                subTitle: "",
+                firstPara: ``,
+                sidePara: [ 
+                    `Navigating the digital world in 2024 requires a partner who understands the nuances of crafting an online presence that stands out. Whether you kickstart a new venture or give your existing website a facelift, the sea of custom web development services can seem overwhelming. Let's break it down, keeping things light and digestible, because, let's face it, we could all use a break from tech jargon!`,
+                    `<h3 class='font-bold'>Why Go Custom?</h3>
+                    In a digital era where your website acts as your business card, storefront, and customer service desk rolled into one, "custom" is no longer a luxury—it's a necessity. Off-the-shelf solutions are like one-size-fits-all clothing; they might fit, but they won't flatter everyone. Custom web development services ensure your website is tailored to your brand's personality, needs, and goals.`,  
+                ],
+                imgUrl: "/category-page/isw1.svg",
+
+            }, 
+            //ThriveTopicIntro
+            {
+                interface: "ThriveTopicIntro",
+                title:"The Quest for the Perfect Fit",
+                description: "Finding the right custom web development company is akin to finding the perfect tailor. You want someone who:",
+                listTitle: "",
+                list: [
+                    `<span class='font-bold'>Listens Intently:</span> They should be eager to understand your vision, objectives, and concerns. A good developer doesn't just write code; they build dreams.`,
+                    `<span class='font-bold'>Has an Impressive Portfolio:</span> Experience in diverse industries signals adaptability and creativity. It's like choosing a chef who's mastered more than one cuisine.`,
+                    `<span class='font-bold'>Communicates Clearly:</span>Tech speak can be confusing, but a great agency translates it into English, ensuring you're on the same page every step.`, 
+                    `<span class='font-bold'>Emphasizes User Experience:</span>Your website should look good, be intuitive, and be user-friendly. A focus on UX design is non-negotiable.`, 
+                    `<span class='font-bold'>Offers Comprehensive Services:</span>Look for a one-stop shop for everything from custom website programming to SEO and beyond. It's more efficient and ensures consistency across your digital presence.`, 
+                ],
+                lastDescription: "",
+                imgUrl:"/seo-page/seo3.svg",
+            },
+            //ThriveTopicIntro
+            {
+                interface: "ThriveTopicIntro",
+                title:"Types of Services to Look For",
+                description: "When sifting through your options, keep an eye out for companies that offer a wide range of services, including:",
+                listTitle: "",
+                list: [
+                    `<span class='font-bold'>Custom Website Development Services:</span> Tailored solutions that align with your business strategy.`,
+                    `<span class='font-bold'>Custom Web Design Agency:</span> Creative design services that ensure your site is as attractive as it is functional.`,
+                    `<span class='font-bold'>Custom Website Programming Services:</span>For those special features that off-the-shelf plugins can't provide.`, 
+                    `<span class='font-bold'>Custom Website Design and Development:</span>A holistic approach that ensures your site's front-end and back-end are in perfect harmony.`, 
+                     
+                ],
+                lastDescription: "The right custom website development company or agency doesn't just build websites but relationships. They should see your success as their success. Whether it's a custom web development agency with a knack for complex back-ends or a custom-made website design agency that can translate your brand into visual art, the perfect partner is out there.",
+                imgUrl:"/seo-page/seo3.svg",
+            },
+            //DyFaqProfile
+            {
+                interface: "DyFaqProfile",
+                faqSection:{
+                    faqTitle :"Want to Learn More ?",
+                    faqSubTitle: "This comprehensive guide has expanded to cover additional aspects of small business marketing, ensuring a holistic understanding of the strategies and tools required for success. Empower your small business with these actionable insight",
+                    faq:[
+                        {
+                            id: "1",
+                            question: "What Should a Social Media Package Include?",
+                            answer: "A comprehensive guide on the essential components of a social media package "
+                            
+                        },
+                        {
+                            id: "2",
+                            question: "What Should Be Included in a Social Media Management Plan?",
+                            answer: "Breakdown of the key elements to consider in a well-structured social media management plan."
+                            
+                        },
+                        {
+                            id: "3",
+                            question: "How Much Should I Charge for Social Media Management?",
+                            answer: "Insights into pricing strategies for social media management services."
+                            
+                        },
+                        {
+                            id: "4",
+                            question: "What is Social Media Packaging?",
+                            answer: "Understanding the concept of social media packaging and its significance in digital marketing. "
+                            
+                        },
+                        {
+                            id: "5",
+                            question: "What Are Media Packages?",
+                            answer: "Exploring the various types of media packages and their relevance in today's digital age. "
+                            
+                        }, 
+                    ],
+                },
+            },
+
         ],
         subCategories: [
             {subCatName :  "Affiliate / Dropshipping Development", subCatURL : "/web-application-development/affiliate-dropshipping-development"},

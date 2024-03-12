@@ -287,10 +287,11 @@ export const topic_pages_data = [
         //DyHeroSection
         {
             interface: "DyHeroSection",
-            title :"Mastering Internal Linking & International SEO Strategies",
-            description: "Hey there! If you want to expand your business internationally, mastering global SEO in 2024 is crucial. This guide is packed with strategies, especially for small businesses, on implementing international SEO without breaking the bank. Let's dive into the dynamic landscape of global SEO this year and set your business up for worldwide success.",
             bgImgCss: "topicsPage-digital-bg",
             css: " bg-gradient-to-r from-teal-100 via-teal-300 to-teal-500 ",
+            title :"Global SEO: Making Your Mark on the World Stage",
+            description: "Hey there! Are you interested in taking your SEO game global? That's a fantastic decision! Going global with SEO is about more than just translating your content into different languages. It's about understanding the world, or at least the bits of it where your audience hangs out. Let's dive in and figure out how to make your website a global superstar.",
+            
         }, 
         //ThriveTopicIntro
         {
@@ -394,6 +395,39 @@ export const topic_pages_data = [
             } 
         ]
         },
+
+        //ThriveTopicIntro2
+        {
+            interface: "ThriveTopicIntro2",
+            title: "Understanding Cultural Nuances", 
+            subTitle: "",
+            firstPara: "First, let's discuss cultural nuances. What works in one country might be a total flop in another. It's like explaining why people love cricket to someone who's only ever watched baseball. You've got to get into the mindset of each place and figure out what clicks.",
+            sidePara: [
+                "<h3 class='font-bold'>Search Volume and SERPs</h3><br>Next up is search volume and those pesky search engine results pages (SERPs). You see, not all keywords are created equal across the globe. 'Soccer' might get you loads of hits in the UK, but 'football' is your golden ticket in the US. It's all about knowing what people are searching for in your target market.",
+                "<h3 class='font-bold'>Localized Content for Your Target Audience</h3>Speaking of target markets, let's chat about localized content. This is about more than swapping out a few words here and there. It's about creating content that feels like it was made for your target audience. For example, when chatting with the Brits, talk about 'color,' not 'color. '", 
+                "<h3 class='font-bold'>Developing an International SEO Strategy</h3>Alright, it's time for strategy. Developing an international SEO strategy sounds fancy, but it's basically figuring out how to play nice with search engines around the world. This means knowing the ins and outs of hreflang tags so Google understands who you're talking to and focuses on local market needs.",
+                "<h3 class='font-bold'>Country-Specific Factors</h3>And, oh boy, let's remember the importance of being country-specific. Whether understanding the local market or ensuring your website is ranking highly where it matters, it's all about tailoring your approach. Like knowing that in some places, market share might lean heavily towards a search engine that's not Google. Shocking, I know!", 
+                 
+            ],
+            imgUrl: "/category-page/smm-1.svg",
+
+        },
+        //ThriveTopicIntro2
+        {
+            interface: "ThriveTopicIntro2",
+            title: "The Techy Bits: Hreflang Tags and More", 
+            subTitle: "",
+            firstPara: `Now for some techy stuff—hreflang tags. These little snippets of code are your new best friends. They tell search engines, "Hey, this content is specifically for people in this country or who speak this language." It's like having a tour guide for your website, ensuring visitors get where they need to go.`,
+            sidePara: [
+                "<h3 class='font-bold'>Thinking Local but Acting Global</h3><br>Remember, going global means thinking about the local market and how you can fit into it. Whether it's adapting to country code top-level domains (ccTLDs) or making sure your alt text makes sense for images across different geographic locations, it's all about the details.",
+                "<h3 class='font-bold'>Wrapping It Up: Your Global SEO Strategy</h3>So, there you have it. SEO is optimizing your online presence to attract more organic traffic, and a global SEO strategy takes this concept worldwide. It's about understanding each target country, using country code top-level domains when it makes sense, and always keeping your user in mind, no matter their geographic location.", 
+                "Going global with your SEO strategy isn't easy, but with a bit of elbow grease and a lot of cultural sensitivity, you can make your site a go-to resource for audiences around the world. Ready to take on the world? Let's make your website a global sensation!", 
+                 
+            ],
+            imgUrl: "/category-page/smm-1.svg",
+
+        },
+
         //ThriveDoubleList
         {
         interface:"ThriveDoubleList",
@@ -677,7 +711,7 @@ export const topic_pages_data = [
             {
                 catName: "eCommerce SEO" , 
                 catDesc: "We manage every aspect of your social media- from content strategy, branding and images, to community engagement. We research trends and news to create content that keeps your brand current and relevant.",
-                catURL : "/b2b-marketing-agency/ecommerce-seo" ,
+                catURL : "/b2b-marketing-agency/ecommerce-seo-services" ,
                 subCategories: [
                     {subCatName :  "Amazon SEO", subCatURL : "#"},
                     {subCatName :  "Ebay SEO", subCatURL : "#"},

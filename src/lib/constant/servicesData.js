@@ -39,7 +39,7 @@ export const serviceSectionData = [
             {
                 catName: "eCommerce SEO" , 
                 catDesc: "Boost customer retention by offering your clients a convenient, round-the-clock purchasing experience. In order to generate individualized brand experiences, we run focused email marketing campaigns and optimize your website for voice search and mobile devices. Integrations with Walmart Marketplace are another service we provide to boost your sales volume.",
-                catURL : "/b2b-marketing-agency/ecommerce-seo" 
+                catURL : "/b2b-marketing-agency/ecommerce-seo-services" 
             },
             {
                 catName: "Others SEO" , 

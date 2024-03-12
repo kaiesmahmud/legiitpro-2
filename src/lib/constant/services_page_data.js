@@ -301,7 +301,7 @@ export const service_page_data = {
                 {
                     catName: "eCommerce SEO" , 
                     catDesc: "We manage every aspect of your social media- from content strategy, branding and images, to community engagement. We research trends and news to create content that keeps your brand current and relevant.",
-                    catURL : "/b2b-marketing-agency/ecommerce-seo" 
+                    catURL : "/b2b-marketing-agency/ecommerce-seo-services" 
                 },
                 {
                     catName: "Others SEO" , 

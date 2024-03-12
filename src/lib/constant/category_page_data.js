@@ -3309,6 +3309,66 @@ export const category_page_data = [
                 lastDescription: "The right custom website development company or agency doesn't just build websites but relationships. They should see your success as their success. Whether it's a custom web development agency with a knack for complex back-ends or a custom-made website design agency that can translate your brand into visual art, the perfect partner is out there.",
                 imgUrl:"/seo-page/seo3.svg",
             },
+            //ThriveTopicIntro
+            {
+                interface: "ThriveTopicIntro",
+                title:"The Foundation of Customization",
+                description: "A foundation built on customization is at the heart of every successful e-commerce platform. But what does that mean?<br>Custom Website Development involves tailoring every aspect of your website to fit your business's unique needs and objectives. It's like having a suit tailored to your exact measurements—everything works better.",
+                listTitle: "",
+                list: [
+                    `<span class='font-bold'>Custom Web Design:</span> This is where your brand's personality comes to life. Every element is designed to resonate with your target audience, from the color scheme to the layout.`, 
+                ],
+                lastDescription: "",
+            },
+            //ThriveTopicIntro
+            {
+                interface: "ThriveTopicIntro",
+                title:"The Artisans Behind the Scenes",
+                description: "Choosing the right partner for your custom e-commerce website development is crucial. Here's a brief guide:",
+                listTitle: "",
+                list: [
+                    `<span class='font-bold'>Custom Web Design Company:</span> These are the folks who breathe life into your website's design, ensuring it's visually appealing and user-friendly.`,
+                    `<span class='font-bold'>Custom Website Design Services:</span> Beyond aesthetics, design services should encompass user experience, ensuring that visitors stay longer and engage more deeply with your content.`, 
+                ],
+                lastDescription: "",
+                imgUrl:"/seo-page/seo3.svg",
+            },
+            //ThriveTopicIntro
+            {
+                interface: "ThriveTopicIntro",
+                title:"Tools of the Trade",
+                description: "In the realm of custom e-commerce development, the tools and technologies used are as essential as the craftsmen wielding them:",
+                listTitle: "",
+                list: [
+                    `<span class='font-bold'>Build a Website Software:</span> The backbone of your website, the right software, can make or break your online presence.`,
+                    `<span class='font-bold'>Web Hosting Design:</span>Reliable hosting ensures your website is always up and running, providing a seamless experience for your customers.`, 
+                ],
+                lastDescription: "Website Design and Host: Finding a service that offers both design and hosting can streamline the development process, ensuring harmonization of both aspects.",
+                imgUrl:"/seo-page/seo3.svg",
+            } ,
+              
+            //ThriveTopicIntro2
+            {
+                interface: "ThriveTopicIntro2",
+                title: "Online Sales Platform: The Digital Gold Rush",
+                subTitle: "",
+                firstPara: `The quest for the best online sales platform is akin to the Gold Rush. Everyone's looking for that nugget, but not all will find it. The key? Choosing a platform that doesn't make you want to pull your hair out. Look for user-friendly interfaces and customization that don't require a Ph.D. in coding. And remember, the best website for products is one that stays strong when Aunt Mary and her knitting club decide to shop simultaneously.`,
+                sidePara: [ 
+                     
+                    `<h3 class='font-bold'>Build E-commerce Website from Scratch: An Epic Saga</h3>
+                    Embarking on building an e-commerce website from scratch is the digital equivalent of climbing Everest. It's not for the faint-hearted. Every step is crucial, from website coding to selecting the perfect template generator. Want to create your website template? Be prepared for a journey filled with more twists and turns than a telenovela. And if you decide to dive into coding your website, the force may be with you. It's a realm where even seasoned warriors tread with caution.`,  
+                    `<h3 class='font-bold'>Custom E-commerce Development: Tailoring Your Digital Suit</h3>
+                    In the world of e-commerce, one size does not fit all. Custom e-commerce development is like tailoring a bespoke suit. It should include your business like a glove, reflecting your brand's unique identity. Opting for customized solutions may be costly, but remember, your website is your storefront in the digital marketplace. You wouldn't hang a crooked sign outside your brick-and-mortar store, would you?`,  
+                    `<h3 class='font-bold'>E-commerce Software: The Unsung Hero</h3>
+                    Robust software is behind every successful e-commerce website, silently powering your online empire. Choosing the right e-commerce solution is a decision that shouldn't be taken lightly. Think of it as selecting your battleground for the digital war of sales. Whether it's a cloud-based platform or a custom-developed solution, ensure it can handle the onslaught of traffic without breaking a sweat.`,  
+                    `<h3 class='font-bold'>Building an Online Store: Not a Solo Journey</h3>
+                    Launching an online store is not one to embark on alone. It takes a village from web designers to developers to bring an e-commerce website to life. And if you're thinking of skimping on professional help, remember that your website's design and functionality can make or break your business in online sales. A cheap website might save you some coins now but cost you a fortune in lost sales later.`,  
+                    `<h3 class='font-bold'>E-commerce Website Cost: The Million-Dollar Question</h3>
+                    Ah, the question that plagues many a merchant's dreams. How much does an e-commerce website cost? Well, my friend, that's like asking how long a piece of string is. The answer varies. It could be a modest investment for a basic setup or the equivalent of a small treasure for a custom-built site with all the bells and whistles. The key is to balance your budget with your aspirations. Dream big, but tether your dreams to the reality of your wallet.`,  
+                ],
+                imgUrl: "/category-page/isw1.svg",
+
+            },
             //DyFaqProfile
             {
                 interface: "DyFaqProfile",

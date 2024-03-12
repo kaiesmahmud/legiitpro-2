@@ -60,6 +60,7 @@ export const home_page_data = [
     
         ]
     },
+    // RightSideImgSection
     {
         interface: "RightSideImgSection",
         imgURL:"./home/small-business-marketing-consulting.svg",

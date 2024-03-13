@@ -20,6 +20,7 @@
 	"type": "module",
 	"dependencies": {
 		"@iconify/svelte": "^3.1.6",
-		"@splidejs/svelte-splide": "^0.2.9"
+		"@splidejs/svelte-splide": "^0.2.9",
+		"countup.js": "^2.8.0"
 	}
 }

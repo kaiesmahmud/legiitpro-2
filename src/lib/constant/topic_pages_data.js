@@ -910,7 +910,8 @@ export const topic_pages_data = [
                     "<strong class='font-bold' >Speed and Performance:</strong> Website speed affects both user satisfaction and SEO rankings. We optimize your site for speed, ensuring quick loading times even on high-resolution images and videos."
                 ],
                 lastDescription: "If any of these four pain points ring a bell, rest assured, you've come to the right SEO company. There's a reason why Thrive is currently serving hundreds of SEO clients and providing optimization solutions to answer Google's ever-changing algorithm",
-                imgUrl:"/seo-page/seo3.svg",
+                // imgUrl:"https://i.ibb.co/CsLrS9R/whychoose-4x3.png" ,
+                imgUrl: "https://i.ibb.co/nRf1pD7/whychoose-3x4.png"  ,
             },
             //DyFaqProfile
             {

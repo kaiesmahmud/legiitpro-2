@@ -1195,8 +1195,8 @@ export const category_page_data = [
                     faq:[
                         {
                             id: "1",
-                            question: "What are the key benefits of social media advertising?",
-                            answer: "Social media advertising offers targeted audience reach, cost-effective marketing, enhanced brand visibility, actionable insights, and seamless integration with marketing campaigns."
+                            question: "What is meant by lead management?",
+                            answer: "The technique, procedure, and software used to contact potential clients and persuade them to become purchasers through focused sales and marketing tactics is known as lead management. Lead management is crucial for businesses trying to expand their clientele and connect with a large audience."
                             
                         },
                         {

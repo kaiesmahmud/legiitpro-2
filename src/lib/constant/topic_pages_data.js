@@ -863,7 +863,7 @@ export const topic_pages_data = [
             //DyMultiplePara
             {
                 interface: "DyMultiplePara",
-                imgURL:"seo-page/future-web.svg",
+                imgURL: "https://i.ibb.co/wQD7Kxc/futurewebapps.png"  ,
                 imgAlt:"alter tag",
                 css: " bg-gradient-to-r from-indigo-100 via-indigo-300 to-indigo-500 ",
                 article : [

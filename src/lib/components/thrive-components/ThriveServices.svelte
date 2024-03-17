@@ -17,7 +17,7 @@
                  {/each}
             {/if}
         </div>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 lg:p-5 ">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 p-3 lg:p-5 ">
             {#each services as {icon, service_description,service_title}}
                  <div class="flex flex-col md:flex-row   gap-3 p-5 rounded-xl bg-indigo-500/10">
                     {#if icon}

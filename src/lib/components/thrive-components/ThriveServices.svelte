@@ -5,9 +5,9 @@
 
 </script>
 <div class="flex flex-col items-center justify-center min-h-[50vh]">
-    <section class="w-full md:w-[80%] py-10">
+    <section class="w-full md:w-[90%] lg:w-[80%] py-10">
         <div class="flex items-center flex-col justify-center text-center gap-2 md:gap-5 py-3">
-            <h3 class="text-3xl md:text-4xl lg:text-5xl font-extrabold ">{@html title}</h3>
+            <h3 class="text-3xl md:text-4xl lg:text-5xl font-extrabold p-1 ">{@html title}</h3>
             {#if subTitle}
             <p class="p-3 md:p-5 text-black/70 md:w-[85%] ">{@html subTitle}</p>
             {/if}

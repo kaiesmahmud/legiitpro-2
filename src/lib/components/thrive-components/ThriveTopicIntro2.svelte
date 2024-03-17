@@ -11,14 +11,15 @@
         <p class="text-justify text-black/80">
             {@html section.firstPara}
         </p>
-        <div class="flex flex-col md:flex-row gap-5 text-black/80">
-            <div class="w-full lg:w-1/2 flex flex-col gap-5 text-justify">
+        <div class="flex flex-col lg:flex-row gap-5 text-black/80">
+            <div class=" order-2 lg:order-1 w-full lg:w-1/2 flex flex-col gap-5 text-justify">
+
                 {#each section.sidePara as para}
                     <p>{@html para}</p>
                 {/each}
             </div>
-            <div class="w-full lg:w-1/2">
-                <img src={section.imgUrl} alt={section.title}>
+            <div class="order-1 lg:order-2 w-full lg:w-1/2">
+                <img class="rounded-lg" src={section.imgUrl} alt={section.title}>
             </div>
         </div>
     </section>

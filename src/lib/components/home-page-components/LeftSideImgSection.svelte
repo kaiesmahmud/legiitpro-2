@@ -26,8 +26,8 @@
             {/if}
              
         </div>
-        <div class=" order-1  rounded  ">
-            <img class="  hover:scale-105 transition-all ease-in" src={imgURL} alt={imgAlt}>
+        <div class=" order-1  rounded  p-3">
+            <img class="rounded-lg  hover:scale-105 transition-all ease-in" src={imgURL} alt={imgAlt}>
         </div>
     </div>
     <!-- <div class=' absolute gradient-02 opacity-20 bottom-4 right-1 md:top-4 md:left-1' /> -->

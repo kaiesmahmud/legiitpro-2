@@ -24,7 +24,7 @@
             {/if}
              
         </div>
-        <div class=" order-1 md:order-2 rounded overflow-hidden p-3">
+        <div class=" order-1 md:order-2 rounded-lg overflow-hidden p-3">
             <img class="rounded-lg  hover:scale-105 transition-all ease-in" src={imgURL} alt={imgAlt}>
         </div>
     </div>

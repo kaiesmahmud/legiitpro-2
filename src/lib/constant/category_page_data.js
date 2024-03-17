@@ -2838,7 +2838,7 @@ export const category_page_data = [
                     `<h3 class='font-bold'>ISW Integration Best Practices</h3>
                     Integration is like a high-stakes puzzle. Do it right, and everything clicks into place. Mess it up, and well, you get the picture. Best practices ensure you're able to hold the right piece.`, 
                 ],
-                imgUrl: "/category-page/isw1.svg",
+                imgUrl: "https://i.ibb.co/Hnt2tz2/isw-3x4.png",
 
             }, 
             //ThriveServices
@@ -3087,33 +3087,32 @@ export const category_page_data = [
              // RightSideImgSection
             {
                 interface: "RightSideImgSection",
-                imgURL:"../home/small-business-marketing-consulting.svg",
+                imgURL: "https://i.ibb.co/JRyf8Y4/mailchimp-4x3.png" , 
                 title :"The Charm of Mailchimp Website Integration",
                 description: "Starting with the basics, integrating Mailchimp with your website is like inviting a friendly robot over that takes care of your email lists while you focus on the more creative aspects of your marketing campaigns. It's straightforward, efficient, and a relief for those who'd rather not spend their evenings manually managing email lists.",
                 
-                imgAlt:"alter tag sohel",
             },
             //LeftSideImgSection
             {
                 interface: "LeftSideImgSection",
-                imgURL:"../home/guiding-lights-success.svg",
+                imgURL: "https://i.ibb.co/s9cHBFC/dropbox-4x3.png"  , 
+                imgAlt:"alter tag",
                 title :"Dropbox: Your Website's New Best Friend",
                 description: "Have you ever thought about integrating Dropbox into your website? Imagine a world where your files and documents flow as smoothly as a well-rehearsed ballet between your site and your Dropbox account. This isn't just a pipe dream—it's a practical step to streamline content management and ensure you never lose a file in the abyss of your desktop folders again.",
-                imgAlt:"alter tag",
             }, 
              // RightSideImgSection
              {
                 interface: "RightSideImgSection",
-                imgURL:"../home/small-business-marketing-consulting.svg",
+                imgURL: "https://i.ibb.co/h1W7NjY/paypal-4x3.png" , 
+                imgAlt:"alter tag sohel",
                 title :"The Heartbeat of Your Site: Clover and PayPal Integration",
                 description: "For e-commerce enthusiasts, integrating payment solutions like Clover and PayPal into your website is akin to installing a high-powered engine in a car. Offering secure and versatile payment options powers up your transaction capabilities and builds trust with your customers. Plus, it's an essential way to keep the money flowing.",
                 
-                imgAlt:"alter tag sohel",
             },
             //LeftSideImgSection
             {
                 interface: "LeftSideImgSection",
-                imgURL:"../home/guiding-lights-success.svg",
+                imgURL: "https://i.ibb.co/k4WRwdD/gpt-4x3.png" ,
                 title :"The Future Is Now: Chatbots and ChatGPT Integration",
                 description: "Jumping onto the AI bandwagon and integrating chatbots, specifically ChatGPT, into your website can revolutionize customer service. It's like having a tireless, always-polite intern who can handle customer inquiries, guide users through your site, and even crack a joke or two (though maybe more dry than mine).",
                 imgAlt:"alter tag",
@@ -3121,7 +3120,7 @@ export const category_page_data = [
              // RightSideImgSection
              {
                 interface: "RightSideImgSection",
-                imgURL:"../home/small-business-marketing-consulting.svg",
+                imgURL: "https://i.ibb.co/Wzdt3D1/crm-integration-4x3.png"  ,
                 title :"Salesforce, HubSpot, and CRM: Keeping Relationships at the Core",
                 description: "For those who live and breathe customer relationships, integrating Salesforce, HubSpot, or any CRM platform into your website isn't just a nice-to-have—it's essential. It streamlines your processes, helps personalize customer interactions, and ensures your sales team doesn't mix up clients. Trust me, calling your client by the wrong name is only funny in sitcoms.",
                 
@@ -3130,7 +3129,7 @@ export const category_page_data = [
             //LeftSideImgSection
             {
                 interface: "LeftSideImgSection",
-                imgURL:"../home/guiding-lights-success.svg",
+                imgURL: "https://i.ibb.co/NZx0632/social-4x3.png" ,
                 title :"Social Media, WhatsApp, and WeChat: Bringing the Conversation to Your Website",
                 description: "In an era where social media reigns supreme, integrating platforms like WhatsApp, WeChat, or your social media channels into your website can bridge the gap between you and your audience. It allows real-time interaction and brings a human touch to the digital realm. Plus, it's a great way to boost your social media presence without leaving your site.",
                 imgAlt:"alter tag",
@@ -3138,7 +3137,7 @@ export const category_page_data = [
              // RightSideImgSection
              {
                 interface: "RightSideImgSection",
-                imgURL:"../home/small-business-marketing-consulting.svg",
+                imgURL: "https://i.ibb.co/Wz17QpW/payment-4x3.png" ,
                 title :"Payment Gateways: The Gatekeepers of E-commerce",
                 description: "Incorporating a payment gateway into your website is non-negotiable for e-commerce sites. It's like the drawbridge to your castle—essential for letting the right people in (customers) and keeping the trouble out (security risks). Choosing the right gateway can enhance the customer experience and ensure their data is as secure as a dragon guarding its treasure.",
                 
@@ -3219,7 +3218,7 @@ export const category_page_data = [
                      
                      
                 ],
-                imgUrl: "/category-page/isw1.svg",
+                imgUrl:  "https://i.ibb.co/pxF3hGB/businessintegration-1x1.png"   ,
 
             },  
              //ThriveTopicIntro
@@ -3235,7 +3234,7 @@ export const category_page_data = [
                      
                 ],
                 lastDescription: "Remember, user experience is king. A smooth payment process can turn a one-time buyer into a loyal customer.",
-                imgUrl:"/seo-page/seo3.svg",
+                imgUrl: "https://i.ibb.co/Xzv6hWn/addpayment-4x3.png" ,
             }, 
             //ThriveTopicIntro2
             {
@@ -3251,7 +3250,7 @@ export const category_page_data = [
                     `<h3 class='font-bold'>Wrapping Up with a Bow</h3>
                     Integrating a payment system into your website might initially seem daunting, but it can be a straightforward and rewarding process with the right tools and a dash of LegiitPro insight. Remember, the goal is to make transactions as easy and secure as possible for your customers, encouraging them to return time and time.`,  
                 ],
-                imgUrl: "/category-page/isw1.svg",
+                imgUrl: "https://i.ibb.co/PxpXJ5R/enhancing-1x1.png" ,
 
             }, 
             //DyFaqProfile

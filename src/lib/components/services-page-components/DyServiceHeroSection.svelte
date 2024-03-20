@@ -35,7 +35,7 @@
          <SplideSlide> 
              <div class={`lg:min-h-[60vh] w-full   rounded-lg shadow-lg
              ${css}
-             flex flex-col lg:flex-row p-5 gap-5`}>
+             flex flex-col lg:flex-row p-5 py-10 gap-5`}>
                  <div class="w-full md:w-1/2 flex flex-col gap-5 justify-center px-5 md:px-7 lg:px-10">
                      <h2 class="text-2xl md:text-3xl lg:text-6xl font-extrabold font_Poppins">Legiitpro <br> {@html name}</h2>
                      <p class="text-sm lg:text-base font-light">{@html desc}</p>

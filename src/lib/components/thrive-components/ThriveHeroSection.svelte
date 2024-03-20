@@ -23,6 +23,6 @@
         </div>
     </section>
     <section class="w-full md:w-[90%] lg:w-[70%] rounded-xl overflow-hidden my-5 h-auto">
-        <iframe class="w-full" width="560" height="515" src="https://www.youtube.com/embed/gztJj-Y96DY?si=5QW4h9qPYZW1Pmx2&autoplay=1&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe class="w-full" width="560" height="515" src="https://www.youtube.com/embed/gztJj-Y96DY?si=5QW4h9qPYZW1Pmx2&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </section>
 </div>

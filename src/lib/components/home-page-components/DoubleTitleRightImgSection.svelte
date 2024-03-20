@@ -3,7 +3,7 @@
     let {article,bgCss, imgAlt,imgURL,headline} = section; 
 </script>
 <section class=" relative flex items-center justify-center my-5 lg:my-10 p-3  ">
-    <div class={`p-5 w-full  
+    <div class={`p-5 w-full  lg:w-[80%]
     ${bgCss? bgCss : " bg-[conic-gradient(at_right,_var(--tw-gradient-stops))] from-cyan-200 via-blue-600 to-cyan-200  "}
      rounded-lg flex flex-col justify-center gap-3 items-center shadow-lg`}>
         {#if headline}

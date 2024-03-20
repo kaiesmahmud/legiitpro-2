@@ -83,7 +83,7 @@ export const category_page_data = [
                     "<strong class='font-bold' >Engagement: The Secret Sauce</strong> Engagement is the heart of hyperlocal. Respond to comments, participate in local groups, and even host a live Q & A. Be the most sociable hermit ever.",
                     "<strong class='font-bold' > Real Talk: Challenges and Triumphs</strong> Hyperlocal social media marketing has its challenges. You'll need to be a jack-of-all-trades—part marketer, local historian, and social butterfly. But when you get it right, the rewards are as sweet as the victory lap in your backyard marathon.",
                 ],
-                imgUrl: "/category-page/smm-1.svg",
+                imgUrl:"https://i.ibb.co/LJKHwVS/kickstart-3x4.png",
 
             },
             //ThriveParagraphLists
@@ -175,7 +175,7 @@ export const category_page_data = [
                     "Both are crucial. Your digital strategy might have you using both to conquer the online world. Think of Digital Marketing as your overall battle plan and Social Media Marketing as one of your most effective tactics. Together, they're a dynamic duo ready to take on the digital universe.",
                     "So, lace up your gloves, step into the ring, and get ready to rumble with both. After all, in the fight for online dominance, it's not about choosing one over the other – it's about using each where they shine brightest. Let the games begin!",
                 ],
-                imgUrl: "/category-page/smm-2.svg",
+                imgUrl:"https://i.ibb.co/x5gwX0F/digitalvssocial-3x4.png",
 
             },
             //ThriveTitleParagraphs
@@ -184,14 +184,10 @@ export const category_page_data = [
                 title: "Are Digital and Social Media Marketing Essential to Business?",
                 paragraphs: [
                     "In the ever-evolving business and marketing landscape, one question looms large: Are digital and social media marketing essential? The short answer? Absolutely. But let's break down why in bite-sized, easily digestible pieces.",
-                    "<h3 class=' font-bold text-2xl lg:text-3xl '>The Digital Age Calls for Digital Strategies </h3>",
-                    `We're living in a digital age, folks. While not obsolete, traditional advertising methods can't hold a candle to the reach and efficiency of digital marketing. It's not just about being online; it's about being seen online. Whether through search engine optimization (SEO), pay-per-click (PPC) advertising, or email marketing, digital channels offer many ways to connect with your audience.`,
-                    "<h3 class='font-bold text-2xl lg:text-3xl '>Social Media: The New Town Square</h3>",
-                    "Imagine a place where your business can directly engage with millions of potential customers daily. Welcome to social media. Platforms like Facebook, Instagram, and Twitter are modern-day town squares bustling with activity and conversation. Here, engagement is king. A well-timed post or a cleverly crafted campaign can spread like wildfire, exponentially boosting your brand's visibility.",
-                    "<h3 class=' font-bold text-2xl lg:text-3xl'>Cost-Effectiveness and Measurability</h3>",
-                    "One of the most compelling reasons digital and social media marketing are indispensable is their cost-effectiveness. With traditional media, you might spend thousands and need to know how many people saw your ad. Digital marketing offers analytics and metrics that provide insight into your campaign's performance, allowing for more strategic decision-making. Plus, with targeted advertising, you're reaching the people most likely to be interested in your product or service, not just casting a wide net and hoping for the best.",
-                    "<h3 class=' font-bold text-2xl lg:text-3xl'>Building Relationships and Trust </h3>",
-                    "Lastly, digital and social media marketing is about more than just selling. They're about building relationships. You can build trust with your audience through consistent engagement, providing value, and showing the human side of your brand. People buy from brands they trust. It's as simple as that."
+                    `<h3 class=' font-bold text-2xl lg:text-3xl '>The Digital Age Calls for Digital Strategies </h3> We're living in a digital age, folks. While not obsolete, traditional advertising methods can't hold a candle to the reach and efficiency of digital marketing. It's not just about being online; it's about being seen online. Whether through search engine optimization (SEO), pay-per-click (PPC) advertising, or email marketing, digital channels offer many ways to connect with your audience.`,
+                    `<h3 class='font-bold text-2xl lg:text-3xl '>Social Media: The New Town Square</h3> Imagine a place where your business can directly engage with millions of potential customers daily. Welcome to social media. Platforms like Facebook, Instagram, and Twitter are modern-day town squares bustling with activity and conversation. Here, engagement is king. A well-timed post or a cleverly crafted campaign can spread like wildfire, exponentially boosting your brand's visibility.`,
+                    `<h3 class=' font-bold text-2xl lg:text-3xl'>Cost-Effectiveness and Measurability</h3>One of the most compelling reasons digital and social media marketing are indispensable is their cost-effectiveness. With traditional media, you might spend thousands and need to know how many people saw your ad. Digital marketing offers analytics and metrics that provide insight into your campaign's performance, allowing for more strategic decision-making. Plus, with targeted advertising, you're reaching the people most likely to be interested in your product or service, not just casting a wide net and hoping for the best.`,
+                    `<h3 class=' font-bold text-2xl lg:text-3xl'>Building Relationships and Trust </h3> Lastly, digital and social media marketing is about more than just selling. They're about building relationships. You can build trust with your audience through consistent engagement, providing value, and showing the human side of your brand. People buy from brands they trust. It's as simple as that.`
 
                 ]
             }, 
@@ -602,7 +598,7 @@ export const category_page_data = [
                     For the uninitiated, Social Media Advertising is like setting sail on the vast ocean with a purpose. It's the act of deploying your ships (ads) across the seas (platforms) to discover new lands (audiences). Unlike simply letting the wind guide you (organic posting), this is about using a powerful engine (paid ads) to reach your destination faster and more efficiently.`,
                     `<h3 class='font-bold text-xl'>Drive Greater Results With Paid Social Media</h3><br>Here's the thing: relying on the wind (organic reach) to propel your ship forward is a romantic notion, but let's be real - we're not in a pirate novel. Paid Social Media is your steam engine, cutting through the waves and fog, getting you to Treasure Island faster than you can say "Shiver me timbers!"`,
                 ],
-                imgUrl: "/category-page/smm3.svg",
+                imgUrl:"https://i.ibb.co/QN5qjpL/digital-ads-1-1x1.png",
 
             },
             //ThriveServices
@@ -841,7 +837,7 @@ export const category_page_data = [
                     `<span class='font-bold' >Social Media Follower Growth</span> Strengthen your social media presence and attract high-converting followers! At LegiitPro, we leverage data-driven marketing and advertising strategies, including Twitter, Pinterest, and Facebook ad management services, to bolster your customer base and expand your social media following. We fine-tune your social profiles, post compelling content, devise strategic posting schedules, and initiate targeted advertisements to meet your growth targets.`,
                     `<span class='font-bold' >Social Media SEO</span> The advantages of utilizing social media and Facebook advertising services extend beyond mere visibility enhancement. A well-crafted advertising and marketing strategy can significantly boost your brand's exposure, driving qualified leads and traffic to your website. `,
                 ],
-                imgUrl: "/category-page/smm3.svg",
+                imgUrl:"https://i.ibb.co/KF6Pf8z/digital-ads-2-3x4.png",
 
             },
             //ThriveTopicIntro2
@@ -858,7 +854,7 @@ export const category_page_data = [
                     `<span class='font-bold' >Website Design and Development</span> Earn your potential clients' trust with consistent branding across your social media pages. Our team collaborates with web design professionals to ensure social sharing buttons are seamlessly integrated into your site, along with features like Facebook reviews, social login options, and YouTube video embeds. For standout designs for your social pages and ads, our agency is ready to assist.`,
                     `<span class='font-bold' >Video Production</span>Incorporate video ads into your social and Facebook advertising efforts for remarkable engagement. If creating captivating video ads for various social platforms challenges your team, our experts are here to support you. We specialize in designing mobile-friendly, brief video ads that prompt viewer action within the initial seconds.`, 
                 ],
-                imgUrl: "/category-page/smm3.svg",
+                imgUrl:"https://i.ibb.co/4RHsxbJ/digital-ads-3-3x4.png",
 
             },
             //ThriveWhyChoose
@@ -988,7 +984,7 @@ export const category_page_data = [
                 interface: "DyLeftImgSection", 
                 title :"Driving Lead Generation",
                 description: "By diversifying your lead generation efforts, you increase your chances of attracting a more comprehensive range of potential customers, each with their unique preferences and needs.<br>To drive lead generation, consider implementing a mix of strategies:",
-                imgURL: "/category-page/Localseo1.svg",
+                imgURL:"https://i.ibb.co/3s01KWz/driving-leads-4x3.png",
                 lists : [
                     "Content marketing that educates and engages your target audience.",
                     "SEO optimization to increase your visibility online.",
@@ -1008,14 +1004,14 @@ export const category_page_data = [
                     "Integration capabilities with other tools you use, such as email platforms or social media."
                 ],
                 lastDescription: "Several free and paid CRM solutions cater to individual users or small teams, offering a balance between functionality and user-friendliness.",
-                imgUrl:"/seo-page/seo3.svg",
+                imgUrl:"https://i.ibb.co/mh68jHh/selecting-crm-4x3.png",
             },
             // DyLeftImgSection
             {
                 interface: "DyLeftImgSection", 
                 title :"CRM Sites",
                 description: "Choosing the right CRM platform can significantly impact your lead management efficiency. The best CRM solutions offer a combination of lead tracking, customer management, and sales automation features. Free CRM options are available for small businesses with limited budgets, providing essential functions without the hefty price tag.<br>When evaluating CRM platforms, consider:",
-                imgURL: "/category-page/Localseo1.svg",
+                imgURL: "https://i.ibb.co/mh68jHh/selecting-crm-4x3.png",
                 lists : [
                     ` The scalability of the software as your business grows.`,
                     `The level of customer support provided.`,
@@ -1037,7 +1033,7 @@ export const category_page_data = [
                     Inbound marketing is a powerful strategy for generating leads by creating valuable content and experiences tailored to your target audience. By attracting prospects through relevant and helpful content, you can build trust and establish your brand as an authority in your industry.`,
                      
                 ],
-                imgUrl: "/category-page/smm3.svg",
+                imgUrl: "https://i.ibb.co/S6k558s/how-to-do-3x4.png"  ,
 
             }, 
             //ThriveServices
@@ -1156,7 +1152,7 @@ export const category_page_data = [
                     Are you eager to join the ranks of esteemed leader-managers? Start by building trust and fostering a culture of open communication within your team. Be decisive, but keep your ears open to feedback. And never underestimate the power of empathy—a little understanding goes a long way.`,
                      
                 ],
-                imgUrl: "/category-page/smm3.svg",
+                imgUrl: "https://i.ibb.co/zxDLZNp/leader-vs-manager-1x1.png" ,
 
             },
             //ThriveTitleParagraphs
@@ -1183,7 +1179,7 @@ export const category_page_data = [
                      
                      
                 ],
-                imgUrl: "/category-page/smm3.svg",
+                imgUrl: "https://i.ibb.co/WFtk432/the-art-4x3.png"  ,
 
             },
             //DyFaqProfile
@@ -1242,13 +1238,7 @@ export const category_page_data = [
                 bgImgCss: "topicsPage-digital-bg",
                 title:"The Best CMS for SEO in 2024: A Guide for Teens",
                 subTitle: "Alright, so you've got an excellent idea for a website. It could be a blog about your epic skateboarding tricks, a portfolio to showcase your art, or even a small online store to sell your handmade jewelry. Awesome! But here's the thing: you want people to find and visit your website. That's where SEO (Search Engine Optimization) comes into play. It's like the secret sauce that helps your website show up on Google when people search for stuff."
-            },
-            // {
-            //     interface: "ThriveHeroSection",
-            //     bgImgCss: "topicsPage-digital-bg",
-            //     title:"CMS SEO: Unlocking the Power of Content Management Systems for Superior SEO Performance",
-            //     subTitle: "In today's digital age, the heart of any successful online presence is not just the content but how well that content is managed and optimized for search engines. Enter the realm of CMS SEO, where the art of search engine optimization meets the science of content management systems. Let's dive deep into why a robust CMS is your secret weapon in the SEO battleground and which platforms stand out as the champions of SEO efficiency."
-            // },
+            }, 
             // DySubCatLists
             {
                 interface: "DySubCatLists",
@@ -1436,7 +1426,7 @@ export const category_page_data = [
                     `There you have it! Your guide to choosing the best CMS for your SEO needs in 2024. Remember, the internet is constantly changing, so keep learning and experimenting. Your website may be the next big thing!`
                      
                 ],
-                imgUrl: "/category-page/smm3.svg",
+                imgUrl: "https://i.ibb.co/R00krPL/good-for-seo-4x3.png",
 
             }, 
             //ThriveTitleParagraphs
@@ -1467,7 +1457,7 @@ export const category_page_data = [
                     The best CMS platforms optimize for performance to reduce load times, as site speed is a crucial SEO factor.`,
                      
                 ],
-                imgUrl: "/category-page/smm3.svg",
+                imgUrl: "https://i.ibb.co/SXfZKHC/capabilities-cms-1x1.png",
 
             }, 
             //ThriveTitleParagraphs
@@ -1498,7 +1488,7 @@ export const category_page_data = [
                     Use short paragraphs, compelling headings, and multimedia elements to break up text and keep readers engaged.`,
                      
                 ],
-                imgUrl: "/category-page/smm3.svg",
+                imgUrl: "https://i.ibb.co/kxhjmjX/crafting-seo-3x4.png",
 
             }, 
             //ThriveTopicIntro
@@ -1514,7 +1504,7 @@ export const category_page_data = [
                     Some CMS platforms offer built-in tools or plugins for keyword analysis and SEO recommendations.`,
                 ],
                 lastDescription: "Integration with analytics: Understanding your content's performance is crucial. Integrating with tools like Google Analytics allows you to measure success and refine your strategy.",
-                imgUrl:"/seo-page/seo3.svg",
+                imgUrl:"https://i.ibb.co/2ZzCtC6/leveraging-cms-4x3.png",
             },
             //ThriveTopicIntro2
             {
@@ -1536,7 +1526,7 @@ export const category_page_data = [
                     It also includes SEO-friendly features. These features can improve your site's visibility and ranking on search engines. A robust CMS can significantly improve your SEO strategy by using the right keywords and speeding up your website's loading time.`,
                      
                 ],
-                imgUrl: "/category-page/smm3.svg",
+                imgUrl: "https://i.ibb.co/vLDCcG4/navigating-world-1x1.png",
 
             },  
             //ThriveTitleParagraphs
@@ -1564,7 +1554,7 @@ export const category_page_data = [
                     User experience has become a critical component of SEO strategy. A CMS offering mobile optimization ensures your site is accessible and user-friendly across all mobile devices. This improves user engagement and rankings as search engines increasingly prioritize mobile-friendly sites.`, 
                      
                 ],
-                imgUrl: "/category-page/smm3.svg",
+                imgUrl: "https://i.ibb.co/dfhkdYC/driving-organic-4x3.png",
 
             }, 
             //ThriveTopicIntro
@@ -1584,7 +1574,7 @@ export const category_page_data = [
                     Platforms like WordPress offer an array of SEO plugins that extend the capabilities of your CMS, offering features like sitemaps, SEO audits, and more.`,
                 ],
                 lastDescription: "Integration with analytics: Understanding your content's performance is crucial. Integrating with tools like Google Analytics allows you to measure success and refine your strategy.",
-                imgUrl:"/seo-page/seo3.svg",
+                imgUrl:"https://i.ibb.co/CszsZKm/key-seo-1x1.png",
             },
             //ThriveTitleParagraphs
             {
@@ -1611,7 +1601,7 @@ export const category_page_data = [
                      
                 ],
                 lastDescription: "Integration with analytics: Understanding your content's performance is crucial. Integrating with tools like Google Analytics allows you to measure success and refine your strategy.",
-                imgUrl:"/seo-page/seo3.svg",
+                imgUrl:"https://i.ibb.co/54mkPNH/importance-content-1x1.png",
             },
             //ThriveTitleParagraphs
             {
@@ -1627,7 +1617,7 @@ export const category_page_data = [
                 interface: "DyLeftImgSection", 
                 title :"Looking Ahead: CMS for SEO in 2024",
                 description: "As we move further into 2024, the landscape of SEO continues to evolve. Selecting a CMS with robust SEO, mobile optimization, and excellent content management tools is crucial now. If you are creating a new website or considering changing to a new CMS, it is essential to focus on SEO. This will improve your site's search engine performance and increase organic traffic.",
-                imgURL: "/category-page/Localseo1.svg",
+                imgURL: "https://i.ibb.co/KrcmbT5/looking-ahead-4x3.png",
                 lists : [ 
                 ]
             },
@@ -2153,7 +2143,7 @@ export const category_page_data = [
                     `<h3 class='font-bold'>The Maestros Behind the Music</h3>
                     Whether you're looking for a solo performance or a full-blown orchestra, the key players in the SEO world range from SEO consulting firms to individual SEO professionals. Each SEO optimization consultant brings their unique style to the table, but only the best SEO consultants know how to harmonize the complex elements of e-commerce SEO.`, 
                 ],
-                imgUrl: "/category-page/isw1.svg",
+                imgUrl: "https://i.ibb.co/Mp4FW6p/ultimate-seo-4x3.png",
 
             }, 
             //ThriveServices
@@ -2193,7 +2183,7 @@ export const category_page_data = [
             //ThriveTitleParagraphs
             {
                 interface: "ThriveTitleParagraphs",
-                title: "Encore!",
+                title: "Rock Your E-Commerce SEO",
                 paragraphs: [
                     `As the lights dim and the crowd cheers for more, remember that e-commerce SEO isn't a one-hit-wonder. It's an ongoing concert series, with each e-commerce SEO agency and e-commerce SEO expert playing a crucial role in your success story.`,
                     `Whether you're just stepping onto the stage or ready to headline your SEO festival, remember: in the world of e-commerce, visibility is everything. So, let your personality shine through, and don't be afraid to play your music loud. After all, in the great concert of the internet, the best performances resonate with authenticity and passion.`,  
@@ -2222,7 +2212,7 @@ export const category_page_data = [
                     Feel free to audition a few before settling on the one that understands your business's unique rhythm. After all, in the grand performance of local SEO, it's not just about being seen; it's about being remembered and chosen.`, 
                      
                 ],
-                imgUrl: "/category-page/isw1.svg",
+                imgUrl: "https://i.ibb.co/TYBpDGy/localseo-services-nearme-1x1.png",
 
             }, 
             //ThriveServices
@@ -2269,7 +2259,7 @@ export const category_page_data = [
                     Utilize structured data to help search engines better understand and index your content.`,
                 ],
                 lastDescription: " ",
-                imgUrl:"/seo-page/seo3.svg",
+                imgUrl:"https://i.ibb.co/km5MVLG/ecommerce-opt-4x3.png",
             },
              //ThriveTopicIntro
              {
@@ -2285,12 +2275,12 @@ export const category_page_data = [
                      
                 ],
                 lastDescription: "E-commerce search engine optimization: Regularly audit your site for SEO improvements and keep up with algorithm updates. <br> SEO for an e-commerce site: Integrate social proof, such as customer reviews, to boost credibility and attract organic traffic.",
-                imgUrl:"/seo-page/seo3.svg",
+                imgUrl:"https://i.ibb.co/9r8M9N1/backbone-ecom-4x3.png",
             },
             //ThriveTitleParagraphs
             {
                 interface: "ThriveTitleParagraphs",
-                title: "Retail SEO & Ecomm SEO",
+                title: "Retail SEO & eComm SEO",
                 paragraphs: [
                     `<span class='font-bold'>Retail SEO</span> and <span class='font-bold'>eComm SEO</span> extends beyond just your website. It encompasses the entirety of your online presence, including social media, marketplaces, and beyond. <span class='font-bold'>SEO para e-commerce</span> and <span class='font-bold'>webshop SEO</span> are about creating a cohesive and consistent experience that propels your brand to the forefront of your industry.`,  
                 ]
@@ -2307,7 +2297,7 @@ export const category_page_data = [
                     In the ever-evolving world of e-commerce, standing out amongst a sea of competitors can be challenging. This is where the magic of E-commerce SEO Services comes into play, a critical tool in your digital arsenal to ensure your products reach and resonate with your intended audience. Let's dive into the world of SEO marketing solutions and packages tailored for e-commerce businesses, highlighting how they can catapult your online store to the top of search engine rankings.`,  
                      
                 ],
-                imgUrl: "/category-page/isw1.svg",
+                imgUrl: "https://i.ibb.co/WnLQ1hK/ecom-seo-services-1x1.png",
 
             },
             //ThriveWhyChoose
@@ -2361,7 +2351,7 @@ export const category_page_data = [
                     For businesses with specific needs or challenges, custom SEO packages offer the flexibility to focus on areas of improvement, whether it's enhancing local SEO, targeting exact keywords, or improving site speed and usability.Web Design and SEO Services: A Symphony of Site Success`,    
                      
                 ],
-                imgUrl: "/category-page/isw1.svg",
+                imgUrl: "https://i.ibb.co/1QcdDTg/seo-service-pkg-4x3.png",
 
             },
             //ThriveTopicIntro2
@@ -2383,7 +2373,7 @@ export const category_page_data = [
                     Choosing a web design and SEO agency means opting for a comprehensive approach to your online presence. These agencies understand the importance of integrating SEO into the design process, ensuring that every element of your site, from the layout to the content, works towards your overall SEO goals.`,    
                      
                 ],
-                imgUrl: "/category-page/isw1.svg",
+                imgUrl: "https://i.ibb.co/M9bZTF4/harmony-1x1.png",
 
             },
             //ThriveTitleParagraphs
@@ -2466,10 +2456,8 @@ export const category_page_data = [
                     `<h3 class='font-bold'>Finding Your SEO Maestro</h3>
                     Choosing the best search engine optimization company is about more than just rankings; it's about finding a partner that understands your business and helps it perform its best in the digital concert hall. Whether a solo act or a full orchestra, the right SEO company can lead you to standing ovations in the SERPs.`,     
                 ],
-                imgUrl: "/category-page/isw1.svg",
-
-            },
-
+                imgUrl: "https://i.ibb.co/Ct53j8Y/critics-choice-4x3.png", 
+            }, 
              //ThriveDoubleList
             {
                 interface:"ThriveDoubleList",
@@ -3353,7 +3341,7 @@ export const category_page_data = [
                     In 2024, your choice of platform can make or break your online store. From giants like Shopify to bespoke solutions like LegiitPro, picking the right platform is crucial. It's the foundation upon which your digital empire will be built.`,  
                      
                 ],
-                imgUrl: "/category-page/isw1.svg",
+                imgUrl: "https://i.ibb.co/jy9ZPvT/custom-ecom-4x3.png",
 
             }, 
             //ThriveTopicIntro2
@@ -3375,7 +3363,7 @@ export const category_page_data = [
                     To wrap it up, the best website to start an online store in 2024 offers flexibility, scalability, and support. With the evolving landscape of online sales, having a partner like LegiitPro can help ensure your digital storefront stays ahead of the curve, offering the tools and guidance needed to thrive in the competitive e-commerce space.`,  
                      
                 ],
-                imgUrl: "/category-page/isw1.svg",
+                imgUrl: "https://i.ibb.co/dBTmWmW/best-website-1x1.png",
 
             }, 
             //ThriveTopicIntro2
@@ -3397,7 +3385,7 @@ export const category_page_data = [
                     To wrap it up, the best website to start an online store in 2024 offers flexibility, scalability, and support. With the evolving landscape of online sales, having a partner like LegiitPro can help ensure your digital storefront stays ahead of the curve, offering the tools and guidance needed to thrive in the competitive e-commerce space.`,  
                      
                 ],
-                imgUrl: "/category-page/isw1.svg",
+                imgUrl: "https://i.ibb.co/M1NmVRh/ecom-scratch-3x4.png",
 
             }, 
             //ThriveTopicIntro
@@ -3412,7 +3400,7 @@ export const category_page_data = [
                     `<span class='font-bold'>Template Site Builder:</span> Platforms such as WordPress with WooCommerce provide a robust framework for e-commerce websites.`, 
                 ],
                 lastDescription: "Building your e-commerce website from scratch with code or by leveraging templates is an iterative and evolving process. You'll learn and adapt as you go, improving the site and your skills.",
-                imgUrl:"/seo-page/seo3.svg",
+                imgUrl:"https://i.ibb.co/Lg5Xtx8/building-web-4x3.png",
             },
             //ThriveTopicIntro
             {
@@ -3427,7 +3415,7 @@ export const category_page_data = [
                     `<span class='font-bold'>Security Measures:</span>Implement SSL certificates, secure payment gateways, and data protection protocols to build customer trust.`, 
                 ],
                 lastDescription: "",
-                imgUrl:"/seo-page/seo3.svg",
+                imgUrl:"https://i.ibb.co/ZmgrM7M/optimizing-ux-1x1.png",
             },
             //ThriveTitleParagraphs
             {
@@ -3459,7 +3447,7 @@ export const category_page_data = [
                      
                      
                 ],
-                imgUrl: "/category-page/isw1.svg",
+                imgUrl: "https://i.ibb.co/F8PbSmJ/ecom-Solution-4x3.png",
 
             },  
             //ThriveTopicIntro2
@@ -3473,7 +3461,7 @@ export const category_page_data = [
                     `<h3 class='font-bold'>Why Go Custom?</h3>
                     In a digital era where your website acts as your business card, storefront, and customer service desk rolled into one, "custom" is no longer a luxury—it's a necessity. Off-the-shelf solutions are like one-size-fits-all clothing; they might fit, but they won't flatter everyone. Custom web development services ensure your website is tailored to your brand's personality, needs, and goals.`,  
                 ],
-                imgUrl: "/category-page/isw1.svg",
+                imgUrl: "https://i.ibb.co/MByNF8M/whygocustom-1x1.png",
 
             }, 
             //ThriveTopicIntro
@@ -3490,7 +3478,7 @@ export const category_page_data = [
                     `<span class='font-bold'>Offers Comprehensive Services:</span>Look for a one-stop shop for everything from custom website programming to SEO and beyond. It's more efficient and ensures consistency across your digital presence.`, 
                 ],
                 lastDescription: "",
-                imgUrl:"/seo-page/seo3.svg",
+                imgUrl:"https://i.ibb.co/9Zcgqmt/findingcompany-3x4.png",
             },
             //ThriveTopicIntro
             {
@@ -3506,7 +3494,7 @@ export const category_page_data = [
                      
                 ],
                 lastDescription: "The right custom website development company or agency doesn't just build websites but relationships. They should see your success as their success. Whether it's a custom web development agency with a knack for complex back-ends or a custom-made website design agency that can translate your brand into visual art, the perfect partner is out there.",
-                imgUrl:"/seo-page/seo3.svg",
+                imgUrl:"https://i.ibb.co/f9MS9Df/foundation-4x3.png",
             },
             //ThriveTopicIntro
             {
@@ -3518,6 +3506,7 @@ export const category_page_data = [
                     `<span class='font-bold'>Custom Web Design:</span> This is where your brand's personality comes to life. Every element is designed to resonate with your target audience, from the color scheme to the layout.`, 
                 ],
                 lastDescription: "",
+                imgUrl: "https://i.ibb.co/ryXjysD/foundation-1x1.png"
             },
             //ThriveTopicIntro
             {
@@ -3530,7 +3519,7 @@ export const category_page_data = [
                     `<span class='font-bold'>Custom Website Design Services:</span> Beyond aesthetics, design services should encompass user experience, ensuring that visitors stay longer and engage more deeply with your content.`, 
                 ],
                 lastDescription: "",
-                imgUrl:"/seo-page/seo3.svg",
+                imgUrl:"https://i.ibb.co/fpdqSfd/choosingrightperson-4x3.png",
             },
             //ThriveTopicIntro
             {
@@ -3543,7 +3532,7 @@ export const category_page_data = [
                     `<span class='font-bold'>Web Hosting Design:</span>Reliable hosting ensures your website is always up and running, providing a seamless experience for your customers.`, 
                 ],
                 lastDescription: "Website Design and Host: Finding a service that offers both design and hosting can streamline the development process, ensuring harmonization of both aspects.",
-                imgUrl:"/seo-page/seo3.svg",
+                imgUrl:"https://i.ibb.co/pdN9KNb/backbone-4x3.png",
             } ,
               
             //ThriveTopicIntro2
@@ -3565,7 +3554,7 @@ export const category_page_data = [
                     `<h3 class='font-bold'>E-commerce Website Cost: The Million-Dollar Question</h3>
                     Ah, the question that plagues many a merchant's dreams. How much does an e-commerce website cost? Well, my friend, that's like asking how long a piece of string is. The answer varies. It could be a modest investment for a basic setup or the equivalent of a small treasure for a custom-built site with all the bells and whistles. The key is to balance your budget with your aspirations. Dream big, but tether your dreams to the reality of your wallet.`,  
                 ],
-                imgUrl: "/category-page/isw1.svg",
+                imgUrl: "https://i.ibb.co/7X289Dm/salesplatform-4x3.png",
 
             },
             //DyFaqProfile

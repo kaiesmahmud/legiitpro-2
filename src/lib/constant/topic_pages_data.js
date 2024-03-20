@@ -96,7 +96,7 @@ export const topic_pages_data = [
                     "<h3 class='font-bold'>B2B Digital Marketing Trends for 2024</h3><br>Personalization, AI-driven marketing, and video content stand out as game-changers as we look ahead. Staying ahead of these trends is crucial for any B2B marketing strategy.",
                      
                 ],
-                imgUrl: "/category-page/smm-1.svg",
+                imgUrl: "https://i.ibb.co/GT8HDm2/b2bmarketing-1x1.png",
 
             },
             //ThriveServices
@@ -306,7 +306,7 @@ export const topic_pages_data = [
                 "You're launching a new website and wish to attract more customers right away."
             ],
             lastDescription: "You've come to the right SEO firm if any of these four problems resonate with you. There's a reason why Legiitpro currently offers optimization services to hundreds of SEO clients in response to Google's constantly evolving algorithm.",
-            imgUrl:"/seo-page/seo3.svg",
+            imgUrl:"https://i.ibb.co/k8JNg71/thatgetsit-1x1.png",
         },
         //ThriveBrandReviews
         {
@@ -409,7 +409,7 @@ export const topic_pages_data = [
                 "<h3 class='font-bold'>Country-Specific Factors</h3>And, oh boy, let's remember the importance of being country-specific. Whether understanding the local market or ensuring your website is ranking highly where it matters, it's all about tailoring your approach. Like knowing that in some places, market share might lean heavily towards a search engine that's not Google. Shocking, I know!", 
                  
             ],
-            imgUrl: "/category-page/smm-1.svg",
+            imgUrl: "https://i.ibb.co/K9ZmZ1X/localized-content-1x1.png",
 
         },
         //ThriveTopicIntro2
@@ -424,7 +424,7 @@ export const topic_pages_data = [
                 "Going global with your SEO strategy isn't easy, but with a bit of elbow grease and a lot of cultural sensitivity, you can make your site a go-to resource for audiences around the world. Ready to take on the world? Let's make your website a global sensation!", 
                  
             ],
-            imgUrl: "/category-page/smm-1.svg",
+            imgUrl: "https://i.ibb.co/whXkSsL/thinking-local-1x1.png",
 
         },
 
@@ -612,7 +612,7 @@ export const topic_pages_data = [
                 " Leveraging the right tools for cultural and linguistic adaptation can streamline your global SEO efforts.",
                  
             ],
-            imgUrl: "/category-page/smm-1.svg",
+            imgUrl: "https://i.ibb.co/4Y05K5T/cultural-adaption-4x3.png",
 
         },
         //ThriveTopicIntro2
@@ -629,7 +629,7 @@ export const topic_pages_data = [
                 " Staying informed about how regulations like GDPR impact SEO can help you adapt and thrive in the global market.",
                  
             ],
-            imgUrl: "/category-page/smm-1.svg",
+            imgUrl: "https://i.ibb.co/jhRX1wf/seo-compliance-1x1.png",
 
         },
          
